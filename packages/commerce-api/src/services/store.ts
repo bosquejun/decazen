@@ -18,7 +18,6 @@ class StoreService extends MedusaStoreService {
   constructor(private readonly container, options) {
     // @ts-expect-error prefer-rest-params
     super(...arguments);
-
     try {
       this.salesChannelService_ = container.salesChannelService;
     } catch (e) {

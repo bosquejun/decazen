@@ -1,0 +1,995 @@
+[2m> [22mnext dev
+
+[32m✔[0m [33mConsole Ninja[0m extension is connected to [33mNext.js[0m, see [36mhttps://tinyurl.com/2vt8jxzw[0m
+  [1m[38;2;173;127;168m ▲ Next.js 14.0.4[39m[22m
+   - Local:        http://localhost:3000
+
+[2K[1G[33mwarning[39m ../../package.json: No license field
+ [32m[1m✓[22m[39m Ready in 4.7s
+ [37m[1m○[22m[39m Compiling / ...
+
+[1m[33mwarn[39m[22m - The RTL features in Tailwind CSS are currently in preview.
+[1m[33mwarn[39m[22m - Preview features are not covered by semver, and may be improved in breaking ways at any time.
+ [32m[1m✓[22m[39m Compiled / in 8.3s (5418 modules)
+Image with src "/images/landing-photo.avif" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectPosition". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Warning: Invalid DOM property `fill-rule`. Did you mean `fillRule`?
+    at path
+    at svg
+    at CarIcon (webpack-internal:///(ssr)/./src/components/icons/car-icon.tsx:8:20)
+    at div
+    at div
+    at button
+    at eval (webpack-internal:///(ssr)/../../node_modules/@nextui-org/tabs/dist/chunk-XRBGUFFN.mjs:35:13)
+    at LayoutGroup (webpack-internal:///(ssr)/../../node_modules/framer-motion/dist/es/components/LayoutGroup/index.mjs:19:24)
+    at div
+    at div
+    at Tabs (webpack-internal:///(ssr)/../../node_modules/@nextui-org/tabs/dist/chunk-RJGMUUQA.mjs:22:150)
+    at div
+    at div
+    at div
+    at SearchSection (webpack-internal:///(ssr)/./src/components/home/search-section.tsx:64:104)
+    at div
+    at div
+    at div
+    at Content
+    at Lazy
+    at InnerLayoutRouter (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:239:11)
+    at RedirectErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/redirect-boundary.js:71:9)
+    at RedirectBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/redirect-boundary.js:79:11)
+    at NotFoundErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/not-found-boundary.js:54:9)
+    at NotFoundBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/not-found-boundary.js:62:11)
+    at LoadingBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:313:11)
+    at ErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/error-boundary.js:128:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:151:9)
+    at ScrollAndFocusHandler (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:226:11)
+    at RenderFromTemplateContext (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/render-from-template-context.js:15:44)
+    at Lazy
+    at OuterLayoutRouter (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:322:11)
+    at Lazy
+    at main
+    at div
+    at NavbarWrapper (webpack-internal:///(ssr)/./src/components/navbar/navbar.tsx:30:26)
+    at section
+    at MainLayout (webpack-internal:///(ssr)/./src/components/layout/main-layout.tsx:13:23)
+    at Layout (webpack-internal:///(ssr)/./src/components/layout/layout.tsx:19:19)
+    at O (webpack-internal:///(ssr)/../../node_modules/next-themes/dist/index.mjs:22:24)
+    at z (webpack-internal:///(ssr)/../../node_modules/next-themes/dist/index.mjs:17:48)
+    at div
+    at $f57aed4a881a3485$var$OverlayContainerDOM (webpack-internal:///(ssr)/../../node_modules/@react-aria/overlays/dist/useModal.mjs:60:54)
+    at $f57aed4a881a3485$export$178405afcd8c5eb (webpack-internal:///(ssr)/../../node_modules/@react-aria/overlays/dist/useModal.mjs:27:21)
+    at $f57aed4a881a3485$export$bf688221f59024e5
+    at $18f2051aff69b9bf$export$a54013f0d02a8f82 (webpack-internal:///(ssr)/../../node_modules/@react-aria/i18n/dist/context.mjs:24:19)
+    at NextUIProvider (webpack-internal:///(ssr)/../../node_modules/@nextui-org/system/dist/chunk-VIKBOFDY.mjs:20:25)
+    at Providers (webpack-internal:///(ssr)/./src/app/providers.tsx:17:22)
+    at Lazy
+    at body
+    at html
+    at RedirectErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/redirect-boundary.js:71:9)
+    at RedirectBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/redirect-boundary.js:79:11)
+    at ReactDevOverlay (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/react-dev-overlay/internal/ReactDevOverlay.js:66:9)
+    at HotReload (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/react-dev-overlay/hot-reloader-client.js:296:11)
+    at Router (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/app-router.js:155:11)
+    at ErrorBoundaryHandler (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/error-boundary.js:99:9)
+    at ErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/error-boundary.js:128:11)
+    at AppRouter (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/app-router.js:421:13)
+    at Lazy
+    at Lazy
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:381577
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:381577
+    at ServerInsertedHTMLProvider (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:17605)
+Warning: Invalid DOM property `clip-rule`. Did you mean `clipRule`?
+    at path
+    at svg
+    at CarIcon (webpack-internal:///(ssr)/./src/components/icons/car-icon.tsx:8:20)
+    at div
+    at div
+    at button
+    at eval (webpack-internal:///(ssr)/../../node_modules/@nextui-org/tabs/dist/chunk-XRBGUFFN.mjs:35:13)
+    at LayoutGroup (webpack-internal:///(ssr)/../../node_modules/framer-motion/dist/es/components/LayoutGroup/index.mjs:19:24)
+    at div
+    at div
+    at Tabs (webpack-internal:///(ssr)/../../node_modules/@nextui-org/tabs/dist/chunk-RJGMUUQA.mjs:22:150)
+    at div
+    at div
+    at div
+    at SearchSection (webpack-internal:///(ssr)/./src/components/home/search-section.tsx:64:104)
+    at div
+    at div
+    at div
+    at Content
+    at Lazy
+    at InnerLayoutRouter (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:239:11)
+    at RedirectErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/redirect-boundary.js:71:9)
+    at RedirectBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/redirect-boundary.js:79:11)
+    at NotFoundErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/not-found-boundary.js:54:9)
+    at NotFoundBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/not-found-boundary.js:62:11)
+    at LoadingBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:313:11)
+    at ErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/error-boundary.js:128:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:151:9)
+    at ScrollAndFocusHandler (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:226:11)
+    at RenderFromTemplateContext (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/render-from-template-context.js:15:44)
+    at Lazy
+    at OuterLayoutRouter (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:322:11)
+    at Lazy
+    at main
+    at div
+    at NavbarWrapper (webpack-internal:///(ssr)/./src/components/navbar/navbar.tsx:30:26)
+    at section
+    at MainLayout (webpack-internal:///(ssr)/./src/components/layout/main-layout.tsx:13:23)
+    at Layout (webpack-internal:///(ssr)/./src/components/layout/layout.tsx:19:19)
+    at O (webpack-internal:///(ssr)/../../node_modules/next-themes/dist/index.mjs:22:24)
+    at z (webpack-internal:///(ssr)/../../node_modules/next-themes/dist/index.mjs:17:48)
+    at div
+    at $f57aed4a881a3485$var$OverlayContainerDOM (webpack-internal:///(ssr)/../../node_modules/@react-aria/overlays/dist/useModal.mjs:60:54)
+    at $f57aed4a881a3485$export$178405afcd8c5eb (webpack-internal:///(ssr)/../../node_modules/@react-aria/overlays/dist/useModal.mjs:27:21)
+    at $f57aed4a881a3485$export$bf688221f59024e5
+    at $18f2051aff69b9bf$export$a54013f0d02a8f82 (webpack-internal:///(ssr)/../../node_modules/@react-aria/i18n/dist/context.mjs:24:19)
+    at NextUIProvider (webpack-internal:///(ssr)/../../node_modules/@nextui-org/system/dist/chunk-VIKBOFDY.mjs:20:25)
+    at Providers (webpack-internal:///(ssr)/./src/app/providers.tsx:17:22)
+    at Lazy
+    at body
+    at html
+    at RedirectErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/redirect-boundary.js:71:9)
+    at RedirectBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/redirect-boundary.js:79:11)
+    at ReactDevOverlay (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/react-dev-overlay/internal/ReactDevOverlay.js:66:9)
+    at HotReload (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/react-dev-overlay/hot-reloader-client.js:296:11)
+    at Router (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/app-router.js:155:11)
+    at ErrorBoundaryHandler (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/error-boundary.js:99:9)
+    at ErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/error-boundary.js:128:11)
+    at AppRouter (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/app-router.js:421:13)
+    at Lazy
+    at Lazy
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:381577
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:381577
+    at ServerInsertedHTMLProvider (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:17605)
+ [32m[1m✓[22m[39m Compiled in 1213ms (2719 modules)
+ [32m[1m✓[22m[39m Compiled in 3.3s (3414 modules)
+Image with src "/images/landing-photo.avif" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectPosition". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Warning: Invalid DOM property `fill-rule`. Did you mean `fillRule`?
+    at path
+    at svg
+    at CarIcon (webpack-internal:///(ssr)/./src/components/icons/car-icon.tsx:8:20)
+    at div
+    at div
+    at button
+    at eval (webpack-internal:///(ssr)/../../node_modules/@nextui-org/tabs/dist/chunk-XRBGUFFN.mjs:35:13)
+    at LayoutGroup (webpack-internal:///(ssr)/../../node_modules/framer-motion/dist/es/components/LayoutGroup/index.mjs:19:24)
+    at div
+    at div
+    at Tabs (webpack-internal:///(ssr)/../../node_modules/@nextui-org/tabs/dist/chunk-RJGMUUQA.mjs:22:150)
+    at div
+    at div
+    at div
+    at SearchSection (webpack-internal:///(ssr)/./src/components/home/search-section.tsx:61:104)
+    at div
+    at div
+    at div
+    at Content
+    at Lazy
+    at InnerLayoutRouter (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:239:11)
+    at RedirectErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/redirect-boundary.js:71:9)
+    at RedirectBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/redirect-boundary.js:79:11)
+    at NotFoundErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/not-found-boundary.js:54:9)
+    at NotFoundBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/not-found-boundary.js:62:11)
+    at LoadingBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:313:11)
+    at ErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/error-boundary.js:128:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:151:9)
+    at ScrollAndFocusHandler (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:226:11)
+    at RenderFromTemplateContext (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/render-from-template-context.js:15:44)
+    at Lazy
+    at OuterLayoutRouter (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:322:11)
+    at Lazy
+    at main
+    at div
+    at NavbarWrapper (webpack-internal:///(ssr)/./src/components/navbar/navbar.tsx:30:26)
+    at section
+    at MainLayout (webpack-internal:///(ssr)/./src/components/layout/main-layout.tsx:13:23)
+    at Layout (webpack-internal:///(ssr)/./src/components/layout/layout.tsx:19:19)
+    at O (webpack-internal:///(ssr)/../../node_modules/next-themes/dist/index.mjs:22:24)
+    at z (webpack-internal:///(ssr)/../../node_modules/next-themes/dist/index.mjs:17:48)
+    at div
+    at $f57aed4a881a3485$var$OverlayContainerDOM (webpack-internal:///(ssr)/../../node_modules/@react-aria/overlays/dist/useModal.mjs:60:54)
+    at $f57aed4a881a3485$export$178405afcd8c5eb (webpack-internal:///(ssr)/../../node_modules/@react-aria/overlays/dist/useModal.mjs:27:21)
+    at $f57aed4a881a3485$export$bf688221f59024e5
+    at $18f2051aff69b9bf$export$a54013f0d02a8f82 (webpack-internal:///(ssr)/../../node_modules/@react-aria/i18n/dist/context.mjs:24:19)
+    at NextUIProvider (webpack-internal:///(ssr)/../../node_modules/@nextui-org/system/dist/chunk-VIKBOFDY.mjs:20:25)
+    at Providers (webpack-internal:///(ssr)/./src/app/providers.tsx:17:22)
+    at Lazy
+    at body
+    at html
+    at RedirectErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/redirect-boundary.js:71:9)
+    at RedirectBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/redirect-boundary.js:79:11)
+    at ReactDevOverlay (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/react-dev-overlay/internal/ReactDevOverlay.js:66:9)
+    at HotReload (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/react-dev-overlay/hot-reloader-client.js:296:11)
+    at Router (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/app-router.js:155:11)
+    at ErrorBoundaryHandler (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/error-boundary.js:99:9)
+    at ErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/error-boundary.js:128:11)
+    at AppRouter (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/app-router.js:421:13)
+    at Lazy
+    at Lazy
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:381577
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:381577
+    at ServerInsertedHTMLProvider (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:17605)
+Warning: Invalid DOM property `clip-rule`. Did you mean `clipRule`?
+    at path
+    at svg
+    at CarIcon (webpack-internal:///(ssr)/./src/components/icons/car-icon.tsx:8:20)
+    at div
+    at div
+    at button
+    at eval (webpack-internal:///(ssr)/../../node_modules/@nextui-org/tabs/dist/chunk-XRBGUFFN.mjs:35:13)
+    at LayoutGroup (webpack-internal:///(ssr)/../../node_modules/framer-motion/dist/es/components/LayoutGroup/index.mjs:19:24)
+    at div
+    at div
+    at Tabs (webpack-internal:///(ssr)/../../node_modules/@nextui-org/tabs/dist/chunk-RJGMUUQA.mjs:22:150)
+    at div
+    at div
+    at div
+    at SearchSection (webpack-internal:///(ssr)/./src/components/home/search-section.tsx:61:104)
+    at div
+    at div
+    at div
+    at Content
+    at Lazy
+    at InnerLayoutRouter (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:239:11)
+    at RedirectErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/redirect-boundary.js:71:9)
+    at RedirectBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/redirect-boundary.js:79:11)
+    at NotFoundErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/not-found-boundary.js:54:9)
+    at NotFoundBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/not-found-boundary.js:62:11)
+    at LoadingBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:313:11)
+    at ErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/error-boundary.js:128:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:151:9)
+    at ScrollAndFocusHandler (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:226:11)
+    at RenderFromTemplateContext (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/render-from-template-context.js:15:44)
+    at Lazy
+    at OuterLayoutRouter (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:322:11)
+    at Lazy
+    at main
+    at div
+    at NavbarWrapper (webpack-internal:///(ssr)/./src/components/navbar/navbar.tsx:30:26)
+    at section
+    at MainLayout (webpack-internal:///(ssr)/./src/components/layout/main-layout.tsx:13:23)
+    at Layout (webpack-internal:///(ssr)/./src/components/layout/layout.tsx:19:19)
+    at O (webpack-internal:///(ssr)/../../node_modules/next-themes/dist/index.mjs:22:24)
+    at z (webpack-internal:///(ssr)/../../node_modules/next-themes/dist/index.mjs:17:48)
+    at div
+    at $f57aed4a881a3485$var$OverlayContainerDOM (webpack-internal:///(ssr)/../../node_modules/@react-aria/overlays/dist/useModal.mjs:60:54)
+    at $f57aed4a881a3485$export$178405afcd8c5eb (webpack-internal:///(ssr)/../../node_modules/@react-aria/overlays/dist/useModal.mjs:27:21)
+    at $f57aed4a881a3485$export$bf688221f59024e5
+    at $18f2051aff69b9bf$export$a54013f0d02a8f82 (webpack-internal:///(ssr)/../../node_modules/@react-aria/i18n/dist/context.mjs:24:19)
+    at NextUIProvider (webpack-internal:///(ssr)/../../node_modules/@nextui-org/system/dist/chunk-VIKBOFDY.mjs:20:25)
+    at Providers (webpack-internal:///(ssr)/./src/app/providers.tsx:17:22)
+    at Lazy
+    at body
+    at html
+    at RedirectErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/redirect-boundary.js:71:9)
+    at RedirectBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/redirect-boundary.js:79:11)
+    at ReactDevOverlay (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/react-dev-overlay/internal/ReactDevOverlay.js:66:9)
+    at HotReload (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/react-dev-overlay/hot-reloader-client.js:296:11)
+    at Router (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/app-router.js:155:11)
+    at ErrorBoundaryHandler (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/error-boundary.js:99:9)
+    at ErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/error-boundary.js:128:11)
+    at AppRouter (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/app-router.js:421:13)
+    at Lazy
+    at Lazy
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:381577
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:381577
+    at ServerInsertedHTMLProvider (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:17605)
+ [32m[1m✓[22m[39m Compiled in 1807ms (3428 modules)
+ [32m[1m✓[22m[39m Compiled in 1754ms (3428 modules)
+ [32m[1m✓[22m[39m Compiled in 1659ms (3428 modules)
+ [32m[1m✓[22m[39m Compiled in 1881ms (3428 modules)
+ [32m[1m✓[22m[39m Compiled in 3.7s (3428 modules)
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+Image with src "/images/landing-photo.avif" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectPosition". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Warning: Invalid DOM property `fill-rule`. Did you mean `fillRule`?
+    at path
+    at svg
+    at CarIcon (webpack-internal:///(ssr)/./src/components/icons/car-icon.tsx:8:20)
+    at div
+    at div
+    at button
+    at eval (webpack-internal:///(ssr)/../../node_modules/@nextui-org/tabs/dist/chunk-XRBGUFFN.mjs:35:13)
+    at LayoutGroup (webpack-internal:///(ssr)/../../node_modules/framer-motion/dist/es/components/LayoutGroup/index.mjs:19:24)
+    at div
+    at div
+    at Tabs (webpack-internal:///(ssr)/../../node_modules/@nextui-org/tabs/dist/chunk-RJGMUUQA.mjs:22:150)
+    at div
+    at div
+    at div
+    at SearchSection (webpack-internal:///(ssr)/./src/components/home/search-section.tsx:61:104)
+    at div
+    at div
+    at div
+    at Content
+    at Lazy
+    at InnerLayoutRouter (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:239:11)
+    at RedirectErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/redirect-boundary.js:71:9)
+    at RedirectBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/redirect-boundary.js:79:11)
+    at NotFoundErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/not-found-boundary.js:54:9)
+    at NotFoundBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/not-found-boundary.js:62:11)
+    at LoadingBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:313:11)
+    at ErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/error-boundary.js:128:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:151:9)
+    at ScrollAndFocusHandler (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:226:11)
+    at RenderFromTemplateContext (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/render-from-template-context.js:15:44)
+    at Lazy
+    at OuterLayoutRouter (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:322:11)
+    at Lazy
+    at main
+    at div
+    at NavbarWrapper (webpack-internal:///(ssr)/./src/components/navbar/navbar.tsx:30:26)
+    at section
+    at MainLayout (webpack-internal:///(ssr)/./src/components/layout/main-layout.tsx:13:23)
+    at Layout (webpack-internal:///(ssr)/./src/components/layout/layout.tsx:19:19)
+    at O (webpack-internal:///(ssr)/../../node_modules/next-themes/dist/index.mjs:22:24)
+    at z (webpack-internal:///(ssr)/../../node_modules/next-themes/dist/index.mjs:17:48)
+    at div
+    at $f57aed4a881a3485$var$OverlayContainerDOM (webpack-internal:///(ssr)/../../node_modules/@react-aria/overlays/dist/useModal.mjs:60:54)
+    at $f57aed4a881a3485$export$178405afcd8c5eb (webpack-internal:///(ssr)/../../node_modules/@react-aria/overlays/dist/useModal.mjs:27:21)
+    at $f57aed4a881a3485$export$bf688221f59024e5
+    at $18f2051aff69b9bf$export$a54013f0d02a8f82 (webpack-internal:///(ssr)/../../node_modules/@react-aria/i18n/dist/context.mjs:24:19)
+    at NextUIProvider (webpack-internal:///(ssr)/../../node_modules/@nextui-org/system/dist/chunk-VIKBOFDY.mjs:20:25)
+    at Providers (webpack-internal:///(ssr)/./src/app/providers.tsx:17:22)
+    at Lazy
+    at body
+    at html
+    at RedirectErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/redirect-boundary.js:71:9)
+    at RedirectBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/redirect-boundary.js:79:11)
+    at ReactDevOverlay (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/react-dev-overlay/internal/ReactDevOverlay.js:66:9)
+    at HotReload (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/react-dev-overlay/hot-reloader-client.js:296:11)
+    at Router (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/app-router.js:155:11)
+    at ErrorBoundaryHandler (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/error-boundary.js:99:9)
+    at ErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/error-boundary.js:128:11)
+    at AppRouter (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/app-router.js:421:13)
+    at Lazy
+    at Lazy
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:381577
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:381577
+    at ServerInsertedHTMLProvider (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:17605)
+Warning: Invalid DOM property `clip-rule`. Did you mean `clipRule`?
+    at path
+    at svg
+    at CarIcon (webpack-internal:///(ssr)/./src/components/icons/car-icon.tsx:8:20)
+    at div
+    at div
+    at button
+    at eval (webpack-internal:///(ssr)/../../node_modules/@nextui-org/tabs/dist/chunk-XRBGUFFN.mjs:35:13)
+    at LayoutGroup (webpack-internal:///(ssr)/../../node_modules/framer-motion/dist/es/components/LayoutGroup/index.mjs:19:24)
+    at div
+    at div
+    at Tabs (webpack-internal:///(ssr)/../../node_modules/@nextui-org/tabs/dist/chunk-RJGMUUQA.mjs:22:150)
+    at div
+    at div
+    at div
+    at SearchSection (webpack-internal:///(ssr)/./src/components/home/search-section.tsx:61:104)
+    at div
+    at div
+    at div
+    at Content
+    at Lazy
+    at InnerLayoutRouter (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:239:11)
+    at RedirectErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/redirect-boundary.js:71:9)
+    at RedirectBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/redirect-boundary.js:79:11)
+    at NotFoundErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/not-found-boundary.js:54:9)
+    at NotFoundBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/not-found-boundary.js:62:11)
+    at LoadingBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:313:11)
+    at ErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/error-boundary.js:128:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:151:9)
+    at ScrollAndFocusHandler (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:226:11)
+    at RenderFromTemplateContext (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/render-from-template-context.js:15:44)
+    at Lazy
+    at OuterLayoutRouter (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:322:11)
+    at Lazy
+    at main
+    at div
+    at NavbarWrapper (webpack-internal:///(ssr)/./src/components/navbar/navbar.tsx:30:26)
+    at section
+    at MainLayout (webpack-internal:///(ssr)/./src/components/layout/main-layout.tsx:13:23)
+    at Layout (webpack-internal:///(ssr)/./src/components/layout/layout.tsx:19:19)
+    at O (webpack-internal:///(ssr)/../../node_modules/next-themes/dist/index.mjs:22:24)
+    at z (webpack-internal:///(ssr)/../../node_modules/next-themes/dist/index.mjs:17:48)
+    at div
+    at $f57aed4a881a3485$var$OverlayContainerDOM (webpack-internal:///(ssr)/../../node_modules/@react-aria/overlays/dist/useModal.mjs:60:54)
+    at $f57aed4a881a3485$export$178405afcd8c5eb (webpack-internal:///(ssr)/../../node_modules/@react-aria/overlays/dist/useModal.mjs:27:21)
+    at $f57aed4a881a3485$export$bf688221f59024e5
+    at $18f2051aff69b9bf$export$a54013f0d02a8f82 (webpack-internal:///(ssr)/../../node_modules/@react-aria/i18n/dist/context.mjs:24:19)
+    at NextUIProvider (webpack-internal:///(ssr)/../../node_modules/@nextui-org/system/dist/chunk-VIKBOFDY.mjs:20:25)
+    at Providers (webpack-internal:///(ssr)/./src/app/providers.tsx:17:22)
+    at Lazy
+    at body
+    at html
+    at RedirectErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/redirect-boundary.js:71:9)
+    at RedirectBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/redirect-boundary.js:79:11)
+    at ReactDevOverlay (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/react-dev-overlay/internal/ReactDevOverlay.js:66:9)
+    at HotReload (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/react-dev-overlay/hot-reloader-client.js:296:11)
+    at Router (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/app-router.js:155:11)
+    at ErrorBoundaryHandler (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/error-boundary.js:99:9)
+    at ErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/error-boundary.js:128:11)
+    at AppRouter (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/app-router.js:421:13)
+    at Lazy
+    at Lazy
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:381577
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:381577
+    at ServerInsertedHTMLProvider (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:17605)
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [32m[1m✓[22m[39m Compiled in 991ms (3428 modules)
+Image with src "/images/landing-photo.avif" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectPosition". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Warning: Invalid DOM property `fill-rule`. Did you mean `fillRule`?
+    at path
+    at svg
+    at CarIcon (webpack-internal:///(ssr)/./src/components/icons/car-icon.tsx:8:20)
+    at div
+    at div
+    at button
+    at eval (webpack-internal:///(ssr)/../../node_modules/@nextui-org/tabs/dist/chunk-XRBGUFFN.mjs:35:13)
+    at LayoutGroup (webpack-internal:///(ssr)/../../node_modules/framer-motion/dist/es/components/LayoutGroup/index.mjs:19:24)
+    at div
+    at div
+    at Tabs (webpack-internal:///(ssr)/../../node_modules/@nextui-org/tabs/dist/chunk-RJGMUUQA.mjs:22:150)
+    at div
+    at div
+    at div
+    at SearchSection (webpack-internal:///(ssr)/./src/components/home/search-section.tsx:61:104)
+    at div
+    at div
+    at div
+    at Content
+    at Lazy
+    at InnerLayoutRouter (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:239:11)
+    at RedirectErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/redirect-boundary.js:71:9)
+    at RedirectBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/redirect-boundary.js:79:11)
+    at NotFoundErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/not-found-boundary.js:54:9)
+    at NotFoundBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/not-found-boundary.js:62:11)
+    at LoadingBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:313:11)
+    at ErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/error-boundary.js:128:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:151:9)
+    at ScrollAndFocusHandler (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:226:11)
+    at RenderFromTemplateContext (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/render-from-template-context.js:15:44)
+    at Lazy
+    at OuterLayoutRouter (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:322:11)
+    at Lazy
+    at main
+    at div
+    at NavbarWrapper (webpack-internal:///(ssr)/./src/components/navbar/navbar.tsx:30:26)
+    at section
+    at MainLayout (webpack-internal:///(ssr)/./src/components/layout/main-layout.tsx:13:23)
+    at Layout (webpack-internal:///(ssr)/./src/components/layout/layout.tsx:19:19)
+    at O (webpack-internal:///(ssr)/../../node_modules/next-themes/dist/index.mjs:22:24)
+    at z (webpack-internal:///(ssr)/../../node_modules/next-themes/dist/index.mjs:17:48)
+    at div
+    at $f57aed4a881a3485$var$OverlayContainerDOM (webpack-internal:///(ssr)/../../node_modules/@react-aria/overlays/dist/useModal.mjs:60:54)
+    at $f57aed4a881a3485$export$178405afcd8c5eb (webpack-internal:///(ssr)/../../node_modules/@react-aria/overlays/dist/useModal.mjs:27:21)
+    at $f57aed4a881a3485$export$bf688221f59024e5
+    at $18f2051aff69b9bf$export$a54013f0d02a8f82 (webpack-internal:///(ssr)/../../node_modules/@react-aria/i18n/dist/context.mjs:24:19)
+    at NextUIProvider (webpack-internal:///(ssr)/../../node_modules/@nextui-org/system/dist/chunk-VIKBOFDY.mjs:20:25)
+    at Providers (webpack-internal:///(ssr)/./src/app/providers.tsx:17:22)
+    at Lazy
+    at body
+    at html
+    at RedirectErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/redirect-boundary.js:71:9)
+    at RedirectBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/redirect-boundary.js:79:11)
+    at ReactDevOverlay (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/react-dev-overlay/internal/ReactDevOverlay.js:66:9)
+    at HotReload (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/react-dev-overlay/hot-reloader-client.js:296:11)
+    at Router (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/app-router.js:155:11)
+    at ErrorBoundaryHandler (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/error-boundary.js:99:9)
+    at ErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/error-boundary.js:128:11)
+    at AppRouter (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/app-router.js:421:13)
+    at Lazy
+    at Lazy
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:381577
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:381577
+    at ServerInsertedHTMLProvider (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:17605)
+Warning: Invalid DOM property `clip-rule`. Did you mean `clipRule`?
+    at path
+    at svg
+    at CarIcon (webpack-internal:///(ssr)/./src/components/icons/car-icon.tsx:8:20)
+    at div
+    at div
+    at button
+    at eval (webpack-internal:///(ssr)/../../node_modules/@nextui-org/tabs/dist/chunk-XRBGUFFN.mjs:35:13)
+    at LayoutGroup (webpack-internal:///(ssr)/../../node_modules/framer-motion/dist/es/components/LayoutGroup/index.mjs:19:24)
+    at div
+    at div
+    at Tabs (webpack-internal:///(ssr)/../../node_modules/@nextui-org/tabs/dist/chunk-RJGMUUQA.mjs:22:150)
+    at div
+    at div
+    at div
+    at SearchSection (webpack-internal:///(ssr)/./src/components/home/search-section.tsx:61:104)
+    at div
+    at div
+    at div
+    at Content
+    at Lazy
+    at InnerLayoutRouter (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:239:11)
+    at RedirectErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/redirect-boundary.js:71:9)
+    at RedirectBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/redirect-boundary.js:79:11)
+    at NotFoundErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/not-found-boundary.js:54:9)
+    at NotFoundBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/not-found-boundary.js:62:11)
+    at LoadingBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:313:11)
+    at ErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/error-boundary.js:128:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:151:9)
+    at ScrollAndFocusHandler (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:226:11)
+    at RenderFromTemplateContext (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/render-from-template-context.js:15:44)
+    at Lazy
+    at OuterLayoutRouter (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:322:11)
+    at Lazy
+    at main
+    at div
+    at NavbarWrapper (webpack-internal:///(ssr)/./src/components/navbar/navbar.tsx:30:26)
+    at section
+    at MainLayout (webpack-internal:///(ssr)/./src/components/layout/main-layout.tsx:13:23)
+    at Layout (webpack-internal:///(ssr)/./src/components/layout/layout.tsx:19:19)
+    at O (webpack-internal:///(ssr)/../../node_modules/next-themes/dist/index.mjs:22:24)
+    at z (webpack-internal:///(ssr)/../../node_modules/next-themes/dist/index.mjs:17:48)
+    at div
+    at $f57aed4a881a3485$var$OverlayContainerDOM (webpack-internal:///(ssr)/../../node_modules/@react-aria/overlays/dist/useModal.mjs:60:54)
+    at $f57aed4a881a3485$export$178405afcd8c5eb (webpack-internal:///(ssr)/../../node_modules/@react-aria/overlays/dist/useModal.mjs:27:21)
+    at $f57aed4a881a3485$export$bf688221f59024e5
+    at $18f2051aff69b9bf$export$a54013f0d02a8f82 (webpack-internal:///(ssr)/../../node_modules/@react-aria/i18n/dist/context.mjs:24:19)
+    at NextUIProvider (webpack-internal:///(ssr)/../../node_modules/@nextui-org/system/dist/chunk-VIKBOFDY.mjs:20:25)
+    at Providers (webpack-internal:///(ssr)/./src/app/providers.tsx:17:22)
+    at Lazy
+    at body
+    at html
+    at RedirectErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/redirect-boundary.js:71:9)
+    at RedirectBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/redirect-boundary.js:79:11)
+    at ReactDevOverlay (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/react-dev-overlay/internal/ReactDevOverlay.js:66:9)
+    at HotReload (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/react-dev-overlay/hot-reloader-client.js:296:11)
+    at Router (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/app-router.js:155:11)
+    at ErrorBoundaryHandler (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/error-boundary.js:99:9)
+    at ErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/error-boundary.js:128:11)
+    at AppRouter (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/app-router.js:421:13)
+    at Lazy
+    at Lazy
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:381577
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:381577
+    at ServerInsertedHTMLProvider (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:17605)
+ [32m[1m✓[22m[39m Compiled in 1213ms (3428 modules)
+ [32m[1m✓[22m[39m Compiled in 917ms (3428 modules)
+ [32m[1m✓[22m[39m Compiled in 963ms (3428 modules)
+ [32m[1m✓[22m[39m Compiled in 2.1s (3428 modules)
+ [32m[1m✓[22m[39m Compiled in 1831ms (3428 modules)
+Image with src "/images/landing-photo.avif" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectPosition". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Warning: Invalid DOM property `fill-rule`. Did you mean `fillRule`?
+    at path
+    at svg
+    at CarIcon (webpack-internal:///(ssr)/./src/components/icons/car-icon.tsx:8:20)
+    at div
+    at div
+    at button
+    at eval (webpack-internal:///(ssr)/../../node_modules/@nextui-org/tabs/dist/chunk-XRBGUFFN.mjs:35:13)
+    at LayoutGroup (webpack-internal:///(ssr)/../../node_modules/framer-motion/dist/es/components/LayoutGroup/index.mjs:19:24)
+    at div
+    at div
+    at Tabs (webpack-internal:///(ssr)/../../node_modules/@nextui-org/tabs/dist/chunk-RJGMUUQA.mjs:22:150)
+    at div
+    at div
+    at div
+    at SearchSection (webpack-internal:///(ssr)/./src/components/home/search-section.tsx:61:104)
+    at div
+    at div
+    at div
+    at Content
+    at Lazy
+    at InnerLayoutRouter (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:239:11)
+    at RedirectErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/redirect-boundary.js:71:9)
+    at RedirectBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/redirect-boundary.js:79:11)
+    at NotFoundErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/not-found-boundary.js:54:9)
+    at NotFoundBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/not-found-boundary.js:62:11)
+    at LoadingBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:313:11)
+    at ErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/error-boundary.js:128:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:151:9)
+    at ScrollAndFocusHandler (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:226:11)
+    at RenderFromTemplateContext (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/render-from-template-context.js:15:44)
+    at Lazy
+    at OuterLayoutRouter (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:322:11)
+    at Lazy
+    at main
+    at div
+    at NavbarWrapper (webpack-internal:///(ssr)/./src/components/navbar/navbar.tsx:30:26)
+    at section
+    at MainLayout (webpack-internal:///(ssr)/./src/components/layout/main-layout.tsx:13:23)
+    at Layout (webpack-internal:///(ssr)/./src/components/layout/layout.tsx:19:19)
+    at O (webpack-internal:///(ssr)/../../node_modules/next-themes/dist/index.mjs:22:24)
+    at z (webpack-internal:///(ssr)/../../node_modules/next-themes/dist/index.mjs:17:48)
+    at div
+    at $f57aed4a881a3485$var$OverlayContainerDOM (webpack-internal:///(ssr)/../../node_modules/@react-aria/overlays/dist/useModal.mjs:60:54)
+    at $f57aed4a881a3485$export$178405afcd8c5eb (webpack-internal:///(ssr)/../../node_modules/@react-aria/overlays/dist/useModal.mjs:27:21)
+    at $f57aed4a881a3485$export$bf688221f59024e5
+    at $18f2051aff69b9bf$export$a54013f0d02a8f82 (webpack-internal:///(ssr)/../../node_modules/@react-aria/i18n/dist/context.mjs:24:19)
+    at NextUIProvider (webpack-internal:///(ssr)/../../node_modules/@nextui-org/system/dist/chunk-VIKBOFDY.mjs:20:25)
+    at Providers (webpack-internal:///(ssr)/./src/app/providers.tsx:17:22)
+    at Lazy
+    at body
+    at html
+    at RedirectErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/redirect-boundary.js:71:9)
+    at RedirectBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/redirect-boundary.js:79:11)
+    at ReactDevOverlay (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/react-dev-overlay/internal/ReactDevOverlay.js:66:9)
+    at HotReload (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/react-dev-overlay/hot-reloader-client.js:296:11)
+    at Router (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/app-router.js:155:11)
+    at ErrorBoundaryHandler (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/error-boundary.js:99:9)
+    at ErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/error-boundary.js:128:11)
+    at AppRouter (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/app-router.js:421:13)
+    at Lazy
+    at Lazy
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:381577
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:381577
+    at ServerInsertedHTMLProvider (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:17605)
+Warning: Invalid DOM property `clip-rule`. Did you mean `clipRule`?
+    at path
+    at svg
+    at CarIcon (webpack-internal:///(ssr)/./src/components/icons/car-icon.tsx:8:20)
+    at div
+    at div
+    at button
+    at eval (webpack-internal:///(ssr)/../../node_modules/@nextui-org/tabs/dist/chunk-XRBGUFFN.mjs:35:13)
+    at LayoutGroup (webpack-internal:///(ssr)/../../node_modules/framer-motion/dist/es/components/LayoutGroup/index.mjs:19:24)
+    at div
+    at div
+    at Tabs (webpack-internal:///(ssr)/../../node_modules/@nextui-org/tabs/dist/chunk-RJGMUUQA.mjs:22:150)
+    at div
+    at div
+    at div
+    at SearchSection (webpack-internal:///(ssr)/./src/components/home/search-section.tsx:61:104)
+    at div
+    at div
+    at div
+    at Content
+    at Lazy
+    at InnerLayoutRouter (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:239:11)
+    at RedirectErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/redirect-boundary.js:71:9)
+    at RedirectBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/redirect-boundary.js:79:11)
+    at NotFoundErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/not-found-boundary.js:54:9)
+    at NotFoundBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/not-found-boundary.js:62:11)
+    at LoadingBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:313:11)
+    at ErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/error-boundary.js:128:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:151:9)
+    at ScrollAndFocusHandler (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:226:11)
+    at RenderFromTemplateContext (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/render-from-template-context.js:15:44)
+    at Lazy
+    at OuterLayoutRouter (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:322:11)
+    at Lazy
+    at main
+    at div
+    at NavbarWrapper (webpack-internal:///(ssr)/./src/components/navbar/navbar.tsx:30:26)
+    at section
+    at MainLayout (webpack-internal:///(ssr)/./src/components/layout/main-layout.tsx:13:23)
+    at Layout (webpack-internal:///(ssr)/./src/components/layout/layout.tsx:19:19)
+    at O (webpack-internal:///(ssr)/../../node_modules/next-themes/dist/index.mjs:22:24)
+    at z (webpack-internal:///(ssr)/../../node_modules/next-themes/dist/index.mjs:17:48)
+    at div
+    at $f57aed4a881a3485$var$OverlayContainerDOM (webpack-internal:///(ssr)/../../node_modules/@react-aria/overlays/dist/useModal.mjs:60:54)
+    at $f57aed4a881a3485$export$178405afcd8c5eb (webpack-internal:///(ssr)/../../node_modules/@react-aria/overlays/dist/useModal.mjs:27:21)
+    at $f57aed4a881a3485$export$bf688221f59024e5
+    at $18f2051aff69b9bf$export$a54013f0d02a8f82 (webpack-internal:///(ssr)/../../node_modules/@react-aria/i18n/dist/context.mjs:24:19)
+    at NextUIProvider (webpack-internal:///(ssr)/../../node_modules/@nextui-org/system/dist/chunk-VIKBOFDY.mjs:20:25)
+    at Providers (webpack-internal:///(ssr)/./src/app/providers.tsx:17:22)
+    at Lazy
+    at body
+    at html
+    at RedirectErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/redirect-boundary.js:71:9)
+    at RedirectBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/redirect-boundary.js:79:11)
+    at ReactDevOverlay (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/react-dev-overlay/internal/ReactDevOverlay.js:66:9)
+    at HotReload (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/react-dev-overlay/hot-reloader-client.js:296:11)
+    at Router (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/app-router.js:155:11)
+    at ErrorBoundaryHandler (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/error-boundary.js:99:9)
+    at ErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/error-boundary.js:128:11)
+    at AppRouter (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/app-router.js:421:13)
+    at Lazy
+    at Lazy
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:381577
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:381577
+    at ServerInsertedHTMLProvider (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:17605)
+ [32m[1m✓[22m[39m Compiled in 1414ms (3428 modules)
+ [32m[1m✓[22m[39m Compiled in 1593ms (3428 modules)
+ [32m[1m✓[22m[39m Compiled in 2.1s (3428 modules)
+ [32m[1m✓[22m[39m Compiled in 3.4s (3428 modules)
+ [32m[1m✓[22m[39m Compiled in 2.1s (3428 modules)
+ [32m[1m✓[22m[39m Compiled in 1498ms (3428 modules)
+ [32m[1m✓[22m[39m Compiled in 1711ms (3428 modules)
+Image with src "/images/landing-photo.avif" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectPosition". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Warning: Invalid DOM property `fill-rule`. Did you mean `fillRule`?
+    at path
+    at svg
+    at CarIcon (webpack-internal:///(ssr)/./src/components/icons/car-icon.tsx:8:20)
+    at div
+    at div
+    at button
+    at eval (webpack-internal:///(ssr)/../../node_modules/@nextui-org/tabs/dist/chunk-XRBGUFFN.mjs:35:13)
+    at LayoutGroup (webpack-internal:///(ssr)/../../node_modules/framer-motion/dist/es/components/LayoutGroup/index.mjs:19:24)
+    at div
+    at div
+    at Tabs (webpack-internal:///(ssr)/../../node_modules/@nextui-org/tabs/dist/chunk-RJGMUUQA.mjs:22:150)
+    at div
+    at div
+    at div
+    at SearchSection (webpack-internal:///(ssr)/./src/components/home/search-section.tsx:61:104)
+    at div
+    at div
+    at div
+    at Content
+    at Lazy
+    at InnerLayoutRouter (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:239:11)
+    at RedirectErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/redirect-boundary.js:71:9)
+    at RedirectBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/redirect-boundary.js:79:11)
+    at NotFoundErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/not-found-boundary.js:54:9)
+    at NotFoundBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/not-found-boundary.js:62:11)
+    at LoadingBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:313:11)
+    at ErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/error-boundary.js:128:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:151:9)
+    at ScrollAndFocusHandler (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:226:11)
+    at RenderFromTemplateContext (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/render-from-template-context.js:15:44)
+    at Lazy
+    at OuterLayoutRouter (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:322:11)
+    at Lazy
+    at main
+    at div
+    at NavbarWrapper (webpack-internal:///(ssr)/./src/components/navbar/navbar.tsx:30:26)
+    at section
+    at MainLayout (webpack-internal:///(ssr)/./src/components/layout/main-layout.tsx:13:23)
+    at Layout (webpack-internal:///(ssr)/./src/components/layout/layout.tsx:19:19)
+    at O (webpack-internal:///(ssr)/../../node_modules/next-themes/dist/index.mjs:22:24)
+    at z (webpack-internal:///(ssr)/../../node_modules/next-themes/dist/index.mjs:17:48)
+    at div
+    at $f57aed4a881a3485$var$OverlayContainerDOM (webpack-internal:///(ssr)/../../node_modules/@react-aria/overlays/dist/useModal.mjs:60:54)
+    at $f57aed4a881a3485$export$178405afcd8c5eb (webpack-internal:///(ssr)/../../node_modules/@react-aria/overlays/dist/useModal.mjs:27:21)
+    at $f57aed4a881a3485$export$bf688221f59024e5
+    at $18f2051aff69b9bf$export$a54013f0d02a8f82 (webpack-internal:///(ssr)/../../node_modules/@react-aria/i18n/dist/context.mjs:24:19)
+    at NextUIProvider (webpack-internal:///(ssr)/../../node_modules/@nextui-org/system/dist/chunk-VIKBOFDY.mjs:20:25)
+    at Providers (webpack-internal:///(ssr)/./src/app/providers.tsx:17:22)
+    at Lazy
+    at body
+    at html
+    at RedirectErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/redirect-boundary.js:71:9)
+    at RedirectBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/redirect-boundary.js:79:11)
+    at ReactDevOverlay (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/react-dev-overlay/internal/ReactDevOverlay.js:66:9)
+    at HotReload (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/react-dev-overlay/hot-reloader-client.js:296:11)
+    at Router (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/app-router.js:155:11)
+    at ErrorBoundaryHandler (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/error-boundary.js:99:9)
+    at ErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/error-boundary.js:128:11)
+    at AppRouter (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/app-router.js:421:13)
+    at Lazy
+    at Lazy
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:381577
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:381577
+    at ServerInsertedHTMLProvider (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:17605)
+Warning: Invalid DOM property `clip-rule`. Did you mean `clipRule`?
+    at path
+    at svg
+    at CarIcon (webpack-internal:///(ssr)/./src/components/icons/car-icon.tsx:8:20)
+    at div
+    at div
+    at button
+    at eval (webpack-internal:///(ssr)/../../node_modules/@nextui-org/tabs/dist/chunk-XRBGUFFN.mjs:35:13)
+    at LayoutGroup (webpack-internal:///(ssr)/../../node_modules/framer-motion/dist/es/components/LayoutGroup/index.mjs:19:24)
+    at div
+    at div
+    at Tabs (webpack-internal:///(ssr)/../../node_modules/@nextui-org/tabs/dist/chunk-RJGMUUQA.mjs:22:150)
+    at div
+    at div
+    at div
+    at SearchSection (webpack-internal:///(ssr)/./src/components/home/search-section.tsx:61:104)
+    at div
+    at div
+    at div
+    at Content
+    at Lazy
+    at InnerLayoutRouter (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:239:11)
+    at RedirectErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/redirect-boundary.js:71:9)
+    at RedirectBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/redirect-boundary.js:79:11)
+    at NotFoundErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/not-found-boundary.js:54:9)
+    at NotFoundBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/not-found-boundary.js:62:11)
+    at LoadingBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:313:11)
+    at ErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/error-boundary.js:128:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:151:9)
+    at ScrollAndFocusHandler (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:226:11)
+    at RenderFromTemplateContext (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/render-from-template-context.js:15:44)
+    at Lazy
+    at OuterLayoutRouter (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:322:11)
+    at Lazy
+    at main
+    at div
+    at NavbarWrapper (webpack-internal:///(ssr)/./src/components/navbar/navbar.tsx:30:26)
+    at section
+    at MainLayout (webpack-internal:///(ssr)/./src/components/layout/main-layout.tsx:13:23)
+    at Layout (webpack-internal:///(ssr)/./src/components/layout/layout.tsx:19:19)
+    at O (webpack-internal:///(ssr)/../../node_modules/next-themes/dist/index.mjs:22:24)
+    at z (webpack-internal:///(ssr)/../../node_modules/next-themes/dist/index.mjs:17:48)
+    at div
+    at $f57aed4a881a3485$var$OverlayContainerDOM (webpack-internal:///(ssr)/../../node_modules/@react-aria/overlays/dist/useModal.mjs:60:54)
+    at $f57aed4a881a3485$export$178405afcd8c5eb (webpack-internal:///(ssr)/../../node_modules/@react-aria/overlays/dist/useModal.mjs:27:21)
+    at $f57aed4a881a3485$export$bf688221f59024e5
+    at $18f2051aff69b9bf$export$a54013f0d02a8f82 (webpack-internal:///(ssr)/../../node_modules/@react-aria/i18n/dist/context.mjs:24:19)
+    at NextUIProvider (webpack-internal:///(ssr)/../../node_modules/@nextui-org/system/dist/chunk-VIKBOFDY.mjs:20:25)
+    at Providers (webpack-internal:///(ssr)/./src/app/providers.tsx:17:22)
+    at Lazy
+    at body
+    at html
+    at RedirectErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/redirect-boundary.js:71:9)
+    at RedirectBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/redirect-boundary.js:79:11)
+    at ReactDevOverlay (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/react-dev-overlay/internal/ReactDevOverlay.js:66:9)
+    at HotReload (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/react-dev-overlay/hot-reloader-client.js:296:11)
+    at Router (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/app-router.js:155:11)
+    at ErrorBoundaryHandler (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/error-boundary.js:99:9)
+    at ErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/error-boundary.js:128:11)
+    at AppRouter (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/app-router.js:421:13)
+    at Lazy
+    at Lazy
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:381577
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:381577
+    at ServerInsertedHTMLProvider (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:17605)
+ [32m[1m✓[22m[39m Compiled in 1123ms (3428 modules)
+ [32m[1m✓[22m[39m Compiled in 1258ms (3428 modules)
+Image with src "/images/landing-photo.avif" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectPosition". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Warning: Invalid DOM property `fill-rule`. Did you mean `fillRule`?
+    at path
+    at svg
+    at CarIcon (webpack-internal:///(ssr)/./src/components/icons/car-icon.tsx:8:20)
+    at div
+    at div
+    at button
+    at eval (webpack-internal:///(ssr)/../../node_modules/@nextui-org/tabs/dist/chunk-XRBGUFFN.mjs:35:13)
+    at LayoutGroup (webpack-internal:///(ssr)/../../node_modules/framer-motion/dist/es/components/LayoutGroup/index.mjs:19:24)
+    at div
+    at div
+    at Tabs (webpack-internal:///(ssr)/../../node_modules/@nextui-org/tabs/dist/chunk-RJGMUUQA.mjs:22:150)
+    at div
+    at div
+    at div
+    at SearchSection (webpack-internal:///(ssr)/./src/components/home/search-section.tsx:61:104)
+    at div
+    at div
+    at div
+    at Content
+    at Lazy
+    at InnerLayoutRouter (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:239:11)
+    at RedirectErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/redirect-boundary.js:71:9)
+    at RedirectBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/redirect-boundary.js:79:11)
+    at NotFoundErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/not-found-boundary.js:54:9)
+    at NotFoundBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/not-found-boundary.js:62:11)
+    at LoadingBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:313:11)
+    at ErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/error-boundary.js:128:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:151:9)
+    at ScrollAndFocusHandler (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:226:11)
+    at RenderFromTemplateContext (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/render-from-template-context.js:15:44)
+    at Lazy
+    at OuterLayoutRouter (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:322:11)
+    at Lazy
+    at main
+    at div
+    at NavbarWrapper (webpack-internal:///(ssr)/./src/components/navbar/navbar.tsx:30:26)
+    at section
+    at MainLayout (webpack-internal:///(ssr)/./src/components/layout/main-layout.tsx:13:23)
+    at Layout (webpack-internal:///(ssr)/./src/components/layout/layout.tsx:19:19)
+    at O (webpack-internal:///(ssr)/../../node_modules/next-themes/dist/index.mjs:22:24)
+    at z (webpack-internal:///(ssr)/../../node_modules/next-themes/dist/index.mjs:17:48)
+    at div
+    at $f57aed4a881a3485$var$OverlayContainerDOM (webpack-internal:///(ssr)/../../node_modules/@react-aria/overlays/dist/useModal.mjs:60:54)
+    at $f57aed4a881a3485$export$178405afcd8c5eb (webpack-internal:///(ssr)/../../node_modules/@react-aria/overlays/dist/useModal.mjs:27:21)
+    at $f57aed4a881a3485$export$bf688221f59024e5
+    at $18f2051aff69b9bf$export$a54013f0d02a8f82 (webpack-internal:///(ssr)/../../node_modules/@react-aria/i18n/dist/context.mjs:24:19)
+    at NextUIProvider (webpack-internal:///(ssr)/../../node_modules/@nextui-org/system/dist/chunk-VIKBOFDY.mjs:20:25)
+    at Providers (webpack-internal:///(ssr)/./src/app/providers.tsx:17:22)
+    at Lazy
+    at body
+    at html
+    at RedirectErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/redirect-boundary.js:71:9)
+    at RedirectBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/redirect-boundary.js:79:11)
+    at ReactDevOverlay (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/react-dev-overlay/internal/ReactDevOverlay.js:66:9)
+    at HotReload (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/react-dev-overlay/hot-reloader-client.js:296:11)
+    at Router (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/app-router.js:155:11)
+    at ErrorBoundaryHandler (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/error-boundary.js:99:9)
+    at ErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/error-boundary.js:128:11)
+    at AppRouter (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/app-router.js:421:13)
+    at Lazy
+    at Lazy
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:381577
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:381577
+    at ServerInsertedHTMLProvider (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:17605)
+Warning: Invalid DOM property `clip-rule`. Did you mean `clipRule`?
+    at path
+    at svg
+    at CarIcon (webpack-internal:///(ssr)/./src/components/icons/car-icon.tsx:8:20)
+    at div
+    at div
+    at button
+    at eval (webpack-internal:///(ssr)/../../node_modules/@nextui-org/tabs/dist/chunk-XRBGUFFN.mjs:35:13)
+    at LayoutGroup (webpack-internal:///(ssr)/../../node_modules/framer-motion/dist/es/components/LayoutGroup/index.mjs:19:24)
+    at div
+    at div
+    at Tabs (webpack-internal:///(ssr)/../../node_modules/@nextui-org/tabs/dist/chunk-RJGMUUQA.mjs:22:150)
+    at div
+    at div
+    at div
+    at SearchSection (webpack-internal:///(ssr)/./src/components/home/search-section.tsx:61:104)
+    at div
+    at div
+    at div
+    at Content
+    at Lazy
+    at InnerLayoutRouter (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:239:11)
+    at RedirectErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/redirect-boundary.js:71:9)
+    at RedirectBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/redirect-boundary.js:79:11)
+    at NotFoundErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/not-found-boundary.js:54:9)
+    at NotFoundBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/not-found-boundary.js:62:11)
+    at LoadingBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:313:11)
+    at ErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/error-boundary.js:128:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:151:9)
+    at ScrollAndFocusHandler (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:226:11)
+    at RenderFromTemplateContext (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/render-from-template-context.js:15:44)
+    at Lazy
+    at OuterLayoutRouter (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:322:11)
+    at Lazy
+    at main
+    at div
+    at NavbarWrapper (webpack-internal:///(ssr)/./src/components/navbar/navbar.tsx:30:26)
+    at section
+    at MainLayout (webpack-internal:///(ssr)/./src/components/layout/main-layout.tsx:13:23)
+    at Layout (webpack-internal:///(ssr)/./src/components/layout/layout.tsx:19:19)
+    at O (webpack-internal:///(ssr)/../../node_modules/next-themes/dist/index.mjs:22:24)
+    at z (webpack-internal:///(ssr)/../../node_modules/next-themes/dist/index.mjs:17:48)
+    at div
+    at $f57aed4a881a3485$var$OverlayContainerDOM (webpack-internal:///(ssr)/../../node_modules/@react-aria/overlays/dist/useModal.mjs:60:54)
+    at $f57aed4a881a3485$export$178405afcd8c5eb (webpack-internal:///(ssr)/../../node_modules/@react-aria/overlays/dist/useModal.mjs:27:21)
+    at $f57aed4a881a3485$export$bf688221f59024e5
+    at $18f2051aff69b9bf$export$a54013f0d02a8f82 (webpack-internal:///(ssr)/../../node_modules/@react-aria/i18n/dist/context.mjs:24:19)
+    at NextUIProvider (webpack-internal:///(ssr)/../../node_modules/@nextui-org/system/dist/chunk-VIKBOFDY.mjs:20:25)
+    at Providers (webpack-internal:///(ssr)/./src/app/providers.tsx:17:22)
+    at Lazy
+    at body
+    at html
+    at RedirectErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/redirect-boundary.js:71:9)
+    at RedirectBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/redirect-boundary.js:79:11)
+    at ReactDevOverlay (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/react-dev-overlay/internal/ReactDevOverlay.js:66:9)
+    at HotReload (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/react-dev-overlay/hot-reloader-client.js:296:11)
+    at Router (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/app-router.js:155:11)
+    at ErrorBoundaryHandler (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/error-boundary.js:99:9)
+    at ErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/error-boundary.js:128:11)
+    at AppRouter (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/app-router.js:421:13)
+    at Lazy
+    at Lazy
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:381577
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:381577
+    at ServerInsertedHTMLProvider (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:17605)
+ [32m[1m✓[22m[39m Compiled in 1200ms (3428 modules)
+ [32m[1m✓[22m[39m Compiled in 1392ms (3428 modules)
+ [32m[1m✓[22m[39m Compiled in 978ms (3428 modules)
+ [32m[1m✓[22m[39m Compiled in 1605ms (3428 modules)
+ [32m[1m✓[22m[39m Compiled in 4.2s (3428 modules)
+^C[?25h

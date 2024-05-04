@@ -1,0 +1,46 @@
+[2m> [22mnext dev
+
+[32m✔[0m [33mConsole Ninja[0m extension is connected to [33mNext.js[0m, see [36mhttps://tinyurl.com/2vt8jxzw[0m
+  [1m[38;2;173;127;168m ▲ Next.js 14.0.4[39m[22m
+   - Local:        http://localhost:3000
+
+[2K[1G[33mwarning[39m ../../package.json: No license field
+ [32m[1m✓[22m[39m Ready in 3.6s
+ [37m[1m○[22m[39m Compiling / ...
+ [31m[1m⨯[22m[39m ./src/styles/globals.css.webpack[javascript/auto]!=!../../node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!../../node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/styles/globals.css
+Error: Cannot find module './themes/light-colors'
+Require stack:
+- /Users/j.bosque/Desktop/decazen-system/packages/parking/tailwind.config.js
+- /Users/j.bosque/Desktop/decazen-system/node_modules/tailwindcss/lib/lib/setupTrackingContext.js
+- /Users/j.bosque/Desktop/decazen-system/node_modules/tailwindcss/lib/plugin.js
+- /Users/j.bosque/Desktop/decazen-system/node_modules/tailwindcss/lib/index.js
+- /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/build/webpack/config/blocks/css/plugins.js
+- /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/build/webpack/config/blocks/css/index.js
+- /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/build/webpack/config/index.js
+- /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/build/webpack-config.js
+- /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/server/lib/router-server.js
+- /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/server/lib/start-server.js
+Import trace for requested module:
+./src/styles/globals.css.webpack[javascript/auto]!=!../../node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!../../node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/styles/globals.css
+./src/styles/globals.css
+ [31m[1m⨯[22m[39m ./src/styles/globals.css.webpack[javascript/auto]!=!../../node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!../../node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/styles/globals.css
+Error: Cannot find module './themes/light-colors'
+Require stack:
+- /Users/j.bosque/Desktop/decazen-system/packages/parking/tailwind.config.js
+- /Users/j.bosque/Desktop/decazen-system/node_modules/tailwindcss/lib/lib/setupTrackingContext.js
+- /Users/j.bosque/Desktop/decazen-system/node_modules/tailwindcss/lib/plugin.js
+- /Users/j.bosque/Desktop/decazen-system/node_modules/tailwindcss/lib/index.js
+- /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/build/webpack/config/blocks/css/plugins.js
+- /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/build/webpack/config/blocks/css/index.js
+- /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/build/webpack/config/index.js
+- /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/build/webpack-config.js
+- /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/server/lib/router-server.js
+- /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/server/lib/start-server.js
+Import trace for requested module:
+./src/styles/globals.css.webpack[javascript/auto]!=!../../node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!../../node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./src/styles/globals.css
+./src/styles/globals.css
+^C[?25h

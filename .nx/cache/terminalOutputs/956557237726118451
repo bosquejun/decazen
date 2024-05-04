@@ -1,0 +1,637 @@
+[2m> [22mnext dev
+
+[32m✔[0m [33mConsole Ninja[0m extension is connected to [33mNext.js[0m, see [36mhttps://tinyurl.com/2vt8jxzw[0m
+  [1m[38;2;173;127;168m ▲ Next.js 14.0.4[39m[22m
+   - Local:        http://localhost:3000
+
+[2K[1G[33mwarning[39m ../../package.json: No license field
+ [32m[1m✓[22m[39m Ready in 4.4s
+ [37m[1m○[22m[39m Compiling / ...
+
+[1m[33mwarn[39m[22m - The RTL features in Tailwind CSS are currently in preview.
+[1m[33mwarn[39m[22m - Preview features are not covered by semver, and may be improved in breaking ways at any time.
+ [32m[1m✓[22m[39m Compiled / in 11.4s (3448 modules)
+Image with src "/images/landing-photo.avif" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectPosition". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+{
+  defaultTimeSlot: {
+    label: [32m'18:00'[39m,
+    value: [32m'18:00'[39m,
+    disabled: [33mfalse[39m,
+    dateValue: [35m2024-05-04T10:00:00.000Z[39m
+  }
+}
+ [32m[1m✓[22m[39m Compiled in 1877ms (1725 modules)
+ [32m[1m✓[22m[39m Compiled in 3.1s (3416 modules)
+ [32m[1m✓[22m[39m Compiled in 1523ms (3430 modules)
+ [32m[1m✓[22m[39m Compiled in 2.8s (3430 modules)
+Image with src "/images/landing-photo.avif" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectPosition". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+ [32m[1m✓[22m[39m Compiled in 4.2s (3430 modules)
+ [32m[1m✓[22m[39m Compiled in 1217ms (3430 modules)
+Image with src "/images/landing-photo.avif" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectPosition". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+<Item> with non-plain text contents is unsupported by type to select for accessibility. Please add a `textValue` prop.
+ [32m[1m✓[22m[39m Compiled in 2.2s (3430 modules)
+ [32m[1m✓[22m[39m Compiled in 2.3s (3430 modules)
+ [32m[1m✓[22m[39m Compiled in 1582ms (3430 modules)
+ [32m[1m✓[22m[39m Compiled in 1760ms (3430 modules)
+Image with src "/images/landing-photo.avif" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectPosition". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+<Item> with non-plain text contents is unsupported by type to select for accessibility. Please add a `textValue` prop.
+ [32m[1m✓[22m[39m Compiled in 1604ms (3430 modules)
+ [32m[1m✓[22m[39m Compiled in 1921ms (3430 modules)
+Image with src "/images/landing-photo.avif" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectPosition". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+{
+  selectedTimeSlot: {
+    label: [32m'18:00'[39m,
+    value: [32m'18:00'[39m,
+    disabled: [33mfalse[39m,
+    dateValue: [35m2024-05-04T10:00:00.000Z[39m
+  }
+}
+<Item> with non-plain text contents is unsupported by type to select for accessibility. Please add a `textValue` prop.
+ [32m[1m✓[22m[39m Compiled in 5.2s (3430 modules)
+Image with src "/images/landing-photo.avif" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectPosition". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+ [32m[1m✓[22m[39m Compiled in 1689ms (3430 modules)
+ [32m[1m✓[22m[39m Compiled in 2.1s (3430 modules)
+ [32m[1m✓[22m[39m Compiled in 2.1s (3430 modules)
+ [32m[1m✓[22m[39m Compiled in 2.5s (3430 modules)
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+Image with src "/images/landing-photo.avif" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectPosition". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+ [31m[1m⨯[22m[39m src/components/dates/date-time-picker.tsx (67:39) @ oo_oo
+ [31m[1m⨯[22m[39m ReferenceError: getSelectorIconProps is not defined
+    at DateTimePicker (./src/components/dates/date-time-picker.tsx:67:41)
+[0m [90m 65 |[39m[0m
+[0m [90m 66 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 67 |[39m     [90m/* eslint-disable */[39mconsole[33m.[39mlog([33m...[39moo_oo([32m`1494496308_67_4_67_39_4`[39m[33m,[39mgetSelectorIconProps()))[33m;[39m[0m
+[0m [90m    |[39m                                       [31m[1m^[22m[39m[0m
+[0m [90m 68 |[39m[0m
+[0m [90m 69 |[39m     [36mreturn[39m [33m<[39m[33mPopover[39m classNames[33m=[39m{{[0m
+[0m [90m 70 |[39m         base[33m:[39m [32m"bg-transparent"[39m[33m,[39m[0m
+ [32m[1m✓[22m[39m Compiled in 1689ms (3430 modules)
+Image with src "/images/landing-photo.avif" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectPosition". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+ [32m[1m✓[22m[39m Compiled in 1817ms (3430 modules)
+ [32m[1m✓[22m[39m Compiled in 2.4s (3432 modules)
+ [32m[1m✓[22m[39m Compiled in 2.5s (3432 modules)
+ [32m[1m✓[22m[39m Compiled in 2.7s (3432 modules)
+Image with src "/images/landing-photo.avif" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectPosition". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+ [32m[1m✓[22m[39m Compiled in 1942ms (3432 modules)
+ [32m[1m✓[22m[39m Compiled in 9.8s (5422 modules)
+Image with src "/images/landing-photo.avif" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectPosition". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+ [32m[1m✓[22m[39m Compiled in 2.2s (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 1221ms (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 2s (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 1787ms (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 2s (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 1533ms (5422 modules)
+Image with src "/images/landing-photo.avif" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectPosition". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+ [32m[1m✓[22m[39m Compiled in 4.5s (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 1816ms (5422 modules)
+Image with src "/images/landing-photo.avif" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectPosition". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+ [32m[1m✓[22m[39m Compiled in 2.1s (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 3.2s (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 2.9s (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 3s (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 5.7s (5422 modules)
+Image with src "/images/landing-photo.avif" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectPosition". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+{
+  label: [32m'From'[39m,
+  selectedTimeSlot: {
+    label: [32m'18:30'[39m,
+    value: [32m'18:30'[39m,
+    disabled: [33mfalse[39m,
+    dateValue: [35m2024-05-04T15:30:00.000Z[39m
+  },
+  defaultDate: [35m2024-05-04T15:30:00.000Z[39m,
+  minimumDate: [35m2024-05-04T15:30:00.000Z[39m
+}
+{
+  label: [32m'Until'[39m,
+  selectedTimeSlot: {
+    label: [32m'18:30'[39m,
+    value: [32m'18:30'[39m,
+    disabled: [33mfalse[39m,
+    dateValue: [35m2024-05-05T15:30:00.000Z[39m
+  },
+  defaultDate: [35m2024-05-05T15:30:00.000Z[39m,
+  minimumDate: [35m2024-05-04T10:55:49.970Z[39m
+}
+ [32m[1m✓[22m[39m Compiled in 2.9s (5422 modules)
+Image with src "/images/landing-photo.avif" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectPosition". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+{
+  label: [32m'From'[39m,
+  selectedTimeSlot: {
+    label: [32m'18:30'[39m,
+    value: [32m'18:30'[39m,
+    disabled: [33mfalse[39m,
+    dateValue: [35m2024-05-04T10:30:00.000Z[39m
+  },
+  defaultDate: [35m2024-05-04T10:26:20.760Z[39m,
+  minimumDate: [35m2024-05-04T10:26:20.760Z[39m
+}
+{
+  label: [32m'Until'[39m,
+  selectedTimeSlot: {
+    label: [32m'18:30'[39m,
+    value: [32m'18:30'[39m,
+    disabled: [33mfalse[39m,
+    dateValue: [35m2024-05-04T10:30:00.000Z[39m
+  },
+  defaultDate: [35m2024-05-05T10:26:20.760Z[39m,
+  minimumDate: [35m2024-05-04T10:56:20.760Z[39m
+}
+ [32m[1m✓[22m[39m Compiled in 3.5s (5422 modules)
+Image with src "/images/landing-photo.avif" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectPosition". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+{
+  label: [32m'From'[39m,
+  selectedTimeSlot: {
+    label: [32m'18:30'[39m,
+    value: [32m'18:30'[39m,
+    disabled: [33mfalse[39m,
+    dateValue: [35m2024-05-04T15:30:00.000Z[39m
+  },
+  defaultDate: [35m2024-05-04T15:30:00.000Z[39m,
+  minimumDate: [35m2024-05-04T15:30:00.000Z[39m
+}
+{
+  label: [32m'Until'[39m,
+  selectedTimeSlot: {
+    label: [32m'18:30'[39m,
+    value: [32m'18:30'[39m,
+    disabled: [33mfalse[39m,
+    dateValue: [35m2024-05-05T15:30:00.000Z[39m
+  },
+  defaultDate: [35m2024-05-05T15:30:00.000Z[39m,
+  minimumDate: [35m2024-05-04T10:57:28.570Z[39m
+}
+ [32m[1m✓[22m[39m Compiled in 2.1s (5422 modules)
+Image with src "/images/landing-photo.avif" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectPosition". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+{
+  label: [32m'From'[39m,
+  selectedTimeSlot: {
+    label: [32m'18:30'[39m,
+    value: [32m'18:30'[39m,
+    disabled: [33mfalse[39m,
+    dateValue: [35m2024-05-04T15:30:00.000Z[39m
+  },
+  defaultDate: [35m2024-05-04T15:30:00.000Z[39m,
+  minimumDate: [35m2024-05-04T15:30:00.000Z[39m
+}
+{
+  label: [32m'Until'[39m,
+  selectedTimeSlot: {
+    label: [32m'18:30'[39m,
+    value: [32m'18:30'[39m,
+    disabled: [33mfalse[39m,
+    dateValue: [35m2024-05-05T15:30:00.000Z[39m
+  },
+  defaultDate: [35m2024-05-05T15:30:00.000Z[39m,
+  minimumDate: [35m2024-05-04T10:58:16.838Z[39m
+}
+ [32m[1m✓[22m[39m Compiled in 1378ms (5422 modules)
+Image with src "/images/landing-photo.avif" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectPosition". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+{
+  label: [32m'From'[39m,
+  selectedTimeSlot: {
+    label: [32m'18:30'[39m,
+    value: [32m'18:30'[39m,
+    disabled: [33mfalse[39m,
+    dateValue: [35m2024-05-04T15:30:00.000Z[39m
+  },
+  defaultDate: [35m2024-05-04T15:30:00.000Z[39m,
+  minimumDate: [35m2024-05-04T15:30:00.000Z[39m
+}
+{
+  label: [32m'Until'[39m,
+  selectedTimeSlot: {
+    label: [32m'18:30'[39m,
+    value: [32m'18:30'[39m,
+    disabled: [33mfalse[39m,
+    dateValue: [35m2024-05-05T15:30:00.000Z[39m
+  },
+  defaultDate: [35m2024-05-05T15:30:00.000Z[39m,
+  minimumDate: [35m2024-05-04T10:58:46.333Z[39m
+}
+{
+  label: [32m'From'[39m,
+  selectedTimeSlot: {
+    label: [32m'18:30'[39m,
+    value: [32m'18:30'[39m,
+    disabled: [33mfalse[39m,
+    dateValue: [35m2024-05-04T15:30:00.000Z[39m
+  },
+  defaultDate: [35m2024-05-04T15:30:00.000Z[39m,
+  minimumDate: [35m2024-05-04T15:30:00.000Z[39m
+}
+{
+  label: [32m'Until'[39m,
+  selectedTimeSlot: {
+    label: [32m'18:30'[39m,
+    value: [32m'18:30'[39m,
+    disabled: [33mfalse[39m,
+    dateValue: [35m2024-05-05T15:30:00.000Z[39m
+  },
+  defaultDate: [35m2024-05-05T15:30:00.000Z[39m,
+  minimumDate: [35m2024-05-04T10:58:54.750Z[39m
+}
+ [31m[1m⨯[22m[39m ./src/components/dates/date-time-picker.tsx
+Error: 
+  [38;2;255;30;30m×[0m the name `dateValue` is defined multiple times
+    ╭─[[38;2;92;157;255;1;4m/Users/j.bosque/Desktop/decazen-system/packages/parking/src/components/dates/date-time-picker.tsx[0m:33:1]
+ [2m33[0m │         const isPastHour = i < currentHour;
+ [2m34[0m │         const isCurrentHour = i === currentHour;
+ [2m35[0m │ 
+ [2m36[0m │         const dateValue = disablePassedTime ? new Date(disablePassedTime) : new Date();
+    · [38;2;246;87;248m              ────┬────[0m
+    ·                   [38;2;246;87;248m╰── [38;2;246;87;248mprevious definition of `dateValue` here[0m[0m
+ [2m37[0m │         debugger;
+ [2m38[0m │         dateValue.setHours(0)
+ [2m39[0m │         dateValue.setHours(i, 0, 0, 0);
+ [2m40[0m │ 
+ [2m41[0m │         timeSlots.push({
+ [2m42[0m │             label: `${hour}:00`,
+ [2m43[0m │             value: `${hour}:00`,
+ [2m44[0m │             disabled: disablePassedTime && (isPastHour || (isCurrentHour && currentMinute > 0)),
+ [2m45[0m │             dateValue
+ [2m46[0m │         });
+ [2m47[0m │ 
+ [2m48[0m │         const dateValue = disablePassedTime ? new Date(disablePassedTime) : new Date(); dateValueForHalfHour.setHours(i, 30, 0, 0);
+    · [38;2;30;201;212m              ────┬────[0m
+    ·                   [38;2;30;201;212m╰── [38;2;30;201;212m`dateValue` redefined here[0m[0m
+ [2m49[0m │ 
+ [2m50[0m │         timeSlots.push({
+ [2m51[0m │             label: `${hour}:30`,
+    ╰────
+
+Import trace for requested module:
+./src/components/dates/date-time-picker.tsx
+./src/components/home/search-section.tsx
+./src/components/home/content.tsx
+ [32m[1m✓[22m[39m Compiled in 1347ms (5422 modules)
+Image with src "/images/landing-photo.avif" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectPosition". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+{
+  label: [32m'From'[39m,
+  selectedTimeSlot: {
+    label: [32m'18:30'[39m,
+    value: [32m'18:30'[39m,
+    disabled: [33mfalse[39m,
+    dateValue: [35m2024-05-04T10:30:00.000Z[39m
+  },
+  defaultDate: [35m2024-05-04T10:30:44.416Z[39m,
+  minimumDate: [35m2024-05-04T10:30:44.416Z[39m
+}
+{
+  label: [32m'Until'[39m,
+  selectedTimeSlot: {
+    label: [32m'18:30'[39m,
+    value: [32m'18:30'[39m,
+    disabled: [33mfalse[39m,
+    dateValue: [35m2024-05-05T10:30:00.000Z[39m
+  },
+  defaultDate: [35m2024-05-05T10:30:44.416Z[39m,
+  minimumDate: [35m2024-05-04T11:00:44.416Z[39m
+}
+{
+  label: [32m'From'[39m,
+  selectedTimeSlot: {
+    label: [32m'18:30'[39m,
+    value: [32m'18:30'[39m,
+    disabled: [33mfalse[39m,
+    dateValue: [35m2024-05-04T10:30:00.000Z[39m
+  },
+  defaultDate: [35m2024-05-04T10:30:56.186Z[39m,
+  minimumDate: [35m2024-05-04T10:30:56.186Z[39m
+}
+{
+  label: [32m'Until'[39m,
+  selectedTimeSlot: {
+    label: [32m'18:30'[39m,
+    value: [32m'18:30'[39m,
+    disabled: [33mfalse[39m,
+    dateValue: [35m2024-05-05T10:30:00.000Z[39m
+  },
+  defaultDate: [35m2024-05-05T10:30:56.186Z[39m,
+  minimumDate: [35m2024-05-04T11:00:56.186Z[39m
+}
+ [32m[1m✓[22m[39m Compiled in 2.9s (5422 modules)
+Image with src "/images/landing-photo.avif" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectPosition". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+{
+  label: [32m'From'[39m,
+  selectedTimeSlot: {
+    label: [32m'19:00'[39m,
+    value: [32m'19:00'[39m,
+    disabled: [33mfalse[39m,
+    dateValue: [35m2024-05-04T11:00:00.000Z[39m
+  },
+  defaultDate: [35m2024-05-04T10:33:44.307Z[39m,
+  minimumDate: [35m2024-05-04T10:33:44.307Z[39m
+}
+{
+  label: [32m'Until'[39m,
+  selectedTimeSlot: {
+    label: [32m'19:00'[39m,
+    value: [32m'19:00'[39m,
+    disabled: [33mfalse[39m,
+    dateValue: [35m2024-05-04T11:00:00.000Z[39m
+  },
+  defaultDate: [35m2024-05-05T10:33:44.307Z[39m,
+  minimumDate: [35m2024-05-04T11:03:44.307Z[39m
+}
+ [32m[1m✓[22m[39m Compiled in 3.6s (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 3.2s (5422 modules)
+Image with src "/images/landing-photo.avif" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectPosition". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+{
+  label: [32m'From'[39m,
+  selectedTimeSlot: {
+    label: [32m'19:00'[39m,
+    value: [32m'19:00'[39m,
+    disabled: [33mfalse[39m,
+    dateValue: [35m2024-05-04T11:00:00.000Z[39m
+  },
+  defaultDate: [35m2024-05-04T10:35:57.966Z[39m,
+  minimumDate: [35m2024-05-04T10:35:57.966Z[39m
+}
+{
+  label: [32m'Until'[39m,
+  selectedTimeSlot: {
+    label: [32m'19:00'[39m,
+    value: [32m'19:00'[39m,
+    disabled: [33mfalse[39m,
+    dateValue: [35m2024-05-05T11:00:00.000Z[39m
+  },
+  defaultDate: [35m2024-05-05T10:35:57.966Z[39m,
+  minimumDate: [35m2024-05-04T11:05:57.966Z[39m
+}
+ [32m[1m✓[22m[39m Compiled in 2.9s (5422 modules)
+Image with src "/images/landing-photo.avif" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectPosition". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+{
+  label: [32m'From'[39m,
+  selectedTimeSlot: {
+    label: [32m'19:00'[39m,
+    value: [32m'19:00'[39m,
+    disabled: [33mfalse[39m,
+    dateValue: [35m2024-05-04T11:00:00.000Z[39m
+  },
+  defaultDate: [35m2024-05-04T10:38:24.435Z[39m,
+  minimumDate: [35m2024-05-04T10:38:24.435Z[39m
+}
+{
+  label: [32m'Until'[39m,
+  selectedTimeSlot: {
+    label: [32m'00:00'[39m,
+    value: [32m'00:00'[39m,
+    disabled: [90mundefined[39m,
+    dateValue: [35m2024-05-03T16:00:00.000Z[39m
+  },
+  defaultDate: [35m2024-05-05T10:38:24.435Z[39m,
+  minimumDate: [35m2024-05-04T11:08:24.435Z[39m
+}
+ [32m[1m✓[22m[39m Compiled in 2s (5422 modules)
+Image with src "/images/landing-photo.avif" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectPosition". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+{
+  label: [32m'From'[39m,
+  selectedTimeSlot: {
+    label: [32m'19:00'[39m,
+    value: [32m'19:00'[39m,
+    disabled: [33mfalse[39m,
+    dateValue: [35m2024-05-04T11:00:00.000Z[39m
+  },
+  defaultDate: [35m2024-05-04T10:39:24.024Z[39m,
+  minimumDate: [35m2024-05-04T10:39:24.024Z[39m
+}
+{
+  label: [32m'Until'[39m,
+  selectedTimeSlot: {
+    label: [32m'00:00'[39m,
+    value: [32m'00:00'[39m,
+    disabled: [33mfalse[39m,
+    dateValue: [35m2024-05-04T16:00:00.000Z[39m
+  },
+  defaultDate: [35m2024-05-05T10:39:24.024Z[39m,
+  minimumDate: [35m2024-05-04T11:09:24.024Z[39m
+}
+ [32m[1m✓[22m[39m Compiled in 6.9s (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 1874ms (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 5.4s (5422 modules)
+Image with src "/images/landing-photo.avif" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectPosition". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+ [32m[1m✓[22m[39m Compiled in 6.2s (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 4.5s (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 1312ms (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 1260ms (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 1872ms (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 1579ms (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 4.3s (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 4.2s (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 2.6s (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 1480ms (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 1878ms (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 3.1s (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 6s (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 2.6s (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 2.3s (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 1235ms (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 1857ms (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 3.5s (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 1282ms (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 1832ms (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 1554ms (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 1559ms (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 1654ms (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 1938ms (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 1560ms (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 1252ms (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 1768ms (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 1535ms (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 5.3s (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 1679ms (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 2.1s (5422 modules)
+Image with src "/images/landing-photo.avif" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectPosition". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+ [32m[1m✓[22m[39m Compiled in 17.7s (5422 modules)
+Image with src "/images/landing-photo.avif" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectPosition". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+ [32m[1m✓[22m[39m Compiled in 8s (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 4s (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 2.2s (5422 modules)
+ [31m[1m⨯[22m[39m upstream image response failed for /images/landing-photo.avif ResponseAborted
+[90m    at Object.fetch (node:internal/deps/undici/undici:11372:11)[39m
+    at async globalThis.fetch (webpack-internal:///(rsc)/../../node_modules/[4mnext[24m/dist/server/lib/patch-fetch.js:193:16)
+    at async invokeRequest (/Users/j.bosque/Desktop/decazen-system/node_modules/[4mnext[24m/dist/server/lib/server-ipc/invoke-request.js:17:12)
+    at async /Users/j.bosque/Desktop/decazen-system/node_modules/[4mnext[24m/dist/server/next-server.js:596:35
+    at async imageOptimizer (/Users/j.bosque/Desktop/decazen-system/node_modules/[4mnext[24m/dist/server/image-optimizer.js:576:13)
+    at async cacheEntry.imageResponseCache.get.incrementalCache (/Users/j.bosque/Desktop/decazen-system/node_modules/[4mnext[24m/dist/server/next-server.js:176:65)
+    at async /Users/j.bosque/Desktop/decazen-system/node_modules/[4mnext[24m/dist/server/response-cache/index.js:90:36
+    at async /Users/j.bosque/Desktop/decazen-system/node_modules/[4mnext[24m/dist/lib/batcher.js:41:32
+ [32m[1m✓[22m[39m Compiled in 3.3s (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 4.3s (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 1740ms (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 2.8s (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 1618ms (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 3.9s (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 2.1s (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 1952ms (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 3.9s (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 1744ms (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 23.1s (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 3.9s (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 1760ms (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 1990ms (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 1148ms (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 2.8s (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 2.3s (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 2s (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 18.8s (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 2.6s (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 2.4s (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 4.8s (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 3.7s (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 4.2s (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 2.2s (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 2.8s (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 1675ms (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 1512ms (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 4.1s (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 4.1s (5422 modules)
+ [32m[1m✓[22m[39m Compiled in 1827ms (5422 modules)
+Image with src "/images/landing-photo.avif" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectPosition". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+ [32m[1m✓[22m[39m Compiled in 65.6s (5422 modules)
+Image with src "/images/landing-photo.avif" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectPosition". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+ [32m[1m✓[22m[39m Compiled in 4.2s (5422 modules)
+Image with src "/images/landing-photo.avif" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectPosition". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+ [32m[1m✓[22m[39m Compiled in 8.4s (5422 modules)
+^C[?25h

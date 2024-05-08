@@ -11,3 +11,19 @@ body {
 * {
   box-sizing: border-box;
 }
+
+
+.app-tab-item[data-selected="true"] .tabIcon svg, .app-tab-item[data-selected="true"] .tabIcon svg path {
+  fill: var(--nextui-primary-foreground) !important
+}
+
+.app-tab-item .tabIcon svg, .app-tab-item .tabIcon svg path {
+  fill: hsl(var(--nextui-default-500) / var(--nextui-default-500-opacity, var(--tw-text-opacity)))
+}
+
+
+
+.btn-icon svg, .btn-icon svg path {
+  fill: hsl(var(--nextui-default-500) / var(--nextui-default-500-opacity, var(--tw-text-opacity)));
+  stroke: hsl(var(--nextui-default-500) / var(--nextui-default-500-opacity, var(--tw-text-opacity)));;
+}

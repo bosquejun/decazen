@@ -78,260 +78,164 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "packages/commerce-api/src/migrations/1714442582612-AddRolesAndPermissions.ts",
-        "hash": "11420369194334686806"
-      },
-      {
-        "file": "packages/commerce-api/data/seed-onboarding.json",
-        "hash": "16336867615676961097"
-      },
-      {
-        "file": ".eslintrc.json",
-        "hash": "18315524891129148814"
-      },
-      {
-        "file": "packages/commerce-api/src/services/onboarding.ts",
-        "hash": "8898504546218729870"
-      },
-      {
-        "file": "packages/commerce-api/src/models/README.md",
-        "hash": "1995591645162065927"
+        "file": "packages/commerce-api/src/admin/utils/sample-products.ts",
+        "hash": "15945858844141812860"
       },
       {
         "file": ".prettierrc",
         "hash": "16267754514737964994"
       },
       {
-        "file": "packages/commerce-api/src/api/admin/roles/route.ts",
-        "hash": "11756285287622624658"
-      },
-      {
-        "file": "packages/commerce-api/src/models/onboarding.ts",
-        "hash": "8831937695377680748"
-      },
-      {
-        "file": "packages/commerce-api/src/admin/components/shared/icons/active-circle-dotted-line.tsx",
-        "hash": "233379010267830683"
-      },
-      {
-        "file": "packages/commerce-api/src/api/store/custom/route.ts",
-        "hash": "13890230564957579700"
-      },
-      {
-        "file": ".editorconfig",
-        "hash": "5443105041930014821"
-      },
-      {
-        "file": "packages/commerce-api/src/api/README.md",
-        "hash": "13495935146038847888"
-      },
-      {
-        "file": "packages/commerce-api/src/types/onboarding.ts",
-        "hash": "8582557222040124617"
-      },
-      {
-        "file": "packages/commerce-api/src/services/__tests__/test-service.spec.ts",
-        "hash": "10841295831694760003"
-      },
-      {
-        "file": "packages/commerce-api/src/admin/components/onboarding-flow/nextjs/products/product-detail.tsx",
-        "hash": "17713372232744727025"
-      },
-      {
-        "file": "packages/commerce-api/src/admin/widgets/onboarding-flow/onboarding-flow.tsx",
-        "hash": "8147545397502039552"
-      },
-      {
-        "file": "packages/commerce-api/medusa-config.js",
-        "hash": "9184322978049882356"
-      },
-      {
-        "file": "packages/commerce-api/src/admin/utils/prepare-region.ts",
-        "hash": "1122732976742888357"
-      },
-      {
-        "file": "packages/commerce-api/src/api/admin/custom/route.ts",
-        "hash": "13890230564957579700"
-      },
-      {
-        "file": "packages/commerce-api/src/migrations/1685715079776-CreateOnboarding.ts",
-        "hash": "14025950110605170570"
-      },
-      {
-        "file": "packages/commerce-api/src/api/middlewares/requestContext.ts",
-        "hash": "10902158440081810750"
-      },
-      {
-        "file": "packages/commerce-api/src/services/user.ts",
-        "hash": "515140237638379335"
-      },
-      {
-        "file": "packages/commerce-api/src/admin/components/onboarding-flow/default/products/products-list.tsx",
-        "hash": "16745109944870282092"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "5635730853208612922"
-      },
-      {
         "file": "packages/commerce-api/src/models/store.ts",
         "hash": "18320709041206389753"
-      },
-      {
-        "file": "packages/commerce-api/src/api/admin/roles/[id]/users/[user_id]/route.ts",
-        "hash": "12506639166130311430"
-      },
-      {
-        "file": ".vscode/extensions.json",
-        "hash": "4934098906304722861"
-      },
-      {
-        "file": "packages/commerce-api/src/admin/components/shared/card.tsx",
-        "hash": "1577471430259739352"
-      },
-      {
-        "file": "packages/commerce-api/src/index.d.ts",
-        "hash": "1711328173727943412"
-      },
-      {
-        "file": "packages/commerce-api/src/loaders/README.md",
-        "hash": "10660434921891962153"
-      },
-      {
-        "file": "packages/commerce-api/src/migrations/1686062614694-AddOnboardingProduct.ts",
-        "hash": "2005019220198930518"
-      },
-      {
-        "file": "packages/commerce-api/src/admin/components/onboarding-flow/nextjs/orders/orders-list.tsx",
-        "hash": "12712304274524934969"
-      },
-      {
-        "file": "packages/commerce-api/src/admin/components/shared/accordion.tsx",
-        "hash": "14037497172216344305"
-      },
-      {
-        "file": "packages/commerce-api/.yarnrc.yml",
-        "hash": "625637690827025316"
-      },
-      {
-        "file": "migrations.json",
-        "hash": "15086099653130346681"
-      },
-      {
-        "file": "packages/commerce-api/package.json",
-        "hash": "16813684660392918063"
-      },
-      {
-        "file": "packages/commerce-api/src/admin/components/shared/icons/get-started.tsx",
-        "hash": "11323825605618787475"
-      },
-      {
-        "file": "packages/commerce-api/src/subscribers/README.md",
-        "hash": "1220049613484393826"
-      },
-      {
-        "file": "tools/generators/.gitkeep",
-        "hash": "3244421341483603138"
-      },
-      {
-        "file": "packages/commerce-api/.github/dependabot.yml",
-        "hash": "14865394085076449194"
-      },
-      {
-        "file": "packages/commerce-api/src/subscribers/orderNotifier.ts",
-        "hash": "3841933867755687556"
-      },
-      {
-        "file": "packages/commerce-api/src/api/admin/onboarding/route.ts",
-        "hash": "11933215772442209104"
-      },
-      {
-        "file": "packages/commerce-api/src/admin/components/onboarding-flow/nextjs/orders/order-detail.tsx",
-        "hash": "10447788909358603106"
-      },
-      {
-        "file": "packages/commerce-api/tsconfig.admin.json",
-        "hash": "1981531487662584767"
-      },
-      {
-        "file": "packages/commerce-api/src/admin/utils/sample-products.ts",
-        "hash": "15945858844141812860"
-      },
-      {
-        "file": "packages/commerce-api/.gitignore",
-        "hash": "2829109799900650371"
-      },
-      {
-        "file": "packages/commerce-api/src/admin/components/onboarding-flow/default/orders/order-detail.tsx",
-        "hash": "14652693783601048423"
-      },
-      {
-        "file": "packages/commerce-api/index.js",
-        "hash": "11332509669139498464"
-      },
-      {
-        "file": "packages/commerce-api/src/services/role.ts",
-        "hash": "16421595966999913658"
-      },
-      {
-        "file": "packages/commerce-api/src/services/permission.ts",
-        "hash": "2162008040008589973"
-      },
-      {
-        "file": "packages/commerce-api/src/admin/utils/prepare-shipping-options.ts",
-        "hash": "6775531635050252093"
-      },
-      {
-        "file": "packages/commerce-api/src/services/README.md",
-        "hash": "15665165228718904501"
-      },
-      {
-        "file": "nx.json",
-        "hash": "10470116806489399792"
-      },
-      {
-        "file": "packages/commerce-api/src/jobs/README.md",
-        "hash": "12111484424405280251"
-      },
-      {
-        "file": "packages/commerce-api/src/migrations/README.md",
-        "hash": "6111196874685980957"
-      },
-      {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
-      },
-      {
-        "file": "packages/commerce-api/src/repositories/role.ts",
-        "hash": "11153153335031287407"
-      },
-      {
-        "file": "packages/commerce-api/tsconfig.spec.json",
-        "hash": "16985616173582507638"
-      },
-      {
-        "file": "packages/commerce-api/src/repositories/permission.ts",
-        "hash": "17115955963015591197"
       },
       {
         "file": "packages/commerce-api/src/utils/common.ts",
         "hash": "17296413563417515688"
       },
       {
-        "file": ".eslintignore",
-        "hash": "7663861978715868291"
+        "file": "packages/commerce-api/src/loaders/README.md",
+        "hash": "10660434921891962153"
       },
       {
-        "file": "packages/commerce-api/src/admin/types/icon-type.ts",
-        "hash": "7729595327172202755"
+        "file": "packages/commerce-api/src/admin/components/onboarding-flow/nextjs/orders/orders-list.tsx",
+        "hash": "12712304274524934969"
+      },
+      {
+        "file": "packages/commerce-api/src/subscribers/README.md",
+        "hash": "1220049613484393826"
       },
       {
         "file": "packages/commerce-api/src/repositories/user.ts",
         "hash": "3572835889674289795"
       },
       {
+        "file": "packages/commerce-api/src/admin/widgets/onboarding-flow/onboarding-flow.tsx",
+        "hash": "8147545397502039552"
+      },
+      {
+        "file": "packages/commerce-api/src/services/permission.ts",
+        "hash": "2162008040008589973"
+      },
+      {
+        "file": "packages/commerce-api/src/admin/components/onboarding-flow/default/orders/orders-list.tsx",
+        "hash": "13571458323173511683"
+      },
+      {
+        "file": "packages/commerce-api/src/migrations/1714555900321-StoreHandle.ts",
+        "hash": "6486485990469647122"
+      },
+      {
+        "file": "packages/commerce-api/src/models/permission.ts",
+        "hash": "16619408821688751476"
+      },
+      {
+        "file": "packages/commerce-api/src/migrations/1685715079776-CreateOnboarding.ts",
+        "hash": "14025950110605170570"
+      },
+      {
+        "file": "packages/commerce-api/src/migrations/1714553282877-add-user-store-id.ts",
+        "hash": "14143786250544323088"
+      },
+      {
+        "file": "packages/commerce-api/src/repositories/permission.ts",
+        "hash": "17115955963015591197"
+      },
+      {
+        "file": "packages/commerce-api/src/migrations/1714557020626-RemoveUniqueDefaultSalesChannel.ts",
+        "hash": "10953955462279735285"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "4934098906304722861"
+      },
+      {
+        "file": "packages/commerce-api/src/api/store/custom/route.ts",
+        "hash": "13890230564957579700"
+      },
+      {
+        "file": "packages/commerce-api/package.json",
+        "hash": "16813684660392918063"
+      },
+      {
+        "file": "packages/commerce-api/src/migrations/1714442582612-AddRolesAndPermissions.ts",
+        "hash": "11420369194334686806"
+      },
+      {
+        "file": "packages/commerce-api/src/services/README.md",
+        "hash": "15665165228718904501"
+      },
+      {
+        "file": "packages/commerce-api/src/admin/types/icon-type.ts",
+        "hash": "7729595327172202755"
+      },
+      {
+        "file": "packages/commerce-api/src/admin/components/onboarding-flow/nextjs/products/product-detail.tsx",
+        "hash": "17713372232744727025"
+      },
+      {
+        "file": "packages/commerce-api/src/admin/components/onboarding-flow/default/products/product-detail.tsx",
+        "hash": "4750921405010654695"
+      },
+      {
+        "file": "packages/commerce-api/data/seed-onboarding.json",
+        "hash": "16336867615676961097"
+      },
+      {
+        "file": "packages/commerce-api/.gitignore",
+        "hash": "2829109799900650371"
+      },
+      {
+        "file": "packages/commerce-api/tsconfig.spec.json",
+        "hash": "16985616173582507638"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "18315524891129148814"
+      },
+      {
+        "file": "package.json",
+        "hash": "4502935703767322151"
+      },
+      {
+        "file": "packages/commerce-api/src/services/user.ts",
+        "hash": "515140237638379335"
+      },
+      {
+        "file": "packages/commerce-api/src/repositories/store.ts",
+        "hash": "17455144225817911252"
+      },
+      {
+        "file": "packages/commerce-api/data/seed.json",
+        "hash": "16507383503880355634"
+      },
+      {
+        "file": "packages/commerce-api/.babelrc.js",
+        "hash": "16721375169845064248"
+      },
+      {
         "file": "packages/commerce-api/.env.template",
         "hash": "6407052403275287937"
+      },
+      {
+        "file": "packages/commerce-api/medusa-config.js",
+        "hash": "9184322978049882356"
+      },
+      {
+        "file": "packages/commerce-api/tsconfig.admin.json",
+        "hash": "1981531487662584767"
+      },
+      {
+        "file": "packages/commerce-api/index.js",
+        "hash": "11332509669139498464"
+      },
+      {
+        "file": "nx.json",
+        "hash": "10470116806489399792"
+      },
+      {
+        "file": "packages/commerce-api/src/models/onboarding.ts",
+        "hash": "8831937695377680748"
       },
       {
         "file": "packages/commerce-api/README.md",
@@ -342,108 +246,204 @@
         "hash": "3244421341483603138"
       },
       {
-        "file": "packages/commerce-api/tsconfig.json",
-        "hash": "13893857202913260364"
-      },
-      {
-        "file": "packages/commerce-api/src/migrations/1690996567455-CorrectOnboardingFields.ts",
-        "hash": "11714851616009479594"
-      },
-      {
-        "file": "packages/commerce-api/data/seed.json",
-        "hash": "16507383503880355634"
-      },
-      {
-        "file": "packages/commerce-api/src/migrations/1714555900321-StoreHandle.ts",
-        "hash": "6486485990469647122"
-      },
-      {
-        "file": "packages/commerce-api/src/models/user.ts",
-        "hash": "13811321116405784283"
-      },
-      {
-        "file": "packages/commerce-api/src/admin/components/onboarding-flow/nextjs/products/products-list.tsx",
-        "hash": "1682273375854334371"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "7788264000166780777"
-      },
-      {
-        "file": "packages/commerce-api/src/admin/components/onboarding-flow/default/orders/orders-list.tsx",
-        "hash": "13571458323173511683"
-      },
-      {
-        "file": "packages/commerce-api/src/services/store.ts",
-        "hash": "16464426126061660981"
-      },
-      {
-        "file": "yarn.lock",
-        "hash": "12909311166984072466"
-      },
-      {
-        "file": "packages/commerce-api/src/admin/components/onboarding-flow/default/products/product-detail.tsx",
-        "hash": "4750921405010654695"
-      },
-      {
-        "file": "packages/commerce-api/src/api/middlewares/permissions.ts",
-        "hash": "6944925669459045127"
-      },
-      {
-        "file": ".prettierignore",
-        "hash": "17733650430415207254"
-      },
-      {
-        "file": "packages/commerce-api/src/repositories/store.ts",
-        "hash": "17455144225817911252"
-      },
-      {
-        "file": "packages/commerce-api/src/api/middlewares.ts",
-        "hash": "16117043357035226393"
-      },
-      {
-        "file": "packages/commerce-api/tsconfig.server.json",
-        "hash": "5211483096704132790"
+        "file": "packages/commerce-api/.github/dependabot.yml",
+        "hash": "14865394085076449194"
       },
       {
         "file": "jest.config.ts",
         "hash": "3494843969422251966"
       },
       {
-        "file": "tools/tsconfig.tools.json",
-        "hash": "16088922570277978783"
+        "file": "packages/commerce-api/tsconfig.server.json",
+        "hash": "5211483096704132790"
       },
       {
-        "file": "packages/commerce-api/src/models/role.ts",
-        "hash": "4106723231884489399"
+        "file": "packages/commerce-api/src/services/role.ts",
+        "hash": "16421595966999913658"
       },
       {
-        "file": "packages/commerce-api/src/repositories/onboarding.ts",
-        "hash": "17877441858735508748"
+        "file": "packages/commerce-api/src/services/__tests__/test-service.spec.ts",
+        "hash": "10841295831694760003"
       },
       {
-        "file": "packages/commerce-api/src/models/permission.ts",
-        "hash": "16619408821688751476"
+        "file": "packages/commerce-api/src/admin/components/shared/card.tsx",
+        "hash": "1577471430259739352"
+      },
+      {
+        "file": "packages/commerce-api/src/admin/components/shared/icons/get-started.tsx",
+        "hash": "11323825605618787475"
+      },
+      {
+        "file": "packages/commerce-api/src/subscribers/orderNotifier.ts",
+        "hash": "3841933867755687556"
+      },
+      {
+        "file": "packages/commerce-api/src/migrations/1686062614694-AddOnboardingProduct.ts",
+        "hash": "2005019220198930518"
+      },
+      {
+        "file": "packages/commerce-api/src/api/admin/custom/route.ts",
+        "hash": "13890230564957579700"
       },
       {
         "file": "packages/commerce-api/.vscode/settings.json",
         "hash": "17072122453326406118"
       },
       {
-        "file": "package.json",
-        "hash": "4502935703767322151"
+        "file": "packages/commerce-api/src/jobs/README.md",
+        "hash": "12111484424405280251"
       },
       {
-        "file": "packages/commerce-api/.babelrc.js",
-        "hash": "16721375169845064248"
+        "file": "packages/commerce-api/src/api/middlewares/permissions.ts",
+        "hash": "6944925669459045127"
       },
       {
-        "file": "packages/commerce-api/src/migrations/1714553282877-add-user-store-id.ts",
-        "hash": "14143786250544323088"
+        "file": "packages/commerce-api/.yarnrc.yml",
+        "hash": "625637690827025316"
       },
       {
-        "file": "packages/commerce-api/src/migrations/1714557020626-RemoveUniqueDefaultSalesChannel.ts",
-        "hash": "10953955462279735285"
+        "file": "packages/commerce-api/src/api/README.md",
+        "hash": "13495935146038847888"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "7788264000166780777"
+      },
+      {
+        "file": "packages/commerce-api/tsconfig.json",
+        "hash": "13893857202913260364"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "17733650430415207254"
+      },
+      {
+        "file": "packages/commerce-api/src/admin/utils/prepare-region.ts",
+        "hash": "1122732976742888357"
+      },
+      {
+        "file": "packages/commerce-api/src/models/README.md",
+        "hash": "1995591645162065927"
+      },
+      {
+        "file": ".eslintignore",
+        "hash": "7663861978715868291"
+      },
+      {
+        "file": "packages/commerce-api/src/models/role.ts",
+        "hash": "4106723231884489399"
+      },
+      {
+        "file": "migrations.json",
+        "hash": "15086099653130346681"
+      },
+      {
+        "file": "packages/commerce-api/src/admin/components/shared/icons/active-circle-dotted-line.tsx",
+        "hash": "233379010267830683"
+      },
+      {
+        "file": "packages/commerce-api/src/admin/components/onboarding-flow/default/orders/order-detail.tsx",
+        "hash": "14652693783601048423"
+      },
+      {
+        "file": "packages/commerce-api/src/admin/components/shared/accordion.tsx",
+        "hash": "14037497172216344305"
+      },
+      {
+        "file": "packages/commerce-api/src/repositories/onboarding.ts",
+        "hash": "17877441858735508748"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "5635730853208612922"
+      },
+      {
+        "file": "tools/tsconfig.tools.json",
+        "hash": "16088922570277978783"
+      },
+      {
+        "file": "packages/commerce-api/src/api/admin/roles/[id]/users/[user_id]/route.ts",
+        "hash": "12506639166130311430"
+      },
+      {
+        "file": "yarn.lock",
+        "hash": "12909311166984072466"
+      },
+      {
+        "file": "packages/commerce-api/src/types/onboarding.ts",
+        "hash": "8582557222040124617"
+      },
+      {
+        "file": "tools/generators/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "packages/commerce-api/src/api/middlewares.ts",
+        "hash": "16117043357035226393"
+      },
+      {
+        "file": "packages/commerce-api/src/migrations/README.md",
+        "hash": "6111196874685980957"
+      },
+      {
+        "file": "packages/commerce-api/src/migrations/1690996567455-CorrectOnboardingFields.ts",
+        "hash": "11714851616009479594"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": "packages/commerce-api/src/api/admin/onboarding/route.ts",
+        "hash": "11933215772442209104"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": "packages/commerce-api/src/admin/components/onboarding-flow/nextjs/products/products-list.tsx",
+        "hash": "1682273375854334371"
+      },
+      {
+        "file": "packages/commerce-api/src/index.d.ts",
+        "hash": "1711328173727943412"
+      },
+      {
+        "file": "packages/commerce-api/src/models/user.ts",
+        "hash": "13811321116405784283"
+      },
+      {
+        "file": "packages/commerce-api/src/admin/components/onboarding-flow/nextjs/orders/order-detail.tsx",
+        "hash": "10447788909358603106"
+      },
+      {
+        "file": "packages/commerce-api/src/services/store.ts",
+        "hash": "16464426126061660981"
+      },
+      {
+        "file": "packages/commerce-api/src/services/onboarding.ts",
+        "hash": "8898504546218729870"
+      },
+      {
+        "file": "packages/commerce-api/src/repositories/role.ts",
+        "hash": "11153153335031287407"
+      },
+      {
+        "file": "packages/commerce-api/src/api/admin/roles/route.ts",
+        "hash": "11756285287622624658"
+      },
+      {
+        "file": "packages/commerce-api/src/api/middlewares/requestContext.ts",
+        "hash": "10902158440081810750"
+      },
+      {
+        "file": "packages/commerce-api/src/admin/components/onboarding-flow/default/products/products-list.tsx",
+        "hash": "16745109944870282092"
+      },
+      {
+        "file": "packages/commerce-api/src/admin/utils/prepare-shipping-options.ts",
+        "hash": "6775531635050252093"
       }
     ],
     "projectFileMap": {
@@ -580,7 +580,7 @@
         },
         {
           "file": "packages/parking/src/components/dates/date-time-picker.tsx",
-          "hash": "3183284658137484747",
+          "hash": "1422076320347981910",
           "deps": [
             "npm:@internationalized/date",
             "npm:@nextui-org/react",
@@ -639,7 +639,7 @@
         },
         {
           "file": "packages/parking/src/components/home/search-section.tsx",
-          "hash": "3147759599615939241",
+          "hash": "9369926653536596471",
           "deps": [
             "npm:@nextui-org/react",
             "npm:iconsax-react",
@@ -907,11 +907,11 @@
         },
         {
           "file": "packages/parking/src/components/navbar/darkmodeswitch.tsx",
-          "hash": "12007397502063997264",
+          "hash": "15368347042090691006",
           "deps": [
-            "npm:react",
-            "npm:next-themes",
-            "npm:@nextui-org/react"
+            "npm:@nextui-org/react",
+            "npm:iconsax-react",
+            "npm:next-themes"
           ]
         },
         {
@@ -923,7 +923,7 @@
         },
         {
           "file": "packages/parking/src/components/navbar/navbar.tsx",
-          "hash": "3402452719036107234",
+          "hash": "8794308726911959356",
           "deps": [
             "npm:@nextui-org/react",
             "npm:react"
@@ -1032,11 +1032,15 @@
         },
         {
           "file": "packages/parking/src/styles/globals.css",
-          "hash": "4488054224300732640"
+          "hash": "5084538812896671693"
+        },
+        {
+          "file": "packages/parking/src/styles/themes/light-theme.js",
+          "hash": "5064724869892221992"
         },
         {
           "file": "packages/parking/tailwind.config.js",
-          "hash": "4883489940392772837",
+          "hash": "15070369722332665910",
           "deps": [
             "npm:@nx/react",
             "npm:path",
@@ -1050,6 +1054,10 @@
         {
           "file": "packages/parking/tsconfig.spec.json",
           "hash": "6922413205408300107"
+        },
+        {
+          "file": "packages/parking/src/styles/themes/dark-theme.js",
+          "hash": "9833369943923522981"
         }
       ]
     }

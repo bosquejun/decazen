@@ -7,6 +7,7 @@ import { ArrowDown, ArrowRight, SearchNormal } from "iconsax-react";
 import moment from "moment";
 import React from "react";
 import DateTimePicker from "../dates/date-time-picker";
+import { Icon } from "../icons/Icon";
 import { CarIcon } from "../icons/car-icon";
 import { MotorIcon } from "../icons/motor-icon";
 
@@ -14,12 +15,12 @@ import { MotorIcon } from "../icons/motor-icon";
 const parkingType = [{
     id: "car",
     name: "Car",
-    icon: <CarIcon />,
+    icon: <Icon as={CarIcon} />,
 },
 {
     id: "motorcycle",
     name: "Motorcycle",
-    icon: <MotorIcon />,
+    icon: <Icon as={MotorIcon} />,
 },
 {
     id: "all",
@@ -204,17 +205,19 @@ export const SearchSection = () => {
                             />
                         </div>
 
-                        <div>
-                            <Spacer y={2} />
-                            <h2 className="text-2xl text-foreground dark:text-primary">
-                                Duration: {computeDuration(fromDate, untilDate)}
-                            </h2>
-                            <Spacer y={2} />
-                        </div>
+                        <div className="flex md:flex-row flex-col justify-between items-center">
+                            <div className="w-full">
+                                <Spacer y={2} />
+                                <h2 className="text-2xl text-foreground dark:text-primary">
+                                    Duration: {computeDuration(fromDate, untilDate)}
+                                </h2>
+                                <Spacer y={2} />
+                            </div>
 
-                        <Button color="primary" fullWidth size="lg">
-                            Show parking spaces
-                        </Button>
+                            <Button color="primary" fullWidth size="lg">
+                                Show parking spaces
+                            </Button>
+                        </div>
                     </div>
 
                 </CardBody>

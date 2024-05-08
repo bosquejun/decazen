@@ -1,8 +1,8 @@
 {
   "run": {
     "command": "nx run parking:dev",
-    "startTime": "2024-05-07T11:15:49.570Z",
-    "endTime": "2024-05-08T00:31:18.006Z",
+    "startTime": "2024-05-08T00:33:15.899Z",
+    "endTime": "2024-05-08T02:56:18.841Z",
     "inner": false
   },
   "tasks": [
@@ -10,9 +10,9 @@
       "taskId": "parking:dev",
       "target": "dev",
       "projectName": "parking",
-      "hash": "14336584446580106920",
-      "startTime": "2024-05-07T11:15:49.583Z",
-      "endTime": "2024-05-08T00:31:18.005Z",
+      "hash": "17137672278457749691",
+      "startTime": "2024-05-08T00:33:15.907Z",
+      "endTime": "2024-05-08T02:56:18.839Z",
       "params": "",
       "cacheStatus": "cache-miss",
       "status": 0

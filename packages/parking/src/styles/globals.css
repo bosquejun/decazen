@@ -14,16 +14,11 @@ body {
 
 
 .app-tab-item[data-selected="true"] .tabIcon svg, .app-tab-item[data-selected="true"] .tabIcon svg path {
-  fill: var(--nextui-primary-foreground) !important
+  @apply text-primary-foreground stroke-none
 }
 
 .app-tab-item .tabIcon svg, .app-tab-item .tabIcon svg path {
-  fill: hsl(var(--nextui-default-500) / var(--nextui-default-500-opacity, var(--tw-text-opacity)))
+  @apply text-default-500  stroke-none
 }
 
 
-
-.btn-icon svg, .btn-icon svg path {
-  fill: hsl(var(--nextui-default-500) / var(--nextui-default-500-opacity, var(--tw-text-opacity)));
-  stroke: hsl(var(--nextui-default-500) / var(--nextui-default-500-opacity, var(--tw-text-opacity)));;
-}

@@ -1,12 +1,14 @@
+import clsx from 'clsx';
 
 interface Props {
     color?: string;
     size?: number
+    className?: string;
 }
 
-export const MotorIcon = ({ color = "#ffffff", size = 24 }: Props) => {
+export const MotorIcon = ({ color, size = 24, className }: Props) => {
     return (
-        <svg fill={color} height={size + "px"} width={size + "px"} version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+        <svg className={clsx("text-foreground stroke-current", className)} fill='currentColor' height={size + "px"} width={size + "px"} version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 512 512">
             <g>
                 <g>

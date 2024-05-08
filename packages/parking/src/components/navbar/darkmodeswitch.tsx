@@ -1,6 +1,7 @@
 import { Button, Switch } from "@nextui-org/react";
 import { Moon, Sun1 } from "iconsax-react";
 import { useTheme as useNextTheme } from "next-themes";
+import { Icon } from "../icons/Icon";
 
 
 export const DarkModeSwitch = ({ iconMode }: { iconMode?: boolean }) => {
@@ -9,11 +10,11 @@ export const DarkModeSwitch = ({ iconMode }: { iconMode?: boolean }) => {
 
 
   if (iconMode) {
-    return <Button className="btn-icon" isIconOnly variant="light" onClick={() => {
+    return <Button isIconOnly variant="light" onClick={() => {
       setTheme(resolvedTheme === "dark" ? "light" : "dark")
     }}>
       {
-        resolvedTheme === "dark" ? <Sun1 size="24" color="text-foreground" /> : <Moon size="24" color="text-foreground" />
+        resolvedTheme === "dark" ? <Icon as={Sun1} size="24" className="text-foreground stroke-foreground" /> : <Moon size="24" className="text-foreground  stroke-foreground" />
       }
     </Button>
   }

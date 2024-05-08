@@ -8063,3 +8063,1451 @@ Error: write EPIPE
 [NX Daemon Server] - 2024-05-08T00:31:19.674Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 2. Response time: 4.
 [NX Daemon Server] - 2024-05-08T00:31:20.302Z - Closed a connection. Number of open connections: 0
 [NX Daemon Server] - 2024-05-08T00:31:20.311Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:31:55.188Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was created or restored
+[NX Daemon Server] - 2024-05-08T00:31:55.188Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:31:55.291Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T00:31:55.291Z - [REQUEST]: packages/parking/src/components/home/card-parking-space.tsx
+[NX Daemon Server] - 2024-05-08T00:31:55.291Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T00:31:55.399Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 0.6054999977350235ms
+[NX Daemon Server] - 2024-05-08T00:32:01.222Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was modified
+[NX Daemon Server] - 2024-05-08T00:32:01.222Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:32:01.424Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T00:32:01.424Z - [REQUEST]: packages/parking/src/components/home/card-parking-space.tsx
+[NX Daemon Server] - 2024-05-08T00:32:01.424Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T00:32:01.497Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 0.5645419955253601ms
+[NX Daemon Server] - 2024-05-08T00:32:07.097Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was modified
+[NX Daemon Server] - 2024-05-08T00:32:07.097Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:32:07.499Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T00:32:07.499Z - [REQUEST]: packages/parking/src/components/home/card-parking-space.tsx
+[NX Daemon Server] - 2024-05-08T00:32:07.499Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T00:32:07.591Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 0.44520900398492813ms
+[NX Daemon Server] - 2024-05-08T00:32:57.703Z - [WATCHER]: packages/parking/src/components/home/content.tsx was modified
+[NX Daemon Server] - 2024-05-08T00:32:57.703Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:32:58.506Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T00:32:58.506Z - [REQUEST]: packages/parking/src/components/home/content.tsx
+[NX Daemon Server] - 2024-05-08T00:32:58.506Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T00:32:58.603Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 0.5772079974412918ms
+[NX Daemon Server] - 2024-05-08T00:33:15.853Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-05-08T00:33:15.854Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-05-08T00:33:15.854Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-05-08T00:33:15.855Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-05-08T00:33:15.856Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-05-08T00:33:15.858Z - Time taken for 'total for creating and serializing project graph' 0.8108329996466637ms
+[NX Daemon Server] - 2024-05-08T00:33:15.860Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-05-08T00:33:15.861Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 5.
+[NX Daemon Server] - 2024-05-08T00:33:15.898Z - [REQUEST]: Responding to the client. handleHashTasks
+[NX Daemon Server] - 2024-05-08T00:33:15.898Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 0.463249996304512ms
+[NX Daemon Server] - 2024-05-08T00:33:15.898Z - Done responding to the client handleHashTasks
+[NX Daemon Server] - 2024-05-08T00:33:15.898Z - Handled HASH_TASKS. Handling time: 17. Response time: 0.
+[NX Daemon Server] - 2024-05-08T00:33:16.588Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-05-08T00:33:16.779Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-05-08T00:33:16.779Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-05-08T00:33:16.781Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-05-08T00:33:16.781Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-05-08T00:33:16.783Z - Time taken for 'total for creating and serializing project graph' 0.6840829998254776ms
+[NX Daemon Server] - 2024-05-08T00:33:16.784Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-05-08T00:33:16.784Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 3.
+[NX Daemon Server] - 2024-05-08T00:33:17.761Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-05-08T00:33:17.763Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-05-08T00:33:17.763Z - Established a connection. Number of open connections: 3
+[NX Daemon Server] - 2024-05-08T00:33:17.765Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-05-08T00:33:17.766Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-05-08T00:33:17.767Z - Time taken for 'total for creating and serializing project graph' 0.9680420011281967ms
+[NX Daemon Server] - 2024-05-08T00:33:17.771Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-05-08T00:33:17.771Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 5.
+[NX Daemon Server] - 2024-05-08T00:33:17.814Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-05-08T00:33:17.815Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-05-08T00:33:17.819Z - Time taken for 'total for creating and serializing project graph' 0.8885829970240593ms
+[NX Daemon Server] - 2024-05-08T00:33:17.820Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-05-08T00:33:17.820Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 5.
+[NX Daemon Server] - 2024-05-08T00:33:19.143Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:33:19.198Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:33:19.256Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:33:19.688Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:33:19.750Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:33:19.994Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:33:20.001Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-05-08T00:33:20.002Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-05-08T00:33:20.004Z - Time taken for 'total for creating and serializing project graph' 0.8100420013070107ms
+[NX Daemon Server] - 2024-05-08T00:33:20.033Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-05-08T00:33:20.033Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 31.
+[NX Daemon Server] - 2024-05-08T00:33:20.062Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:33:31.478Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:33:31.554Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:33:35.185Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:33:35.320Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:33:36.401Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:33:38.003Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:33:38.055Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:33:38.112Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:33:39.883Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:33:40.139Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:33:40.484Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:33:40.583Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:33:41.112Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:34:04.866Z - [WATCHER]: packages/parking/src/components/home/content.tsx was modified
+[NX Daemon Server] - 2024-05-08T00:34:04.867Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:34:04.971Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T00:34:04.971Z - [REQUEST]: packages/parking/src/components/home/content.tsx
+[NX Daemon Server] - 2024-05-08T00:34:04.971Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T00:34:05.083Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 1.0982079952955246ms
+[NX Daemon Server] - 2024-05-08T00:34:05.756Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:34:06.283Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:34:06.682Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:34:42.656Z - [WATCHER]: packages/parking/src/components/home/content.tsx was modified
+[NX Daemon Server] - 2024-05-08T00:34:42.657Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:34:42.860Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T00:34:42.860Z - [REQUEST]: packages/parking/src/components/home/content.tsx
+[NX Daemon Server] - 2024-05-08T00:34:42.860Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T00:34:42.994Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 0.6649999991059303ms
+[NX Daemon Server] - 2024-05-08T00:34:43.019Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:34:44.151Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:34:46.662Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:35:02.023Z - [WATCHER]: packages/parking/src/components/home/content.tsx was modified
+[NX Daemon Server] - 2024-05-08T00:35:02.024Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:35:02.302Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:35:02.425Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T00:35:02.426Z - [REQUEST]: packages/parking/src/components/home/content.tsx
+[NX Daemon Server] - 2024-05-08T00:35:02.426Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T00:35:02.506Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 0.4773330017924309ms
+[NX Daemon Server] - 2024-05-08T00:35:03.224Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:36:02.635Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:36:02.775Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:36:04.120Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:36:04.393Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:36:04.473Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:36:04.556Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:36:04.631Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:36:04.759Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:36:05.017Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:36:05.263Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:37:15.835Z - [WATCHER]: packages/parking/src/components/layout/main-layout.tsx was modified
+[NX Daemon Server] - 2024-05-08T00:37:15.836Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:37:16.352Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:37:16.639Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T00:37:16.639Z - [REQUEST]: packages/parking/src/components/layout/main-layout.tsx
+[NX Daemon Server] - 2024-05-08T00:37:16.639Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T00:37:17.068Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 0.9416669979691505ms
+[NX Daemon Server] - 2024-05-08T00:37:17.823Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:37:23.018Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:37:35.649Z - [WATCHER]: packages/parking/src/components/layout/main-layout.tsx was modified
+[NX Daemon Server] - 2024-05-08T00:37:35.650Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:37:35.897Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:37:36.913Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:37:37.254Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T00:37:37.254Z - [REQUEST]: packages/parking/src/components/layout/main-layout.tsx
+[NX Daemon Server] - 2024-05-08T00:37:37.254Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T00:37:37.360Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 1.0074160024523735ms
+[NX Daemon Server] - 2024-05-08T00:37:48.743Z - [WATCHER]: packages/parking/src/components/layout/main-layout.tsx was modified
+[NX Daemon Server] - 2024-05-08T00:37:48.744Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:37:48.989Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:37:49.755Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:37:51.965Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T00:37:51.966Z - [REQUEST]: packages/parking/src/components/layout/main-layout.tsx
+[NX Daemon Server] - 2024-05-08T00:37:51.968Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T00:37:52.256Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 2.2669999971985817ms
+[NX Daemon Server] - 2024-05-08T00:38:27.369Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:38:27.379Z - [WATCHER]: packages/parking/src/components/home/content.tsx was modified
+[NX Daemon Server] - 2024-05-08T00:38:28.043Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:38:29.105Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:38:33.784Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T00:38:33.785Z - [REQUEST]: packages/parking/src/components/home/content.tsx
+[NX Daemon Server] - 2024-05-08T00:38:33.785Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T00:38:33.884Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 0.9282499998807907ms
+[NX Daemon Server] - 2024-05-08T00:38:39.024Z - [WATCHER]: packages/parking/src/components/layout/main-layout.tsx was modified
+[NX Daemon Server] - 2024-05-08T00:38:39.024Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:38:39.243Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:38:40.237Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:38:45.427Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T00:38:45.428Z - [REQUEST]: packages/parking/src/components/layout/main-layout.tsx
+[NX Daemon Server] - 2024-05-08T00:38:45.428Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T00:38:45.510Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 1.0027909949421883ms
+[NX Daemon Server] - 2024-05-08T00:38:48.475Z - [WATCHER]: packages/parking/src/components/home/content.tsx was modified
+[NX Daemon Server] - 2024-05-08T00:38:48.475Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:38:48.654Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:38:50.315Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:38:50.575Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:38:54.905Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T00:38:54.907Z - [REQUEST]: packages/parking/src/components/home/content.tsx
+[NX Daemon Server] - 2024-05-08T00:38:54.907Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T00:38:55.040Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 4.4426669999957085ms
+[NX Daemon Server] - 2024-05-08T00:39:51.506Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:39:51.620Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:39:51.672Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:39:51.752Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:39:51.807Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:39:53.028Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:39:53.427Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:39:53.512Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:39:53.627Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:39:53.827Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:40:06.271Z - [WATCHER]: packages/parking/src/components/layout/main-layout.tsx was modified
+[NX Daemon Server] - 2024-05-08T00:40:06.271Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:40:06.809Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:40:07.724Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:40:12.675Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T00:40:12.675Z - [REQUEST]: packages/parking/src/components/layout/main-layout.tsx
+[NX Daemon Server] - 2024-05-08T00:40:12.675Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T00:40:12.768Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 0.9614579975605011ms
+[NX Daemon Server] - 2024-05-08T00:40:45.088Z - [WATCHER]: packages/parking/src/components/home/content.tsx was modified
+[NX Daemon Server] - 2024-05-08T00:40:45.089Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:40:46.519Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:40:47.545Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:40:51.514Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T00:40:51.514Z - [REQUEST]: packages/parking/src/components/home/content.tsx
+[NX Daemon Server] - 2024-05-08T00:40:51.514Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T00:40:51.650Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 9.213083997368813ms
+[NX Daemon Server] - 2024-05-08T00:41:25.316Z - [WATCHER]: packages/parking/src/components/layout/main-layout.tsx was modified
+[NX Daemon Server] - 2024-05-08T00:41:25.317Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:41:25.731Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:41:26.935Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:41:31.728Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T00:41:31.729Z - [REQUEST]: packages/parking/src/components/layout/main-layout.tsx
+[NX Daemon Server] - 2024-05-08T00:41:31.730Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T00:41:31.838Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 2.5002079978585243ms
+[NX Daemon Server] - 2024-05-08T00:41:38.318Z - [WATCHER]: packages/parking/src/components/layout/main-layout.tsx was modified
+[NX Daemon Server] - 2024-05-08T00:41:38.319Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:41:38.505Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:41:39.216Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:41:44.749Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T00:41:44.751Z - [REQUEST]: packages/parking/src/components/layout/main-layout.tsx
+[NX Daemon Server] - 2024-05-08T00:41:44.751Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T00:41:44.860Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 14.10945899784565ms
+[NX Daemon Server] - 2024-05-08T00:41:59.068Z - [WATCHER]: packages/parking/src/components/home/content.tsx was modified
+[NX Daemon Server] - 2024-05-08T00:41:59.069Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:41:59.404Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:42:00.136Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:42:05.491Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T00:42:05.492Z - [REQUEST]: packages/parking/src/components/home/content.tsx
+[NX Daemon Server] - 2024-05-08T00:42:05.492Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T00:42:05.603Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 3.8233339935541153ms
+[NX Daemon Server] - 2024-05-08T00:42:26.799Z - [WATCHER]: packages/parking/src/components/home/content.tsx was modified
+[NX Daemon Server] - 2024-05-08T00:42:26.799Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:42:27.368Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:42:27.980Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:42:33.227Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T00:42:33.228Z - [REQUEST]: packages/parking/src/components/home/content.tsx
+[NX Daemon Server] - 2024-05-08T00:42:33.228Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T00:42:33.346Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 2.91966699808836ms
+[NX Daemon Server] - 2024-05-08T00:42:58.343Z - [WATCHER]: packages/parking/src/components/home/content.tsx was modified
+[NX Daemon Server] - 2024-05-08T00:42:58.343Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:42:59.001Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:42:59.771Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:43:04.761Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T00:43:04.763Z - [REQUEST]: packages/parking/src/components/home/content.tsx
+[NX Daemon Server] - 2024-05-08T00:43:04.763Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T00:43:04.892Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 2.5825000032782555ms
+[NX Daemon Server] - 2024-05-08T00:43:12.060Z - [WATCHER]: packages/parking/src/components/home/content.tsx was modified
+[NX Daemon Server] - 2024-05-08T00:43:12.061Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:43:12.310Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:43:13.018Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:43:18.475Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T00:43:18.475Z - [REQUEST]: packages/parking/src/components/home/content.tsx
+[NX Daemon Server] - 2024-05-08T00:43:18.475Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T00:43:18.581Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 3.5634999945759773ms
+[NX Daemon Server] - 2024-05-08T00:43:33.812Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:43:33.813Z - [WATCHER]: packages/parking/src/components/layout/main-layout.tsx was modified
+[NX Daemon Server] - 2024-05-08T00:43:34.063Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:43:34.713Z - [WATCHER]: packages/parking/src/components/layout/main-layout.tsx was modified
+[NX Daemon Server] - 2024-05-08T00:43:34.713Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:43:35.133Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:43:35.334Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:43:35.823Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:43:40.227Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T00:43:40.228Z - [REQUEST]: packages/parking/src/components/layout/main-layout.tsx
+[NX Daemon Server] - 2024-05-08T00:43:40.228Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T00:43:40.472Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 2.4615420028567314ms
+[NX Daemon Server] - 2024-05-08T00:44:02.622Z - [WATCHER]: packages/parking/src/components/layout/main-layout.tsx was modified
+[NX Daemon Server] - 2024-05-08T00:44:02.627Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:44:03.029Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:44:04.038Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:44:07.667Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:44:09.034Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T00:44:09.034Z - [REQUEST]: packages/parking/src/components/layout/main-layout.tsx
+[NX Daemon Server] - 2024-05-08T00:44:09.034Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T00:44:09.154Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 1.1687079966068268ms
+[NX Daemon Server] - 2024-05-08T00:44:18.162Z - [WATCHER]: packages/parking/src/components/layout/main-layout.tsx was modified
+[NX Daemon Server] - 2024-05-08T00:44:18.163Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:44:18.494Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:44:19.287Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:44:24.320Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:44:24.571Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T00:44:24.571Z - [REQUEST]: packages/parking/src/components/layout/main-layout.tsx
+[NX Daemon Server] - 2024-05-08T00:44:24.571Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T00:44:24.768Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 1.016416996717453ms
+[NX Daemon Server] - 2024-05-08T00:44:25.381Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:44:34.915Z - [WATCHER]: packages/parking/src/components/layout/main-layout.tsx was modified
+[NX Daemon Server] - 2024-05-08T00:44:34.916Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:44:35.195Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:44:35.953Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:44:41.329Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T00:44:41.332Z - [REQUEST]: packages/parking/src/components/layout/main-layout.tsx
+[NX Daemon Server] - 2024-05-08T00:44:41.332Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T00:44:41.467Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 3.171749994158745ms
+[NX Daemon Server] - 2024-05-08T00:44:43.826Z - [WATCHER]: packages/parking/src/components/layout/main-layout.tsx was modified
+[NX Daemon Server] - 2024-05-08T00:44:43.826Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:44:44.169Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:44:45.243Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:44:50.249Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T00:44:50.251Z - [REQUEST]: packages/parking/src/components/layout/main-layout.tsx
+[NX Daemon Server] - 2024-05-08T00:44:50.251Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T00:44:50.393Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 3.9330829977989197ms
+[NX Daemon Server] - 2024-05-08T00:45:11.484Z - [WATCHER]: packages/parking/src/components/layout/main-layout.tsx was modified
+[NX Daemon Server] - 2024-05-08T00:45:11.485Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:45:11.681Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:45:12.660Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:45:13.779Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:45:13.889Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:45:14.452Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:45:17.914Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T00:45:17.915Z - [REQUEST]: packages/parking/src/components/layout/main-layout.tsx
+[NX Daemon Server] - 2024-05-08T00:45:17.916Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T00:45:18.065Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 2.8921249955892563ms
+[NX Daemon Server] - 2024-05-08T00:45:51.889Z - [WATCHER]: packages/parking/src/components/layout/main-layout.tsx was modified
+[NX Daemon Server] - 2024-05-08T00:45:51.890Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:45:52.301Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:45:53.305Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:45:58.302Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T00:45:58.303Z - [REQUEST]: packages/parking/src/components/layout/main-layout.tsx
+[NX Daemon Server] - 2024-05-08T00:45:58.303Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T00:45:58.463Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 4.518665999174118ms
+[NX Daemon Server] - 2024-05-08T00:46:03.592Z - [WATCHER]: packages/parking/src/components/layout/main-layout.tsx was modified
+[NX Daemon Server] - 2024-05-08T00:46:03.593Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:46:03.765Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:46:04.309Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:46:04.361Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:46:10.003Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T00:46:10.004Z - [REQUEST]: packages/parking/src/components/layout/main-layout.tsx
+[NX Daemon Server] - 2024-05-08T00:46:10.004Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T00:46:10.260Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 2.881750002503395ms
+[NX Daemon Server] - 2024-05-08T00:46:28.741Z - [WATCHER]: packages/parking/src/components/layout/main-layout.tsx was modified
+[NX Daemon Server] - 2024-05-08T00:46:28.742Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:46:29.674Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:46:29.865Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:46:35.145Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T00:46:35.145Z - [REQUEST]: packages/parking/src/components/layout/main-layout.tsx
+[NX Daemon Server] - 2024-05-08T00:46:35.145Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T00:46:35.243Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 1.0935830026865005ms
+[NX Daemon Server] - 2024-05-08T00:46:37.658Z - [WATCHER]: packages/parking/src/components/layout/main-layout.tsx was modified
+[NX Daemon Server] - 2024-05-08T00:46:37.658Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:46:37.820Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:46:39.069Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:46:44.101Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T00:46:44.101Z - [REQUEST]: packages/parking/src/components/layout/main-layout.tsx
+[NX Daemon Server] - 2024-05-08T00:46:44.102Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T00:46:44.295Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 7.803334005177021ms
+[NX Daemon Server] - 2024-05-08T00:47:03.756Z - [WATCHER]: packages/parking/src/components/home/content.tsx was modified
+[NX Daemon Server] - 2024-05-08T00:47:03.757Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:47:04.104Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:47:05.342Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:47:10.164Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T00:47:10.164Z - [REQUEST]: packages/parking/src/components/home/content.tsx
+[NX Daemon Server] - 2024-05-08T00:47:10.165Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T00:47:10.366Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 2.3297080025076866ms
+[NX Daemon Server] - 2024-05-08T00:47:35.095Z - [WATCHER]: packages/parking/src/components/home/content.tsx was modified
+[NX Daemon Server] - 2024-05-08T00:47:35.096Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:47:35.480Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:47:36.282Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:47:41.517Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T00:47:41.518Z - [REQUEST]: packages/parking/src/components/home/content.tsx
+[NX Daemon Server] - 2024-05-08T00:47:41.518Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T00:47:41.680Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 5.218542002141476ms
+[NX Daemon Server] - 2024-05-08T00:48:04.235Z - [WATCHER]: packages/parking/src/components/layout/main-layout.tsx was modified
+[NX Daemon Server] - 2024-05-08T00:48:04.237Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:48:04.538Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:48:05.728Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:48:10.643Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T00:48:10.643Z - [REQUEST]: packages/parking/src/components/layout/main-layout.tsx
+[NX Daemon Server] - 2024-05-08T00:48:10.643Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T00:48:10.760Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 1.8425830006599426ms
+[NX Daemon Server] - 2024-05-08T00:48:19.681Z - [WATCHER]: packages/parking/src/components/layout/main-layout.tsx was modified
+[NX Daemon Server] - 2024-05-08T00:48:19.682Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:48:19.851Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:48:20.408Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:48:23.969Z - [WATCHER]: packages/parking/src/components/layout/main-layout.tsx was modified
+[NX Daemon Server] - 2024-05-08T00:48:23.970Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:48:24.218Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:48:24.895Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:48:26.086Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T00:48:26.087Z - [REQUEST]: packages/parking/src/components/layout/main-layout.tsx
+[NX Daemon Server] - 2024-05-08T00:48:26.087Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T00:48:26.191Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 1.0159170031547546ms
+[NX Daemon Server] - 2024-05-08T00:48:29.100Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:48:31.699Z - [WATCHER]: packages/parking/src/components/layout/main-layout.tsx was modified
+[NX Daemon Server] - 2024-05-08T00:48:31.700Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:48:32.013Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:48:33.081Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:48:33.720Z - [WATCHER]: packages/parking/src/components/layout/main-layout.tsx was modified
+[NX Daemon Server] - 2024-05-08T00:48:33.720Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:48:33.969Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:48:34.472Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:48:38.123Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T00:48:38.125Z - [REQUEST]: packages/parking/src/components/layout/main-layout.tsx
+[NX Daemon Server] - 2024-05-08T00:48:38.125Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T00:48:38.237Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 5.217791996896267ms
+[NX Daemon Server] - 2024-05-08T00:49:19.507Z - [WATCHER]: packages/parking/src/components/layout/main-layout.tsx was modified
+[NX Daemon Server] - 2024-05-08T00:49:19.508Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:49:20.069Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:49:20.934Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:49:25.935Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T00:49:25.936Z - [REQUEST]: packages/parking/src/components/layout/main-layout.tsx
+[NX Daemon Server] - 2024-05-08T00:49:25.936Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T00:49:26.077Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 4.84366700053215ms
+[NX Daemon Server] - 2024-05-08T00:49:39.149Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:50:20.425Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:50:20.927Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:50:21.658Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:50:21.969Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:50:22.387Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:51:34.740Z - [WATCHER]: packages/parking/src/components/layout/main-layout.tsx was modified
+[NX Daemon Server] - 2024-05-08T00:51:34.741Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:51:35.435Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:51:36.403Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:51:41.162Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T00:51:41.162Z - [REQUEST]: packages/parking/src/components/layout/main-layout.tsx
+[NX Daemon Server] - 2024-05-08T00:51:41.163Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T00:51:41.379Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 8.469916000962257ms
+[NX Daemon Server] - 2024-05-08T00:51:43.449Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:51:50.906Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:52:28.902Z - [WATCHER]: packages/parking/src/components/home/content.tsx was modified
+[NX Daemon Server] - 2024-05-08T00:52:28.904Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:52:29.535Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:52:30.605Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:52:35.334Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T00:52:35.335Z - [REQUEST]: packages/parking/src/components/home/content.tsx
+[NX Daemon Server] - 2024-05-08T00:52:35.335Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T00:52:35.457Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 4.0939159989356995ms
+[NX Daemon Server] - 2024-05-08T00:53:12.867Z - [WATCHER]: packages/parking/src/components/home/content.tsx was modified
+[NX Daemon Server] - 2024-05-08T00:53:12.867Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:53:13.375Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:53:14.090Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:53:19.280Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T00:53:19.281Z - [REQUEST]: packages/parking/src/components/home/content.tsx
+[NX Daemon Server] - 2024-05-08T00:53:19.281Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T00:53:19.483Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 1.3358749970793724ms
+[NX Daemon Server] - 2024-05-08T00:53:21.551Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:53:31.544Z - [WATCHER]: packages/parking/src/components/home/content.tsx was modified
+[NX Daemon Server] - 2024-05-08T00:53:31.545Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:53:31.852Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:53:32.884Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:53:37.979Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T00:53:37.980Z - [REQUEST]: packages/parking/src/components/home/content.tsx
+[NX Daemon Server] - 2024-05-08T00:53:37.980Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T00:53:38.099Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 3.9484999999403954ms
+[NX Daemon Server] - 2024-05-08T00:53:58.712Z - [WATCHER]: packages/parking/src/components/home/content.tsx was modified
+[NX Daemon Server] - 2024-05-08T00:53:58.713Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:53:59.000Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:53:59.901Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:54:05.125Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T00:54:05.126Z - [REQUEST]: packages/parking/src/components/home/content.tsx
+[NX Daemon Server] - 2024-05-08T00:54:05.126Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T00:54:05.242Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 2.3255409970879555ms
+[NX Daemon Server] - 2024-05-08T00:54:06.994Z - [WATCHER]: packages/parking/src/components/home/content.tsx was modified
+[NX Daemon Server] - 2024-05-08T00:54:06.994Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:54:07.315Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:54:08.006Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:54:13.416Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T00:54:13.417Z - [REQUEST]: packages/parking/src/components/home/content.tsx
+[NX Daemon Server] - 2024-05-08T00:54:13.417Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T00:54:13.601Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 3.339749999344349ms
+[NX Daemon Server] - 2024-05-08T00:54:56.027Z - [WATCHER]: packages/parking/src/components/home/content.tsx was modified
+[NX Daemon Server] - 2024-05-08T00:54:56.032Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:54:56.329Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:54:57.331Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:55:02.443Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T00:55:02.446Z - [REQUEST]: packages/parking/src/components/home/content.tsx
+[NX Daemon Server] - 2024-05-08T00:55:02.446Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T00:55:02.567Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 4.462625004351139ms
+[NX Daemon Server] - 2024-05-08T00:55:27.340Z - [WATCHER]: packages/parking/src/components/home/content.tsx was modified
+[NX Daemon Server] - 2024-05-08T00:55:27.340Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:55:27.525Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:55:28.380Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:55:33.746Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T00:55:33.747Z - [REQUEST]: packages/parking/src/components/home/content.tsx
+[NX Daemon Server] - 2024-05-08T00:55:33.747Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T00:55:33.857Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 1.7783749997615814ms
+[NX Daemon Server] - 2024-05-08T00:56:27.681Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:56:27.783Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:56:27.835Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:56:27.910Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:56:28.721Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:56:28.776Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:56:29.267Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:56:36.081Z - [WATCHER]: packages/parking/src/components/home/content.tsx was modified
+[NX Daemon Server] - 2024-05-08T00:56:36.081Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:56:36.518Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:56:37.468Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:56:40.651Z - [WATCHER]: packages/parking/src/components/home/content.tsx was modified
+[NX Daemon Server] - 2024-05-08T00:56:40.651Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:56:41.112Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:56:41.360Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:56:42.603Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T00:56:42.610Z - [REQUEST]: packages/parking/src/components/home/content.tsx
+[NX Daemon Server] - 2024-05-08T00:56:42.611Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T00:56:43.057Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 45.70616699755192ms
+[NX Daemon Server] - 2024-05-08T00:56:48.585Z - [WATCHER]: packages/parking/src/components/home/content.tsx was modified
+[NX Daemon Server] - 2024-05-08T00:56:48.585Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:56:48.979Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:56:49.715Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:56:54.999Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T00:56:55.000Z - [REQUEST]: packages/parking/src/components/home/content.tsx
+[NX Daemon Server] - 2024-05-08T00:56:55.000Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T00:56:55.114Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 6.826375000178814ms
+[NX Daemon Server] - 2024-05-08T00:57:05.129Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:57:13.433Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:57:49.221Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:57:49.300Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:57:49.906Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:57:50.063Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T00:57:50.521Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:00:15.457Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was modified
+[NX Daemon Server] - 2024-05-08T01:00:15.459Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:00:16.894Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:00:18.223Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:00:21.869Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T01:00:21.870Z - [REQUEST]: packages/parking/src/components/home/card-parking-space.tsx
+[NX Daemon Server] - 2024-05-08T01:00:21.871Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T01:00:22.058Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 1.360165998339653ms
+[NX Daemon Server] - 2024-05-08T01:00:26.032Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:00:27.776Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:00:27.963Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:00:32.884Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:01:26.595Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:01:26.710Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:01:27.200Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:01:28.815Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:01:28.870Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:01:28.931Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:01:29.347Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:01:29.560Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:01:33.208Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:01:33.225Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was modified
+[NX Daemon Server] - 2024-05-08T01:01:34.054Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:01:35.561Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:01:36.348Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:01:36.583Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:01:39.635Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T01:01:39.636Z - [REQUEST]: packages/parking/src/components/home/card-parking-space.tsx
+[NX Daemon Server] - 2024-05-08T01:01:39.636Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T01:01:39.857Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 1.529166005551815ms
+[NX Daemon Server] - 2024-05-08T01:01:40.176Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:02:36.890Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:02:36.959Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:02:37.027Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:02:37.079Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:02:37.194Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:02:37.331Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:02:37.480Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:02:58.642Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was modified
+[NX Daemon Server] - 2024-05-08T01:02:58.643Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:02:59.429Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:03:00.434Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:03:01.315Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:03:01.558Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:03:05.051Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T01:03:05.052Z - [REQUEST]: packages/parking/src/components/home/card-parking-space.tsx
+[NX Daemon Server] - 2024-05-08T01:03:05.052Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T01:03:05.195Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 1.2693749964237213ms
+[NX Daemon Server] - 2024-05-08T01:03:10.452Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:03:18.664Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was modified
+[NX Daemon Server] - 2024-05-08T01:03:18.664Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:03:19.977Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:03:21.006Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:03:25.072Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T01:03:25.072Z - [REQUEST]: packages/parking/src/components/home/card-parking-space.tsx
+[NX Daemon Server] - 2024-05-08T01:03:25.072Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T01:03:25.172Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 1.1247079968452454ms
+[NX Daemon Server] - 2024-05-08T01:03:26.402Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was modified
+[NX Daemon Server] - 2024-05-08T01:03:26.402Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:03:26.589Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:03:27.602Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:03:32.806Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T01:03:32.806Z - [REQUEST]: packages/parking/src/components/home/card-parking-space.tsx
+[NX Daemon Server] - 2024-05-08T01:03:32.806Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T01:03:32.880Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 0.9151669964194298ms
+[NX Daemon Server] - 2024-05-08T01:04:26.735Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:04:26.796Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:04:26.869Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:04:26.979Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:04:27.741Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:04:27.889Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:04:28.326Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:33:55.271Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:35:00.757Z - [WATCHER]: packages/parking/src/components/home/search-section.tsx was modified
+[NX Daemon Server] - 2024-05-08T01:35:00.758Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:35:02.024Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:35:03.125Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:35:03.180Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:35:07.177Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T01:35:07.178Z - [REQUEST]: packages/parking/src/components/home/search-section.tsx
+[NX Daemon Server] - 2024-05-08T01:35:07.178Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T01:35:07.303Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 4.270833998918533ms
+[NX Daemon Server] - 2024-05-08T01:35:12.991Z - [WATCHER]: packages/parking/src/components/home/search-section.tsx was modified
+[NX Daemon Server] - 2024-05-08T01:35:12.991Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:35:13.610Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:35:13.839Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:35:17.691Z - [WATCHER]: packages/parking/src/components/home/search-section.tsx was modified
+[NX Daemon Server] - 2024-05-08T01:35:17.692Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:35:18.280Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:35:18.508Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:35:19.394Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T01:35:19.394Z - [REQUEST]: packages/parking/src/components/home/search-section.tsx
+[NX Daemon Server] - 2024-05-08T01:35:19.394Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T01:35:19.490Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 0.9008329957723618ms
+[NX Daemon Server] - 2024-05-08T01:35:42.033Z - [WATCHER]: packages/parking/src/components/home/search-section.tsx was modified
+[NX Daemon Server] - 2024-05-08T01:35:42.034Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:35:42.413Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:35:43.377Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:35:43.432Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:35:48.442Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T01:35:48.442Z - [REQUEST]: packages/parking/src/components/home/search-section.tsx
+[NX Daemon Server] - 2024-05-08T01:35:48.442Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T01:35:48.536Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 1.1571250036358833ms
+[NX Daemon Server] - 2024-05-08T01:35:50.319Z - [WATCHER]: packages/parking/src/components/home/search-section.tsx was modified
+[NX Daemon Server] - 2024-05-08T01:35:50.319Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:35:50.713Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:35:51.189Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:35:55.904Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:35:56.038Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:35:56.735Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T01:35:56.735Z - [REQUEST]: packages/parking/src/components/home/search-section.tsx
+[NX Daemon Server] - 2024-05-08T01:35:56.735Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T01:35:56.862Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 3.592791996896267ms
+[NX Daemon Server] - 2024-05-08T01:36:06.027Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:36:13.974Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:36:14.324Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:36:51.675Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:36:51.850Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:36:51.902Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:36:52.007Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:36:52.241Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:36:52.456Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:36:52.576Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:41:39.045Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was modified
+[NX Daemon Server] - 2024-05-08T01:41:39.046Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:41:39.711Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:41:40.607Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:41:45.563Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T01:41:45.566Z - [REQUEST]: packages/parking/src/components/home/card-parking-space.tsx
+[NX Daemon Server] - 2024-05-08T01:41:45.569Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T01:41:46.177Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 9.462708003818989ms
+[NX Daemon Server] - 2024-05-08T01:41:47.740Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:41:59.526Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:41:59.540Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was modified
+[NX Daemon Server] - 2024-05-08T01:41:59.948Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:42:00.546Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:42:00.608Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:42:05.948Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T01:42:05.949Z - [REQUEST]: packages/parking/src/components/home/card-parking-space.tsx
+[NX Daemon Server] - 2024-05-08T01:42:05.949Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T01:42:06.043Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 2.8713340014219284ms
+[NX Daemon Server] - 2024-05-08T01:43:00.168Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:43:00.227Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:43:00.320Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:43:00.697Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:43:00.903Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:43:01.047Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:43:01.448Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:45:22.093Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was modified
+[NX Daemon Server] - 2024-05-08T01:45:22.094Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:45:22.636Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:45:23.585Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:45:28.501Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T01:45:28.501Z - [REQUEST]: packages/parking/src/components/home/card-parking-space.tsx
+[NX Daemon Server] - 2024-05-08T01:45:28.501Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T01:45:28.604Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 2.584875002503395ms
+[NX Daemon Server] - 2024-05-08T01:45:52.941Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was modified
+[NX Daemon Server] - 2024-05-08T01:45:52.944Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:45:53.144Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:45:53.941Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:45:59.347Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T01:45:59.347Z - [REQUEST]: packages/parking/src/components/home/card-parking-space.tsx
+[NX Daemon Server] - 2024-05-08T01:45:59.347Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T01:45:59.426Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 0.5696249976754189ms
+[NX Daemon Server] - 2024-05-08T01:46:03.658Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was modified
+[NX Daemon Server] - 2024-05-08T01:46:03.658Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:46:04.161Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:46:04.441Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:46:10.067Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T01:46:10.068Z - [REQUEST]: packages/parking/src/components/home/card-parking-space.tsx
+[NX Daemon Server] - 2024-05-08T01:46:10.068Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T01:46:10.164Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 3.4242919981479645ms
+[NX Daemon Server] - 2024-05-08T01:46:42.314Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was modified
+[NX Daemon Server] - 2024-05-08T01:46:42.316Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:46:42.723Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:46:43.803Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:46:48.724Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T01:46:48.726Z - [REQUEST]: packages/parking/src/components/home/card-parking-space.tsx
+[NX Daemon Server] - 2024-05-08T01:46:48.726Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T01:46:48.850Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 1.4196659997105598ms
+[NX Daemon Server] - 2024-05-08T01:46:51.996Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was modified
+[NX Daemon Server] - 2024-05-08T01:46:51.996Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:46:52.395Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:46:52.827Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:46:58.414Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T01:46:58.415Z - [REQUEST]: packages/parking/src/components/home/card-parking-space.tsx
+[NX Daemon Server] - 2024-05-08T01:46:58.415Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T01:46:58.506Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 2.4472080022096634ms
+[NX Daemon Server] - 2024-05-08T01:46:59.337Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was modified
+[NX Daemon Server] - 2024-05-08T01:46:59.337Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:46:59.525Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:46:59.914Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:47:02.637Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was modified
+[NX Daemon Server] - 2024-05-08T01:47:02.637Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:47:04.056Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:47:05.476Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:47:05.762Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T01:47:05.762Z - [REQUEST]: packages/parking/src/components/home/card-parking-space.tsx
+[NX Daemon Server] - 2024-05-08T01:47:05.762Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T01:47:05.909Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 13.229749999940395ms
+[NX Daemon Server] - 2024-05-08T01:47:06.644Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:47:06.720Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:47:07.175Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:47:07.809Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was modified
+[NX Daemon Server] - 2024-05-08T01:47:07.809Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:47:07.982Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:47:08.869Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:47:10.652Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was modified
+[NX Daemon Server] - 2024-05-08T01:47:10.652Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:47:10.826Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:47:11.253Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:47:14.233Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T01:47:14.234Z - [REQUEST]: packages/parking/src/components/home/card-parking-space.tsx
+[NX Daemon Server] - 2024-05-08T01:47:14.234Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T01:47:14.356Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 2.0555830001831055ms
+[NX Daemon Server] - 2024-05-08T01:47:14.798Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:47:14.799Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was modified
+[NX Daemon Server] - 2024-05-08T01:47:15.116Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:47:15.575Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:47:21.206Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T01:47:21.206Z - [REQUEST]: packages/parking/src/components/home/card-parking-space.tsx
+[NX Daemon Server] - 2024-05-08T01:47:21.206Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T01:47:21.302Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 2.352166995406151ms
+[NX Daemon Server] - 2024-05-08T01:48:01.929Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was modified
+[NX Daemon Server] - 2024-05-08T01:48:01.931Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:48:02.299Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:48:03.258Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:48:08.339Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T01:48:08.339Z - [REQUEST]: packages/parking/src/components/home/card-parking-space.tsx
+[NX Daemon Server] - 2024-05-08T01:48:08.339Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T01:48:08.443Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 3.276249997317791ms
+[NX Daemon Server] - 2024-05-08T01:48:13.274Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was modified
+[NX Daemon Server] - 2024-05-08T01:48:13.274Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:48:13.463Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:48:13.919Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:48:19.681Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T01:48:19.682Z - [REQUEST]: packages/parking/src/components/home/card-parking-space.tsx
+[NX Daemon Server] - 2024-05-08T01:48:19.682Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T01:48:19.740Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 0.6532079949975014ms
+[NX Daemon Server] - 2024-05-08T01:48:23.515Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was modified
+[NX Daemon Server] - 2024-05-08T01:48:23.515Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:48:23.751Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:48:24.194Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:48:29.924Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T01:48:29.925Z - [REQUEST]: packages/parking/src/components/home/card-parking-space.tsx
+[NX Daemon Server] - 2024-05-08T01:48:29.925Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T01:48:30.044Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 1.8597910031676292ms
+[NX Daemon Server] - 2024-05-08T01:48:32.448Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was modified
+[NX Daemon Server] - 2024-05-08T01:48:32.449Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:48:32.681Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:48:33.564Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:48:38.634Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was modified
+[NX Daemon Server] - 2024-05-08T01:48:38.634Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:48:38.851Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T01:48:38.851Z - [REQUEST]: packages/parking/src/components/home/card-parking-space.tsx
+[NX Daemon Server] - 2024-05-08T01:48:38.852Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T01:48:38.953Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 0.8427089974284172ms
+[NX Daemon Server] - 2024-05-08T01:48:39.056Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:48:40.136Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:48:40.264Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:48:40.451Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:48:40.501Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:48:40.562Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:48:41.327Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:48:42.252Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:48:43.536Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was modified
+[NX Daemon Server] - 2024-05-08T01:48:43.536Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:48:43.786Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:48:44.595Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:48:48.668Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was modified
+[NX Daemon Server] - 2024-05-08T01:48:48.668Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:48:49.078Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:48:49.346Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:48:49.972Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T01:48:49.972Z - [REQUEST]: packages/parking/src/components/home/card-parking-space.tsx
+[NX Daemon Server] - 2024-05-08T01:48:49.972Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T01:48:50.172Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 1.2867499962449074ms
+[NX Daemon Server] - 2024-05-08T01:49:08.828Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:49:08.851Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was modified
+[NX Daemon Server] - 2024-05-08T01:49:09.173Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:49:10.055Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:49:12.351Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was modified
+[NX Daemon Server] - 2024-05-08T01:49:12.351Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:49:12.826Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:49:13.068Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:49:15.260Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T01:49:15.261Z - [REQUEST]: packages/parking/src/components/home/card-parking-space.tsx
+[NX Daemon Server] - 2024-05-08T01:49:15.261Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T01:49:15.361Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 1.4466250017285347ms
+[NX Daemon Server] - 2024-05-08T01:49:15.892Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was modified
+[NX Daemon Server] - 2024-05-08T01:49:15.892Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:49:16.115Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:49:16.599Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:49:19.764Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was modified
+[NX Daemon Server] - 2024-05-08T01:49:19.764Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:49:19.951Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:49:20.723Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:49:22.296Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T01:49:22.296Z - [REQUEST]: packages/parking/src/components/home/card-parking-space.tsx
+[NX Daemon Server] - 2024-05-08T01:49:22.297Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T01:49:22.383Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 1.2694159969687462ms
+[NX Daemon Server] - 2024-05-08T01:49:28.034Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was modified
+[NX Daemon Server] - 2024-05-08T01:49:28.035Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:49:28.218Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:49:28.616Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:49:34.452Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T01:49:34.453Z - [REQUEST]: packages/parking/src/components/home/card-parking-space.tsx
+[NX Daemon Server] - 2024-05-08T01:49:34.453Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T01:49:34.534Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 2.2002919986844063ms
+[NX Daemon Server] - 2024-05-08T01:50:10.875Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:50:10.930Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was modified
+[NX Daemon Server] - 2024-05-08T01:50:11.796Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:50:12.743Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:50:15.171Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was modified
+[NX Daemon Server] - 2024-05-08T01:50:15.172Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:50:16.665Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:50:17.356Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T01:50:17.356Z - [REQUEST]: packages/parking/src/components/home/card-parking-space.tsx
+[NX Daemon Server] - 2024-05-08T01:50:17.356Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T01:50:17.621Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:50:17.624Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 5.38416700065136ms
+[NX Daemon Server] - 2024-05-08T01:50:23.478Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:50:23.479Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was modified
+[NX Daemon Server] - 2024-05-08T01:50:23.949Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:50:24.200Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:50:29.884Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T01:50:29.885Z - [REQUEST]: packages/parking/src/components/home/card-parking-space.tsx
+[NX Daemon Server] - 2024-05-08T01:50:29.885Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T01:50:29.974Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 1.391292005777359ms
+[NX Daemon Server] - 2024-05-08T01:50:47.718Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was modified
+[NX Daemon Server] - 2024-05-08T01:50:47.726Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:50:48.383Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:50:49.163Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:50:49.597Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:50:52.261Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:50:52.337Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:50:52.827Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:50:52.948Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:50:54.130Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T01:50:54.130Z - [REQUEST]: packages/parking/src/components/home/card-parking-space.tsx
+[NX Daemon Server] - 2024-05-08T01:50:54.130Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T01:50:54.393Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 1.3207910060882568ms
+[NX Daemon Server] - 2024-05-08T01:50:54.974Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:50:58.615Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was modified
+[NX Daemon Server] - 2024-05-08T01:50:58.616Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:50:59.007Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:50:59.986Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:51:05.021Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T01:51:05.021Z - [REQUEST]: packages/parking/src/components/home/card-parking-space.tsx
+[NX Daemon Server] - 2024-05-08T01:51:05.021Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T01:51:05.118Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 1.3884159997105598ms
+[NX Daemon Server] - 2024-05-08T01:51:11.378Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was modified
+[NX Daemon Server] - 2024-05-08T01:51:11.380Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:51:11.662Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:51:12.203Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:51:12.255Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:51:12.388Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:51:12.447Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:51:12.528Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:51:16.296Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was modified
+[NX Daemon Server] - 2024-05-08T01:51:16.296Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:51:16.489Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:51:16.884Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:51:18.219Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T01:51:18.219Z - [REQUEST]: packages/parking/src/components/home/card-parking-space.tsx
+[NX Daemon Server] - 2024-05-08T01:51:18.219Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T01:51:18.505Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 30.250709004700184ms
+[NX Daemon Server] - 2024-05-08T01:51:21.376Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was modified
+[NX Daemon Server] - 2024-05-08T01:51:21.376Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:51:21.733Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:51:22.211Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:51:27.790Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T01:51:27.791Z - [REQUEST]: packages/parking/src/components/home/card-parking-space.tsx
+[NX Daemon Server] - 2024-05-08T01:51:27.791Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T01:51:27.888Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 3.4011659994721413ms
+[NX Daemon Server] - 2024-05-08T01:51:29.605Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was modified
+[NX Daemon Server] - 2024-05-08T01:51:29.606Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:51:29.791Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:51:30.164Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:51:36.008Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T01:51:36.009Z - [REQUEST]: packages/parking/src/components/home/card-parking-space.tsx
+[NX Daemon Server] - 2024-05-08T01:51:36.009Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T01:51:36.107Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 0.6558330059051514ms
+[NX Daemon Server] - 2024-05-08T01:51:36.585Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was modified
+[NX Daemon Server] - 2024-05-08T01:51:36.585Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:51:36.774Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:51:37.166Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:51:43.006Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T01:51:43.007Z - [REQUEST]: packages/parking/src/components/home/card-parking-space.tsx
+[NX Daemon Server] - 2024-05-08T01:51:43.008Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T01:51:43.128Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 4.614666998386383ms
+[NX Daemon Server] - 2024-05-08T01:51:44.908Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was modified
+[NX Daemon Server] - 2024-05-08T01:51:44.909Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:51:45.242Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:51:45.916Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:51:51.316Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T01:51:51.317Z - [REQUEST]: packages/parking/src/components/home/card-parking-space.tsx
+[NX Daemon Server] - 2024-05-08T01:51:51.317Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T01:51:51.407Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 1.1615420058369637ms
+[NX Daemon Server] - 2024-05-08T01:52:00.916Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was modified
+[NX Daemon Server] - 2024-05-08T01:52:00.917Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:52:01.359Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:52:02.083Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:52:07.333Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T01:52:07.335Z - [REQUEST]: packages/parking/src/components/home/card-parking-space.tsx
+[NX Daemon Server] - 2024-05-08T01:52:07.335Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T01:52:07.466Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 2.77012500166893ms
+[NX Daemon Server] - 2024-05-08T01:53:01.882Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:53:01.941Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:53:02.221Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:53:02.329Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:53:02.385Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:53:02.454Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:53:02.668Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:53:18.148Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:53:18.204Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was modified
+[NX Daemon Server] - 2024-05-08T01:53:18.645Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:53:19.681Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:53:24.612Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T01:53:24.612Z - [REQUEST]: packages/parking/src/components/home/card-parking-space.tsx
+[NX Daemon Server] - 2024-05-08T01:53:24.612Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T01:53:24.704Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 0.9757920056581497ms
+[NX Daemon Server] - 2024-05-08T01:53:34.705Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was modified
+[NX Daemon Server] - 2024-05-08T01:53:34.706Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:53:35.010Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:53:35.530Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:53:35.582Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:53:38.978Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:53:38.986Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was modified
+[NX Daemon Server] - 2024-05-08T01:53:39.166Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:53:39.563Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:53:41.182Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T01:53:41.184Z - [REQUEST]: packages/parking/src/components/home/card-parking-space.tsx
+[NX Daemon Server] - 2024-05-08T01:53:41.184Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T01:53:41.476Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 10.829208001494408ms
+[NX Daemon Server] - 2024-05-08T01:54:20.269Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was modified
+[NX Daemon Server] - 2024-05-08T01:54:20.273Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:54:21.760Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:54:22.319Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:54:26.686Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T01:54:26.686Z - [REQUEST]: packages/parking/src/components/home/card-parking-space.tsx
+[NX Daemon Server] - 2024-05-08T01:54:26.687Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T01:54:26.797Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 2.3827909976243973ms
+[NX Daemon Server] - 2024-05-08T01:54:29.924Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was modified
+[NX Daemon Server] - 2024-05-08T01:54:29.924Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:54:30.339Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:54:30.818Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:54:33.528Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was modified
+[NX Daemon Server] - 2024-05-08T01:54:33.532Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:54:35.319Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:54:35.641Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:54:36.331Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T01:54:36.331Z - [REQUEST]: packages/parking/src/components/home/card-parking-space.tsx
+[NX Daemon Server] - 2024-05-08T01:54:36.331Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T01:54:36.434Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 1.0070000067353249ms
+[NX Daemon Server] - 2024-05-08T01:54:41.074Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was modified
+[NX Daemon Server] - 2024-05-08T01:54:41.074Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:54:41.319Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:54:41.818Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:54:47.479Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T01:54:47.480Z - [REQUEST]: packages/parking/src/components/home/card-parking-space.tsx
+[NX Daemon Server] - 2024-05-08T01:54:47.480Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T01:54:47.607Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 1.0687090009450912ms
+[NX Daemon Server] - 2024-05-08T01:55:18.951Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was modified
+[NX Daemon Server] - 2024-05-08T01:55:18.952Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:55:19.360Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:55:20.031Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:55:20.096Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:55:25.359Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T01:55:25.359Z - [REQUEST]: packages/parking/src/components/home/card-parking-space.tsx
+[NX Daemon Server] - 2024-05-08T01:55:25.359Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T01:55:25.468Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 1.5946670025587082ms
+[NX Daemon Server] - 2024-05-08T01:55:31.333Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was modified
+[NX Daemon Server] - 2024-05-08T01:55:31.334Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:55:31.870Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:55:32.632Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:55:37.885Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T01:55:37.886Z - [REQUEST]: packages/parking/src/components/home/card-parking-space.tsx
+[NX Daemon Server] - 2024-05-08T01:55:37.886Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T01:55:38.375Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 35.30808299779892ms
+[NX Daemon Server] - 2024-05-08T01:55:41.355Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:55:41.364Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was modified
+[NX Daemon Server] - 2024-05-08T01:55:41.814Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:55:42.785Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:55:43.299Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:55:43.607Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:55:47.840Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T01:55:47.840Z - [REQUEST]: packages/parking/src/components/home/card-parking-space.tsx
+[NX Daemon Server] - 2024-05-08T01:55:47.841Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T01:55:48.208Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 5.072791002690792ms
+[NX Daemon Server] - 2024-05-08T01:55:52.362Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:56:00.008Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was modified
+[NX Daemon Server] - 2024-05-08T01:56:00.008Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:56:00.448Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:56:01.251Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:56:06.419Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T01:56:06.419Z - [REQUEST]: packages/parking/src/components/home/card-parking-space.tsx
+[NX Daemon Server] - 2024-05-08T01:56:06.419Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T01:56:06.520Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 3.053957998752594ms
+[NX Daemon Server] - 2024-05-08T01:56:37.932Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was modified
+[NX Daemon Server] - 2024-05-08T01:56:37.933Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:56:38.250Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:56:39.034Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:56:39.599Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:56:44.341Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T01:56:44.343Z - [REQUEST]: packages/parking/src/components/home/card-parking-space.tsx
+[NX Daemon Server] - 2024-05-08T01:56:44.343Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T01:56:44.442Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 1.184917002916336ms
+[NX Daemon Server] - 2024-05-08T01:56:46.067Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was modified
+[NX Daemon Server] - 2024-05-08T01:56:46.068Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:56:46.381Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:56:46.923Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:56:51.326Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was modified
+[NX Daemon Server] - 2024-05-08T01:56:51.327Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:56:51.740Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:56:52.679Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T01:56:52.710Z - [REQUEST]: packages/parking/src/components/home/card-parking-space.tsx
+[NX Daemon Server] - 2024-05-08T01:56:52.710Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T01:56:52.947Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:56:52.948Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 9.696832999587059ms
+[NX Daemon Server] - 2024-05-08T01:57:52.111Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:57:52.196Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:57:52.551Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:57:52.962Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:57:53.192Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:57:53.259Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:57:54.287Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:57:54.388Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T01:57:54.943Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:02:38.420Z - [WATCHER]: packages/parking/src/components/icons/Icon.tsx was created or restored
+[NX Daemon Server] - 2024-05-08T02:02:38.421Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:02:38.535Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T02:02:38.535Z - [REQUEST]: packages/parking/src/components/icons/Icon.tsx
+[NX Daemon Server] - 2024-05-08T02:02:38.535Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T02:02:38.664Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 2.8032919988036156ms
+[NX Daemon Server] - 2024-05-08T02:02:39.484Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:03:39.866Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:03:39.968Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:03:40.131Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:03:40.231Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:04:42.615Z - [WATCHER]: packages/parking/src/components/icons/Icon.tsx was modified
+[NX Daemon Server] - 2024-05-08T02:04:42.617Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:04:42.820Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T02:04:42.820Z - [REQUEST]: packages/parking/src/components/icons/Icon.tsx
+[NX Daemon Server] - 2024-05-08T02:04:42.820Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T02:04:42.985Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 1.1888749971985817ms
+[NX Daemon Server] - 2024-05-08T02:04:43.591Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:04:44.844Z - [WATCHER]: packages/parking/src/components/icons/Icon.tsx was modified
+[NX Daemon Server] - 2024-05-08T02:04:44.844Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:04:45.246Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T02:04:45.246Z - [REQUEST]: packages/parking/src/components/icons/Icon.tsx
+[NX Daemon Server] - 2024-05-08T02:04:45.246Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T02:04:45.341Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:04:45.342Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 0.5541249960660934ms
+[NX Daemon Server] - 2024-05-08T02:05:45.249Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:05:45.258Z - [WATCHER]: packages/parking/src/components/icons/Icon.tsx was modified
+[NX Daemon Server] - 2024-05-08T02:05:45.551Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:05:46.062Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T02:05:46.062Z - [REQUEST]: packages/parking/src/components/icons/Icon.tsx
+[NX Daemon Server] - 2024-05-08T02:05:46.062Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T02:05:46.203Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 0.8239580020308495ms
+[NX Daemon Server] - 2024-05-08T02:05:46.254Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:05:46.374Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:05:46.722Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:05:49.576Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was modified
+[NX Daemon Server] - 2024-05-08T02:05:49.576Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:05:50.422Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:05:51.187Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T02:05:51.187Z - [REQUEST]: packages/parking/src/components/home/card-parking-space.tsx
+[NX Daemon Server] - 2024-05-08T02:05:51.187Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T02:05:51.281Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 4.630583003163338ms
+[NX Daemon Server] - 2024-05-08T02:05:51.688Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:06:00.497Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:06:02.820Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was modified
+[NX Daemon Server] - 2024-05-08T02:06:02.821Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:06:03.240Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:06:03.763Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:06:06.026Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T02:06:06.027Z - [REQUEST]: packages/parking/src/components/home/card-parking-space.tsx
+[NX Daemon Server] - 2024-05-08T02:06:06.027Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T02:06:06.150Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 1.1247079968452454ms
+[NX Daemon Server] - 2024-05-08T02:06:18.756Z - [WATCHER]: packages/parking/src/components/icons/Icon.tsx was modified
+[NX Daemon Server] - 2024-05-08T02:06:18.758Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:06:18.996Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:06:19.491Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:06:25.188Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T02:06:25.189Z - [REQUEST]: packages/parking/src/components/icons/Icon.tsx
+[NX Daemon Server] - 2024-05-08T02:06:25.189Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T02:06:25.290Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 6.101458005607128ms
+[NX Daemon Server] - 2024-05-08T02:06:31.268Z - [WATCHER]: packages/parking/src/styles/globals.css was modified
+[NX Daemon Server] - 2024-05-08T02:06:31.268Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:06:31.496Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:06:32.504Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:06:37.677Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T02:06:37.678Z - [REQUEST]: packages/parking/src/styles/globals.css
+[NX Daemon Server] - 2024-05-08T02:06:37.678Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T02:06:37.765Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 1.298624999821186ms
+[NX Daemon Server] - 2024-05-08T02:07:32.448Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:07:32.504Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:07:32.714Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:07:32.792Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:07:33.262Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:07:33.360Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:08:17.165Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was modified
+[NX Daemon Server] - 2024-05-08T02:08:17.165Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:08:17.713Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:08:18.654Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:08:23.578Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T02:08:23.578Z - [REQUEST]: packages/parking/src/components/home/card-parking-space.tsx
+[NX Daemon Server] - 2024-05-08T02:08:23.578Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T02:08:23.716Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 1.1604159995913506ms
+[NX Daemon Server] - 2024-05-08T02:09:02.718Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was modified
+[NX Daemon Server] - 2024-05-08T02:09:02.719Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:09:03.163Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:09:03.848Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:09:09.142Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T02:09:09.142Z - [REQUEST]: packages/parking/src/components/home/card-parking-space.tsx
+[NX Daemon Server] - 2024-05-08T02:09:09.142Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T02:09:09.242Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 1.7876249998807907ms
+[NX Daemon Server] - 2024-05-08T02:09:13.877Z - [WATCHER]: packages/parking/src/styles/globals.css was modified
+[NX Daemon Server] - 2024-05-08T02:09:13.877Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:09:14.440Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:09:15.737Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:09:20.286Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T02:09:20.286Z - [REQUEST]: packages/parking/src/styles/globals.css
+[NX Daemon Server] - 2024-05-08T02:09:20.286Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T02:09:20.392Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 1.4694159999489784ms
+[NX Daemon Server] - 2024-05-08T02:09:31.617Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was modified
+[NX Daemon Server] - 2024-05-08T02:09:31.618Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:09:31.837Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:09:32.278Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:09:38.026Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T02:09:38.027Z - [REQUEST]: packages/parking/src/components/home/card-parking-space.tsx
+[NX Daemon Server] - 2024-05-08T02:09:38.027Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T02:09:38.126Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 2.94641599804163ms
+[NX Daemon Server] - 2024-05-08T02:09:39.940Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:09:39.943Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was modified
+[NX Daemon Server] - 2024-05-08T02:09:40.358Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:09:40.530Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:09:43.342Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was modified
+[NX Daemon Server] - 2024-05-08T02:09:43.342Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:09:43.547Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:09:43.966Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:09:46.348Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T02:09:46.348Z - [REQUEST]: packages/parking/src/components/home/card-parking-space.tsx
+[NX Daemon Server] - 2024-05-08T02:09:46.348Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T02:09:46.448Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 1.112416997551918ms
+[NX Daemon Server] - 2024-05-08T02:09:46.959Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was modified
+[NX Daemon Server] - 2024-05-08T02:09:46.959Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:09:47.163Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:09:47.565Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:09:53.367Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T02:09:53.368Z - [REQUEST]: packages/parking/src/components/home/card-parking-space.tsx
+[NX Daemon Server] - 2024-05-08T02:09:53.368Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T02:09:53.470Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 0.8301659971475601ms
+[NX Daemon Server] - 2024-05-08T02:10:07.825Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was modified
+[NX Daemon Server] - 2024-05-08T02:10:07.825Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:10:08.453Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:10:08.863Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:10:14.236Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T02:10:14.237Z - [REQUEST]: packages/parking/src/components/home/card-parking-space.tsx
+[NX Daemon Server] - 2024-05-08T02:10:14.237Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T02:10:14.330Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 1.370958998799324ms
+[NX Daemon Server] - 2024-05-08T02:11:08.594Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:11:09.014Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:11:09.119Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:11:09.174Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:11:09.456Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:11:10.448Z - [WATCHER]: packages/parking/src/components/icons/motor-icon.tsx was modified
+[NX Daemon Server] - 2024-05-08T02:11:10.448Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:11:11.324Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:11:12.470Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:11:16.867Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T02:11:16.868Z - [REQUEST]: packages/parking/src/components/icons/motor-icon.tsx
+[NX Daemon Server] - 2024-05-08T02:11:16.869Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T02:11:16.990Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 5.700000002980232ms
+[NX Daemon Server] - 2024-05-08T02:11:28.639Z - [WATCHER]: packages/parking/src/components/icons/motor-icon.tsx was modified
+[NX Daemon Server] - 2024-05-08T02:11:28.640Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:11:28.956Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:11:29.507Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:11:35.052Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T02:11:35.054Z - [REQUEST]: packages/parking/src/components/icons/motor-icon.tsx
+[NX Daemon Server] - 2024-05-08T02:11:35.054Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T02:11:35.198Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 1.2207500040531158ms
+[NX Daemon Server] - 2024-05-08T02:11:45.333Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was modified
+[NX Daemon Server] - 2024-05-08T02:11:45.334Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:11:45.694Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:11:46.180Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:11:51.760Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T02:11:51.761Z - [REQUEST]: packages/parking/src/components/home/card-parking-space.tsx
+[NX Daemon Server] - 2024-05-08T02:11:51.761Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T02:11:51.883Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 6.28787499666214ms
+[NX Daemon Server] - 2024-05-08T02:12:46.044Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:12:47.189Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:12:47.378Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:12:47.503Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:12:48.054Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:12:48.108Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:12:48.624Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:12:48.751Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:12:49.015Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:13:08.504Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:13:08.515Z - [WATCHER]: packages/parking/src/components/navbar/darkmodeswitch.tsx was modified
+[NX Daemon Server] - 2024-05-08T02:13:09.601Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:13:10.763Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:13:14.924Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T02:13:14.924Z - [REQUEST]: packages/parking/src/components/navbar/darkmodeswitch.tsx
+[NX Daemon Server] - 2024-05-08T02:13:14.924Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T02:13:15.007Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 0.9635830000042915ms
+[NX Daemon Server] - 2024-05-08T02:13:38.487Z - [WATCHER]: packages/parking/src/components/icons/Icon.tsx was modified
+[NX Daemon Server] - 2024-05-08T02:13:38.488Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:13:39.071Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:13:39.646Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:13:44.908Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T02:13:44.909Z - [REQUEST]: packages/parking/src/components/icons/Icon.tsx
+[NX Daemon Server] - 2024-05-08T02:13:44.909Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T02:13:45.005Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 2.1108339950442314ms
+[NX Daemon Server] - 2024-05-08T02:13:50.192Z - [WATCHER]: packages/parking/src/components/icons/Icon.tsx was modified
+[NX Daemon Server] - 2024-05-08T02:13:50.193Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:13:50.398Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:13:50.817Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:13:56.634Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T02:13:56.637Z - [REQUEST]: packages/parking/src/components/icons/Icon.tsx
+[NX Daemon Server] - 2024-05-08T02:13:56.637Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T02:13:56.767Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 2.574458993971348ms
+[NX Daemon Server] - 2024-05-08T02:14:01.399Z - [WATCHER]: packages/parking/src/components/navbar/darkmodeswitch.tsx was modified
+[NX Daemon Server] - 2024-05-08T02:14:01.399Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:14:01.746Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:14:02.167Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:14:04.883Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:14:04.991Z - [WATCHER]: packages/parking/src/styles/globals.css was modified
+[NX Daemon Server] - 2024-05-08T02:14:07.697Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:14:07.844Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T02:14:07.844Z - [REQUEST]: packages/parking/src/components/navbar/darkmodeswitch.tsx,packages/parking/src/styles/globals.css
+[NX Daemon Server] - 2024-05-08T02:14:07.844Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T02:14:09.355Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 4.912041999399662ms
+[NX Daemon Server] - 2024-05-08T02:14:09.692Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:14:12.737Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:14:21.432Z - [WATCHER]: packages/parking/src/components/navbar/darkmodeswitch.tsx was modified
+[NX Daemon Server] - 2024-05-08T02:14:21.433Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:14:21.915Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:14:23.927Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:14:27.289Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:14:27.501Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:14:28.836Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T02:14:28.837Z - [REQUEST]: packages/parking/src/components/navbar/darkmodeswitch.tsx
+[NX Daemon Server] - 2024-05-08T02:14:28.837Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T02:14:29.405Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:14:29.409Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 126.78804099559784ms
+[NX Daemon Server] - 2024-05-08T02:14:29.700Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:14:29.828Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:14:29.952Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:14:30.027Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:14:30.801Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:14:45.221Z - [WATCHER]: packages/parking/src/components/navbar/darkmodeswitch.tsx was modified
+[NX Daemon Server] - 2024-05-08T02:14:45.222Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:14:45.584Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:14:46.624Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:14:51.658Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T02:14:51.659Z - [REQUEST]: packages/parking/src/components/navbar/darkmodeswitch.tsx
+[NX Daemon Server] - 2024-05-08T02:14:51.659Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T02:14:51.831Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 2.872500002384186ms
+[NX Daemon Server] - 2024-05-08T02:15:11.398Z - [WATCHER]: packages/parking/src/styles/globals.css was modified
+[NX Daemon Server] - 2024-05-08T02:15:11.399Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:15:11.754Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:15:13.168Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:15:17.808Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T02:15:17.808Z - [REQUEST]: packages/parking/src/styles/globals.css
+[NX Daemon Server] - 2024-05-08T02:15:17.808Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T02:15:17.914Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 3.079625003039837ms
+[NX Daemon Server] - 2024-05-08T02:15:57.945Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:15:57.996Z - [WATCHER]: packages/parking/src/components/icons/motor-icon.tsx was modified
+[NX Daemon Server] - 2024-05-08T02:15:58.696Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:15:59.566Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:16:04.442Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T02:16:04.442Z - [REQUEST]: packages/parking/src/components/icons/motor-icon.tsx
+[NX Daemon Server] - 2024-05-08T02:16:04.442Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T02:16:04.536Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 10.452917002141476ms
+[NX Daemon Server] - 2024-05-08T02:16:07.620Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:16:59.872Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:17:00.225Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:17:00.281Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:17:00.349Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:17:00.408Z - [WATCHER]: packages/parking/src/components/icons/motor-icon.tsx was modified
+[NX Daemon Server] - 2024-05-08T02:17:00.409Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:17:01.143Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:17:01.260Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:17:01.553Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:17:02.412Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:17:02.483Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:17:06.900Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T02:17:06.911Z - [REQUEST]: packages/parking/src/components/icons/motor-icon.tsx
+[NX Daemon Server] - 2024-05-08T02:17:06.911Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T02:17:07.479Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 39.191624999046326ms
+[NX Daemon Server] - 2024-05-08T02:17:14.252Z - [WATCHER]: packages/parking/src/components/icons/motor-icon.tsx was modified
+[NX Daemon Server] - 2024-05-08T02:17:14.253Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:17:14.731Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:17:15.474Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:17:20.663Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T02:17:20.663Z - [REQUEST]: packages/parking/src/components/icons/motor-icon.tsx
+[NX Daemon Server] - 2024-05-08T02:17:20.664Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T02:17:20.769Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 4.665207996964455ms
+[NX Daemon Server] - 2024-05-08T02:17:33.663Z - [WATCHER]: packages/parking/src/components/icons/motor-icon.tsx was modified
+[NX Daemon Server] - 2024-05-08T02:17:33.664Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:17:33.994Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:17:34.405Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:17:40.067Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T02:17:40.067Z - [REQUEST]: packages/parking/src/components/icons/motor-icon.tsx
+[NX Daemon Server] - 2024-05-08T02:17:40.067Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T02:17:40.178Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 0.9253749996423721ms
+[NX Daemon Server] - 2024-05-08T02:17:50.855Z - [WATCHER]: packages/parking/src/components/icons/car-icon.tsx was modified
+[NX Daemon Server] - 2024-05-08T02:17:50.856Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:17:51.038Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:17:51.438Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:17:57.267Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T02:17:57.267Z - [REQUEST]: packages/parking/src/components/icons/car-icon.tsx
+[NX Daemon Server] - 2024-05-08T02:17:57.267Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T02:17:57.386Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 1.6661249995231628ms
+[NX Daemon Server] - 2024-05-08T02:18:51.326Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:18:51.399Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:18:52.634Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:18:52.748Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:18:52.808Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:18:54.342Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:18:54.731Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:18:54.834Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:18:54.974Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:18:55.628Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:18:55.715Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:18:55.830Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:19:20.000Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:19:20.008Z - [WATCHER]: packages/parking/src/components/home/search-section.tsx was modified
+[NX Daemon Server] - 2024-05-08T02:19:20.639Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:19:21.705Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:19:26.421Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T02:19:26.421Z - [REQUEST]: packages/parking/src/components/home/search-section.tsx
+[NX Daemon Server] - 2024-05-08T02:19:26.421Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T02:19:26.521Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 3.4752079993486404ms
+[NX Daemon Server] - 2024-05-08T02:19:31.184Z - [WATCHER]: packages/parking/src/styles/globals.css was modified
+[NX Daemon Server] - 2024-05-08T02:19:31.184Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:19:31.383Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:19:32.291Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:19:37.587Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T02:19:37.587Z - [REQUEST]: packages/parking/src/styles/globals.css
+[NX Daemon Server] - 2024-05-08T02:19:37.587Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T02:19:37.684Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 0.7191659957170486ms
+[NX Daemon Server] - 2024-05-08T02:19:54.641Z - [WATCHER]: packages/parking/src/components/home/search-section.tsx was modified
+[NX Daemon Server] - 2024-05-08T02:19:54.641Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:19:55.213Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:19:55.457Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:20:01.058Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T02:20:01.059Z - [REQUEST]: packages/parking/src/components/home/search-section.tsx
+[NX Daemon Server] - 2024-05-08T02:20:01.059Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T02:20:01.153Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 2.0690420046448708ms
+[NX Daemon Server] - 2024-05-08T02:20:28.451Z - [WATCHER]: packages/parking/src/styles/globals.css was modified
+[NX Daemon Server] - 2024-05-08T02:20:28.452Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:20:28.757Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:20:29.772Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:20:33.880Z - [WATCHER]: packages/parking/src/components/home/search-section.tsx was modified
+[NX Daemon Server] - 2024-05-08T02:20:33.880Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:20:34.102Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:20:34.513Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:20:34.578Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:20:34.856Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T02:20:34.856Z - [REQUEST]: packages/parking/src/styles/globals.css,packages/parking/src/components/home/search-section.tsx
+[NX Daemon Server] - 2024-05-08T02:20:34.856Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T02:20:34.978Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:20:34.980Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 0.9210000038146973ms
+[NX Daemon Server] - 2024-05-08T02:20:45.012Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:20:45.012Z - [WATCHER]: packages/parking/src/components/home/search-section.tsx was modified
+[NX Daemon Server] - 2024-05-08T02:20:45.189Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:20:45.635Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:20:51.426Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T02:20:51.427Z - [REQUEST]: packages/parking/src/components/home/search-section.tsx
+[NX Daemon Server] - 2024-05-08T02:20:51.427Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T02:20:51.544Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 1.6963750049471855ms
+[NX Daemon Server] - 2024-05-08T02:21:02.121Z - [WATCHER]: packages/parking/src/styles/globals.css was modified
+[NX Daemon Server] - 2024-05-08T02:21:02.121Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:21:02.488Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:21:03.660Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:21:05.991Z - [WATCHER]: packages/parking/src/styles/globals.css was modified
+[NX Daemon Server] - 2024-05-08T02:21:05.991Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:21:06.702Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:21:06.918Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:21:08.525Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T02:21:08.525Z - [REQUEST]: packages/parking/src/styles/globals.css
+[NX Daemon Server] - 2024-05-08T02:21:08.525Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T02:21:08.616Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 0.9829170033335686ms
+[NX Daemon Server] - 2024-05-08T02:21:21.788Z - [WATCHER]: packages/parking/src/components/home/search-section.tsx was modified
+[NX Daemon Server] - 2024-05-08T02:21:21.789Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:21:22.019Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:21:22.505Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:21:28.197Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T02:21:28.198Z - [REQUEST]: packages/parking/src/components/home/search-section.tsx
+[NX Daemon Server] - 2024-05-08T02:21:28.198Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T02:21:28.267Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 0.9319580048322678ms
+[NX Daemon Server] - 2024-05-08T02:21:31.567Z - [WATCHER]: packages/parking/src/styles/globals.css was modified
+[NX Daemon Server] - 2024-05-08T02:21:31.568Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:21:31.738Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:21:32.635Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:21:37.969Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T02:21:37.970Z - [REQUEST]: packages/parking/src/styles/globals.css
+[NX Daemon Server] - 2024-05-08T02:21:37.970Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T02:21:38.035Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 0.4896249994635582ms
+[NX Daemon Server] - 2024-05-08T02:21:38.251Z - [WATCHER]: packages/parking/src/styles/globals.css was modified
+[NX Daemon Server] - 2024-05-08T02:21:38.251Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:21:38.436Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:21:39.383Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:21:44.659Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T02:21:44.659Z - [REQUEST]: packages/parking/src/styles/globals.css
+[NX Daemon Server] - 2024-05-08T02:21:44.659Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T02:21:44.735Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 2.8453750014305115ms
+[NX Daemon Server] - 2024-05-08T02:22:38.762Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:22:38.832Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:22:39.591Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:22:39.699Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:22:40.088Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:49:35.256Z - [WATCHER]: packages/parking/src/components/home/card-parking-space.tsx was modified
+[NX Daemon Server] - 2024-05-08T02:49:35.261Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:49:36.290Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:49:37.538Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:49:41.672Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX Daemon Server] - 2024-05-08T02:49:41.673Z - [REQUEST]: packages/parking/src/components/home/card-parking-space.tsx
+[NX Daemon Server] - 2024-05-08T02:49:41.673Z - [REQUEST]: 
+[NX Daemon Server] - 2024-05-08T02:49:41.838Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 2.6621249988675117ms
+[NX Daemon Server] - 2024-05-08T02:50:36.520Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:50:36.591Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:50:36.648Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:50:36.738Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:50:37.718Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:50:37.843Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:50:37.901Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:50:38.171Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:56:18.810Z - Closed a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-05-08T02:56:18.816Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:56:18.837Z - [REQUEST]: Responding to the client. recordOutputsHash
+[NX Daemon Server] - 2024-05-08T02:56:18.837Z - Done responding to the client recordOutputsHash
+[NX Daemon Server] - 2024-05-08T02:56:18.837Z - Handled RECORD_OUTPUTS_HASH. Handling time: 1. Response time: 0.
+[NX Daemon Server] - 2024-05-08T02:56:18.857Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-05-08T02:56:18.988Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-05-08T02:56:19.050Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-08T02:56:19.982Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-05-08T02:56:20.147Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-05-08T02:56:20.147Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-05-08T02:56:20.148Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-05-08T02:56:20.150Z - [REQUEST]: Responding to the client. project-graph
+[NX Daemon Server] - 2024-05-08T02:56:20.152Z - Time taken for 'total for creating and serializing project graph' 1.615375004708767ms
+[NX Daemon Server] - 2024-05-08T02:56:20.153Z - Done responding to the client project-graph
+[NX Daemon Server] - 2024-05-08T02:56:20.153Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 2. Response time: 3.
+[NX Daemon Server] - 2024-05-08T02:56:20.679Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-05-08T02:56:20.693Z - [WATCHER]: Processing file changes in outputs

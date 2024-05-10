@@ -22,3 +22,11 @@ body {
 }
 
 
+
+button, button a {
+  @apply !font-[500]
+}
+
+.carousel-root .carousel-slider{
+  @apply rounded-xl
+}

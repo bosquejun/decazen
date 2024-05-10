@@ -1,5 +1,7 @@
 import { Button, Link, Navbar, NavbarBrand, NavbarContent, NavbarItem } from "@nextui-org/react";
+import { LoginCurve } from "iconsax-react";
 import React from "react";
+import { Icon } from "../icons/Icon";
 import { BurguerButton } from "./burguer-button";
 import { DarkModeSwitch } from "./darkmodeswitch";
 
@@ -17,10 +19,10 @@ export const NavbarWrapper = ({ children }: Props) => {
           wrapper: "w-full max-w-full",
         }}
       >
-        <NavbarContent className="md:hidden">
+        <NavbarContent className="md:hidden !grow-0 min-w-[28px]">
           <BurguerButton />
         </NavbarContent>
-        <NavbarBrand>
+        <NavbarBrand className="w-full grow-1">
           <p className="font-bold text-inherit">Decazen</p>
         </NavbarBrand>
         {/* <NavbarContent className="w-full max-md:hidden">
@@ -49,16 +51,19 @@ export const NavbarWrapper = ({ children }: Props) => {
           {/* <div className="max-md:hidden">
             <SupportIcon />
           </div> */}
-          <NavbarItem>
+          <NavbarItem className="max-md:hidden" >
             <Link href="#" color="foreground">Rent out your space</Link>
           </NavbarItem>
-          <NavbarItem className="max-md:hidden">
-            <Button as={Link} color="primary" href="#" variant="shadow">
-              Login as Parking Owner
+          <NavbarItem >
+            <Button className="hidden md:flex" as={Link} color="primary" href="#" variant="shadow">
+              <Icon as={LoginCurve} size="24" className="text-black" /> Login as Parking Owner
+            </Button>
+            <Button className="flex md:hidden" as={Link} color="primary" href="#" variant="shadow">
+              <Icon as={LoginCurve} size="24" className="text-black" /> Login
             </Button>
           </NavbarItem>
 
-          <NavbarItem >
+          <NavbarItem className="max-md:hidden" >
             <DarkModeSwitch iconMode />
           </NavbarItem>
 

@@ -5523,6 +5523,15 @@
         "hash": "sha512-a3KdPAANPbNE4ZUv9h6LckSl9zLsYOP4MBmhIPkRaeyybt+r4UghLvq+xw/YwUcC1gqylCkL4rdVs3Lwupjm4Q=="
       }
     },
+    "npm:classnames": {
+      "type": "npm",
+      "name": "npm:classnames",
+      "data": {
+        "version": "2.5.1",
+        "packageName": "classnames",
+        "hash": "sha512-saHYOzhIQs6wy2sVxTM6bUDsQO4F50V9RQ22qBpEdCW+I+/Wmke2HOl6lS6dTpdxVhb88/I6+Hs+438c3lfUow=="
+      }
+    },
     "npm:cli-cursor": {
       "type": "npm",
       "name": "npm:cli-cursor",
@@ -10806,6 +10815,15 @@
         "hash": "sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g=="
       }
     },
+    "npm:react-easy-swipe": {
+      "type": "npm",
+      "name": "npm:react-easy-swipe",
+      "data": {
+        "version": "0.0.21",
+        "packageName": "react-easy-swipe",
+        "hash": "sha512-OeR2jAxdoqUMHIn/nS9fgreI5hSpgGoL5ezdal4+oO7YSSgJR8ga+PkYGJrSrJ9MKlPcQjMQXnketrD7WNmNsg=="
+      }
+    },
     "npm:react-is@16.13.1": {
       "type": "npm",
       "name": "npm:react-is@16.13.1",
@@ -10849,6 +10867,15 @@
         "version": "2.5.9",
         "packageName": "react-remove-scroll",
         "hash": "sha512-bvHCLBrFfM2OgcrpPY2YW84sPdS2o2HKWJUf1xGyGLnSoEnOTOBpahIarjRuYtN0ryahCeP242yf+5TrBX/pZA=="
+      }
+    },
+    "npm:react-responsive-carousel": {
+      "type": "npm",
+      "name": "npm:react-responsive-carousel",
+      "data": {
+        "version": "3.2.23",
+        "packageName": "react-responsive-carousel",
+        "hash": "sha512-pqJLsBaKHWJhw/ItODgbVoziR2z4lpcJg+YwmRlSk4rKH32VE633mAtZZ9kDXjy4wFO+pgUZmDKPsPe1fPmHCg=="
       }
     },
     "npm:react-style-singleton": {
@@ -12962,6 +12989,11 @@
       },
       {
         "source": "parking",
+        "target": "npm:iconsax-react",
+        "type": "static"
+      },
+      {
+        "source": "parking",
         "target": "npm:@internationalized/date",
         "type": "static"
       },
@@ -12977,7 +13009,7 @@
       },
       {
         "source": "parking",
-        "target": "npm:iconsax-react",
+        "target": "npm:react-responsive-carousel",
         "type": "static"
       },
       {
@@ -30684,6 +30716,13 @@
         "type": "static"
       }
     ],
+    "npm:react-easy-swipe": [
+      {
+        "source": "npm:react-easy-swipe",
+        "target": "npm:prop-types",
+        "type": "static"
+      }
+    ],
     "npm:react-remove-scroll-bar": [
       {
         "source": "npm:react-remove-scroll-bar",
@@ -30720,6 +30759,23 @@
       {
         "source": "npm:react-remove-scroll",
         "target": "npm:use-sidecar",
+        "type": "static"
+      }
+    ],
+    "npm:react-responsive-carousel": [
+      {
+        "source": "npm:react-responsive-carousel",
+        "target": "npm:classnames",
+        "type": "static"
+      },
+      {
+        "source": "npm:react-responsive-carousel",
+        "target": "npm:prop-types",
+        "type": "static"
+      },
+      {
+        "source": "npm:react-responsive-carousel",
+        "target": "npm:react-easy-swipe",
         "type": "static"
       }
     ],

@@ -1,0 +1,386 @@
+[2m> [22mnext dev
+
+[32m✔[0m [33mConsole Ninja[0m extension is connected to [33mNext.js[0m, see [36mhttps://tinyurl.com/2vt8jxzw[0m
+  [1m[38;2;173;127;168m ▲ Next.js 14.0.4[39m[22m
+   - Local:        http://localhost:3000
+
+[2K[1G[33mwarning[39m ../../package.json: No license field
+ [32m[1m✓[22m[39m Ready in 3.1s
+ [37m[1m○[22m[39m Compiling / ...
+
+[1m[33mwarn[39m[22m - The RTL features in Tailwind CSS are currently in preview.
+[1m[33mwarn[39m[22m - Preview features are not covered by semver, and may be improved in breaking ways at any time.
+ [32m[1m✓[22m[39m Compiled / in 6.9s (5412 modules)
+Image with src "/images/landing-photo.avif" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectPosition". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+ [32m[1m✓[22m[39m Compiled in 1059ms (2716 modules)
+ [32m[1m✓[22m[39m Compiled in 1711ms (5412 modules)
+ [32m[1m✓[22m[39m Compiled in 1326ms (5412 modules)
+ [32m[1m✓[22m[39m Compiled in 1385ms (5412 modules)
+ [32m[1m✓[22m[39m Compiled in 1107ms (5412 modules)
+ [32m[1m✓[22m[39m Compiled in 907ms (5412 modules)
+ [32m[1m✓[22m[39m Compiled in 1116ms (5412 modules)
+ [32m[1m✓[22m[39m Compiled in 1273ms (5412 modules)
+ [32m[1m✓[22m[39m Compiled in 1663ms (5412 modules)
+ [32m[1m✓[22m[39m Compiled in 1342ms (5412 modules)
+ [32m[1m✓[22m[39m Compiled in 1254ms (5412 modules)
+ [32m[1m✓[22m[39m Compiled in 848ms (5412 modules)
+ [32m[1m✓[22m[39m Compiled in 973ms (5412 modules)
+ [32m[1m✓[22m[39m Compiled in 2.2s (5412 modules)
+ [32m[1m✓[22m[39m Compiled in 1827ms (5412 modules)
+ [32m[1m✓[22m[39m Compiled in 1592ms (5412 modules)
+ [31m[1m⨯[22m[39m ./src/styles/globals.css:27:3
+[31m[1mSyntax error[22m[39m: /Users/j.bosque/Desktop/decazen-system/packages/parking/src/styles/globals.css The `!font-400` class does not exist. If `!font-400` is a custom class, make sure it is defined within a `@layer` directive.
+
+ [90m 25 | [39m
+ [90m 26 | [39mbutton, button a [33m{[39m
+[1m[31m>[39m[22m[90m 27 | [39m  [36m@apply[39m !font-400
+ [90m    | [39m  [1m[31m^[39m[22m
+ [90m 28 | [39m[33m}[39m
+ [37m[1m○[22m[39m Compiling /_error ...
+ [31m[1m⨯[22m[39m ./src/styles/globals.css:27:3
+[31m[1mSyntax error[22m[39m: /Users/j.bosque/Desktop/decazen-system/packages/parking/src/styles/globals.css The `!font-400` class does not exist. If `!font-400` is a custom class, make sure it is defined within a `@layer` directive.
+
+ [90m 25 | [39m
+ [90m 26 | [39mbutton, button a [33m{[39m
+[1m[31m>[39m[22m[90m 27 | [39m  [36m@apply[39m !font-400
+ [90m    | [39m  [1m[31m^[39m[22m
+ [90m 28 | [39m[33m}[39m
+ [32m[1m✓[22m[39m Compiled /_error in 1536ms (5571 modules)
+Image with src "/images/landing-photo.avif" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectPosition". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+ [37m[1m○[22m[39m Compiling /not-found ...
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [32m[1m✓[22m[39m Compiled /not-found in 2.1s (5562 modules)
+ [32m[1m✓[22m[39m Compiled in 2.7s (5576 modules)
+ [32m[1m✓[22m[39m Compiled in 1260ms (2836 modules)
+ [32m[1m✓[22m[39m Compiled in 2.4s (5556 modules)
+ [32m[1m✓[22m[39m Compiled in 1025ms (2836 modules)
+ [37m[1m○[22m[39m Compiling /booking ...
+ [32m[1m✓[22m[39m Compiled /booking in 3.3s (5629 modules)
+ [32m[1m✓[22m[39m Compiled in 2.3s (5643 modules)
+ [32m[1m✓[22m[39m Compiled in 1500ms (5643 modules)
+ [32m[1m✓[22m[39m Compiled in 1271ms (5643 modules)
+ [32m[1m✓[22m[39m Compiled in 1634ms (5643 modules)
+ [32m[1m✓[22m[39m Compiled in 1218ms (5643 modules)
+ [32m[1m✓[22m[39m Compiled in 2.5s (5643 modules)
+ [37m[1m○[22m[39m Compiling /not-found ...
+ [32m[1m✓[22m[39m Compiled /not-found in 2.3s (5561 modules)
+ [32m[1m✓[22m[39m Compiled in 1876ms (5561 modules)
+ [32m[1m✓[22m[39m Compiled in 742ms (2838 modules)
+ [32m[1m✓[22m[39m Compiled in 1478ms (5575 modules)
+Image with src "/images/landing-photo.avif" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectPosition". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+ [37m[1m○[22m[39m Compiling /checkout/[parkingId] ...
+ [32m[1m✓[22m[39m Compiled /checkout/[parkingId] in 3.1s (5634 modules)
+ [32m[1m✓[22m[39m Compiled in 929ms (2873 modules)
+ [32m[1m✓[22m[39m Compiled in 1115ms (2873 modules)
+ [32m[1m✓[22m[39m Compiled in 2.1s (5636 modules)
+ [32m[1m✓[22m[39m Compiled in 1063ms (2865 modules)
+ [32m[1m✓[22m[39m Compiled in 1420ms (5565 modules)
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [32m[1m✓[22m[39m Compiled in 1691ms (5565 modules)
+Image with src "/images/landing-photo.avif" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectPosition". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+ [32m[1m✓[22m[39m Compiled in 1525ms (2832 modules)
+ [32m[1m✓[22m[39m Compiled in 755ms (2832 modules)
+ [32m[1m✓[22m[39m Compiled in 1531ms (5567 modules)
+ [32m[1m✓[22m[39m Compiled in 1354ms (5567 modules)
+ [32m[1m✓[22m[39m Compiled in 1283ms (5567 modules)
+ [32m[1m✓[22m[39m Compiled in 1167ms (5567 modules)
+ [32m[1m✓[22m[39m Compiled in 1794ms (5567 modules)
+ [32m[1m✓[22m[39m Compiled in 1652ms (5567 modules)
+ [32m[1m✓[22m[39m Compiled in 1944ms (5567 modules)
+ [32m[1m✓[22m[39m Compiled in 2.3s (5567 modules)
+ [32m[1m✓[22m[39m Compiled in 1335ms (5567 modules)
+ [32m[1m✓[22m[39m Compiled in 1517ms (5567 modules)
+ [32m[1m✓[22m[39m Compiled in 2s (5567 modules)
+ [32m[1m✓[22m[39m Compiled in 1728ms (5567 modules)
+ [32m[1m✓[22m[39m Compiled in 1344ms (5567 modules)
+ [32m[1m✓[22m[39m Compiled in 1673ms (5567 modules)
+ [32m[1m✓[22m[39m Compiled in 1513ms (5567 modules)
+ [32m[1m✓[22m[39m Compiled in 1437ms (5567 modules)
+ [32m[1m✓[22m[39m Compiled in 1848ms (5567 modules)
+ [32m[1m✓[22m[39m Compiled in 1830ms (5567 modules)
+ [32m[1m✓[22m[39m Compiled in 1364ms (5567 modules)
+ [32m[1m✓[22m[39m Compiled in 2.3s (5567 modules)
+ [32m[1m✓[22m[39m Compiled in 1524ms (5567 modules)
+ [32m[1m✓[22m[39m Compiled in 1273ms (5567 modules)
+ [32m[1m✓[22m[39m Compiled in 1746ms (5567 modules)
+ [32m[1m✓[22m[39m Compiled in 1337ms (2833 modules)
+ [31m[1m⨯[22m[39m ./src/components/checkout/card-booking-details.tsx
+Error: ENOENT: no such file or directory, open '/Users/j.bosque/Desktop/decazen-system/packages/parking/src/components/checkout/card-booking-details.tsx'
+
+Import trace for requested module:
+./src/components/checkout/card-booking-details.tsx
+./src/components/checkout/content.tsx
+ [31m[1m⨯[22m[39m ./src/components/checkout/card-booking-details.tsx
+Error: ENOENT: no such file or directory, open '/Users/j.bosque/Desktop/decazen-system/packages/parking/src/components/checkout/card-booking-details.tsx'
+
+Import trace for requested module:
+./src/components/checkout/card-booking-details.tsx
+./src/components/checkout/content.tsx
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [33m[1m⚠[22m[39m ./src/components/checkout/content.tsx
+Attempted import error: 'CardBookingDetails' is not exported from './section-booking-details' (imported as 'CardBookingDetails').
+
+Import trace for requested module:
+./src/components/checkout/content.tsx
+
+./src/components/checkout/content.tsx
+Attempted import error: 'CardBookingDetails' is not exported from './section-booking-details' (imported as 'CardBookingDetails').
+
+Import trace for requested module:
+./src/components/checkout/content.tsx
+ [33m[1m⚠[22m[39m ./src/components/checkout/content.tsx
+Attempted import error: 'CardBookingDetails' is not exported from './section-booking-details' (imported as 'CardBookingDetails').
+
+Import trace for requested module:
+./src/components/checkout/content.tsx
+
+./src/components/checkout/content.tsx
+Attempted import error: 'CardBookingDetails' is not exported from './section-booking-details' (imported as 'CardBookingDetails').
+
+Import trace for requested module:
+./src/components/checkout/content.tsx
+ [33m[1m⚠[22m[39m ./src/components/checkout/content.tsx
+Attempted import error: 'CardBookingDetails' is not exported from './section-booking-details' (imported as 'CardBookingDetails').
+
+Import trace for requested module:
+./src/components/checkout/content.tsx
+
+./src/components/checkout/content.tsx
+Attempted import error: 'CardBookingDetails' is not exported from './section-booking-details' (imported as 'CardBookingDetails').
+
+Import trace for requested module:
+./src/components/checkout/content.tsx
+Warning: React.jsx: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check your code at content.tsx:16.
+    at Content
+    at Lazy
+    at InnerLayoutRouter (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:239:11)
+    at RedirectErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/redirect-boundary.js:71:9)
+    at RedirectBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/redirect-boundary.js:79:11)
+    at NotFoundBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/not-found-boundary.js:62:11)
+    at LoadingBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:313:11)
+    at ErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/error-boundary.js:128:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:151:9)
+    at ScrollAndFocusHandler (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:226:11)
+    at RenderFromTemplateContext (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/render-from-template-context.js:15:44)
+    at Lazy
+    at OuterLayoutRouter (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:322:11)
+    at Lazy
+    at InnerLayoutRouter (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:239:11)
+    at RedirectErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/redirect-boundary.js:71:9)
+    at RedirectBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/redirect-boundary.js:79:11)
+    at NotFoundBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/not-found-boundary.js:62:11)
+    at LoadingBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:313:11)
+    at ErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/error-boundary.js:128:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:151:9)
+    at ScrollAndFocusHandler (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:226:11)
+    at RenderFromTemplateContext (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/render-from-template-context.js:15:44)
+    at Lazy
+    at OuterLayoutRouter (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:322:11)
+    at Lazy
+    at InnerLayoutRouter (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:239:11)
+    at RedirectErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/redirect-boundary.js:71:9)
+    at RedirectBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/redirect-boundary.js:79:11)
+    at NotFoundErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/not-found-boundary.js:54:9)
+    at NotFoundBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/not-found-boundary.js:62:11)
+    at LoadingBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:313:11)
+    at ErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/error-boundary.js:128:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:151:9)
+    at ScrollAndFocusHandler (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:226:11)
+    at RenderFromTemplateContext (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/render-from-template-context.js:15:44)
+    at Lazy
+    at OuterLayoutRouter (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/layout-router.js:322:11)
+    at Lazy
+    at main
+    at div
+    at NavbarWrapper (webpack-internal:///(ssr)/./src/components/navbar/navbar.tsx:26:26)
+    at section
+    at MainLayout (webpack-internal:///(ssr)/./src/components/layout/main-layout.tsx:13:23)
+    at Layout (webpack-internal:///(ssr)/./src/components/layout/layout.tsx:19:19)
+    at O (webpack-internal:///(ssr)/../../node_modules/next-themes/dist/index.mjs:22:24)
+    at z (webpack-internal:///(ssr)/../../node_modules/next-themes/dist/index.mjs:17:48)
+    at div
+    at $f57aed4a881a3485$var$OverlayContainerDOM (webpack-internal:///(ssr)/../../node_modules/@react-aria/overlays/dist/useModal.mjs:60:54)
+    at $f57aed4a881a3485$export$178405afcd8c5eb (webpack-internal:///(ssr)/../../node_modules/@react-aria/overlays/dist/useModal.mjs:27:21)
+    at $f57aed4a881a3485$export$bf688221f59024e5
+    at $18f2051aff69b9bf$export$a54013f0d02a8f82 (webpack-internal:///(ssr)/../../node_modules/@react-aria/i18n/dist/context.mjs:24:19)
+    at NextUIProvider (webpack-internal:///(ssr)/../../node_modules/@nextui-org/system/dist/chunk-VIKBOFDY.mjs:20:25)
+    at Providers (webpack-internal:///(ssr)/./src/app/providers.tsx:17:22)
+    at Lazy
+    at body
+    at html
+    at RedirectErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/redirect-boundary.js:71:9)
+    at RedirectBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/redirect-boundary.js:79:11)
+    at ReactDevOverlay (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/react-dev-overlay/internal/ReactDevOverlay.js:66:9)
+    at HotReload (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/react-dev-overlay/hot-reloader-client.js:296:11)
+    at Router (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/app-router.js:155:11)
+    at ErrorBoundaryHandler (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/error-boundary.js:99:9)
+    at ErrorBoundary (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/error-boundary.js:128:11)
+    at AppRouter (webpack-internal:///(ssr)/../../node_modules/next/dist/client/components/app-router.js:421:13)
+    at Lazy
+    at Lazy
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:381577
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:381577
+    at ServerInsertedHTMLProvider (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:17605)
+ [31m[1m⨯[22m[39m Internal error: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:43345)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:38901
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:39374)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at ak (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49406)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46647)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:38901
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:39374)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at ak (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49406)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46647)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:38901
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:39374)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at ag (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7923)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13014
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13038)
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:43088)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at ak (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49406)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46647)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:41727)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at ag (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7923)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13014
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13038)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at as (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7504)
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10920)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at ag (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7923)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13014
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [32m[1m✓[22m[39m Compiled in 1479ms (5567 modules)
+ [32m[1m✓[22m[39m Compiled in 1375ms (2833 modules)
+ [32m[1m✓[22m[39m Compiled in 1807ms (5569 modules)
+Image with src "/images/landing-photo.avif" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectPosition". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+ [32m[1m✓[22m[39m Compiled in 1838ms (5569 modules)
+ [32m[1m✓[22m[39m Compiled in 1735ms (5569 modules)
+ [32m[1m✓[22m[39m Compiled in 1232ms (5569 modules)
+ [32m[1m✓[22m[39m Compiled in 1279ms (5569 modules)
+ [32m[1m✓[22m[39m Compiled in 1586ms (5569 modules)
+ [32m[1m✓[22m[39m Compiled in 1085ms (5569 modules)
+ [32m[1m✓[22m[39m Compiled in 1226ms (5569 modules)
+ [32m[1m✓[22m[39m Compiled in 1445ms (5569 modules)
+ [32m[1m✓[22m[39m Compiled in 1354ms (5569 modules)
+ [32m[1m✓[22m[39m Compiled in 1171ms (5569 modules)
+ [32m[1m✓[22m[39m Compiled in 1242ms (5569 modules)
+ [32m[1m✓[22m[39m Compiled in 1303ms (5569 modules)
+ [32m[1m✓[22m[39m Compiled in 1193ms (5569 modules)
+ [32m[1m✓[22m[39m Compiled in 1176ms (5569 modules)
+ [32m[1m✓[22m[39m Compiled in 1913ms (5569 modules)
+ [32m[1m✓[22m[39m Compiled in 1956ms (5569 modules)
+ [32m[1m✓[22m[39m Compiled in 1015ms (5569 modules)
+ [32m[1m✓[22m[39m Compiled in 1879ms (5569 modules)
+ [32m[1m✓[22m[39m Compiled in 998ms (5569 modules)
+ [32m[1m✓[22m[39m Compiled in 1141ms (5569 modules)
+ [32m[1m✓[22m[39m Compiled in 1160ms (5569 modules)
+ [32m[1m✓[22m[39m Compiled in 1167ms (5569 modules)
+ [32m[1m✓[22m[39m Compiled in 932ms (5569 modules)
+ [32m[1m✓[22m[39m Compiled in 1120ms (5569 modules)
+ [32m[1m✓[22m[39m Compiled in 1650ms (5569 modules)
+ [32m[1m✓[22m[39m Compiled in 1321ms (5569 modules)
+ [32m[1m✓[22m[39m Compiled in 1484ms (5569 modules)
+ [32m[1m✓[22m[39m Compiled in 987ms (5569 modules)
+ [32m[1m✓[22m[39m Compiled in 1055ms (5569 modules)
+ [32m[1m✓[22m[39m Compiled in 1683ms (5569 modules)
+ [32m[1m✓[22m[39m Compiled in 1517ms (5569 modules)
+ [32m[1m✓[22m[39m Compiled in 1555ms (5569 modules)
+ [32m[1m✓[22m[39m Compiled in 1177ms (5569 modules)
+ [32m[1m✓[22m[39m Compiled in 2.5s (5569 modules)
+ [32m[1m✓[22m[39m Compiled in 1681ms (5569 modules)
+ [32m[1m✓[22m[39m Compiled in 1158ms (5569 modules)
+ [32m[1m✓[22m[39m Compiled in 1829ms (5569 modules)
+ [32m[1m✓[22m[39m Compiled in 1216ms (5569 modules)
+ [32m[1m✓[22m[39m Compiled in 1049ms (5569 modules)
+ [32m[1m✓[22m[39m Compiled in 1474ms (5569 modules)
+ [32m[1m✓[22m[39m Compiled in 1659ms (5569 modules)
+ [32m[1m✓[22m[39m Compiled in 1540ms (5569 modules)
+ [32m[1m✓[22m[39m Compiled in 1728ms (5569 modules)
+ [32m[1m✓[22m[39m Compiled in 1989ms (5569 modules)
+ [32m[1m✓[22m[39m Compiled in 1301ms (5569 modules)
+ [32m[1m✓[22m[39m Compiled in 1239ms (5569 modules)
+ [32m[1m✓[22m[39m Compiled in 1110ms (5569 modules)
+ [32m[1m✓[22m[39m Compiled in 1433ms (5569 modules)
+ [32m[1m✓[22m[39m Compiled in 1063ms (5569 modules)
+ [32m[1m✓[22m[39m Compiled in 3.2s (5569 modules)
+Image with src "/images/landing-photo.avif" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectPosition". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+ [32m[1m✓[22m[39m Compiled in 2.6s (5569 modules)
+Image with src "/images/landing-photo.avif" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectPosition". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+ [32m[1m✓[22m[39m Compiled in 2.3s (5569 modules)
+Image with src "/images/landing-photo.avif" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectPosition". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+ [32m[1m✓[22m[39m Compiled in 2.3s (5569 modules)
+ [32m[1m✓[22m[39m Compiled in 1065ms (5569 modules)
+ [32m[1m✓[22m[39m Compiled in 2.3s (5569 modules)
+ [32m[1m✓[22m[39m Compiled in 1210ms (2834 modules)
+ [32m[1m✓[22m[39m Compiled in 2s (2834 modules)
+ [32m[1m✓[22m[39m Compiled in 1443ms (2834 modules)
+ [32m[1m✓[22m[39m Compiled in 1610ms (5571 modules)
+ [32m[1m✓[22m[39m Compiled in 1359ms (5571 modules)
+ [32m[1m✓[22m[39m Compiled in 1806ms (5571 modules)
+^C[?25h

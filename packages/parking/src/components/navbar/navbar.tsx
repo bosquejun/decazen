@@ -1,7 +1,8 @@
-import { Button, Link, Navbar, NavbarBrand, NavbarContent, NavbarItem } from "@nextui-org/react";
+import { Button, Link, Modal, ModalContent, Navbar, NavbarBrand, NavbarContent, NavbarItem, useDisclosure } from "@nextui-org/react";
 import { LoginCurve } from "iconsax-react";
 import React from "react";
 import { Icon } from "../icons/Icon";
+import { Content as LoginContent } from "../login/content";
 import { BurguerButton } from "./burguer-button";
 import { DarkModeSwitch } from "./darkmodeswitch";
 
@@ -10,11 +11,17 @@ interface Props {
 }
 
 export const NavbarWrapper = ({ children }: Props) => {
+  const { isOpen, onOpen, onClose } = useDisclosure();
+
+  const handleOpenLogin = () => {
+    onOpen();
+  }
+
   return (
     <div className="relative flex flex-col flex-1 overflow-y-auto overflow-x-hidden">
       <Navbar
         isBordered
-        className="w-full bg-content1"
+        className="w-full bg-content1 dark:bg-background"
         classNames={{
           wrapper: "w-full max-w-full",
         }}
@@ -55,10 +62,10 @@ export const NavbarWrapper = ({ children }: Props) => {
             <Link href="#" color="foreground">Rent out your space</Link>
           </NavbarItem>
           <NavbarItem >
-            <Button className="hidden md:flex" as={Link} color="primary" href="#" variant="shadow">
+            <Button className="hidden md:flex" color="primary" onClick={handleOpenLogin} variant="shadow">
               <Icon as={LoginCurve} size="24" className="text-black" /> Login as Parking Owner
             </Button>
-            <Button className="flex md:hidden" as={Link} color="primary" href="#" variant="shadow">
+            <Button className="flex md:hidden" onClick={handleOpenLogin} color="primary" variant="shadow">
               <Icon as={LoginCurve} size="24" className="text-black" /> Login
             </Button>
           </NavbarItem>
@@ -79,6 +86,17 @@ export const NavbarWrapper = ({ children }: Props) => {
         </NavbarContent>
       </Navbar>
       {children}
+
+      <Modal
+        size="5xl"
+        isOpen={isOpen}
+        onClose={onClose}
+        placement="center"
+      >
+        <ModalContent>
+          <LoginContent />
+        </ModalContent>
+      </Modal>
     </div>
   );
 };

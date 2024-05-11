@@ -1,7 +1,7 @@
 import { Content } from '@/components/checkout/content';
 
-const accounts = () => {
+const checkout = () => {
     return <Content />;
 };
 
-export default accounts;
+export default checkout;

@@ -1,3 +1,4 @@
+import { usePathname } from "next/navigation";
 import React from "react";
 import { useLockedBody } from "../hooks/useBodyLock";
 import { NavbarWrapper } from "../navbar/navbar";
@@ -15,6 +16,8 @@ export const Layout = ({ children }: Props) => {
     setSidebarOpen(!sidebarOpen);
     setLocked(!sidebarOpen);
   };
+
+  if (usePathname().startsWith("/login")) return children;
 
   return <MainLayout>{children}</MainLayout>
 

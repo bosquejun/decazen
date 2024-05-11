@@ -1,0 +1,1246 @@
+[2m> [22mnext dev
+
+[32m✔[0m [33mConsole Ninja[0m extension is connected to [33mNext.js[0m, see [36mhttps://tinyurl.com/2vt8jxzw[0m
+  [1m[38;2;173;127;168m ▲ Next.js 14.0.4[39m[22m
+   - Local:        http://localhost:3000
+
+[2K[1G[33mwarning[39m ../../package.json: No license field
+ [32m[1m✓[22m[39m Ready in 3.5s
+ [37m[1m○[22m[39m Compiling / ...
+
+[1m[33mwarn[39m[22m - The RTL features in Tailwind CSS are currently in preview.
+[1m[33mwarn[39m[22m - Preview features are not covered by semver, and may be improved in breaking ways at any time.
+ [32m[1m✓[22m[39m Compiled / in 11.6s (5418 modules)
+Image with src "/images/landing-photo.avif" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectPosition". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+ [32m[1m✓[22m[39m Compiled in 1573ms (2710 modules)
+ [37m[1m○[22m[39m Compiling /checkout/[parkingId] ...
+ [32m[1m✓[22m[39m Compiled /checkout/[parkingId] in 1146ms (5444 modules)
+Image with src "/images/landing-photo.avif" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectPosition". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+ [32m[1m✓[22m[39m Compiled in 3.3s (5411 modules)
+ [32m[1m✓[22m[39m Compiled in 1234ms (5411 modules)
+ [32m[1m✓[22m[39m Compiled in 1197ms (5411 modules)
+ [32m[1m✓[22m[39m Compiled in 994ms (5411 modules)
+ [32m[1m✓[22m[39m Compiled in 1023ms (5411 modules)
+ [32m[1m✓[22m[39m Compiled in 1048ms (5411 modules)
+ [32m[1m✓[22m[39m Compiled in 840ms (5411 modules)
+ [32m[1m✓[22m[39m Compiled in 816ms (5411 modules)
+ [32m[1m✓[22m[39m Compiled in 1018ms (5411 modules)
+ [32m[1m✓[22m[39m Compiled in 1125ms (5411 modules)
+ [32m[1m✓[22m[39m Compiled in 873ms (5411 modules)
+ [32m[1m✓[22m[39m Compiled in 2.2s (5411 modules)
+ [32m[1m✓[22m[39m Compiled in 1172ms (5411 modules)
+ [32m[1m✓[22m[39m Compiled in 1211ms (5411 modules)
+ [32m[1m✓[22m[39m Compiled in 2.9s (5411 modules)
+Image with src "/images/landing-photo.avif" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectPosition". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+ [32m[1m✓[22m[39m Compiled in 2.7s (5411 modules)
+ [32m[1m✓[22m[39m Compiled in 1990ms (5411 modules)
+ [32m[1m✓[22m[39m Compiled in 1404ms (5411 modules)
+ [32m[1m✓[22m[39m Compiled in 1469ms (5411 modules)
+ [32m[1m✓[22m[39m Compiled in 1333ms (5411 modules)
+ [32m[1m✓[22m[39m Compiled in 1238ms (5411 modules)
+ [32m[1m✓[22m[39m Compiled in 1381ms (5411 modules)
+ [32m[1m✓[22m[39m Compiled in 969ms (5411 modules)
+ [32m[1m✓[22m[39m Compiled in 2.9s (2714 modules)
+ [32m[1m✓[22m[39m Compiled in 1110ms (2714 modules)
+ [32m[1m✓[22m[39m Compiled in 1118ms (2714 modules)
+ [32m[1m✓[22m[39m Compiled in 1113ms (2714 modules)
+ [32m[1m✓[22m[39m Compiled in 665ms (5397 modules)
+ [32m[1m✓[22m[39m Compiled in 392ms (5397 modules)
+ [32m[1m✓[22m[39m Compiled in 510ms (5397 modules)
+ [32m[1m✓[22m[39m Compiled in 1981ms (5413 modules)
+ [32m[1m✓[22m[39m Compiled in 1024ms (5413 modules)
+ [32m[1m✓[22m[39m Compiled in 2.1s (5413 modules)
+ [32m[1m✓[22m[39m Compiled in 1897ms (5413 modules)
+ [32m[1m✓[22m[39m Compiled in 1337ms (5413 modules)
+ [32m[1m✓[22m[39m Compiled in 2.3s (5413 modules)
+ [32m[1m✓[22m[39m Compiled in 1001ms (5413 modules)
+ [32m[1m✓[22m[39m Compiled in 1229ms (5413 modules)
+ [32m[1m✓[22m[39m Compiled in 1093ms (5413 modules)
+ [32m[1m✓[22m[39m Compiled in 1810ms (5413 modules)
+ [32m[1m✓[22m[39m Compiled in 1616ms (5413 modules)
+ [32m[1m✓[22m[39m Compiled in 2.1s (5413 modules)
+ [32m[1m✓[22m[39m Compiled in 1954ms (5413 modules)
+ [32m[1m✓[22m[39m Compiled in 1465ms (5413 modules)
+ [32m[1m✓[22m[39m Compiled in 1977ms (5413 modules)
+ [32m[1m✓[22m[39m Compiled in 2.1s (5413 modules)
+ [32m[1m✓[22m[39m Compiled in 1176ms (5413 modules)
+ [32m[1m✓[22m[39m Compiled in 1063ms (5413 modules)
+ [32m[1m✓[22m[39m Compiled in 1177ms (5413 modules)
+ [32m[1m✓[22m[39m Compiled in 1166ms (5413 modules)
+ [32m[1m✓[22m[39m Compiled in 1378ms (5413 modules)
+ [32m[1m✓[22m[39m Compiled in 2.3s (5413 modules)
+ [32m[1m✓[22m[39m Compiled in 1398ms (5413 modules)
+ [32m[1m✓[22m[39m Compiled in 891ms (5413 modules)
+ [32m[1m✓[22m[39m Compiled in 1032ms (5413 modules)
+ [32m[1m✓[22m[39m Compiled in 1020ms (5413 modules)
+ [32m[1m✓[22m[39m Compiled in 2.9s (5413 modules)
+ [32m[1m✓[22m[39m Compiled in 1623ms (5413 modules)
+ [32m[1m✓[22m[39m Compiled in 941ms (5413 modules)
+ [32m[1m✓[22m[39m Compiled in 1265ms (5413 modules)
+ [32m[1m✓[22m[39m Compiled in 1192ms (5413 modules)
+ [32m[1m✓[22m[39m Compiled in 1348ms (5413 modules)
+ [32m[1m✓[22m[39m Compiled in 1045ms (5413 modules)
+ [32m[1m✓[22m[39m Compiled in 1731ms (5413 modules)
+ [32m[1m✓[22m[39m Compiled in 2.4s (5413 modules)
+ [32m[1m✓[22m[39m Compiled in 1539ms (5413 modules)
+ [32m[1m✓[22m[39m Compiled in 2.1s (5413 modules)
+ [32m[1m✓[22m[39m Compiled in 938ms (5413 modules)
+ [32m[1m✓[22m[39m Compiled in 909ms (5413 modules)
+ [32m[1m✓[22m[39m Compiled in 1307ms (5413 modules)
+ [32m[1m✓[22m[39m Compiled in 1262ms (5413 modules)
+ [32m[1m✓[22m[39m Compiled in 958ms (5413 modules)
+ [32m[1m✓[22m[39m Compiled in 1417ms (2715 modules)
+ [32m[1m✓[22m[39m Compiled in 971ms (2715 modules)
+ [32m[1m✓[22m[39m Compiled in 731ms (2715 modules)
+ [32m[1m✓[22m[39m Compiled in 2.1s (5415 modules)
+ [32m[1m✓[22m[39m Compiled in 3.7s (5415 modules)
+ [32m[1m✓[22m[39m Compiled in 1041ms (5415 modules)
+ [32m[1m✓[22m[39m Compiled in 1358ms (5415 modules)
+ [32m[1m✓[22m[39m Compiled in 909ms (5415 modules)
+ [32m[1m✓[22m[39m Compiled in 3.6s (5415 modules)
+ [32m[1m✓[22m[39m Compiled in 1485ms (5415 modules)
+ [32m[1m✓[22m[39m Compiled in 1085ms (5415 modules)
+ [32m[1m✓[22m[39m Compiled in 1008ms (5415 modules)
+ [32m[1m✓[22m[39m Compiled in 1032ms (5415 modules)
+ [32m[1m✓[22m[39m Compiled in 1366ms (5415 modules)
+ [32m[1m✓[22m[39m Compiled in 1310ms (5415 modules)
+ [32m[1m✓[22m[39m Compiled in 1021ms (5415 modules)
+ [32m[1m✓[22m[39m Compiled in 1977ms (5415 modules)
+ [32m[1m✓[22m[39m Compiled in 1676ms (5415 modules)
+ [32m[1m✓[22m[39m Compiled in 921ms (5415 modules)
+ [32m[1m✓[22m[39m Compiled in 1736ms (5415 modules)
+ [32m[1m✓[22m[39m Compiled in 1101ms (5415 modules)
+Image with src "/images/landing-photo.avif" has legacy prop "layout". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectFit". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+Image with src "/images/landing-photo.avif" has legacy prop "objectPosition". Did you forget to run the codemod?
+Read more: https://nextjs.org/docs/messages/next-image-upgrade-to-13
+ [32m[1m✓[22m[39m Compiled in 2.4s (2716 modules)
+ [32m[1m✓[22m[39m Compiled in 2.5s (5401 modules)
+ [32m[1m✓[22m[39m Compiled in 1035ms (2716 modules)
+ [32m[1m✓[22m[39m Compiled in 1176ms (2716 modules)
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [32m[1m✓[22m[39m Compiled in 6.3s (5514 modules)
+ [31m[1m⨯[22m[39m ../node_modules/next/dist/client/router.js (146:14) @ useRouter
+ [31m[1m⨯[22m[39m Error: NextRouter was not mounted. https://nextjs.org/docs/messages/next-router-not-mounted
+    at Providers (./src/app/providers.tsx:21:74)
+[1mnull[22m
+ [32m[1m✓[22m[39m Compiled in 1939ms (2760 modules)
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [31m[1m⨯[22m[39m ../node_modules/next/dist/client/router.js (146:14) @ useRouter
+ [31m[1m⨯[22m[39m Error: NextRouter was not mounted. https://nextjs.org/docs/messages/next-router-not-mounted
+    at Providers (./src/app/providers.tsx:21:74)
+[1mnull[22m
+ [32m[1m✓[22m[39m Compiled in 1788ms (5514 modules)
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [31m[1m⨯[22m[39m ../node_modules/next/dist/client/router.js (146:14) @ useRouter
+ [31m[1m⨯[22m[39m Error: NextRouter was not mounted. https://nextjs.org/docs/messages/next-router-not-mounted
+    at Providers (./src/app/providers.tsx:21:74)
+[1mnull[22m
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [32m[1m✓[22m[39m Compiled in 3.2s (5500 modules)
+ [31m[1m⨯[22m[39m ../node_modules/next/dist/client/router.js (146:14) @ useRouter
+ [31m[1m⨯[22m[39m Error: NextRouter was not mounted. https://nextjs.org/docs/messages/next-router-not-mounted
+    at Providers (./src/app/providers.tsx:21:74)
+[1mnull[22m
+ [31m[1m⨯[22m[39m ../node_modules/next/dist/client/router.js (146:14) @ useRouter
+ [31m[1m⨯[22m[39m Error: NextRouter was not mounted. https://nextjs.org/docs/messages/next-router-not-mounted
+    at Providers (./src/app/providers.tsx:21:74)
+[1mnull[22m
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [32m[1m✓[22m[39m Compiled in 3.2s (5514 modules)
+ [31m[1m⨯[22m[39m ../node_modules/next/dist/client/router.js (146:14) @ useRouter
+ [31m[1m⨯[22m[39m Error: NextRouter was not mounted. https://nextjs.org/docs/messages/next-router-not-mounted
+    at Providers (./src/app/providers.tsx:21:74)
+[1mnull[22m
+ [31m[1m⨯[22m[39m ../node_modules/next/dist/client/router.js (146:14) @ useRouter
+ [31m[1m⨯[22m[39m Error: NextRouter was not mounted. https://nextjs.org/docs/messages/next-router-not-mounted
+    at Providers (./src/app/providers.tsx:21:74)
+[1mnull[22m
+ [32m[1m✓[22m[39m Compiled in 1240ms (2760 modules)
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [31m[1m⨯[22m[39m ../node_modules/next/dist/client/router.js (146:14) @ useRouter
+ [31m[1m⨯[22m[39m Error: NextRouter was not mounted. https://nextjs.org/docs/messages/next-router-not-mounted
+    at Providers (./src/app/providers.tsx:21:74)
+[1mnull[22m
+ [33m[1m⚠[22m[39m ./src/app/layout.tsx
+Attempted import error: 'Providers' is not exported from './providers' (imported as 'Providers').
+
+Import trace for requested module:
+./src/app/layout.tsx
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+Warning: React.jsx: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check your code at layout.tsx:20.
+ [31m[1m⨯[22m[39m Error: Unsupported Server Component type: undefined
+    at stringify (<anonymous>)
+ [31m[1m⨯[22m[39m Error: Unsupported Server Component type: undefined
+    at stringify (<anonymous>)
+digest: "1768849390"
+ [32m[1m✓[22m[39m Compiled in 3.9s (5514 modules)
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [31m[1m⨯[22m[39m ../node_modules/next/dist/client/router.js (146:14) @ useRouter
+ [31m[1m⨯[22m[39m Internal error: Error: NextRouter was not mounted. https://nextjs.org/docs/messages/next-router-not-mounted
+    at useRouter (../../node_modules/next/dist/client/router.js:137:15)
+    at WithRouterWrapper (../../node_modules/next/dist/client/with-router.js:17:43)
+    at ai (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:6505)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11284
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13038)
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:43088)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:38901
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:39374)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:38901
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:39374)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at ak (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49406)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46647)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at ak (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49406)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46647)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at as (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7504)
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10920)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at ag (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7923)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13014
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13038)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at ak (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49406)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46647)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:39511)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at as (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7504)
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10920)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at ag (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7923)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13014
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13038)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+[1mnull[22m
+ [32m[1m✓[22m[39m Compiled in 1928ms (5514 modules)
+ [32m[1m✓[22m[39m Compiled in 2.8s (5514 modules)
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [31m[1m⨯[22m[39m ../node_modules/next/dist/client/router.js (146:14) @ useRouter
+ [31m[1m⨯[22m[39m Internal error: Error: NextRouter was not mounted. https://nextjs.org/docs/messages/next-router-not-mounted
+    at useRouter (../../node_modules/next/dist/client/router.js:137:15)
+    at WithRouterWrapper (../../node_modules/next/dist/client/with-router.js:17:43)
+    at ai (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:6505)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11284
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13038)
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:43088)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:38901
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:39374)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:38901
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:39374)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at ak (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49406)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46647)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at ak (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49406)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46647)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at as (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7504)
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10920)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at ag (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7923)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13014
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13038)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at ak (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49406)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46647)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:39511)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at as (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7504)
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10920)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at ag (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7923)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13014
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13038)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+[1mnull[22m
+ [31m[1m⨯[22m[39m ./src/app/layout.tsx
+ReactServerComponentsError:
+
+You are attempting to export "metadata" from a component marked with "use client", which is disallowed. Either remove the export, or the "use client" directive. Read more: https://nextjs.org/docs/getting-started/react-essentials#the-use-client-directive
+
+    ╭─[[38;2;92;157;255;1;4m/Users/j.bosque/Desktop/decazen-system/packages/parking/src/app/layout.tsx[0m:6:1]
+ [2m 6[0m │ import type { Metadata } from 'next';
+ [2m 7[0m │ import Providers from "./providers";
+ [2m 8[0m │ 
+ [2m 9[0m │ export const metadata: Metadata = {
+    · [38;2;246;87;248m             ────────[0m
+ [2m10[0m │   title: 'Next.js',
+ [2m11[0m │   description: 'Generated by Next.js',
+ [2m12[0m │ }
+    ╰────
+
+File path:
+  ./src/app/layout.tsx
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [32m[1m✓[22m[39m Compiled in 8s (5500 modules)
+ [31m[1m⨯[22m[39m ../node_modules/next/dist/client/router.js (146:14) @ useRouter
+ [31m[1m⨯[22m[39m Internal error: Error: NextRouter was not mounted. https://nextjs.org/docs/messages/next-router-not-mounted
+    at useRouter (../../node_modules/next/dist/client/router.js:137:15)
+    at WithRouterWrapper (../../node_modules/next/dist/client/with-router.js:17:43)
+    at ai (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:6505)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11284
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13038)
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:43088)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:38901
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:39374)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:38901
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:39374)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at ak (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49406)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46647)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at ak (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49406)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46647)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at as (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7504)
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10920)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at ag (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7923)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13014
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13038)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at ak (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49406)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46647)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:39511)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at as (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7504)
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10920)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at ag (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7923)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13014
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13038)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+[1mnull[22m
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [31m[1m⨯[22m[39m ../node_modules/next/dist/client/router.js (146:14) @ useRouter
+ [31m[1m⨯[22m[39m Internal error: Error: NextRouter was not mounted. https://nextjs.org/docs/messages/next-router-not-mounted
+    at useRouter (../../node_modules/next/dist/client/router.js:137:15)
+    at WithRouterWrapper (../../node_modules/next/dist/client/with-router.js:17:43)
+    at ai (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:6505)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11284
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13038)
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:43088)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:38901
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:39374)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:38901
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:39374)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at ak (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49406)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46647)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at ak (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49406)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46647)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at as (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7504)
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10920)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at ag (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7923)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13014
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13038)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at ak (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49406)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46647)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:39511)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at as (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7504)
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10920)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at ag (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7923)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13014
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13038)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+[1mnull[22m
+ [31m[1m⨯[22m[39m ../node_modules/next/dist/client/router.js (146:14) @ useRouter
+ [31m[1m⨯[22m[39m Internal error: Error: NextRouter was not mounted. https://nextjs.org/docs/messages/next-router-not-mounted
+    at useRouter (../../node_modules/next/dist/client/router.js:137:15)
+    at WithRouterWrapper (../../node_modules/next/dist/client/with-router.js:17:43)
+    at ai (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:6505)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11284
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13038)
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:43088)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:38901
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:39374)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:38901
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:39374)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at ak (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49406)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46647)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at ak (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49406)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46647)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at as (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7504)
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10920)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at ag (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7923)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13014
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13038)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at ak (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49406)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46647)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:39511)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at as (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7504)
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10920)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at ag (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7923)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13014
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13038)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+[1mnull[22m
+ [32m[1m✓[22m[39m Compiled in 2.3s (5514 modules)
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [31m[1m⨯[22m[39m ../node_modules/next/dist/client/router.js (146:14) @ useRouter
+ [31m[1m⨯[22m[39m Internal error: Error: NextRouter was not mounted. https://nextjs.org/docs/messages/next-router-not-mounted
+    at useRouter (../../node_modules/next/dist/client/router.js:137:15)
+    at WithRouterWrapper (../../node_modules/next/dist/client/with-router.js:17:43)
+    at ai (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:6505)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11284
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13038)
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:43088)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:38901
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:39374)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:38901
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:39374)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at ak (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49406)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46647)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at ak (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49406)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46647)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at as (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7504)
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10920)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at ag (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7923)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13014
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13038)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at ak (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49406)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46647)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:39511)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at as (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7504)
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10920)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at ag (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7923)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13014
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13038)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+[1mnull[22m
+ [32m[1m✓[22m[39m Compiled in 1884ms (5514 modules)
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [31m[1m⨯[22m[39m ../node_modules/next/dist/client/router.js (146:14) @ useRouter
+ [31m[1m⨯[22m[39m Internal error: Error: NextRouter was not mounted. https://nextjs.org/docs/messages/next-router-not-mounted
+    at useRouter (../../node_modules/next/dist/client/router.js:137:15)
+    at WithRouterWrapper (../../node_modules/next/dist/client/with-router.js:17:43)
+    at ai (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:6505)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11284
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13038)
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:43088)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:38901
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:39374)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:38901
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:39374)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at ak (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49406)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46647)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at ak (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49406)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46647)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at as (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7504)
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10920)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at ag (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7923)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13014
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13038)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at ak (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49406)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46647)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:39511)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at as (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7504)
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10920)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at ag (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7923)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13014
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13038)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+[1mnull[22m
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [32m[1m✓[22m[39m Compiled in 1956ms (5514 modules)
+ [31m[1m⨯[22m[39m ../node_modules/next/dist/client/router.js (146:14) @ useRouter
+ [31m[1m⨯[22m[39m Internal error: Error: NextRouter was not mounted. https://nextjs.org/docs/messages/next-router-not-mounted
+    at useRouter (../../node_modules/next/dist/client/router.js:137:15)
+    at WithRouterWrapper (../../node_modules/next/dist/client/with-router.js:17:43)
+    at ai (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:6505)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11284
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13038)
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:43088)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:38901
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:39374)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:38901
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:39374)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at ak (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49406)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46647)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at ak (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49406)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46647)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at as (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7504)
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10920)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at ag (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7923)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13014
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13038)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at ak (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49406)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46647)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:39511)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at as (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7504)
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10920)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at ag (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7923)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13014
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13038)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+[1mnull[22m
+ [31m[1m⨯[22m[39m ../node_modules/next/dist/client/router.js (146:14) @ useRouter
+ [31m[1m⨯[22m[39m Internal error: Error: NextRouter was not mounted. https://nextjs.org/docs/messages/next-router-not-mounted
+    at useRouter (../../node_modules/next/dist/client/router.js:137:15)
+    at WithRouterWrapper (../../node_modules/next/dist/client/with-router.js:17:43)
+    at ai (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:6505)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11284
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13038)
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:43088)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:38901
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:39374)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:38901
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:39374)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at ak (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49406)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46647)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at ak (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49406)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46647)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at as (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7504)
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10920)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at ag (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7923)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13014
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13038)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at ak (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49406)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46647)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:39511)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at as (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7504)
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10920)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at ag (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7923)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13014
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13038)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+[1mnull[22m
+ [33m[1m⚠[22m[39m ./src/app/providers.tsx
+Attempted import error: 'Layout' is not exported from '../components/layout/layout' (imported as 'Layout').
+
+Import trace for requested module:
+./src/app/providers.tsx
+
+./src/app/providers.tsx
+Attempted import error: 'Layout' is not exported from '../components/layout/layout' (imported as 'Layout').
+
+Import trace for requested module:
+./src/app/providers.tsx
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [31m[1m⨯[22m[39m ../node_modules/next/dist/client/router.js (146:14) @ useRouter
+ [31m[1m⨯[22m[39m Internal error: Error: NextRouter was not mounted. https://nextjs.org/docs/messages/next-router-not-mounted
+    at useRouter (../../node_modules/next/dist/client/router.js:137:15)
+    at WithRouterWrapper (../../node_modules/next/dist/client/with-router.js:17:43)
+    at ai (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:6505)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11284
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13038)
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:43088)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:38901
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:39374)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:38901
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:39374)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at ak (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49406)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46647)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at ak (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49406)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46647)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at as (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7504)
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10920)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at ag (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7923)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13014
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13038)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at ak (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49406)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46647)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:39511)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at as (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7504)
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10920)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at ag (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7923)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13014
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13038)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+[1mnull[22m
+ [32m[1m✓[22m[39m Compiled in 1440ms (5514 modules)
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [31m[1m⨯[22m[39m ../node_modules/next/dist/client/router.js (146:14) @ useRouter
+ [31m[1m⨯[22m[39m Internal error: Error: NextRouter was not mounted. https://nextjs.org/docs/messages/next-router-not-mounted
+    at useRouter (../../node_modules/next/dist/client/router.js:137:15)
+    at WithRouterWrapper (../../node_modules/next/dist/client/with-router.js:17:43)
+    at ai (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:6505)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11284
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13038)
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:43088)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:38901
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:39374)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:38901
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:39374)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at ak (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49406)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46647)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at ak (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49406)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46647)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at as (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7504)
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10920)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at ag (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7923)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13014
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13038)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at ak (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49406)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46647)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:39511)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at as (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7504)
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10920)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at ag (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7923)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13014
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13038)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+[1mnull[22m
+ [32m[1m✓[22m[39m Compiled in 2.7s (5514 modules)
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [31m[1m⨯[22m[39m ../node_modules/next/dist/client/router.js (146:14) @ useRouter
+ [31m[1m⨯[22m[39m Internal error: Error: NextRouter was not mounted. https://nextjs.org/docs/messages/next-router-not-mounted
+    at useRouter (../../node_modules/next/dist/client/router.js:137:15)
+    at WithRouterWrapper (../../node_modules/next/dist/client/with-router.js:17:43)
+    at ai (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:6505)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11284
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13038)
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:43088)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:38901
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:39374)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:38901
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:39374)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at ak (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49406)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46647)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at ak (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49406)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46647)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at as (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7504)
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10920)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at ag (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7923)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13014
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13038)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at ak (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49406)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46647)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:39511)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at as (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7504)
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10920)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at ag (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7923)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13014
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13038)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+[1mnull[22m
+ [32m[1m✓[22m[39m Compiled in 1314ms (5514 modules)
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [31m[1m⨯[22m[39m ../node_modules/next/dist/client/router.js (146:14) @ useRouter
+ [31m[1m⨯[22m[39m Internal error: Error: NextRouter was not mounted. https://nextjs.org/docs/messages/next-router-not-mounted
+    at useRouter (../../node_modules/next/dist/client/router.js:137:15)
+    at WithRouterWrapper (../../node_modules/next/dist/client/with-router.js:17:43)
+    at ai (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:6505)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11284
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13038)
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:43088)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:38901
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:39374)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:38901
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:39374)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at ak (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49406)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46647)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at ak (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49406)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46647)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at as (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7504)
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10920)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at ag (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7923)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13014
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13038)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at ak (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49406)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46647)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:39511)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at as (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7504)
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10920)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at ag (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7923)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13014
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13038)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+[1mnull[22m
+ [31m[1m⨯[22m[39m ../node_modules/next/dist/client/router.js (146:14) @ useRouter
+ [31m[1m⨯[22m[39m Internal error: Error: NextRouter was not mounted. https://nextjs.org/docs/messages/next-router-not-mounted
+    at useRouter (../../node_modules/next/dist/client/router.js:137:15)
+    at WithRouterWrapper (../../node_modules/next/dist/client/with-router.js:17:43)
+    at ai (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:6505)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11284
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13038)
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:43088)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:38901
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:39374)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:38901
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:39374)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at ak (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49406)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46647)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at ak (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49406)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46647)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at as (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7504)
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10920)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at ag (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7923)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13014
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13038)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at ak (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49406)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46647)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:39511)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at as (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7504)
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10920)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at ag (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7923)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13014
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13038)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+[1mnull[22m
+ [33m[1m⚠[22m[39m ./src/app/providers.tsx
+Attempted import error: '../components/layout/layout' does not contain a default export (imported as 'Layout').
+
+Import trace for requested module:
+./src/app/providers.tsx
+
+./src/app/providers.tsx
+Attempted import error: '../components/layout/layout' does not contain a default export (imported as 'Layout').
+
+Import trace for requested module:
+./src/app/providers.tsx
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [31m[1m⨯[22m[39m ../node_modules/next/dist/client/router.js (146:14) @ useRouter
+ [31m[1m⨯[22m[39m Internal error: Error: NextRouter was not mounted. https://nextjs.org/docs/messages/next-router-not-mounted
+    at useRouter (../../node_modules/next/dist/client/router.js:137:15)
+    at WithRouterWrapper (../../node_modules/next/dist/client/with-router.js:17:43)
+    at ai (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:6505)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11284
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13038)
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:43088)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:38901
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:39374)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:38901
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:39374)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at ak (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49406)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46647)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at ak (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49406)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46647)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at as (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7504)
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10920)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at ag (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7923)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13014
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13038)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at ak (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49406)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46647)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:39511)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at as (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7504)
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10920)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at ag (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7923)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13014
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13038)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+[1mnull[22m
+ [32m[1m✓[22m[39m Compiled in 2.3s (5514 modules)
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [31m[1m⨯[22m[39m ../node_modules/next/dist/client/router.js (146:14) @ useRouter
+ [31m[1m⨯[22m[39m Internal error: Error: NextRouter was not mounted. https://nextjs.org/docs/messages/next-router-not-mounted
+    at useRouter (../../node_modules/next/dist/client/router.js:137:15)
+    at WithRouterWrapper (../../node_modules/next/dist/client/with-router.js:17:43)
+    at ai (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:6505)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11284
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13038)
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:43088)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:38901
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:39374)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:38901
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:39374)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at ak (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49406)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46647)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at ak (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49406)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46647)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at as (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7504)
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10920)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at ag (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7923)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13014
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13038)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at a_ (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:50165)
+    at ak (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49406)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46647)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:39511)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at as (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7504)
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10920)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+    at aS (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:48276)
+    at ag (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:7923)
+    at /Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13014
+    at ab (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:13038)
+    at e (/Users/j.bosque/Desktop/decazen-system/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:46298)
+[1mnull[22m
+ [33m[1m⚠[22m[39m ./src/app/layout.tsx
+Attempted import error: './providers' does not contain a default export (imported as 'Providers').
+
+Import trace for requested module:
+./src/app/layout.tsx
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+Warning: React.jsx: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check your code at layout.tsx:21.
+ [31m[1m⨯[22m[39m Error: Unsupported Server Component type: undefined
+    at stringify (<anonymous>)
+ [31m[1m⨯[22m[39m Error: Unsupported Server Component type: undefined
+    at stringify (<anonymous>)
+digest: "1768849390"
+Warning: React.jsx: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check your code at layout.tsx:21.
+ [31m[1m⨯[22m[39m Error: Unsupported Server Component type: undefined
+    at stringify (<anonymous>)
+ [31m[1m⨯[22m[39m Error: Unsupported Server Component type: undefined
+    at stringify (<anonymous>)
+digest: "1768849390"
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [33m[1m⚠[22m[39m ./src/app/providers.tsx
+Attempted import error: 'Layout' is not exported from '../components/layout/layout' (imported as 'Layout').
+
+Import trace for requested module:
+./src/app/providers.tsx
+
+./src/app/providers.tsx
+Attempted import error: 'Layout' is not exported from '../components/layout/layout' (imported as 'Layout').
+
+Import trace for requested module:
+./src/app/providers.tsx
+
+./src/app/layout.tsx
+Attempted import error: './providers' does not contain a default export (imported as 'Providers').
+
+Import trace for requested module:
+./src/app/layout.tsx
+ [33m[1m⚠[22m[39m ./src/app/providers.tsx
+Attempted import error: 'Layout' is not exported from '../components/layout/layout' (imported as 'Layout').
+
+Import trace for requested module:
+./src/app/providers.tsx
+
+./src/app/providers.tsx
+Attempted import error: 'Layout' is not exported from '../components/layout/layout' (imported as 'Layout').
+
+Import trace for requested module:
+./src/app/providers.tsx
+
+./src/app/layout.tsx
+Attempted import error: './providers' does not contain a default export (imported as 'Providers').
+
+Import trace for requested module:
+./src/app/layout.tsx
+ [33m[1m⚠[22m[39m ./src/app/providers.tsx
+Attempted import error: 'Layout' is not exported from '../components/layout/layout' (imported as 'Layout').
+
+Import trace for requested module:
+./src/app/providers.tsx
+
+./src/app/providers.tsx
+Attempted import error: 'Layout' is not exported from '../components/layout/layout' (imported as 'Layout').
+
+Import trace for requested module:
+./src/app/providers.tsx
+
+./src/app/layout.tsx
+Attempted import error: './providers' does not contain a default export (imported as 'Providers').
+
+Import trace for requested module:
+./src/app/layout.tsx
+Warning: React.jsx: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check your code at layout.tsx:21.
+Warning: React.jsx: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check your code at layout.tsx:21.
+ [31m[1m⨯[22m[39m Error: Unsupported Server Component type: undefined
+    at stringify (<anonymous>)
+ [31m[1m⨯[22m[39m Error: Unsupported Server Component type: undefined
+    at stringify (<anonymous>)
+ [31m[1m⨯[22m[39m Error: Unsupported Server Component type: undefined
+    at stringify (<anonymous>)
+digest: "1768849390"
+ [31m[1m⨯[22m[39m Error: Unsupported Server Component type: undefined
+    at stringify (<anonymous>)
+digest: "1768849390"
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+ [33m[1m⚠[22m[39m ./src/app/layout.tsx
+Attempted import error: './providers' does not contain a default export (imported as 'Providers').
+
+Import trace for requested module:
+./src/app/layout.tsx
+ [33m[1m⚠[22m[39m ./src/app/layout.tsx
+Attempted import error: './providers' does not contain a default export (imported as 'Providers').
+
+Import trace for requested module:
+./src/app/layout.tsx
+ [33m[1m⚠[22m[39m ./src/app/layout.tsx
+Attempted import error: './providers' does not contain a default export (imported as 'Providers').
+
+Import trace for requested module:
+./src/app/layout.tsx
+Warning: React.jsx: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check your code at layout.tsx:21.
+Warning: React.jsx: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check your code at layout.tsx:21.
+ [31m[1m⨯[22m[39m Error: Unsupported Server Component type: undefined
+    at stringify (<anonymous>)
+ [31m[1m⨯[22m[39m Error: Unsupported Server Component type: undefined
+    at stringify (<anonymous>)
+ [31m[1m⨯[22m[39m Error: Unsupported Server Component type: undefined
+    at stringify (<anonymous>)
+digest: "1768849390"
+ [31m[1m⨯[22m[39m Error: Unsupported Server Component type: undefined
+    at stringify (<anonymous>)
+digest: "1768849390"
+ [33m[1m⚠[22m[39m ./src/app/layout.tsx
+Attempted import error: './providers' does not contain a default export (imported as 'Providers').
+
+Import trace for requested module:
+./src/app/layout.tsx
+ [33m[1m⚠[22m[39m Fast Refresh had to perform a full reload due to a runtime error.
+Warning: React.jsx: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check your code at layout.tsx:21.
+ [31m[1m⨯[22m[39m Error: Unsupported Server Component type: undefined
+    at stringify (<anonymous>)
+ [31m[1m⨯[22m[39m Error: Unsupported Server Component type: undefined
+    at stringify (<anonymous>)
+digest: "1768849390"
+^C[?25h

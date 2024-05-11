@@ -15093,3 +15093,21 @@ DaemonProjectGraphError: The Daemon Process threw an error while calculating the
 [NX Daemon Server] - 2024-05-11T02:32:13.108Z - Done responding to the client null
 [NX Daemon Server] - 2024-05-11T02:32:13.108Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 2. Response time: 4.
 [NX Daemon Server] - 2024-05-11T02:32:13.117Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-05-11T05:10:08.238Z - Established a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-05-11T05:10:08.241Z - Established a connection. Number of open connections: 2
+[NX Daemon Server] - 2024-05-11T05:10:08.242Z - Closed a connection. Number of open connections: 1
+[NX Daemon Server] - 2024-05-11T05:10:08.273Z - [REQUEST]: Client Request for Project Graph Received
+[NX Daemon Server] - 2024-05-11T05:10:08.278Z - [REQUEST]: Responding to the client with an error. Error when preparing serialized project graph. The Daemon Process threw an error while calculating the project graph. Convert this error to a ProjectGraphError to get more information.
+DaemonProjectGraphError: The Daemon Process threw an error while calculating the project graph. Convert this error to a ProjectGraphError to get more information.
+    at processFilesAndCreateAndSerializeProjectGraph (/Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:182:24)
+    at async Timeout._onTimeout (/Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/daemon/server/project-graph-incremental-recomputation.js:85:13)
+[NX Daemon Server] - 2024-05-11T05:10:08.280Z - Time taken for 'Load Nx Plugin: /Users/j.bosque/Desktop/decazen-system/node_modules/nx/src/plugins/project-json/build-nodes/package-json-next-to-project-json' 3.0572500228881836ms
+[NX Daemon Server] - 2024-05-11T05:10:08.280Z - Done responding to the client null
+[NX Daemon Server] - 2024-05-11T05:10:08.280Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 5. Response time: 2.
+[NX Daemon Server] - 2024-05-11T05:10:08.285Z - Closed a connection. Number of open connections: 0
+[NX Daemon Server] - 2024-05-11T05:15:21.117Z - [WATCHER]: 238 file(s) created or restored, 0 file(s) modified, 0 file(s) deleted
+[NX Daemon Server] - 2024-05-11T05:15:21.125Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-11T05:15:21.151Z - [WATCHER]: Processing file changes in outputs
+[NX Daemon Server] - 2024-05-11T05:15:21.155Z - [WATCHER]: Stopping the watcher for /Users/j.bosque/Desktop/decazen-system (sources)
+[NX Daemon Server] - 2024-05-11T05:15:21.155Z - [WATCHER]: Stopping the watcher for /Users/j.bosque/Desktop/decazen-system (outputs)
+[NX Daemon Server] - 2024-05-11T05:15:21.155Z - Server stopped because: "Stopping the daemon the set of ignored files changed (native)"

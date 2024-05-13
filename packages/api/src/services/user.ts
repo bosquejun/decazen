@@ -1,10 +1,10 @@
-import { Lifetime } from 'awilix';
 import { FindConfig, UserService as MedusaUserService, buildQuery } from '@medusajs/medusa';
-import { User, UserStatus } from '../models/user';
 import { FilterableUserProps, CreateUserInput as MedusaCreateUserInput } from '@medusajs/medusa/dist/types/user';
-import StoreService from './store';
-import { MedusaError } from '@medusajs/utils';
 import { Selector } from '@medusajs/types';
+import { MedusaError } from '@medusajs/utils';
+import { Lifetime } from 'awilix';
+import { User, UserStatus } from '../models/user';
+import StoreService from './store';
 
 type CreateUserInput = {
 	store_id?: string;
@@ -75,7 +75,7 @@ class UserService extends MedusaUserService {
 		const query = buildQuery(
 			{
 				email: email.toLowerCase(),
-				status: UserStatus.ACTIVE,
+				status: [UserStatus.ACTIVE, UserStatus.REGISTERED],
 			},
 			config
 		);

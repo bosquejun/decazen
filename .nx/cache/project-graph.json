@@ -111,6 +111,39 @@
         "tags": [],
         "implicitDependencies": []
       }
+    },
+    "mercur-api": {
+      "name": "mercur-api",
+      "type": "lib",
+      "data": {
+        "root": "packages/api",
+        "targets": {
+          "lint": {
+            "cache": true,
+            "options": {
+              "cwd": "packages/api",
+              "command": "eslint ."
+            },
+            "inputs": [
+              "default",
+              "^default",
+              "{workspaceRoot}/.eslintrc.json",
+              "{projectRoot}/.eslintrc.js",
+              "{workspaceRoot}/tools/eslint-rules/**/*",
+              {
+                "externalDependencies": [
+                  "eslint"
+                ]
+              }
+            ],
+            "executor": "nx:run-commands",
+            "configurations": {}
+          }
+        },
+        "name": "mercur-api",
+        "implicitDependencies": [],
+        "tags": []
+      }
     }
   },
   "externalNodes": {
@@ -13015,6 +13048,108 @@
       {
         "source": "parking",
         "target": "npm:@nx/react",
+        "type": "static"
+      }
+    ],
+    "mercur-api": [
+      {
+        "source": "mercur-api",
+        "target": "npm:express",
+        "type": "static"
+      },
+      {
+        "source": "mercur-api",
+        "target": "npm:dotenv",
+        "type": "static"
+      },
+      {
+        "source": "mercur-api",
+        "target": "npm:body-parser",
+        "type": "static"
+      },
+      {
+        "source": "mercur-api",
+        "target": "npm:@babel/core",
+        "type": "static"
+      },
+      {
+        "source": "mercur-api",
+        "target": "npm:@babel/preset-typescript",
+        "type": "static"
+      },
+      {
+        "source": "mercur-api",
+        "target": "npm:@types/express",
+        "type": "static"
+      },
+      {
+        "source": "mercur-api",
+        "target": "npm:@types/jest",
+        "type": "static"
+      },
+      {
+        "source": "mercur-api",
+        "target": "npm:@types/mime",
+        "type": "static"
+      },
+      {
+        "source": "mercur-api",
+        "target": "npm:@types/node",
+        "type": "static"
+      },
+      {
+        "source": "mercur-api",
+        "target": "npm:@typescript-eslint/eslint-plugin",
+        "type": "static"
+      },
+      {
+        "source": "mercur-api",
+        "target": "npm:@typescript-eslint/parser",
+        "type": "static"
+      },
+      {
+        "source": "mercur-api",
+        "target": "npm:eslint",
+        "type": "static"
+      },
+      {
+        "source": "mercur-api",
+        "target": "npm:eslint-config-prettier",
+        "type": "static"
+      },
+      {
+        "source": "mercur-api",
+        "target": "npm:jest",
+        "type": "static"
+      },
+      {
+        "source": "mercur-api",
+        "target": "npm:prettier",
+        "type": "static"
+      },
+      {
+        "source": "mercur-api",
+        "target": "npm:rimraf",
+        "type": "static"
+      },
+      {
+        "source": "mercur-api",
+        "target": "npm:ts-jest",
+        "type": "static"
+      },
+      {
+        "source": "mercur-api",
+        "target": "npm:ts-loader",
+        "type": "static"
+      },
+      {
+        "source": "mercur-api",
+        "target": "npm:typescript",
+        "type": "static"
+      },
+      {
+        "source": "mercur-api",
+        "target": "npm:lodash",
         "type": "static"
       }
     ],

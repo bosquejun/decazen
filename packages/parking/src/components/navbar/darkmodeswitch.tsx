@@ -1,28 +1,28 @@
-import { Button, Switch } from "@nextui-org/react";
+import { Switch } from "@nextui-org/react";
 import { Moon, Sun1 } from "iconsax-react";
 import { useTheme as useNextTheme } from "next-themes";
-import { Icon } from "../icons/Icon";
+import { useEffect, useMemo, useState } from "react";
 
-
-export const DarkModeSwitch = ({ iconMode }: { iconMode?: boolean }) => {
+export const DarkModeSwitch = () => {
   const { setTheme, resolvedTheme } = useNextTheme();
+  const [isMounted, setIsMounted] = useState(false);
 
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
 
+  const isSelected = useMemo(() => resolvedTheme === "dark", [resolvedTheme]);
 
-  if (iconMode) {
-    return <Button isIconOnly variant="light" onClick={() => {
-      setTheme(resolvedTheme === "dark" ? "light" : "dark")
-    }}>
-      {
-        resolvedTheme === "dark" ? <Icon as={Sun1} size="24" className="text-foreground stroke-foreground" /> : <Moon size="24" className="text-foreground  stroke-foreground" />
-      }
-    </Button>
-  }
+  if (!isMounted) return null;
 
   return (
     <Switch
-      isSelected={resolvedTheme === "dark" ? true : false}
+      isSelected={isSelected}
       onValueChange={(e) => setTheme(e ? "dark" : "light")}
+      color="primary"
+      startContent={<Sun1 size={16} />}
+      endContent={<Moon size={16} />}
+      size="lg"
     />
   );
 };

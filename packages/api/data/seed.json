@@ -4,8 +4,8 @@
 	},
 	"users": [
 		{
-			"email": "admin@medusa-test.com",
-			"password": "supersecret",
+			"email": "admin@decazen.com",
+			"password": "Decazen1234!",
 			"is_admin": true,
 			"status": "active"
 		}

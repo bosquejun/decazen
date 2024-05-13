@@ -3,7 +3,7 @@ import { MigrationInterface, QueryRunner } from 'typeorm';
 export class AddStatusToUsersTable1712220743569 implements MigrationInterface {
 	public async up(queryRunner: QueryRunner): Promise<void> {
 		await queryRunner.query(`
-      CREATE TYPE "userstatus" AS ENUM ('pending', 'active', 'rejected');
+      CREATE TYPE "userstatus" AS ENUM ('pending', 'active', 'rejected', 'registered', 'suspended');
     `);
 
 		await queryRunner.query(`

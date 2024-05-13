@@ -31,11 +31,9 @@ export const POST = async (req: MedusaRequest, res: MedusaResponse) => {
 	const user = await manager.transaction(async (transactionManager) => {
 		const newStore = await storeService.withTransaction(transactionManager).createForUser();
 
-		console.log(newStore);
-
 		return await userService
 			.withTransaction(transactionManager)
-			.create({ ...data, store_id: newStore.id, status: UserStatus.ACTIVE }, validated.password);
+			.create({ ...data, store_id: newStore.id, status: UserStatus.REGISTERED }, validated.password);
 	});
 
 	res.status(200).json({ user: _.omit(user, ['password_hash', 'is_admin']) });

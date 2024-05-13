@@ -20,8 +20,8 @@ export const NavbarWrapper = ({ children }: Props) => {
   return (
     <div className="relative flex flex-col flex-1 overflow-y-auto overflow-x-hidden">
       <Navbar
-        isBordered
-        className="w-full bg-content1 dark:bg-background"
+        // isBordered
+        className="dark w-full bg-content1 bg-transparent backdrop-blur-none"
         classNames={{
           wrapper: "w-full max-w-full",
         }}
@@ -30,7 +30,9 @@ export const NavbarWrapper = ({ children }: Props) => {
           <BurguerButton />
         </NavbarContent>
         <NavbarBrand className="w-full grow-1">
-          <p className="font-bold text-inherit">Decazen</p>
+          <a href="/">
+            <img className="h-[40px]" src="/images/PARKING_LOGO.png" />
+          </a>
         </NavbarBrand>
         {/* <NavbarContent className="w-full max-md:hidden">
           <Input
@@ -59,19 +61,19 @@ export const NavbarWrapper = ({ children }: Props) => {
             <SupportIcon />
           </div> */}
           <NavbarItem className="max-md:hidden" >
-            <Link href="#" color="foreground">Rent out your space</Link>
+            <Link href="/rent-out-space" color="foreground">Rent out your space</Link>
           </NavbarItem>
           <NavbarItem >
             <Button className="hidden md:flex" color="primary" onClick={handleOpenLogin} variant="shadow">
               <Icon as={LoginCurve} size="24" className="text-black" /> Login as Parking Owner
             </Button>
-            <Button className="flex md:hidden" onClick={handleOpenLogin} color="primary" variant="shadow">
-              <Icon as={LoginCurve} size="24" className="text-black" /> Login
+            <Button isIconOnly className="flex md:hidden" onClick={handleOpenLogin} color="primary" variant="light">
+              <Icon as={LoginCurve} size="24" />
             </Button>
           </NavbarItem>
 
           <NavbarItem className="max-md:hidden" >
-            <DarkModeSwitch iconMode />
+            <DarkModeSwitch />
           </NavbarItem>
 
           {/* <Link

@@ -1,9 +1,9 @@
-import { Lifetime } from 'awilix';
 import { FindConfig, StoreService as MedusaStoreService, Store, buildQuery } from '@medusajs/medusa';
-import { User } from '../models/user';
-import StoreRepository from '../repositories/store';
+import { Lifetime } from 'awilix';
 import { MedusaError } from 'medusa-core-utils';
 import { EntityManager } from 'typeorm';
+import { User } from '../models/user';
+import StoreRepository from '../repositories/store';
 
 class StoreService extends MedusaStoreService {
 	static LIFE_TIME = Lifetime.TRANSIENT;
@@ -28,14 +28,17 @@ class StoreService extends MedusaStoreService {
 
 			const newStore = storeRepository.create();
 
-			const usd = await currencyRepository.findOne({
+			newStore.name = 'Parking Space';
+
+			const php = await currencyRepository.findOne({
 				where: {
-					code: 'usd',
+					code: 'php',
 				},
 			});
 
-			if (usd) {
-				newStore.currencies = [usd];
+			if (php) {
+				newStore.currencies = [php];
+				newStore.default_currency_code = php.code;
 			}
 
 			return await storeRepository.save(newStore);

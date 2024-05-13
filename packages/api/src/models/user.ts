@@ -1,11 +1,12 @@
-import { Column, Entity, Index, JoinColumn, ManyToOne } from 'typeorm';
 import { User as MedusaUser } from '@medusajs/medusa';
+import { Column, Entity, Index, JoinColumn, ManyToOne } from 'typeorm';
 import { Store } from './store';
 
 export enum UserStatus {
 	PENDING = 'pending',
 	ACTIVE = 'active',
 	REJECTED = 'rejected',
+	REGISTERED = 'registered',
 }
 
 export enum UserPermission {

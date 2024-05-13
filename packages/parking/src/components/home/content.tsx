@@ -18,13 +18,15 @@ export const Content = () => {
           objectFit="cover"
           objectPosition="50% 50%" // Adjust this value as needed
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-black to-transparent opacity-82 z-10"></div>
-        <span className="absolute bottom-2 left-2 text-white/60 text-[0.7rem] z-10">
+        <div className="absolute inset-0 bg-gradient-to-b from-black to-transparent opacity-75 z-10"></div>
+        <span className="absolute bottom-2 left-2 text-white/40 text-[0.7rem] z-[11]">
           Photo by <a href="https://unsplash.com/@sxoxm?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Sven Mieke</a> on <a href="https://unsplash.com/photos/yellow-and-black-stripe-floor-lOgR82HSQKM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
         </span>
+        {/* <div className=" absolute inset-0 bg-gradient-to-t from-background to-transparent z-10"></div> */}
+
       </div>
       <div className="h-full lg:px-6 z-10 w-full">
-        <div className="flex flex-col w-full h-full mt-6 md:mt-14 items-center">
+        <div className="flex flex-col w-full h-full items-center">
           <h1 className=" text-2xl lg:text-4xl font-semibold text-white self-center text-center">Looking for a <span className="italic text-primary bold">space</span> to park?<br />Let&apos;s find one for <span className="italic text-primary bold">you</span>.</h1>
           <Spacer y={20} className="hidden md:block" />
           <Spacer y={14} className="md:hidden block" />

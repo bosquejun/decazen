@@ -21,8 +21,13 @@ export const Content = () => (
 
         </div>
         <div className="flex flex-col flex-3 w-full md:max-w-[40%] pb-0 md:pb-6 p-6 gap-y-6">
+            <Spacer y={10} />
+            <div className="w=full flex justify-center">
+                <img className="h-[40px] w-[168px]" src="/images/PARKING_LOGO.png" />
+            </div>
             <div className=" grow-1 h-full">
                 <div className="flex flex-col gap-4 w-full justify-center h-full">
+
                     <h1 className="text-2xl font-semibold">Welcome back, <strong className="text-primary">Parking owner</strong>!</h1>
                     <p className="text-foreground-700">Sign in to your account to continue</p>
                     <Input
@@ -41,7 +46,7 @@ export const Content = () => (
             </div>
             <Spacer y={8} className="block md:hidden" />
             <div className="grow-0 flex justify-center">
-                <p className="text-foreground-500">Have a space to rent out? <a href="#" className="text-primary">Sign up now</a>!</p>
+                <p className="text-foreground-500">Have a space to rent out? <a href="#" className="text-primary-400 dark:text-primary">Sign up now</a>!</p>
             </div>
         </div>
     </div>

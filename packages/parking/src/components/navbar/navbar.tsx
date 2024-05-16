@@ -1,16 +1,21 @@
 import { Button, Link, Modal, ModalContent, Navbar, NavbarBrand, NavbarContent, NavbarItem, useDisclosure } from "@nextui-org/react";
+import clsx from 'clsx';
 import { LoginCurve } from "iconsax-react";
 import React from "react";
+import Show from "../common/Show";
 import { Icon } from "../icons/Icon";
 import { Content as LoginContent } from "../login/content";
+import { PlatformDropdown } from "../sidebar/platform-dropdown";
 import { BurguerButton } from "./burguer-button";
 import { DarkModeSwitch } from "./darkmodeswitch";
 
-interface Props {
+export interface NavbarProps {
   children: React.ReactNode;
+  hideLogin?: boolean;
+  darkOnly?: boolean;
 }
 
-export const NavbarWrapper = ({ children }: Props) => {
+export const NavbarWrapper = ({ children, hideLogin, darkOnly }: NavbarProps) => {
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   const handleOpenLogin = () => {
@@ -20,8 +25,7 @@ export const NavbarWrapper = ({ children }: Props) => {
   return (
     <div className="relative flex flex-col flex-1 overflow-y-auto overflow-x-hidden">
       <Navbar
-        // isBordered
-        className="dark w-full bg-content1 bg-transparent backdrop-blur-none"
+        className={clsx("w-full bg-content1 bg-transparent backdrop-blur-none", darkOnly !== false && "dark")}
         classNames={{
           wrapper: "w-full max-w-full",
         }}
@@ -30,9 +34,13 @@ export const NavbarWrapper = ({ children }: Props) => {
           <BurguerButton />
         </NavbarContent>
         <NavbarBrand className="w-full grow-1">
-          <a href="/">
+          <PlatformDropdown classNames={{
+            logo: "border-none bg-transparent w-[58px] h-[58px]",
+            logoWrapper: "gap-1"
+          }} />
+          {/* <a href="/">
             <img className="h-[40px]" src="/images/PARKING_LOGO.png" />
-          </a>
+          </a> */}
         </NavbarBrand>
         {/* <NavbarContent className="w-full max-md:hidden">
           <Input
@@ -63,14 +71,18 @@ export const NavbarWrapper = ({ children }: Props) => {
           <NavbarItem className="max-md:hidden" >
             <Link href="/rent-out-space" color="foreground">Rent out your space</Link>
           </NavbarItem>
-          <NavbarItem >
-            <Button className="hidden md:flex" color="primary" onClick={handleOpenLogin} variant="shadow">
-              <Icon as={LoginCurve} size="24" className="text-black" /> Login as Parking Owner
-            </Button>
-            <Button isIconOnly className="flex md:hidden" onClick={handleOpenLogin} color="primary" variant="light">
-              <Icon as={LoginCurve} size="24" />
-            </Button>
-          </NavbarItem>
+          <Show>
+            <Show.When isTrue={!hideLogin}>
+              <NavbarItem >
+                <Button className="hidden md:flex" color="primary" onClick={handleOpenLogin} variant="shadow">
+                  <Icon as={LoginCurve} size="24" className="text-black" /> Login as Parking Owner
+                </Button>
+                <Button isIconOnly className="flex md:hidden" onClick={handleOpenLogin} color="primary" variant="light">
+                  <Icon as={LoginCurve} size="24" />
+                </Button>
+              </NavbarItem>
+            </Show.When>
+          </Show>
 
           <NavbarItem className="max-md:hidden" >
             <DarkModeSwitch />
@@ -96,7 +108,7 @@ export const NavbarWrapper = ({ children }: Props) => {
         placement="center"
       >
         <ModalContent>
-          <LoginContent />
+          <LoginContent closeModal={onClose} />
         </ModalContent>
       </Modal>
     </div>

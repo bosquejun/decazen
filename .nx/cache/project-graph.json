@@ -12982,17 +12982,7 @@
       },
       {
         "source": "parking",
-        "target": "npm:react",
-        "type": "static"
-      },
-      {
-        "source": "parking",
         "target": "npm:@testing-library/react",
-        "type": "static"
-      },
-      {
-        "source": "parking",
-        "target": "npm:clsx",
         "type": "static"
       },
       {
@@ -13002,12 +12992,12 @@
       },
       {
         "source": "parking",
-        "target": "npm:@nextui-org/system",
+        "target": "npm:react",
         "type": "static"
       },
       {
         "source": "parking",
-        "target": "npm:next-themes",
+        "target": "npm:clsx",
         "type": "static"
       },
       {
@@ -13043,6 +13033,16 @@
       {
         "source": "parking",
         "target": "npm:react-responsive-carousel",
+        "type": "static"
+      },
+      {
+        "source": "parking",
+        "target": "npm:next-themes",
+        "type": "static"
+      },
+      {
+        "source": "parking",
+        "target": "npm:@nextui-org/system",
         "type": "static"
       },
       {

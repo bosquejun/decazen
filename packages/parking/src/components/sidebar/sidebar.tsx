@@ -1,31 +1,88 @@
-import React from "react";
-import { Sidebar } from "./sidebar.styles";
-import { Avatar, Tooltip } from "@nextui-org/react";
-import { CompaniesDropdown } from "./companies-dropdown";
-import { HomeIcon } from "../icons/sidebar/home-icon";
-import { PaymentsIcon } from "../icons/sidebar/payments-icon";
-import { BalanceIcon } from "../icons/sidebar/balance-icon";
-import { AccountsIcon } from "../icons/sidebar/accounts-icon";
-import { CustomersIcon } from "../icons/sidebar/customers-icon";
-import { ProductsIcon } from "../icons/sidebar/products-icon";
-import { ReportsIcon } from "../icons/sidebar/reports-icon";
-import { DevIcon } from "../icons/sidebar/dev-icon";
-import { ViewIcon } from "../icons/sidebar/view-icon";
-import { SettingsIcon } from "../icons/sidebar/settings-icon";
-import { CollapseItems } from "./collapse-items";
+import { Driving, Element4, Home2, Note1, Profile2User } from "iconsax-react";
+import { usePathname } from "next/navigation";
+import { useMemo } from "react";
+import { useSidebarContext } from "../layout/layout-context";
+import { DarkModeSwitch } from "../navbar/darkmodeswitch";
+import { PlatformDropdown } from "./platform-dropdown";
 import { SidebarItem } from "./sidebar-item";
 import { SidebarMenu } from "./sidebar-menu";
-import { FilterIcon } from "../icons/sidebar/filter-icon";
-import { useSidebarContext } from "../layout/layout-context";
-import { ChangeLogIcon } from "../icons/sidebar/changelog-icon";
-import { usePathname } from "next/navigation";
+import { Sidebar } from "./sidebar.styles";
 
 export const SidebarWrapper = () => {
   const pathname = usePathname();
   const { collapsed, setCollapsed } = useSidebarContext();
 
+  const isActive = (path?: string) => path ? pathname.startsWith(path) : false;
+
+  const sidebar_items = useMemo(() => {
+
+
+    const items = [{
+      title: "Home Page",
+      icon: <Home2 />,
+      isActive: false,
+      href: "/"
+    }, {
+      title: "Main Menu",
+      items: [
+        {
+          title: "Dashboard",
+          icon: <Element4 className="[&_path]:!fill-none" />,
+          href: "/dashboard"
+        },
+        {
+          title: "Parking Spaces",
+          icon: <Driving />,
+          href: "/dashboard/parking-spaces"
+        },
+        {
+          title: "Rentals",
+          icon: <Note1 />,
+          href: "/dashboard/rentals"
+        },
+
+        {
+          title: "Customers",
+          icon: <Profile2User />,
+          href: "/dashboard/customers"
+        },
+        // , {
+        //   title: "Reports",
+        //   icon: <ReportsIcon />,
+        //   isActive: isActive("/reports"),
+        // }
+      ]
+    }
+      // , {
+      //   title: "General",
+      //   items: [{
+      //     title: "Developers",
+      //     icon: <DevIcon />,
+      //     isActive: isActive("/developers"),
+      //   }, {
+      //     title: "View Test Data",
+      //     icon: <ViewIcon />,
+      //     isActive: isActive("/view"),
+      //   }, {
+      //     title: "Settings",
+      //     icon: <SettingsIcon />,
+      //     isActive: isActive("/settings"),
+      //   },]
+      // }, {
+      //   title: "Updates",
+      //   items: [{
+      //     title: "Changelog",
+      //     icon: <ChangeLogIcon />,
+      //     isActive: isActive("/changelog"),
+      //   }]
+      // }
+    ];
+
+    return items;
+  }, [pathname]);
+
   return (
-    <aside className="h-screen z-[20] sticky top-0">
+    <aside className="h-screen z-[50] sticky top-0">
       {collapsed ? (
         <div className={Sidebar.Overlay()} onClick={setCollapsed} />
       ) : null}
@@ -35,11 +92,36 @@ export const SidebarWrapper = () => {
         })}
       >
         <div className={Sidebar.Header()}>
-          <CompaniesDropdown />
+          <PlatformDropdown classNames={{
+            logo: "w-[55px] h-[55px]  bg-white dark:bg-black"
+          }} />
         </div>
         <div className="flex flex-col justify-between h-full">
           <div className={Sidebar.Body()}>
-            <SidebarItem
+            <div className="flex flex-col gap-6">
+              <div className="flex flex-col gap-6">
+                {sidebar_items.map((item, index) => (
+                  item.items ? (<SidebarMenu key={index} title={item.title}>
+                    {item.items?.map((subitem, subindex) => (
+                      <SidebarItem
+                        key={subindex}
+                        title={subitem.title}
+                        icon={subitem.icon}
+                        isActive={isActive(subitem?.href)}
+                        href={subitem.href}
+                      />
+                    ))}
+                  </SidebarMenu>) : (<SidebarItem
+                    key={index}
+                    title={item.title}
+                    icon={item.icon}
+                    isActive={item.isActive ?? isActive(item?.["href"])}
+                    href={item.href} />
+                  )
+                ))}
+              </div>
+            </div>
+            {/* <SidebarItem
               title="Home"
               icon={<HomeIcon />}
               isActive={pathname === "/"}
@@ -103,10 +185,13 @@ export const SidebarWrapper = () => {
                 title="Changelog"
                 icon={<ChangeLogIcon />}
               />
-            </SidebarMenu>
+            </SidebarMenu> */}
           </div>
           <div className={Sidebar.Footer()}>
-            <Tooltip content={"Settings"} color="primary">
+            <div className="w-full flex">
+              <DarkModeSwitch />
+            </div>
+            {/* <Tooltip content={"Settings"} color="primary">
               <div className="max-w-fit">
                 <SettingsIcon />
               </div>
@@ -121,7 +206,7 @@ export const SidebarWrapper = () => {
                 src="https://i.pravatar.cc/150?u=a042581f4e29026704d"
                 size="sm"
               />
-            </Tooltip>
+            </Tooltip> */}
           </div>
         </div>
       </div>

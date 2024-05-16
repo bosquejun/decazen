@@ -6,8 +6,6 @@ import { SearchSection } from "./search-section";
 
 
 export const Content = () => {
-
-
   return (
     <div className="flex w-full px-2">
       <div className='absolute top-0 left-0 w-full h-full max-h-[350px] md:max-h-[400px] z-0'>
@@ -32,8 +30,6 @@ export const Content = () => {
           <Spacer y={14} className="md:hidden block" />
           <SearchSection />
         </div>
-
-
         <Spacer y={6} />
         {/* Table Latest Users */}
         <div className="flex flex-col justify-center w-full py-5 lg:px-0  max-w-[90rem] mx-auto gap-3">

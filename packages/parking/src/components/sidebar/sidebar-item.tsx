@@ -24,11 +24,11 @@ export const SidebarItem = ({ icon, title, isActive, href = "" }: Props) => {
       className="text-default-900 active:bg-none max-w-full"
     >
       <div
-        className={clsx(
+        className={clsx("[&_svg_path]:stroke-[1.5] ",
           isActive
-            ? "bg-primary-100 [&_svg_path]:fill-primary-500"
+            ? "bg-primary/20 [&_svg_path]:stroke-primary-400 dark:[&_svg_path]:stroke-primary"
             : "hover:bg-default-200",
-          "flex gap-2 w-full min-h-[44px] h-full items-center px-3.5 rounded-xl cursor-pointer transition-all duration-150 active:scale-[0.98]"
+          "flex gap-2 w-full min-h-[44px] h-full items-center px-3.5 rounded-xl cursor-pointer transition-all duration-150 active:scale-[0.98] "
         )}
         onClick={handleClick}
       >

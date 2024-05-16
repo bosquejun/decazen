@@ -23,6 +23,10 @@ export const DarkModeSwitch = () => {
       startContent={<Sun1 size={16} />}
       endContent={<Moon size={16} />}
       size="lg"
+      classNames={{
+        wrapper: "rounded-lg",
+        thumb: "rounded-md",
+      }}
     />
   );
 };

@@ -25,7 +25,7 @@ export const NavbarWrapper = ({ children, hideLogin, darkOnly }: NavbarProps) =>
   return (
     <div className="relative flex flex-col flex-1 overflow-y-auto overflow-x-hidden">
       <Navbar
-        className={clsx("w-full bg-content1 bg-transparent backdrop-blur-none", darkOnly !== false && "dark")}
+        className={clsx("w-full bg-content1 md:bg-transparent md:backdrop-blur-none", darkOnly !== false && "dark")}
         classNames={{
           wrapper: "w-full max-w-full",
         }}

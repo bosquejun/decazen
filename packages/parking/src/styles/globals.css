@@ -30,3 +30,11 @@ button, button a {
 .carousel-root .carousel-slider{
   @apply rounded-xl
 }
+
+div[data-slot="input-wrapper"] {
+  @apply min-h-[56px]
+}
+
+div[data-slot="input-wrapper"] input {
+  @apply text-[16px]
+}

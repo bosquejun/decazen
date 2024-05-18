@@ -1,5 +1,5 @@
 {
-  "14831845072310258380": {
+  "13514559800663056775": {
     "targets": {
       "test": {
         "command": "jest",
@@ -28,7 +28,7 @@
       }
     }
   },
-  "4320525252651023188": {
+  "2652894210230360385": {
     "targets": {
       "test": {
         "command": "jest",
@@ -57,7 +57,7 @@
       }
     }
   },
-  "15170390296392929047": {
+  "11247219311786288002": {
     "targets": {
       "test": {
         "command": "jest",
@@ -86,7 +86,7 @@
       }
     }
   },
-  "5237166413248851362": {
+  "12374473614742565537": {
     "targets": {
       "test": {
         "command": "jest",
@@ -115,7 +115,7 @@
       }
     }
   },
-  "8447222762418872411": {
+  "12804293421895114715": {
     "targets": {
       "test": {
         "command": "jest",
@@ -144,7 +144,7 @@
       }
     }
   },
-  "4042359038834777475": {
+  "6423498015898774975": {
     "targets": {
       "test": {
         "command": "jest",
@@ -173,7 +173,7 @@
       }
     }
   },
-  "8463948635020419335": {
+  "9002078392608690796": {
     "targets": {
       "test": {
         "command": "jest",
@@ -202,7 +202,7 @@
       }
     }
   },
-  "5409418168665453733": {
+  "6802781817583315045": {
     "targets": {
       "test": {
         "command": "jest",
@@ -231,7 +231,7 @@
       }
     }
   },
-  "797528098887643546": {
+  "7906792732083609046": {
     "targets": {
       "test": {
         "command": "jest",
@@ -260,7 +260,7 @@
       }
     }
   },
-  "3362923607329307385": {
+  "11639521820305442269": {
     "targets": {
       "test": {
         "command": "jest",
@@ -289,7 +289,7 @@
       }
     }
   },
-  "17525603457203213387": {
+  "13370294433657149319": {
     "targets": {
       "test": {
         "command": "jest",
@@ -318,7 +318,7 @@
       }
     }
   },
-  "7484611989628723289": {
+  "12385726671198037049": {
     "targets": {
       "test": {
         "command": "jest",
@@ -347,7 +347,7 @@
       }
     }
   },
-  "3818887243548220136": {
+  "14188625941187243596": {
     "targets": {
       "test": {
         "command": "jest",
@@ -376,7 +376,7 @@
       }
     }
   },
-  "13116243645222053227": {
+  "9972466835525869039": {
     "targets": {
       "test": {
         "command": "jest",
@@ -405,7 +405,7 @@
       }
     }
   },
-  "4691878857001625772": {
+  "17046872600203059336": {
     "targets": {
       "test": {
         "command": "jest",
@@ -434,7 +434,7 @@
       }
     }
   },
-  "14130596505669586811": {
+  "3778248259999837824": {
     "targets": {
       "test": {
         "command": "jest",
@@ -463,7 +463,7 @@
       }
     }
   },
-  "11437143719030426102": {
+  "17351184155347304452": {
     "targets": {
       "test": {
         "command": "jest",
@@ -492,7 +492,7 @@
       }
     }
   },
-  "5551679921345314311": {
+  "15206234051727532148": {
     "targets": {
       "test": {
         "command": "jest",
@@ -521,7 +521,7 @@
       }
     }
   },
-  "15680731520930602234": {
+  "13681667175661317370": {
     "targets": {
       "test": {
         "command": "jest",
@@ -550,7 +550,7 @@
       }
     }
   },
-  "3829720162681075038": {
+  "7036250039411966891": {
     "targets": {
       "test": {
         "command": "jest",
@@ -579,7 +579,7 @@
       }
     }
   },
-  "1148736043204693247": {
+  "17312417985346928328": {
     "targets": {
       "test": {
         "command": "jest",
@@ -608,7 +608,7 @@
       }
     }
   },
-  "17470618851009232892": {
+  "7747169461837440411": {
     "targets": {
       "test": {
         "command": "jest",
@@ -637,7 +637,7 @@
       }
     }
   },
-  "9866086901921511267": {
+  "4109323893837197126": {
     "targets": {
       "test": {
         "command": "jest",
@@ -666,7 +666,7 @@
       }
     }
   },
-  "13752145826500715301": {
+  "8500769659919571147": {
     "targets": {
       "test": {
         "command": "jest",
@@ -695,7 +695,7 @@
       }
     }
   },
-  "6816065559855690332": {
+  "2436917734126884993": {
     "targets": {
       "test": {
         "command": "jest",
@@ -724,7 +724,7 @@
       }
     }
   },
-  "5827806612365160757": {
+  "6034675808511363718": {
     "targets": {
       "test": {
         "command": "jest",
@@ -753,7 +753,7 @@
       }
     }
   },
-  "17211939275550566282": {
+  "7965051160586276677": {
     "targets": {
       "test": {
         "command": "jest",
@@ -782,7 +782,7 @@
       }
     }
   },
-  "6384586452643556110": {
+  "10779506033916019975": {
     "targets": {
       "test": {
         "command": "jest",
@@ -811,7 +811,7 @@
       }
     }
   },
-  "1951228170668349449": {
+  "14446840865180142885": {
     "targets": {
       "test": {
         "command": "jest",
@@ -840,7 +840,7 @@
       }
     }
   },
-  "11942444160474085246": {
+  "10140254946301715102": {
     "targets": {
       "test": {
         "command": "jest",
@@ -869,7 +869,7 @@
       }
     }
   },
-  "17348741911748181885": {
+  "2268979109550991987": {
     "targets": {
       "test": {
         "command": "jest",
@@ -898,7 +898,7 @@
       }
     }
   },
-  "10680042193973318495": {
+  "10691214232730677485": {
     "targets": {
       "test": {
         "command": "jest",
@@ -927,7 +927,7 @@
       }
     }
   },
-  "11301441823985725517": {
+  "10262566319532609378": {
     "targets": {
       "test": {
         "command": "jest",
@@ -956,7 +956,7 @@
       }
     }
   },
-  "13452795081096108440": {
+  "15058247796767520098": {
     "targets": {
       "test": {
         "command": "jest",
@@ -985,7 +985,7 @@
       }
     }
   },
-  "14426355520057180631": {
+  "12243045959257083339": {
     "targets": {
       "test": {
         "command": "jest",
@@ -1014,7 +1014,7 @@
       }
     }
   },
-  "671002990734444859": {
+  "10135010000402487056": {
     "targets": {
       "test": {
         "command": "jest",
@@ -1043,7 +1043,7 @@
       }
     }
   },
-  "5503464269750718754": {
+  "11607118615879786573": {
     "targets": {
       "test": {
         "command": "jest",
@@ -1072,7 +1072,7 @@
       }
     }
   },
-  "18176644764477336599": {
+  "5224910373184408441": {
     "targets": {
       "test": {
         "command": "jest",
@@ -1101,7 +1101,7 @@
       }
     }
   },
-  "14233993049677256833": {
+  "8939689718451725516": {
     "targets": {
       "test": {
         "command": "jest",
@@ -1130,7 +1130,7 @@
       }
     }
   },
-  "17079144000143406865": {
+  "11620841282361998614": {
     "targets": {
       "test": {
         "command": "jest",
@@ -1159,7 +1159,7 @@
       }
     }
   },
-  "18127735183559998803": {
+  "6448356402422328583": {
     "targets": {
       "test": {
         "command": "jest",
@@ -1188,7 +1188,7 @@
       }
     }
   },
-  "283068079754597820": {
+  "5943279726205298729": {
     "targets": {
       "test": {
         "command": "jest",
@@ -1217,7 +1217,7 @@
       }
     }
   },
-  "9529559416440957237": {
+  "17809928879294151574": {
     "targets": {
       "test": {
         "command": "jest",
@@ -1246,7 +1246,7 @@
       }
     }
   },
-  "3123122892938685766": {
+  "2206391020920040775": {
     "targets": {
       "test": {
         "command": "jest",
@@ -1275,7 +1275,7 @@
       }
     }
   },
-  "9710969684435937633": {
+  "1595727177332517923": {
     "targets": {
       "test": {
         "command": "jest",
@@ -1304,7 +1304,7 @@
       }
     }
   },
-  "4943904272839488198": {
+  "5929407694310816167": {
     "targets": {
       "test": {
         "command": "jest",
@@ -1333,7 +1333,7 @@
       }
     }
   },
-  "4591424343179719717": {
+  "18227241504015683974": {
     "targets": {
       "test": {
         "command": "jest",
@@ -1362,7 +1362,7 @@
       }
     }
   },
-  "9696062162871676438": {
+  "3585923939020620813": {
     "targets": {
       "test": {
         "command": "jest",
@@ -1391,7 +1391,7 @@
       }
     }
   },
-  "171105605527207682": {
+  "12546700272480764150": {
     "targets": {
       "test": {
         "command": "jest",
@@ -1420,7 +1420,7 @@
       }
     }
   },
-  "7932027521175266445": {
+  "16519323826682480258": {
     "targets": {
       "test": {
         "command": "jest",
@@ -1449,7 +1449,7 @@
       }
     }
   },
-  "9419284682706654636": {
+  "9591369199846773241": {
     "targets": {
       "test": {
         "command": "jest",
@@ -1478,7 +1478,7 @@
       }
     }
   },
-  "14457735679661724082": {
+  "5713736445287363482": {
     "targets": {
       "test": {
         "command": "jest",
@@ -1507,7 +1507,7 @@
       }
     }
   },
-  "14475282157676871146": {
+  "17277642732011385915": {
     "targets": {
       "test": {
         "command": "jest",
@@ -1536,7 +1536,7 @@
       }
     }
   },
-  "10067670971671295439": {
+  "7059729712984690261": {
     "targets": {
       "test": {
         "command": "jest",
@@ -1565,7 +1565,7 @@
       }
     }
   },
-  "11857119156472380033": {
+  "16608006059104122447": {
     "targets": {
       "test": {
         "command": "jest",
@@ -1594,7 +1594,7 @@
       }
     }
   },
-  "10546626870012392618": {
+  "1591910080182201059": {
     "targets": {
       "test": {
         "command": "jest",
@@ -1623,7 +1623,7 @@
       }
     }
   },
-  "2474173433616071078": {
+  "13440884813731376766": {
     "targets": {
       "test": {
         "command": "jest",
@@ -1652,7 +1652,7 @@
       }
     }
   },
-  "10225326107494474773": {
+  "4938300635309306929": {
     "targets": {
       "test": {
         "command": "jest",
@@ -1681,7 +1681,7 @@
       }
     }
   },
-  "1945780380331062209": {
+  "13148555977674886799": {
     "targets": {
       "test": {
         "command": "jest",
@@ -1710,7 +1710,7 @@
       }
     }
   },
-  "16785833268236680847": {
+  "17332433727853908148": {
     "targets": {
       "test": {
         "command": "jest",
@@ -1739,7 +1739,7 @@
       }
     }
   },
-  "11109453291721695694": {
+  "15792236425650087007": {
     "targets": {
       "test": {
         "command": "jest",
@@ -1768,7 +1768,7 @@
       }
     }
   },
-  "12808031385468380149": {
+  "4761964852855685541": {
     "targets": {
       "test": {
         "command": "jest",
@@ -1797,7 +1797,7 @@
       }
     }
   },
-  "1130822853234390105": {
+  "12403714461224996350": {
     "targets": {
       "test": {
         "command": "jest",
@@ -1826,7 +1826,7 @@
       }
     }
   },
-  "3759767096494136071": {
+  "9299016647533469620": {
     "targets": {
       "test": {
         "command": "jest",
@@ -1855,7 +1855,7 @@
       }
     }
   },
-  "13573952336968776830": {
+  "11909197745710687613": {
     "targets": {
       "test": {
         "command": "jest",
@@ -1884,7 +1884,7 @@
       }
     }
   },
-  "4179085057549819314": {
+  "3627531815200006968": {
     "targets": {
       "test": {
         "command": "jest",
@@ -1913,7 +1913,7 @@
       }
     }
   },
-  "8878244500782085136": {
+  "9453998235396620228": {
     "targets": {
       "test": {
         "command": "jest",
@@ -1942,7 +1942,7 @@
       }
     }
   },
-  "844330975050213161": {
+  "13802520385654472788": {
     "targets": {
       "test": {
         "command": "jest",
@@ -1971,7 +1971,7 @@
       }
     }
   },
-  "4125098497428849398": {
+  "11687933523650381363": {
     "targets": {
       "test": {
         "command": "jest",
@@ -2000,7 +2000,7 @@
       }
     }
   },
-  "8531719042120915777": {
+  "12036105107880478291": {
     "targets": {
       "test": {
         "command": "jest",
@@ -2029,7 +2029,7 @@
       }
     }
   },
-  "4228265122543115123": {
+  "1835908837434277494": {
     "targets": {
       "test": {
         "command": "jest",
@@ -2058,7 +2058,7 @@
       }
     }
   },
-  "7127493790680691220": {
+  "15158919672948950271": {
     "targets": {
       "test": {
         "command": "jest",
@@ -2087,7 +2087,7 @@
       }
     }
   },
-  "6197729166099595019": {
+  "7458858407870391967": {
     "targets": {
       "test": {
         "command": "jest",
@@ -2116,7 +2116,7 @@
       }
     }
   },
-  "14583067077726122650": {
+  "14495098171501444390": {
     "targets": {
       "test": {
         "command": "jest",
@@ -2145,7 +2145,7 @@
       }
     }
   },
-  "8545114961856630495": {
+  "6628779315023493645": {
     "targets": {
       "test": {
         "command": "jest",
@@ -2174,7 +2174,7 @@
       }
     }
   },
-  "9149868098524787352": {
+  "160161024167371561": {
     "targets": {
       "test": {
         "command": "jest",
@@ -2203,7 +2203,7 @@
       }
     }
   },
-  "5201038608319418734": {
+  "18233981833957005982": {
     "targets": {
       "test": {
         "command": "jest",
@@ -2232,7 +2232,7 @@
       }
     }
   },
-  "6092307110805682500": {
+  "13045374797601758957": {
     "targets": {
       "test": {
         "command": "jest",
@@ -2261,7 +2261,7 @@
       }
     }
   },
-  "1368945141477159658": {
+  "17866696254361143431": {
     "targets": {
       "test": {
         "command": "jest",
@@ -2290,7 +2290,7 @@
       }
     }
   },
-  "7040131322543494891": {
+  "14329260499716637135": {
     "targets": {
       "test": {
         "command": "jest",
@@ -2319,7 +2319,7 @@
       }
     }
   },
-  "17601094931096404285": {
+  "1569036962499205291": {
     "targets": {
       "test": {
         "command": "jest",
@@ -2348,7 +2348,7 @@
       }
     }
   },
-  "8671722885633681797": {
+  "3286168426523429156": {
     "targets": {
       "test": {
         "command": "jest",
@@ -2377,7 +2377,7 @@
       }
     }
   },
-  "5458362525121624951": {
+  "14843689705388182600": {
     "targets": {
       "test": {
         "command": "jest",
@@ -2406,7 +2406,7 @@
       }
     }
   },
-  "9315434711137331334": {
+  "10059934451031849516": {
     "targets": {
       "test": {
         "command": "jest",
@@ -2435,7 +2435,7 @@
       }
     }
   },
-  "5575817284041222140": {
+  "6086816213688254224": {
     "targets": {
       "test": {
         "command": "jest",
@@ -2464,7 +2464,7 @@
       }
     }
   },
-  "2209241789076763409": {
+  "7948017178744208369": {
     "targets": {
       "test": {
         "command": "jest",
@@ -2493,7 +2493,7 @@
       }
     }
   },
-  "2430553336511449115": {
+  "12172918786172564461": {
     "targets": {
       "test": {
         "command": "jest",
@@ -2522,7 +2522,7 @@
       }
     }
   },
-  "13872035726554385842": {
+  "2279892771634818070": {
     "targets": {
       "test": {
         "command": "jest",
@@ -2551,7 +2551,7 @@
       }
     }
   },
-  "2658076563390081051": {
+  "2007555532215071426": {
     "targets": {
       "test": {
         "command": "jest",
@@ -2580,7 +2580,7 @@
       }
     }
   },
-  "4173052585300993266": {
+  "11152037477281703284": {
     "targets": {
       "test": {
         "command": "jest",
@@ -2609,7 +2609,7 @@
       }
     }
   },
-  "9908292790075632349": {
+  "13820430269518174012": {
     "targets": {
       "test": {
         "command": "jest",
@@ -2638,7 +2638,7 @@
       }
     }
   },
-  "11148487894978298398": {
+  "8375965506961239114": {
     "targets": {
       "test": {
         "command": "jest",
@@ -2667,7 +2667,7 @@
       }
     }
   },
-  "9497031182023938178": {
+  "12135908377648567109": {
     "targets": {
       "test": {
         "command": "jest",
@@ -2696,7 +2696,7 @@
       }
     }
   },
-  "12084692285576823215": {
+  "12812042249422811696": {
     "targets": {
       "test": {
         "command": "jest",
@@ -2725,7 +2725,7 @@
       }
     }
   },
-  "8350821053289330938": {
+  "17729347454143434836": {
     "targets": {
       "test": {
         "command": "jest",
@@ -2754,7 +2754,7 @@
       }
     }
   },
-  "780649396962485227": {
+  "12621934521350838328": {
     "targets": {
       "test": {
         "command": "jest",
@@ -2783,7 +2783,7 @@
       }
     }
   },
-  "14068493839565333985": {
+  "11240495774598514239": {
     "targets": {
       "test": {
         "command": "jest",
@@ -2812,7 +2812,7 @@
       }
     }
   },
-  "7543781292497839656": {
+  "14628705464389556844": {
     "targets": {
       "test": {
         "command": "jest",
@@ -2841,7 +2841,7 @@
       }
     }
   },
-  "5294180954786242978": {
+  "1848646359085988310": {
     "targets": {
       "test": {
         "command": "jest",
@@ -2870,7 +2870,7 @@
       }
     }
   },
-  "9244906693173752593": {
+  "1623301134009273473": {
     "targets": {
       "test": {
         "command": "jest",
@@ -2899,7 +2899,7 @@
       }
     }
   },
-  "14709550693873516548": {
+  "15784739358749673400": {
     "targets": {
       "test": {
         "command": "jest",
@@ -2928,7 +2928,7 @@
       }
     }
   },
-  "3387138440208539665": {
+  "14941377187950827493": {
     "targets": {
       "test": {
         "command": "jest",
@@ -2957,7 +2957,7 @@
       }
     }
   },
-  "2393038432099207122": {
+  "7703058064998211398": {
     "targets": {
       "test": {
         "command": "jest",
@@ -2986,7 +2986,7 @@
       }
     }
   },
-  "16774433495786958405": {
+  "14302529857786260084": {
     "targets": {
       "test": {
         "command": "jest",
@@ -3015,7 +3015,7 @@
       }
     }
   },
-  "11322217232636786120": {
+  "6914125531282407983": {
     "targets": {
       "test": {
         "command": "jest",
@@ -3044,7 +3044,7 @@
       }
     }
   },
-  "14920097374439216131": {
+  "5376869616038734926": {
     "targets": {
       "test": {
         "command": "jest",
@@ -3073,7 +3073,7 @@
       }
     }
   },
-  "17992681792891696325": {
+  "16833145901284343923": {
     "targets": {
       "test": {
         "command": "jest",
@@ -3102,7 +3102,7 @@
       }
     }
   },
-  "12759080898956487232": {
+  "8772061804083028080": {
     "targets": {
       "test": {
         "command": "jest",
@@ -3131,7 +3131,7 @@
       }
     }
   },
-  "16202119303697056734": {
+  "6221857061221974285": {
     "targets": {
       "test": {
         "command": "jest",
@@ -3160,7 +3160,7 @@
       }
     }
   },
-  "5727281682606416279": {
+  "14873135158510544289": {
     "targets": {
       "test": {
         "command": "jest",
@@ -3189,7 +3189,7 @@
       }
     }
   },
-  "9229071526125234833": {
+  "17924125399963008143": {
     "targets": {
       "test": {
         "command": "jest",
@@ -3218,7 +3218,7 @@
       }
     }
   },
-  "2349849943172757794": {
+  "14352892474881030637": {
     "targets": {
       "test": {
         "command": "jest",
@@ -3247,7 +3247,7 @@
       }
     }
   },
-  "18183946099896977517": {
+  "5973693681104233281": {
     "targets": {
       "test": {
         "command": "jest",
@@ -3276,7 +3276,7 @@
       }
     }
   },
-  "1298097393265592745": {
+  "13930063534723994313": {
     "targets": {
       "test": {
         "command": "jest",
@@ -3305,7 +3305,7 @@
       }
     }
   },
-  "5135718909454355389": {
+  "7626954571078071257": {
     "targets": {
       "test": {
         "command": "jest",
@@ -3334,7 +3334,7 @@
       }
     }
   },
-  "1406610202402124776": {
+  "11566268281471003457": {
     "targets": {
       "test": {
         "command": "jest",
@@ -3363,7 +3363,7 @@
       }
     }
   },
-  "5557553884610406206": {
+  "5242164682123893771": {
     "targets": {
       "test": {
         "command": "jest",
@@ -3392,7 +3392,7 @@
       }
     }
   },
-  "12755734154924115728": {
+  "8755234260205872708": {
     "targets": {
       "test": {
         "command": "jest",
@@ -3421,7 +3421,7 @@
       }
     }
   },
-  "7233434480959370251": {
+  "1005501705905219286": {
     "targets": {
       "test": {
         "command": "jest",
@@ -3450,7 +3450,7 @@
       }
     }
   },
-  "8525887365187830612": {
+  "16346869610555754287": {
     "targets": {
       "test": {
         "command": "jest",
@@ -3479,7 +3479,7 @@
       }
     }
   },
-  "6801913781547174342": {
+  "10004559316540343830": {
     "targets": {
       "test": {
         "command": "jest",
@@ -3508,7 +3508,7 @@
       }
     }
   },
-  "9927346135967448714": {
+  "15985620384606828315": {
     "targets": {
       "test": {
         "command": "jest",
@@ -3537,7 +3537,7 @@
       }
     }
   },
-  "4770248586203711353": {
+  "781131510934848746": {
     "targets": {
       "test": {
         "command": "jest",
@@ -3566,7 +3566,7 @@
       }
     }
   },
-  "3236782426851766367": {
+  "4326677844143121989": {
     "targets": {
       "test": {
         "command": "jest",
@@ -3595,7 +3595,7 @@
       }
     }
   },
-  "13709780446436235880": {
+  "12410677067683326009": {
     "targets": {
       "test": {
         "command": "jest",
@@ -3624,7 +3624,7 @@
       }
     }
   },
-  "2243928393880132423": {
+  "6061540165057488008": {
     "targets": {
       "test": {
         "command": "jest",
@@ -3653,7 +3653,7 @@
       }
     }
   },
-  "11954580250315857596": {
+  "13376731667098285886": {
     "targets": {
       "test": {
         "command": "jest",
@@ -3682,7 +3682,7 @@
       }
     }
   },
-  "4912035518408774117": {
+  "8915919506305751341": {
     "targets": {
       "test": {
         "command": "jest",
@@ -3711,7 +3711,7 @@
       }
     }
   },
-  "13609324320947495677": {
+  "6860664197082716670": {
     "targets": {
       "test": {
         "command": "jest",
@@ -3740,7 +3740,7 @@
       }
     }
   },
-  "12662713747213321013": {
+  "4949371836724148500": {
     "targets": {
       "test": {
         "command": "jest",
@@ -3769,7 +3769,7 @@
       }
     }
   },
-  "18086765244751895901": {
+  "6362175269410930671": {
     "targets": {
       "test": {
         "command": "jest",
@@ -3798,7 +3798,7 @@
       }
     }
   },
-  "15304993820609388543": {
+  "100321914080608956": {
     "targets": {
       "test": {
         "command": "jest",
@@ -3827,7 +3827,5314 @@
       }
     }
   },
-  "8725438383868083276": {
+  "8613980311003235525": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "12014895290224936701": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "18195255741330150500": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "14690044483436745029": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "1697339770339380185": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "12742907107935448535": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "8881244620625691595": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "18268712520312761036": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "8519954320282239502": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "15231533927963381614": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "1710121597079719153": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "169226981773228455": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "15640257845090164573": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "18009378874277219661": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "17955371788233437117": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "6827950024845581489": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "10701241651920757456": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "18025798980234563925": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "13067796184523481554": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "6665897589980934630": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "15832091502233226743": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "13585318330483273778": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "10336335904377785394": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "17836123950706764117": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "15010133677950939768": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "11127988901286124452": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "17516193031197871607": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "11491741419057345240": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "15177431149560826423": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "17996424795319774769": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "9940430883666150567": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "15188433676996641550": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "9732112131135207527": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "13147287066028462738": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "5979443659134175053": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "11474176471190665548": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "5594808382500278992": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "1972110604367691080": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "3355674066482872173": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "5477494303180357336": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "15587966476332672790": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "12254626608034933234": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "3739485689181433597": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "17296852179413051003": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "18049827667987475689": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "17324019728214264999": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "8822712305824264707": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "15077012650451156675": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "9579236649563125368": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "8885645048928202313": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "7665983835820251686": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "16042577780387598258": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "3676121952455426044": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "12521108738088107816": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "1122185275320664536": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "9331175710247154199": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "5966241429117092942": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "6493192814727510068": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "7934540249795052793": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "13665721457812833050": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "16644925633940243539": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "7244820250081070102": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "11082495053626940143": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "10578987545408470974": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "9644952773621848422": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "1818220247725642079": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "3614580741828978165": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "15042094051440708654": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "12658649672609275738": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "130192691491648642": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "12191827659894785605": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "9605079839535406799": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "13386794299739388025": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "5790955971812532920": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "352622531269556688": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "8049462718105909879": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "301530846892795355": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "8677468245182997258": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "6701190882096489419": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "18009631338739166605": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "4776061459186757398": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "5227171038051874797": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "18087656631369178285": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "1668383842385299319": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "13402087039155311105": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "1320747831388700229": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "1151857822838821900": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "1537627597813418050": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "5683507469405630313": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "16018877500894734195": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "10832553425242952148": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "2868076980524979077": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "17992938146913819542": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "11339979703594849216": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "12081155754001064841": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "5609714926538531723": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "10012389306103837800": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "9880657893677687331": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "13389217752739456581": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "10107538139445112949": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "16336528463744128381": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "10849079441295720886": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "16224941430350335347": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "2531848434299499621": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "7183847279972014921": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "9790232375853080658": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "6454742873874184341": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "1235545454790317785": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "2403492158006686793": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "14238071032688333023": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "7430021967565734702": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "2971837369090155958": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "1025135954954358897": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "2504186671806617296": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "714897198708471470": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "2358876564405715319": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "13008169396617802260": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "13015353863057962602": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "7187834118365201127": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "7594705889191421673": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "760571030664579962": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "12939745722736607282": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "13890469867130923414": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "12637934168674881646": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "17260504402641815470": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "4392857669217869840": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "16535196291943149133": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "11438887876334776160": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "14445931166477642699": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "14209242878312497262": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "6189829611146204105": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "8836946171660617534": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "2128195354311966084": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "12588776275655572473": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "830037465639009936": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "9465902050103207904": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "5862281646743360194": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "13036162773078982936": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "11634436338131301630": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "1231811787854703910": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "6005148954228391146": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "8058223380833780577": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "7571265494037007687": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "17363804509419544376": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "8903797455285323150": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "11415529824766878258": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "11151563187054663425": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "1400110331515085978": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "1146595107310793643": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "16173512441318420134": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "16682189208844612249": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "15606580333331210889": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "5678877695141618761": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "16306724996643811712": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "13584315264643827257": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "13090826387140097913": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "4298635072480956564": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "6638505462374192741": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "15204058667130372144": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "11139210665354164887": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "2099828253069202841": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "13592724876113001564": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "8577773631342371895": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "10368939929196217566": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "13056948689097271757": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "1135036498631131361": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "16602100318489977899": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "8929121905728487836": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "17818115042111456207": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "11165991892101551139": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "13613547172351029668": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "5974207144009676229": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "16909053164854441947": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "4913763713167135966": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "8534911988443648769": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "13477479506661479794": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "9374313735224806587": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "11661886449514144172": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "11969534659566321563": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "6619346292856673140": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "8049499316576110215": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "14365809598023912022": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "7940451514964884605": {
+    "targets": {
+      "test": {
+        "command": "jest",
+        "options": {
+          "cwd": "packages/parking"
+        },
+        "metadata": {
+          "technologies": [
+            "jest"
+          ],
+          "description": "Run Jest Tests"
+        },
+        "cache": true,
+        "inputs": [
+          "default",
+          "^production",
+          {
+            "externalDependencies": [
+              "jest"
+            ]
+          }
+        ],
+        "outputs": [
+          "{workspaceRoot}/coverage/packages/parking"
+        ]
+      }
+    }
+  },
+  "2933441211557476771": {
     "targets": {
       "test": {
         "command": "jest",

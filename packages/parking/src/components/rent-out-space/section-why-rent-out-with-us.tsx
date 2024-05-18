@@ -1,4 +1,4 @@
-import { Card, CardBody, Spacer } from "@nextui-org/react"
+import { Spacer } from "@nextui-org/react"
 
 const items = [
     {
@@ -25,23 +25,19 @@ const items = [
 export const SectionWhyRentOutWithUs = () => {
     return <div className="flex flex-col p-3 md:p-8 gap-4">
         <h1 className="text-3xl text-foreground-700 font-semibold text-center">Why rent out space with Decazen?</h1>
-        <Spacer y={6} />
+        <Spacer y={2} />
         <div className="grid grid-cols-1 md:grid-cols-3 w-full gap-6 md:gap-2">
             {
-                items.map((item, index) => <Card key={index} >
-                    <CardBody>
-                        <div className="flex flex-col items-center justify-center gap-3 p-4">
-                            <div className="flex items-center justify-center h-[150px]">
-                                {/* {index + 1} */}
-                                <img src={item.image} alt={item.title} height={150} width={150} />
-                            </div>
-                            <div className="flex flex-col">
-                                <h3 className="text-lg font-semibold text-center">{item.title}</h3>
-                                <p className="text-center text-foreground-500">{item.description}</p>
-                            </div>
-                        </div>
-                    </CardBody>
-                </Card>)
+                items.map((item, index) => <div key={index} className="flex flex-col items-center justify-center gap-3 p-4">
+                    <div className="flex items-center justify-center h-[150px]">
+                        {/* {index + 1} */}
+                        <img src={item.image} alt={item.title} height={150} width={150} />
+                    </div>
+                    <div className="flex flex-col">
+                        <h3 className="text-lg font-semibold text-center">{item.title}</h3>
+                        <p className="text-center text-foreground-500">{item.description}</p>
+                    </div>
+                </div>)
             }
         </div>
     </div>

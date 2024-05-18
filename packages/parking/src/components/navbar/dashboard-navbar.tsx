@@ -39,7 +39,7 @@ export const DashboardNavbarWrapper = ({ children }: NavbarProps) => {
           </div> */}
 
                     <NavbarItem className="max-md:hidden" >
-                        <Chip radius="sm" variant="faded" className="bg-secondary/20 text-secondary" classNames={{
+                        <Chip radius="sm" variant="faded" className="bg-blue-500/20 dark:bg-blue-400/20 text-blue-500 dark:text-blue-400 font-[400]" classNames={{
                             content: "font-[500]"
                         }}>Free Plan</Chip>
                     </NavbarItem>

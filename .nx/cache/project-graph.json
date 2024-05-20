@@ -3756,6 +3756,24 @@
         "hash": "sha512-/JLo/l2JsT/LRd80C3HfbmVpxOAJ11FO2RCEslFrgzLltoP9j8XIbsyDcfCt2WWyX+CM96rBoNM+IToAkFOugg=="
       }
     },
+    "npm:@tanstack/query-core": {
+      "type": "npm",
+      "name": "npm:@tanstack/query-core",
+      "data": {
+        "version": "5.36.1",
+        "packageName": "@tanstack/query-core",
+        "hash": "sha512-BteWYEPUcucEu3NBcDAgKuI4U25R9aPrHSP6YSf2NvaD2pSlIQTdqOfLRsxH9WdRYg7k0Uom35Uacb6nvbIMJg=="
+      }
+    },
+    "npm:@tanstack/react-query": {
+      "type": "npm",
+      "name": "npm:@tanstack/react-query",
+      "data": {
+        "version": "5.37.1",
+        "packageName": "@tanstack/react-query",
+        "hash": "sha512-EhtBNA8GL3XFeSx6VYUjXQ96n44xe3JGKZCzBINrCYlxbZP6UwBafv7ti4eSRWc2Fy+fybQre0w17gR6lMzULA=="
+      }
+    },
     "npm:@testing-library/dom": {
       "type": "npm",
       "name": "npm:@testing-library/dom",
@@ -7635,6 +7653,15 @@
         "hash": "sha512-wiSuFQLZ+urS9x2gGPl1H5drc5twabmm4m2gTR27XDFyjUHJUNsS8o/2aKyIF6IoBaR630atdher0XJ5g6OMmA=="
       }
     },
+    "npm:goober": {
+      "type": "npm",
+      "name": "npm:goober",
+      "data": {
+        "version": "2.1.14",
+        "packageName": "goober",
+        "hash": "sha512-4UpC0NdGyAFqLNPnhCT2iHpza2q+RAY3GV85a/mRPdzyPQMsj0KmMMuetdIkzWRbJ+Hgau1EZztq8ImmiMGhsg=="
+      }
+    },
     "npm:gopd": {
       "type": "npm",
       "name": "npm:gopd",
@@ -10857,6 +10884,15 @@
         "hash": "sha512-OeR2jAxdoqUMHIn/nS9fgreI5hSpgGoL5ezdal4+oO7YSSgJR8ga+PkYGJrSrJ9MKlPcQjMQXnketrD7WNmNsg=="
       }
     },
+    "npm:react-hot-toast": {
+      "type": "npm",
+      "name": "npm:react-hot-toast",
+      "data": {
+        "version": "2.4.1",
+        "packageName": "react-hot-toast",
+        "hash": "sha512-j8z+cQbWIM5LY37pR6uZR6D4LfseplqnuAO4co4u8917hBUvXlEqyP1ZzqVLcqoyUesZZv/ImreoCeHVDpE5pQ=="
+      }
+    },
     "npm:react-is@16.13.1": {
       "type": "npm",
       "name": "npm:react-is@16.13.1",
@@ -12987,6 +13023,11 @@
       },
       {
         "source": "parking",
+        "target": "npm:axios",
+        "type": "static"
+      },
+      {
+        "source": "parking",
         "target": "npm:next",
         "type": "static"
       },
@@ -13042,7 +13083,17 @@
       },
       {
         "source": "parking",
+        "target": "npm:@tanstack/react-query",
+        "type": "static"
+      },
+      {
+        "source": "parking",
         "target": "npm:@nextui-org/system",
+        "type": "static"
+      },
+      {
+        "source": "parking",
+        "target": "npm:react-hot-toast",
         "type": "static"
       },
       {
@@ -21879,6 +21930,13 @@
       {
         "source": "npm:@swc/types",
         "target": "npm:@swc/counter",
+        "type": "static"
+      }
+    ],
+    "npm:@tanstack/react-query": [
+      {
+        "source": "npm:@tanstack/react-query",
+        "target": "npm:@tanstack/query-core",
         "type": "static"
       }
     ],
@@ -30855,6 +30913,13 @@
       {
         "source": "npm:react-easy-swipe",
         "target": "npm:prop-types",
+        "type": "static"
+      }
+    ],
+    "npm:react-hot-toast": [
+      {
+        "source": "npm:react-hot-toast",
+        "target": "npm:goober",
         "type": "static"
       }
     ],

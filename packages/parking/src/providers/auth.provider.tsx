@@ -1,3 +1,6 @@
+import { loginRequest } from "@/api/login.api";
+import { useToast } from "@/hooks/use-toast";
+import { useMutation, useQueryClient } from "@tanstack/react-query";
 import { createContext, useContext, useState } from "react";
 
 
@@ -7,7 +10,7 @@ type AuthState = {
 
 export type AuthContext = {
 
-    login: () => Promise<void>;
+    login: (email: string, password: string) => Promise<void>;
 } & AuthState;
 
 export const AuthContext = createContext<AuthContext | null>(null);
@@ -19,10 +22,30 @@ const initialState: AuthState = {
 
 
 export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
+    const queryClient = useQueryClient();
+    const { notify, promise } = useToast();
+
     const [state, setState] = useState<AuthState>(initialState);
-    const login = async () => {
-        console.log("login");
-        setState({ isAuthenticated: true });
+    const { mutateAsync } = useMutation<unknown, unknown, { email: string, password: string }>({
+        mutationFn: (body) => {
+            return loginRequest(body.email, body.password);
+        },
+        onSuccess: () => {
+            queryClient.invalidateQueries({
+                queryKey: ["user"]
+            });
+        }
+    })
+    const login = async (email: string, password: string) => {
+
+        await promise(mutateAsync({
+            email, password
+        }), {
+            loading: "Logging in...",
+            success: "Logged in successfully",
+            error: "Failed to login"
+        });
+        // setState({ isAuthenticated: true });
     };
 
     return (

@@ -4,6 +4,7 @@
 import { useAuth } from "@/providers/auth.provider";
 import { Button, Input, Spacer } from "@nextui-org/react";
 import { useRouter } from "next/navigation";
+import { useState } from "react";
 
 type LoginProps = {
     closeModal?: () => void;
@@ -12,9 +13,13 @@ type LoginProps = {
 export const Content = ({ closeModal }: LoginProps) => {
     const { login } = useAuth();
     const router = useRouter();
+    const [values, setValues] = useState({
+        email: "",
+        password: ""
+    })
 
     const handleLogin = async () => {
-        await login();
+        await login(values.email, values.password);
         router.push("/dashboard");
         closeModal && closeModal();
 
@@ -49,11 +54,15 @@ export const Content = ({ closeModal }: LoginProps) => {
                             label="Email"
                             defaultValue="junior@nextui.org"
                             fullWidth
+                            value={values.email}
+                            onChange={(e) => setValues({ ...values, email: e.target.value })}
                         />
                         <Input
                             type="password"
                             label="Password"
                             fullWidth
+                            value={values.password}
+                            onChange={(e) => setValues({ ...values, password: e.target.value })}
                         />
                         <Button size="lg" color="primary" variant="shadow" onClick={handleLogin}>Login</Button>
                     </div>

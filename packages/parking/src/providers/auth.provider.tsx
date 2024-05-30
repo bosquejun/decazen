@@ -1,16 +1,36 @@
-import { loginRequest } from "@/api/login.api";
-import { useToast } from "@/hooks/use-toast";
-import { useMutation, useQueryClient } from "@tanstack/react-query";
-import { createContext, useContext, useState } from "react";
+"use client"
 
+import { getProfile, loginRequest } from "@/api/login.api";
+import { useToast } from "@/hooks/use-toast";
+import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
+import { createContext, useContext, useMemo, useState } from "react";
+
+
+type UserData = {
+    "id": string,
+    "deleted_at": null,
+    "role": string,
+    "email": string,
+    "first_name": string,
+    "last_name": string | null,
+    "api_token": string | null,
+    "metadata": {
+        "billing_info": null
+    },
+    "store_id": string | null,
+    "status": "registered" | "active"
+}
 
 type AuthState = {
-    isAuthenticated: boolean;
+    // isAuthenticated: boolean;
 }
 
 export type AuthContext = {
-
     login: (email: string, password: string) => Promise<void>;
+    userData?: UserData,
+    hasStore: boolean;
+    isAuthenticated: boolean;
+    isLoading: boolean;
 } & AuthState;
 
 export const AuthContext = createContext<AuthContext | null>(null);
@@ -35,7 +55,13 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
                 queryKey: ["user"]
             });
         }
+    });
+    const { data, isLoading, isError } = useQuery({
+        queryFn: () => getProfile(),
+        queryKey: ["user_profile"],
+
     })
+
     const login = async (email: string, password: string) => {
 
         await promise(mutateAsync({
@@ -45,11 +71,17 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
             success: "Logged in successfully",
             error: "Failed to login"
         });
-        // setState({ isAuthenticated: true });
     };
 
+    const userData = useMemo(() => {
+        if (isLoading || isError || !data) {
+            return undefined;
+        }
+        return data["user"] as UserData;
+    }, [data, isLoading, isError]);
+
     return (
-        <AuthContext.Provider value={{ ...state, login }}>
+        <AuthContext.Provider value={{ ...state, login, userData, isAuthenticated: Boolean(userData), hasStore: Boolean(userData?.store_id), isLoading }}>
             {children}
         </AuthContext.Provider>
     );

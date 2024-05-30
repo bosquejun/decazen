@@ -2,10 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+
 html,
 body {
   padding: 0;
   margin: 0;
+  font-family: Reddit Mono;
 }
 
 * {
@@ -32,9 +34,34 @@ button, button a {
 }
 
 div[data-slot="input-wrapper"] {
-  @apply min-h-[56px]
+  @apply min-h-[56px];
+  /* background-color: hsl(var(--nextui-content1) / var(--nextui-content1-opacity, var(--tw-bg-opacity))) !important; */
 }
 
 div[data-slot="input-wrapper"] input {
   @apply text-[16px]
+}
+
+/* .after\:content-\[\'\*\'\]::after {
+  --tw-content: '(Optional)';
+  content: var(--tw-content);
+} */
+
+
+ div[data-required="true"] div[data-slot="input-wrapper"] .after\:content-\[\'\*\'\]:after {
+  content: '' !important;
+}
+
+div[data-slot="base"]:not([data-required]) div[data-slot="input-wrapper"] label[data-slot="label"]::after {
+  --tw-content: ' (Optional)' !important;
+  content: var(--tw-content) !important;
+}
+
+
+.severity-success {
+  @apply bg-green-500 dark:bg-green-400;
+}
+
+.severity-error {
+  @apply bg-red-500 dark:bg-red-400;
 }

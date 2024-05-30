@@ -28,7 +28,14 @@ export const AddParkingSpaceModal = ({ isOpen, onClose }: AddParkingSpaceModalPr
         <ModalContent>
             {(onClose) => <>
                 <ModalHeader>
-                    Add Parking Space
+                    <div className="flex justify-between items-center w-full">
+                        <h2 className="grow-1 w-full">Add Parking Space</h2>
+
+                        <div className="grow-0 hidden md:flex items-center gap-2">
+                            <Button onClick={onClose}>Cancel</Button>
+                            <Button onClick={onClose} variant="shadow" color="primary">Add Parking Space</Button>
+                        </div>
+                    </div>
                 </ModalHeader>
                 <ModalBody className="w-full self-center md:min-w-[600px] md:max-w-[900px] px-2 md:px-8">
                     <Accordion variant="splitted" defaultExpandedKeys={["1"]}>
@@ -166,7 +173,7 @@ export const AddParkingSpaceModal = ({ isOpen, onClose }: AddParkingSpaceModalPr
                         </AccordionItem>
                     </Accordion>
                 </ModalBody>
-                <ModalFooter>
+                <ModalFooter className="flex md:hidden">
                     <Button onClick={onClose}>Cancel</Button>
                     <Button onClick={onClose} variant="shadow" color="primary">Add Parking Space</Button>
                 </ModalFooter>

@@ -16,7 +16,13 @@ module.exports = {
     '../../node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      extend: {
+        fontFamily: {
+          redditMono: ['Reddit Mono', 'monospace'],
+        },
+      },
+    },
   },
   plugins: [
     nextui({

@@ -1,6 +1,7 @@
 import { Driving, Element4, Home2, Note1, Profile2User } from "iconsax-react";
 import { usePathname } from "next/navigation";
 import { useMemo } from "react";
+import LogoutButton from "../buttons/LogoutButton";
 import { useSidebarContext } from "../layout/layout-context";
 import { DarkModeSwitch } from "../navbar/darkmodeswitch";
 import { PlatformDropdown } from "./platform-dropdown";
@@ -187,26 +188,33 @@ export const SidebarWrapper = () => {
               />
             </SidebarMenu> */}
           </div>
-          <div className={Sidebar.Footer()}>
-            <div className="w-full flex">
-              <DarkModeSwitch />
+
+          <div className="flex flex-col  pt-16  md:pt-10 gap-4">
+            <div className="flex flex-col gap-6">
+              <LogoutButton type="link" />
             </div>
-            {/* <Tooltip content={"Settings"} color="primary">
-              <div className="max-w-fit">
-                <SettingsIcon />
+            <div className={Sidebar.Footer()}>
+
+              <div className="w-full flex justify-between">
+                <DarkModeSwitch />
               </div>
-            </Tooltip>
-            <Tooltip content={"Adjustments"} color="primary">
-              <div className="max-w-fit">
-                <FilterIcon />
-              </div>
-            </Tooltip>
-            <Tooltip content={"Profile"} color="primary">
-              <Avatar
-                src="https://i.pravatar.cc/150?u=a042581f4e29026704d"
-                size="sm"
-              />
-            </Tooltip> */}
+              {/* <Tooltip content={"Settings"} color="primary">
+  <div className="max-w-fit">
+    <SettingsIcon />
+  </div>
+</Tooltip>
+<Tooltip content={"Adjustments"} color="primary">
+  <div className="max-w-fit">
+    <FilterIcon />
+  </div>
+</Tooltip>
+<Tooltip content={"Profile"} color="primary">
+  <Avatar
+    src="https://i.pravatar.cc/150?u=a042581f4e29026704d"
+    size="sm"
+  />
+</Tooltip> */}
+            </div>
           </div>
         </div>
       </div>

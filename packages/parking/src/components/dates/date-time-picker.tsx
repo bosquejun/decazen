@@ -119,11 +119,6 @@ export default function DateTimePicker({ label, calendarProps, defaultMinimumDat
     const currentTimeSlot = useMemo(() => getNearestTimeSlot(selectedTimeSlot || new Date(), timeSlots), [selectedTimeSlot, timeSlots]);
 
 
-    // useEffect(() => {
-    //     if (currentTimeSlot) {
-    //         onSelectDate && onSelectDate(currentTimeSlot.dateValue);
-    //     }
-    // }, [currentTimeSlot]);
 
     useEffect(() => {
         setMinValue(minimumDate);
@@ -144,9 +139,10 @@ export default function DateTimePicker({ label, calendarProps, defaultMinimumDat
         isOpen={isOpen} onOpenChange={(open) => setIsOpen(open)}
     >
         <PopoverTrigger>
-            <Input readOnly label={label} {...currentTimeSlot && {
-                value: formatTimeSlotDisplayValue(currentTimeSlot.dateValue)
-            }} endContent={<CalendarBoldIcon className="text-lg text-default-400" />} />
+            <Input
+                isRequired readOnly label={label} {...currentTimeSlot && {
+                    value: formatTimeSlotDisplayValue(currentTimeSlot.dateValue)
+                }} endContent={<CalendarBoldIcon className="text-lg text-default-400" />} />
         </PopoverTrigger>
         <PopoverContent>
             <Calendar

@@ -4,11 +4,9 @@ import { useLockedBody } from "@/components/hooks/useBodyLock";
 import { SidebarContext } from "@/components/layout/layout-context";
 import { DashboardNavbarWrapper } from "@/components/navbar/dashboard-navbar";
 import { SidebarWrapper } from "@/components/sidebar/sidebar";
-import { useAuth } from "@/providers/auth.provider";
 import React from "react";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
-    const { isAuthenticated } = useAuth();
     const [sidebarOpen, setSidebarOpen] = React.useState(false);
     const [_, setLocked] = useLockedBody(false);
     const handleToggleSidebar = () => {

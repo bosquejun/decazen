@@ -18,6 +18,15 @@
         "hash": "sha512-30iZtAPgz+LTIYoeivqYo853f02jBYSd5uGnGpkFV0M3xOt9aN73erkgYAmZU43x4VfqcnLxW9Kpg3R5LC4YYw=="
       }
     },
+    "npm:@auth/core": {
+      "type": "npm",
+      "name": "npm:@auth/core",
+      "data": {
+        "version": "0.31.0",
+        "packageName": "@auth/core",
+        "hash": "sha512-UKk3psvA1cRbk4/c9CkpWB8mdWrkKvzw0DmEYRsWolUQytQ2cRqx+hYuV6ZCsngw/xbj9hpmkZmAZEyq2g4fMg=="
+      }
+    },
     "npm:@babel/code-frame": {
       "type": "npm",
       "name": "npm:@babel/code-frame",
@@ -2538,6 +2547,15 @@
         "hash": "sha512-H5HmEOWb9wnrNXfI2DhK6AmMVz1snuJvjT2jcMf9kxlVW0pKGTFW+OyHfSYq6Ni3OGWb1f9O63erLYHo45zPeA=="
       }
     },
+    "npm:@panva/hkdf": {
+      "type": "npm",
+      "name": "npm:@panva/hkdf",
+      "data": {
+        "version": "1.1.1",
+        "packageName": "@panva/hkdf",
+        "hash": "sha512-dhPeilub1NuIG0X5Kvhh9lH4iW3ZsHlnzwgwbOlgwQ2wG1IqFzsgHqmKPk3WzsdWAeaxKJxgM0+W433RmN45GA=="
+      }
+    },
     "npm:@parcel/watcher": {
       "type": "npm",
       "name": "npm:@parcel/watcher",
@@ -3778,6 +3796,15 @@
         "version": "3.4.38",
         "packageName": "@types/connect",
         "hash": "sha512-K6uROf1LD88uDQqJCktA4yzL1YYAK6NgfsI0v/mTgyPKWsX1CnJ0XPSDhViejru1GcRkLWb8RlzFYJRqGUbaug=="
+      }
+    },
+    "npm:@types/cookie": {
+      "type": "npm",
+      "name": "npm:@types/cookie",
+      "data": {
+        "version": "0.6.0",
+        "packageName": "@types/cookie",
+        "hash": "sha512-4Kh9a6B2bQciAhf7FSuMRRkUWecJgJu9nPnx3yzpsfXX/c50REIqpHY4C82bXP90qrLtXtkDxTZosYO3UpOwlA=="
       }
     },
     "npm:@types/eslint-scope": {
@@ -8694,6 +8721,15 @@
         "hash": "sha512-NIy3oAFp9shda19hy4HK0HRTWKtPJmGdnvywu01nOqNC2vZg+Z+fvJDxpMQA88eb2I9EcafcdjYgsDthnYTvGw=="
       }
     },
+    "npm:jose": {
+      "type": "npm",
+      "name": "npm:jose",
+      "data": {
+        "version": "5.3.0",
+        "packageName": "jose",
+        "hash": "sha512-IChe9AtAE79ru084ow8jzkN2lNrG3Ntfiv65Cvj9uOCE2m5LNsdHG+9EbxWxAoWRF9TgDOqLN5jm08++owDVRg=="
+      }
+    },
     "npm:js-tokens": {
       "type": "npm",
       "name": "npm:js-tokens",
@@ -9531,6 +9567,15 @@
         "hash": "sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw=="
       }
     },
+    "npm:next-auth": {
+      "type": "npm",
+      "name": "npm:next-auth",
+      "data": {
+        "version": "5.0.0-beta.18",
+        "packageName": "next-auth",
+        "hash": "sha512-x55L8wZb8PcPGCYA3e/l9tdpd7YL3FDuhas4W8pxq3PjrWJ9OoDxNN0otK9axJamJBbBgjfzTJjVQB6hXoe0ZQ=="
+      }
+    },
     "npm:next-themes": {
       "type": "npm",
       "name": "npm:next-themes",
@@ -9691,6 +9736,15 @@
         "version": "18.3.4",
         "packageName": "nx",
         "hash": "sha512-7rOHRyxpnZGJ3pHnwmpoAMHt9hNuwibWhOhPBJDhJVcbQJtGfwcWWyV/iSEnVXwKZ2lfHVE3TwE+gXFdT/GFiw=="
+      }
+    },
+    "npm:oauth4webapi": {
+      "type": "npm",
+      "name": "npm:oauth4webapi",
+      "data": {
+        "version": "2.10.4",
+        "packageName": "oauth4webapi",
+        "hash": "sha512-DSoj8QoChzOCQlJkRmYxAJCIpnXFW32R0Uq7avyghIeB6iJq0XAblOD7pcq3mx4WEBDwMuKr0Y1qveCBleG2Xw=="
       }
     },
     "npm:object-assign": {
@@ -10512,6 +10566,24 @@
         "hash": "sha512-Wglpdk03BSfXkHoQa3b/oulrotAkwrlLDRSOb9D0bN86FdRyE9lppSp33aHNPgBa0JKCoB+drFLZkQoRRYae5A=="
       }
     },
+    "npm:preact-render-to-string": {
+      "type": "npm",
+      "name": "npm:preact-render-to-string",
+      "data": {
+        "version": "5.2.3",
+        "packageName": "preact-render-to-string",
+        "hash": "sha512-aPDxUn5o3GhWdtJtW0svRC2SS/l8D9MAgo2+AWml+BhDImb27ALf04Q2d+AHqUUOc6RdSXFIBVa2gxzgMKgtZA=="
+      }
+    },
+    "npm:preact": {
+      "type": "npm",
+      "name": "npm:preact",
+      "data": {
+        "version": "10.11.3",
+        "packageName": "preact",
+        "hash": "sha512-eY93IVpod/zG3uMF22Unl8h9KkrcKIRs2EGar8hwLZZDU1lkjph303V9HZBwufh2s736U6VXuhD109LYqPoffg=="
+      }
+    },
     "npm:prelude-ls": {
       "type": "npm",
       "name": "npm:prelude-ls",
@@ -10546,6 +10618,15 @@
         "version": "29.7.0",
         "packageName": "pretty-format",
         "hash": "sha512-Pdlw/oPxN+aXdmM9R00JVC9WVFoCLTKJvDVLgmJ+qAffBMxsV85l/Lu7sNx4zSzPyoL2euImuEwHhOXdEgNFZQ=="
+      }
+    },
+    "npm:pretty-format@3.8.0": {
+      "type": "npm",
+      "name": "npm:pretty-format@3.8.0",
+      "data": {
+        "version": "3.8.0",
+        "packageName": "pretty-format",
+        "hash": "sha512-WuxUnVtlWL1OfZFQFuqvnvs6MiAGk9UNsBostyBOB0Is9wb5uRESevA6rnl/rkksXaGX3GzZhPup5d6Vp1nFew=="
       }
     },
     "npm:proc-log": {
@@ -10735,6 +10816,15 @@
         "version": "0.0.21",
         "packageName": "react-easy-swipe",
         "hash": "sha512-OeR2jAxdoqUMHIn/nS9fgreI5hSpgGoL5ezdal4+oO7YSSgJR8ga+PkYGJrSrJ9MKlPcQjMQXnketrD7WNmNsg=="
+      }
+    },
+    "npm:react-hook-form": {
+      "type": "npm",
+      "name": "npm:react-hook-form",
+      "data": {
+        "version": "7.51.5",
+        "packageName": "react-hook-form",
+        "hash": "sha512-J2ILT5gWx1XUIJRETiA7M19iXHlG74+6O3KApzvqB/w8S5NQR7AbU8HVZrMALdmDgWpRPYiZJl0zx8Z4L2mP6Q=="
       }
     },
     "npm:react-hot-toast": {
@@ -12871,6 +12961,41 @@
     {
       "source": "npm:@ampproject/remapping",
       "target": "npm:@jridgewell/trace-mapping",
+      "type": "static"
+    },
+    {
+      "source": "npm:@auth/core",
+      "target": "npm:@panva/hkdf",
+      "type": "static"
+    },
+    {
+      "source": "npm:@auth/core",
+      "target": "npm:@types/cookie",
+      "type": "static"
+    },
+    {
+      "source": "npm:@auth/core",
+      "target": "npm:cookie",
+      "type": "static"
+    },
+    {
+      "source": "npm:@auth/core",
+      "target": "npm:jose",
+      "type": "static"
+    },
+    {
+      "source": "npm:@auth/core",
+      "target": "npm:oauth4webapi",
+      "type": "static"
+    },
+    {
+      "source": "npm:@auth/core",
+      "target": "npm:preact",
+      "type": "static"
+    },
+    {
+      "source": "npm:@auth/core",
+      "target": "npm:preact-render-to-string",
       "type": "static"
     },
     {
@@ -33909,6 +34034,11 @@
       "type": "static"
     },
     {
+      "source": "npm:next-auth",
+      "target": "npm:@auth/core",
+      "type": "static"
+    },
+    {
       "source": "npm:next",
       "target": "npm:@next/env",
       "type": "static"
@@ -35296,6 +35426,11 @@
     {
       "source": "npm:postcss@8.4.38",
       "target": "npm:source-map-js",
+      "type": "static"
+    },
+    {
+      "source": "npm:preact-render-to-string",
+      "target": "npm:pretty-format@3.8.0",
       "type": "static"
     },
     {

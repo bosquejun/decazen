@@ -1,9 +1,8 @@
-import { Button, Link, Modal, ModalContent, Navbar, NavbarBrand, NavbarContent, NavbarItem, useDisclosure } from "@nextui-org/react";
+import { Link, Modal, ModalContent, Navbar, NavbarBrand, NavbarContent, NavbarItem, useDisclosure } from "@nextui-org/react";
 import clsx from 'clsx';
-import { LoginCurve } from "iconsax-react";
 import React from "react";
+import AuthButton from "../buttons/AuthButton.client";
 import Show from "../common/Show";
-import { Icon } from "../icons/Icon";
 import { Content as LoginContent } from "../login/content";
 import { PlatformDropdown } from "../sidebar/platform-dropdown";
 import { BurguerButton } from "./burguer-button";
@@ -19,7 +18,8 @@ export const NavbarWrapper = ({ children, hideLogin, darkOnly }: NavbarProps) =>
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   const handleOpenLogin = () => {
-    onOpen();
+    // onOpen();
+    // signIn("credentials");
   }
 
   return (
@@ -74,12 +74,7 @@ export const NavbarWrapper = ({ children, hideLogin, darkOnly }: NavbarProps) =>
           <Show>
             <Show.When isTrue={!hideLogin}>
               <NavbarItem >
-                <Button className="hidden md:flex" color="primary" onClick={handleOpenLogin} variant="shadow">
-                  <Icon as={LoginCurve} size="24" className="text-black" /> Login as Parking Owner
-                </Button>
-                <Button isIconOnly className="flex md:hidden" onClick={handleOpenLogin} color="primary" variant="light">
-                  <Icon as={LoginCurve} size="24" />
-                </Button>
+                <AuthButton />
               </NavbarItem>
             </Show.When>
           </Show>

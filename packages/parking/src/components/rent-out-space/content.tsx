@@ -1,10 +1,17 @@
+"use client"
 
+import { createAccount } from "@/app/actions/createAccount"
+import { CreateAccountInputs } from "@/types"
 import Image from "next/image"
 import { SectionSignUp } from "./section-sign-up"
 import { SectionWhyRentOutWithUs } from "./section-why-rent-out-with-us"
 
 
 export const Content = () => {
+
+    const onCreateAccount = async (inputs: CreateAccountInputs) => {
+        await createAccount(inputs);
+    }
 
     return <div className="flex w-full px-2">
         <div className='absolute top-0 left-0 w-full h-full max-h-[300px] md:max-h-[450px] z-0'>
@@ -25,14 +32,10 @@ export const Content = () => {
         <div className="h-full lg:px-6 z-10 w-full">
             <div className="flex flex-col w-full h-full md:mt-14 gap-8 md:gap-12">
 
-                {/* <Spacer y={20} className="hidden md:block" />
-                <Spacer y={8} className="md:hidden block" /> */}
                 <div className="flex flex-col md:flex-row justify-between gap-3 md:gap-6">
                     <h1 className="text-2xl lg:text-4xl font-semibold text-white md:mt-6">Transform your <strong className="text-primary">park space</strong> into an effortless, passive stream of <strong className="text-primary">earnings</strong>.</h1>
-                    {/* <Button color="primary" variant="shadow" className="w-full md:w-auto">Calculate expected earning</Button> */}
                     <div className="w-full md:max-w-[40%]">
-
-                        <SectionSignUp />
+                        <SectionSignUp onCreateAccount={onCreateAccount} />
                     </div>
                 </div>
                 <SectionWhyRentOutWithUs />

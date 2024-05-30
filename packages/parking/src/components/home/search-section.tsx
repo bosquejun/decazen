@@ -28,7 +28,6 @@ const getCurrentTimeWithAdjustment = (date = new Date(), halfOfHour = false) => 
     if (date.getHours() === 23 && date.getMinutes() >= 30) {
         date = new Date();
         date.setDate(date.getDate() + 1);
-        // date.setHours(0, 0, 0, 0);
     }
     const minutes = date.getMinutes();
     if (minutes % 30 !== 0) {
@@ -37,6 +36,8 @@ const getCurrentTimeWithAdjustment = (date = new Date(), halfOfHour = false) => 
             date.setHours(date.getHours() + 1, 0, 0, 0);
         }
     }
+
+    date.setSeconds(0, 0);
     return date;
 }
 
@@ -75,6 +76,7 @@ export const SearchSection = () => {
                     <div className="flex flex-col space-y-3 md:space-y-4">
                         <div className="flex md:flex-row flex-col space-y-2 md:space-y-0 md:space-x-6 justify-between items-center">
                             <Autocomplete
+                                isRequired
                                 label="Parking slot #"
                                 fullWidth
                                 items={[]}

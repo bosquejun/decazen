@@ -15,7 +15,7 @@ type FieldLayoutProps = {
 export const FieldLayout = ({ fieldName, description, children, disabled }: FieldLayoutProps) => {
     return (
         <div className={
-            clsx("flex flex-col md:flex-row gap-3 md:gap-6 w-full", {
+            clsx("flex flex-col md:flex-row gap-3 md:gap-6 w-full md:justify-between", {
                 ["opacity-30"]: disabled,
             })
         }>
@@ -41,7 +41,7 @@ export const FieldLayout = ({ fieldName, description, children, disabled }: Fiel
                     {description && <div className="text-xs text-foreground/50 dark:text-foreground/40">{description}</div>}
                 </div>
             </div>
-            <div className="w-full">{children}</div>
+            <div className="min-w-[150px] md:max-w-[50%]">{children}</div>
         </div>
     )
 }

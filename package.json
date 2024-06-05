@@ -5,6 +5,7 @@
   "scripts": {},
   "private": true,
   "dependencies": {
+    "@hookform/resolvers": "^3.4.2",
     "@internationalized/date": "^3.5.3",
     "@nextui-org/react": "^2.3.6",
     "@tanstack/react-query": "^5.37.1",
@@ -22,7 +23,10 @@
     "react-hook-form": "^7.51.5",
     "react-hot-toast": "^2.4.1",
     "react-responsive-carousel": "^3.2.23",
-    "tslib": "^2.3.0"
+    "tslib": "^2.3.0",
+    "yup": "^1.4.0",
+    "yup-password": "^0.4.0",
+    "yup-phone-lite": "^2.0.1"
   },
   "devDependencies": {
     "@nrwl/cli": "15.0.0",

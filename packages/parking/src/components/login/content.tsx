@@ -2,12 +2,10 @@
 "use client";
 
 // import { signIn } from "@/auth";
-import { Button, Input, Spacer } from "@nextui-org/react";
+import LoginUserForm from "@/forms/login-user.form";
+import { LoginUserSchemaType } from "@/forms/schema/auth.schema";
+import { Button, Spacer } from "@nextui-org/react";
 import { signIn } from "next-auth/react";
-import { redirect } from "next/navigation";
-import { MouseEventHandler } from "react";
-import { useFormState, useFormStatus } from "react-dom";
-import toast from "react-hot-toast";
 
 type LoginProps = {
     closeModal?: () => void;
@@ -16,10 +14,8 @@ type LoginProps = {
 }
 
 export const Content = ({ closeModal, callbackUrl, email }: LoginProps) => {
-    const [errorMessage, dispatch] = useFormState(async (_currentState: unknown, formData: FormData) => {
-        const email = formData.get("email") as string;
-        const password = formData.get("password") as string;
 
+    const onLogin = async ({ email, password }: LoginUserSchemaType) => {
         const response = await signIn("credentials", {
             email,
             password,
@@ -28,14 +24,9 @@ export const Content = ({ closeModal, callbackUrl, email }: LoginProps) => {
 
 
         if (response?.error) {
-            toast.error("Invalid credentials");
-            return "Invalid credentials";
+            throw new Error("Invalid credentials");
         }
-
-        toast.success("Logged in successfully");
-
-        redirect(callbackUrl ?? "/");
-    }, undefined);
+    }
 
     return (
         <div className="flex flex-col md:flex-row w-full h-screen py-8 md:py-0">
@@ -58,32 +49,7 @@ export const Content = ({ closeModal, callbackUrl, email }: LoginProps) => {
                     <img className="h-[40px] w-[168px]" src="/images/PARKING_LOGO.png" />
                 </div> */}
                 <div className=" grow-1 h-full flex flex-col  justify-center">
-                    <form action={dispatch}>
-                        <div className="flex flex-col gap-4 w-full justify-center h-full">
-
-                            <h1 className="text-2xl font-semibold text-foreground">Welcome back, <strong className="text-primary-500 dark:text-primary">Parking owner</strong>!</h1>
-                            <p className="text-foreground-700">Sign in to your account to continue</p>
-                            <Input
-                                defaultValue={email}
-                                name="email"
-                                type="email"
-                                label="Email"
-                                fullWidth
-                                isRequired
-                            />
-                            <Input
-                                name="password"
-                                type="password"
-                                label="Password"
-                                fullWidth
-                                isRequired
-                            />
-                            {/* {errorMessage && <SnackBar message={errorMessage} hideIndicator severity="error" />} */}
-                            <div className="w-full">
-                                <LoginButton />
-                            </div>
-                        </div>
-                    </form>
+                    <LoginUserForm callbackUrl={callbackUrl} onSubmit={onLogin} defaultValues={{ email }} />
                     <Spacer y={4} />
                     <div className="flex w-full items-center justify-center">
                         <h4>Or</h4>
@@ -97,23 +63,10 @@ export const Content = ({ closeModal, callbackUrl, email }: LoginProps) => {
                 </div>
                 <Spacer y={8} className="block md:hidden" />
                 <div className="grow-0 flex justify-center">
-                    <p className="text-foreground-500">Have a space to rent out? <a href="#" className="text-primary-400 dark:text-primary">Sign up now</a>!</p>
+                    <p className="text-foreground-500">Have a space to rent out? <a href="/rent-out-space" className="text-primary-400 dark:text-primary">Sign up now</a>!</p>
                 </div>
             </div>
         </div>
 
     )
 };
-
-
-function LoginButton() {
-    const { pending } = useFormStatus()
-
-    const handleClick: MouseEventHandler<HTMLButtonElement> = (event) => {
-        if (pending) {
-            event.preventDefault()
-        }
-    }
-
-    return <Button fullWidth isLoading={pending} size="lg" type="submit" color="primary" variant="shadow" onClick={handleClick}>Login</Button>
-}

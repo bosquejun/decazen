@@ -1,6 +1,7 @@
+import { loginAction } from '@/app/actions/auth/loginAction';
+import { getProfileAction } from '@/app/actions/user/getProfileAction';
 import NextAuth, { NextAuthConfig, User } from 'next-auth';
 import Credentials from 'next-auth/providers/credentials';
-import { getProfile, loginRequest } from '../api/auth/login.api';
 
 export const AUTH_BASE_PATH = '/api/auth';
 
@@ -24,14 +25,14 @@ const authOptions: NextAuthConfig = {
           throw new Error('Missing credentials');
         }
         try {
-          const response = await loginRequest(
+          const response = await loginAction(
             credentials.email as string,
             credentials.password as string
           );
 
           const { access_token } = response;
 
-          const { user } = await getProfile(access_token);
+          const { user } = await getProfileAction(access_token);
 
           const name = [user['first_name'], user['last_name']]
             .filter(Boolean)
@@ -59,7 +60,13 @@ const authOptions: NextAuthConfig = {
     // error: '/login',
   },
   callbacks: {
-    async jwt({ token, account, user }) {
+    async jwt({ token, account, user, trigger }) {
+      if (trigger === 'update') {
+        const token = `${user.access_token}`;
+        user = await getProfileAction(token);
+        user['access_token'] = token;
+      }
+
       // Persist the OAuth access_token to the token right after signin
       if (account) {
         token['provider'] = account.provider;

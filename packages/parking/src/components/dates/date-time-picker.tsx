@@ -140,7 +140,7 @@ export default function DateTimePicker({ label, calendarProps, defaultMinimumDat
     >
         <PopoverTrigger>
             <Input
-                isRequired readOnly label={label} {...currentTimeSlot && {
+                isRequired isReadOnly label={label} {...currentTimeSlot && {
                     value: formatTimeSlotDisplayValue(currentTimeSlot.dateValue)
                 }} endContent={<CalendarBoldIcon className="text-lg text-default-400" />} />
         </PopoverTrigger>

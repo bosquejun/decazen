@@ -1,7 +1,7 @@
 "use client"
 
-import { createAccount } from "@/app/actions/createAccount"
-import { CreateAccountInputs } from "@/types"
+import { createAccountAction } from "@/app/actions/auth/createAccountAction"
+import { CreateUserSchemaType } from "@/forms/schema/auth.schema"
 import Image from "next/image"
 import { SectionSignUp } from "./section-sign-up"
 import { SectionWhyRentOutWithUs } from "./section-why-rent-out-with-us"
@@ -9,8 +9,8 @@ import { SectionWhyRentOutWithUs } from "./section-why-rent-out-with-us"
 
 export const Content = () => {
 
-    const onCreateAccount = async (inputs: CreateAccountInputs) => {
-        await createAccount(inputs);
+    const onCreateAccount = async ({ confirm_password, ...inputs }: CreateUserSchemaType) => {
+        await createAccountAction(inputs);
     }
 
     return <div className="flex w-full px-2">

@@ -1,11 +1,3 @@
-export type CreateAccountInputs = {
-  first_name: string;
-  last_name: string;
-  email: string;
-  password: string;
-  confirmPassword: string;
-};
-
 export type UserData = {
   name: string;
   email: string;
@@ -17,7 +9,17 @@ export type UserData = {
   first_name: string | null;
   last_name: string | null;
   api_token: string | null;
-  metadata: Record<string, any> | null;
+  metadata: UserMetadata | null;
   store_id: string | null;
   status: 'registered' | 'active';
+};
+
+export type UserMetadata = {
+  gender: 'male' | 'female';
+  phone: string | null;
+};
+
+export type UserOnboardingInputs = {
+  generalInfo: Pick<UserData, 'first_name' | 'last_name' | 'email'> &
+    Pick<UserMetadata, 'gender' | 'phone'>;
 };

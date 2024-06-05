@@ -1,3 +1,4 @@
+import { Avatar, Tooltip } from "@nextui-org/react";
 import { Driving, Element4, Home2, Note1, Profile2User } from "iconsax-react";
 import { usePathname } from "next/navigation";
 import { useMemo } from "react";
@@ -207,13 +208,15 @@ export const SidebarWrapper = () => {
   <div className="max-w-fit">
     <FilterIcon />
   </div>
-</Tooltip>
-<Tooltip content={"Profile"} color="primary">
-  <Avatar
-    src="https://i.pravatar.cc/150?u=a042581f4e29026704d"
-    size="sm"
-  />
 </Tooltip> */}
+              <div>
+                <Tooltip content={"Profile"} color="primary">
+                  <Avatar
+                    // src="https://i.pravatar.cc/150?u=a042581f4e29026704d"
+                    size="md"
+                  />
+                </Tooltip>
+              </div>
             </div>
           </div>
         </div>

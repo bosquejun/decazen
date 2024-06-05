@@ -7,7 +7,7 @@ import Show from "./Show"
 
 
 export default function Toast() {
-    return <Toaster position="top-right" toastOptions={{
+    return <Toaster position="bottom-right" toastOptions={{
         className: '!bg-content2 !text-foreground',
         duration: 3000,
     }}>

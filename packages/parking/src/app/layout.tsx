@@ -4,6 +4,8 @@ import "@/styles/globals.css";
 import clsx from "clsx";
 import type { Metadata } from 'next';
 import { Roboto } from 'next/font/google';
+import NextTopLoader from 'nextjs-toploader';
+
 
 export const metadata: Metadata = {
     title: 'Decazen Parking',
@@ -26,6 +28,7 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body className={clsx(roboto.className)}>
+                <NextTopLoader color='#FCD054' />
                 <Providers>
                     {children}
                 </Providers>

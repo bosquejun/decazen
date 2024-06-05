@@ -4005,6 +4005,15 @@
         "hash": "sha512-IeB32oIV4oGArLrd7znD2rkHQ6EDCM+2Sr76dJnrHwv9OHBTTM6nuDLK9bmikXzPa0ZlWMWtRGo/Uw4mrzQedA=="
       }
     },
+    "npm:@types/nprogress": {
+      "type": "npm",
+      "name": "npm:@types/nprogress",
+      "data": {
+        "version": "0.2.3",
+        "packageName": "@types/nprogress",
+        "hash": "sha512-k7kRA033QNtC+gLc4VPlfnue58CM1iQLgn1IMAU8VPHGOj7oIHPp9UlhedEnD/Gl8evoCjwkZjlBORtZ3JByUA=="
+      }
+    },
     "npm:@types/parse-json": {
       "type": "npm",
       "name": "npm:@types/parse-json",
@@ -9612,6 +9621,24 @@
         "hash": "sha512-qbwypnM7327SadwFtxXnQdGiKpkuhaRLE2uq62/nRul9cj9KhQ5LhHmlziTNqUidZotw/Q1I9OjirBROdUJNgA=="
       }
     },
+    "npm:nextjs-progressbar": {
+      "type": "npm",
+      "name": "npm:nextjs-progressbar",
+      "data": {
+        "version": "0.0.16",
+        "packageName": "nextjs-progressbar",
+        "hash": "sha512-GV0fD38EMD3vSDCmkq+tObmoup6QA91a6a9MxGuhJZuRk/9TNsrHGnIQQQ/sggkMkXuT4fBgF6jRjFwScDT3zA=="
+      }
+    },
+    "npm:nextjs-toploader": {
+      "type": "npm",
+      "name": "npm:nextjs-toploader",
+      "data": {
+        "version": "1.6.12",
+        "packageName": "nextjs-toploader",
+        "hash": "sha512-nbun5lvVjlKnxLQlahzZ55nELVEduqoEXT03KCHnsEYJnFpI/3BaIzpMyq/v8C7UGU2NfxQmjq6ldZ310rsDqA=="
+      }
+    },
     "npm:no-case": {
       "type": "npm",
       "name": "npm:no-case",
@@ -9718,6 +9745,15 @@
         "version": "4.0.1",
         "packageName": "npm-run-path",
         "hash": "sha512-S48WzZW777zhNIrn7gxOlISNAqi9ZC/uQFnRdbeIHhZhCA6UqpkOT8T1G7BvfdgP4Er8gF4sUbaS0i7QvIfCWw=="
+      }
+    },
+    "npm:nprogress": {
+      "type": "npm",
+      "name": "npm:nprogress",
+      "data": {
+        "version": "0.2.0",
+        "packageName": "nprogress",
+        "hash": "sha512-I19aIingLgR1fmhftnbWWO3dXc0hSxqHQHQb3H8m+K3TnEn/iSeTZZOyvKXWqQESMwuUVnatlCnZdLBZZt2VSA=="
       }
     },
     "npm:nth-check": {
@@ -34202,6 +34238,31 @@
     {
       "source": "npm:next",
       "target": "npm:@next/swc-win32-x64-msvc@14.0.4",
+      "type": "static"
+    },
+    {
+      "source": "npm:nextjs-progressbar",
+      "target": "npm:@types/nprogress",
+      "type": "static"
+    },
+    {
+      "source": "npm:nextjs-progressbar",
+      "target": "npm:nprogress",
+      "type": "static"
+    },
+    {
+      "source": "npm:nextjs-progressbar",
+      "target": "npm:prop-types",
+      "type": "static"
+    },
+    {
+      "source": "npm:nextjs-toploader",
+      "target": "npm:nprogress",
+      "type": "static"
+    },
+    {
+      "source": "npm:nextjs-toploader",
+      "target": "npm:prop-types",
       "type": "static"
     },
     {

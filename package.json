@@ -17,6 +17,8 @@
     "next": "14.0.4",
     "next-auth": "^5.0.0-beta.18",
     "next-themes": "^0.3.0",
+    "nextjs-progressbar": "^0.0.16",
+    "nextjs-toploader": "^1.6.12",
     "react": "18.2.0",
     "react-apexcharts": "^1.4.1",
     "react-dom": "18.2.0",

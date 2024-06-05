@@ -6,6 +6,7 @@ import { ThemeProviderProps } from "next-themes/dist/types";
 import * as React from "react";
 import QueryProvider from "./query.provider";
 import AuthSessionProvider from "./session.provider";
+import { UserProvider } from "./user.provider";
 
 export interface ProvidersProps {
   children: React.ReactNode;
@@ -17,9 +18,11 @@ export function Providers({ children, themeProps }: ProvidersProps) {
     <NextUIProvider>
       <NextThemesProvider defaultTheme="system" attribute="class" {...themeProps}>
         <AuthSessionProvider>
-          <QueryProvider>
-            {children}
-          </QueryProvider>
+          <UserProvider>
+            <QueryProvider>
+              {children}
+            </QueryProvider>
+          </UserProvider>
         </AuthSessionProvider>
 
         <Toast />

@@ -1,8 +1,10 @@
-import { Avatar, Tooltip } from "@nextui-org/react";
+import { useUserContext } from "@/providers/user.provider";
+import { Avatar, Skeleton, Tooltip } from "@nextui-org/react";
 import { Driving, Element4, Home2, Note1, Profile2User } from "iconsax-react";
 import { usePathname } from "next/navigation";
 import { useMemo } from "react";
 import LogoutButton from "../buttons/LogoutButton";
+import Show from "../common/Show";
 import { useSidebarContext } from "../layout/layout-context";
 import { DarkModeSwitch } from "../navbar/darkmodeswitch";
 import { PlatformDropdown } from "./platform-dropdown";
@@ -11,6 +13,7 @@ import { SidebarMenu } from "./sidebar-menu";
 import { Sidebar } from "./sidebar.styles";
 
 export const SidebarWrapper = () => {
+  const { userData, isAuthenticated } = useUserContext();
   const pathname = usePathname();
   const { collapsed, setCollapsed } = useSidebarContext();
 
@@ -210,13 +213,22 @@ export const SidebarWrapper = () => {
   </div>
 </Tooltip> */}
               <div>
-                <Tooltip content={"Profile"} color="primary">
-                  <Avatar
-                    // src="https://i.pravatar.cc/150?u=a042581f4e29026704d"
-                    size="md"
-                  />
-                </Tooltip>
+                <Show>
+                  <Show.When isTrue={isAuthenticated}>
+                    <Tooltip content={"Profile"} color="primary">
+                      <Avatar
+                        src={`https://robohash.org/${userData?.email}?gravatar=yes&set=set5`}
+                        size="md"
+                      />
+                    </Tooltip>
+                  </Show.When>
+                  <Show.Else>
+                    <Skeleton className="flex rounded-full w-[40px] h-[40px]" />
+                  </Show.Else>
+                </Show>
+
               </div>
+
             </div>
           </div>
         </div>

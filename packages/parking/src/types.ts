@@ -15,8 +15,10 @@ export type UserData = {
 };
 
 export type UserMetadata = {
-  gender: 'male' | 'female';
+  gender: 'Male' | 'Female';
   phone: string | null;
+  birthdate?: string;
+  onBoardingStep: number;
 };
 
 export type UserOnboardingInputs = {

@@ -4,28 +4,40 @@ import CalendarInput from "@/components/inputs/CalendarInput";
 import SelectInput from "@/components/inputs/SelectInput";
 import TextInput from "@/components/inputs/TextInput";
 import { FieldLayout } from "@/components/layout/field-layout";
-import useUserContext from "@/hooks/use-user-context";
+import { useUserContext } from "@/providers/user.provider";
 import { parseDate } from "@internationalized/date";
 import { Button, SelectItem } from "@nextui-org/react";
 import moment from "moment";
 import React, { useMemo } from "react";
 import { UseFormReturn } from "react-hook-form";
-import { UserProfileSchemaType } from "./schema/user.schema";
+import toast from "react-hot-toast";
+import { MINIMUM_AGE, UserProfileSchemaType } from "./schema/user.schema";
 
 type UserProfileFormProps<TFields extends UserProfileSchemaType> = {
     formProps: UseFormReturn<TFields>,
+    onSubmitSuccessful?: () => Promise<void>;
 }
 
-export default function UserProfileForm({ formProps }: UserProfileFormProps<UserProfileSchemaType>) {
-    const { userData, session } = useUserContext();
-
+export default function UserProfileForm({ formProps, onSubmitSuccessful }: UserProfileFormProps<UserProfileSchemaType>) {
+    const { fetchUserProfile } = useUserContext()
     const { handleSubmit, formState: { isSubmitting, isValid, defaultValues } } = formProps;
 
-    const onSubmit = async (data: UserProfileSchemaType) => {
-        const response = await updateProfileAction(data);
+    const processUserProfileUpdate = async (data: UserProfileSchemaType) => {
+        await updateProfileAction(data);
+        await fetchUserProfile();
     }
 
-    const maxDate = useMemo(() => defaultValues?.birthdate, [defaultValues]);
+    const onSubmit = async (data: UserProfileSchemaType) => {
+        await toast.promise(processUserProfileUpdate(data), {
+            loading: "Saving..",
+            error: "Failed to save.",
+            success: "Saved."
+        })
+
+        onSubmitSuccessful && onSubmitSuccessful();
+    }
+
+    const maxDate = useMemo(() => moment().subtract(MINIMUM_AGE, 'years').toDate(), [defaultValues]);
 
 
 
@@ -47,7 +59,6 @@ export default function UserProfileForm({ formProps }: UserProfileFormProps<User
 
             <FieldLayout fieldName="Gender" description="Your gender is used for demographic purposes and to personalize our communications with you.">
                 <SelectInput
-                    defaultSelectedKeys={["Male"]}
                     fullWidth
                     formProps={formProps}
                     name="gender"

@@ -32,15 +32,10 @@ const authOptions: NextAuthConfig = {
 
           const { access_token } = response;
 
-          const { user } = await getProfileAction(access_token);
-
-          const name = [user['first_name'], user['last_name']]
-            .filter(Boolean)
-            .join(' ');
+          const user = await getProfileAction(access_token);
 
           const userResponse = {
             email: user['email'],
-            name,
             id: user['id'],
             ...user,
             access_token,
@@ -61,12 +56,6 @@ const authOptions: NextAuthConfig = {
   },
   callbacks: {
     async jwt({ token, account, user, trigger }) {
-      if (trigger === 'update') {
-        const token = `${user.access_token}`;
-        user = await getProfileAction(token);
-        user['access_token'] = token;
-      }
-
       // Persist the OAuth access_token to the token right after signin
       if (account) {
         token['provider'] = account.provider;

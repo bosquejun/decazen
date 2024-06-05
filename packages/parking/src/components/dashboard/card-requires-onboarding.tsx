@@ -1,4 +1,5 @@
-import useUserContext from "@/hooks/use-user-context";
+
+import { useUserContext } from "@/providers/user.provider";
 import { Button } from "@nextui-org/react";
 import clsx from 'clsx';
 import { SecurityUser } from "iconsax-react";

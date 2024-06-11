@@ -1,12 +1,12 @@
 /* eslint-disable react/no-unescaped-entities */
-import { processUserOnboarding } from "@/app/actions/user/updateProfileAction";
-import { MINIMUM_AGE, UserProfileSchemaType, userProfileSchema } from "@/forms/schema/user.schema";
+import ProofOfResidenceForm from "@/forms/proof-of-residence.form";
+import { MINIMUM_AGE, ProofOfResidenceSchemaType, UserProfileSchemaType, proofOfResidenceSchema, userProfileSchema } from "@/forms/schema/user.schema";
 import UserProfileForm from "@/forms/user-profile.form";
 import { useUserContext } from "@/providers/user.provider";
 import { yupResolver } from "@hookform/resolvers/yup";
-import { Accordion, AccordionItem, Button, Modal, ModalBody, ModalContent, ModalFooter, ModalHeader, Progress, Spacer } from "@nextui-org/react";
+import { Accordion, AccordionItem, Button, Checkbox, Modal, ModalBody, ModalContent, ModalFooter, ModalHeader, Progress, Spacer } from "@nextui-org/react";
 import moment from "moment";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { useForm } from "react-hook-form";
 
 type AddParkingSpaceModalProps = {
@@ -31,14 +31,31 @@ export const UserOnboardingModal = ({ isOpen, onClose }: AddParkingSpaceModalPro
         mode: "onTouched"
     });
 
-    const currentOnboardingStep = useMemo(() => userData?.metadata?.onBoardingStep || 1, [userData]);
+    const proofOfResidenceForm = useForm<ProofOfResidenceSchemaType>({
+        resolver: yupResolver(proofOfResidenceSchema),
+        mode: "onTouched"
+    })
+
+    const currentOnboardingStep = useMemo(() => {
+        switch (userData?.metadata?.onBoardingStep) {
+            case "profileCompleted":
+                return 1;
+            case "addressCompleted":
+                return 2;
+            default:
+                return 0;
+        }
+    }, [userData]);
+
+
 
 
     const [currentExpandedSection, setCurrentExpandedSection] = useState(new Set([String(currentOnboardingStep)]));
 
-    const onCompleteSection = async (section: number) => {
-        await processUserOnboarding(section);
-    }
+
+    useEffect(() => {
+        setCurrentExpandedSection(new Set([String(currentOnboardingStep)]))
+    }, [currentOnboardingStep])
 
 
     return <Modal hideCloseButton scrollBehavior="inside" className="max-h-screen bg-background min-h-[60%]" isOpen={isOpen} onClose={onClose} size="full" placement="center" backdrop="blur" isDismissable={false} isKeyboardDismissDisabled>
@@ -63,30 +80,29 @@ export const UserOnboardingModal = ({ isOpen, onClose }: AddParkingSpaceModalPro
                     <div className="flex flex-col gap-y-2 p-4">
                         <div className="flex justify-between items-center">
                             <p>Steps</p>
-                            <p>{currentOnboardingStep}/4</p>
+                            <p>{currentOnboardingStep + 1}/4</p>
                         </div>
-                        <Progress aria-label="progress..." value={currentOnboardingStep * 25} className="w-full" />
+                        <Progress aria-label="progress..." value={(currentOnboardingStep + 1) * 25} className="w-full" />
                     </div>
                     <Accordion variant="splitted" selectedKeys={currentExpandedSection} onSelectionChange={setCurrentExpandedSection as any}>
-                        <AccordionItem key="0" aria-label="Personal Information" title="Personal Information" subtitle="General information about the parking space such as location, parking type, and slot number"
+                        <AccordionItem startContent={
+                            <Checkbox isReadOnly isSelected={currentOnboardingStep >= 1} />
+                        } key="0" aria-label="Personal Information" title="Personal Information" subtitle="We need your personal information to create your profile, ensure a personalized experience, and for our team to be able to contact you when necessary."
                             classNames={{
                                 content: "flex flex-col gap-y-6 pb-8 md:pl-6 px-1"
                             }}>
-                            <UserProfileForm formProps={userProfileForm} onSubmitSuccessful={async () => {
-                                if (currentOnboardingStep >= 1) return;
-                                onCompleteSection(1);
-                            }} />
+                            <UserProfileForm formProps={userProfileForm} isOnboarding={userData?.metadata?.onBoardingStep !== "profileCompleted"} />
                         </AccordionItem>
-                        <AccordionItem key="1" aria-label="Home Address" title="Home Address" subtitle="General information about the parking space such as location, parking type, and slot number"
+                        <AccordionItem startContent={
+                            <Checkbox isReadOnly isSelected={currentOnboardingStep >= 2} />
+                        } key="1" aria-label="Proof of Residence" title="Proof of Residence" subtitle="To ensure the exclusivity and security of our community-focused parking space platform, we require proof of residence during the onboarding process."
                             classNames={{
                                 content: "flex flex-col gap-y-6 pb-8 md:pl-6 px-1"
                             }}>
-                            <UserProfileForm formProps={userProfileForm} onSubmitSuccessful={async () => {
-                                if (currentOnboardingStep >= 2) return;
-                                onCompleteSection(2);
-                            }} />
+                            <ProofOfResidenceForm formProps={proofOfResidenceForm} isOnboarding />
                         </AccordionItem>
                     </Accordion>
+
                 </ModalBody>
                 <ModalFooter className="flex md:hidden">
                     <Button onClick={onClose}>Cancel</Button>

@@ -6,10 +6,7 @@ export type BaseInputProps<TFormValues extends FieldValues> = {
     formProps?: UseFormReturn<TFormValues>
 }
 
-export type TextInputProps<TFormValues extends FieldValues> = Omit<InputProps, "name"> & {
-    name: Path<TFormValues>;
-    formProps?: UseFormReturn<TFormValues>
-};
+export type TextInputProps<TFormValues extends FieldValues> = Omit<InputProps, "name"> & BaseInputProps<TFormValues>;
 
 export const getFieldError = <TFormValues extends FieldValues>(name: Path<TFormValues>, errors?: FormState<TFormValues>["errors"]) => {
     const keys = name.split(".");
@@ -44,10 +41,10 @@ export default function TextInput<TFormValues extends FieldValues>({ formProps, 
         }}
         {...registeredField}
         isRequired={required || props.isRequired}
-
         isDisabled={isSubmitting || props.isDisabled}
         {...props}
         name={inputName as string}
         aria-label={inputName}
+        aria-labelledby={inputName}
     />
 }

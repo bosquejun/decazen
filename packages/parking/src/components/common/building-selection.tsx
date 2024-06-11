@@ -1,6 +1,6 @@
 import { Select, SelectItem, SelectProps } from "@nextui-org/react";
 
-const buildings = [
+export const AVAILABLE_BUILDINGS = [
     //     {
     //     name: "all",
     //     label: "All Buildings"
@@ -27,7 +27,7 @@ export const BuildingSelection = ({ defaultSelected, selectProps }: BuildingSele
         {...selectProps}
     >
         {
-            buildings.map((building) => (
+            AVAILABLE_BUILDINGS.map((building) => (
                 <SelectItem key={building.name} value={building.name}>
                     {building.label}
                 </SelectItem>

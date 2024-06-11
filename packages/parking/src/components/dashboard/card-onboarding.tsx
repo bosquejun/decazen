@@ -5,7 +5,7 @@ import { UserOnboardingModal } from "../modals/userOnboardingModal";
 
 
 export const CardOnboardingProfile = () => {
-    const [isOpen, setIsOpen] = useState(false);
+    const [isOpen, setIsOpen] = useState(new URL(window.location.href).searchParams.has('modal'));
     const router = useRouter();
 
     const addModalParam = () => {
@@ -26,7 +26,9 @@ export const CardOnboardingProfile = () => {
 
     return <>
         <Card>
-            <CardBody className="overflow-hidden">
+            <CardBody className="overflow-hidden dark:bg-dot-white/[0.1] bg-dot-black/[0.2] ">
+                {/* <div className="absolute pointer-events-none inset-0 flex items-center justify-center dbg-content1 [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div> */}
+
                 <div className="min-h-[200px] overflow-hidden md:p-6 p-3">
                     <div className="flex flex-col gap-4 z-10 relative h-full">
                         <div className="grow-1 h-full">
@@ -44,6 +46,7 @@ export const CardOnboardingProfile = () => {
                     </div>
 
                 </div>
+
             </CardBody>
         </Card>
         <UserOnboardingModal isOpen={isOpen} onClose={() => {

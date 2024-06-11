@@ -12,7 +12,7 @@ export async function updateProfileAction(inputs: UserProfileSchemaType) {
       throw new Error('unauthorized');
     }
 
-    const { birthdate, phone, gender, ...partial } = inputs;
+    const { birthdate, phone, gender, isOnboarding, ...partial } = inputs;
 
     const token = session?.access_token;
 
@@ -24,6 +24,9 @@ export async function updateProfileAction(inputs: UserProfileSchemaType) {
           birthdate: birthdate.toISOString(),
           phone: `+63${phone}`,
           gender,
+          ...(isOnboarding && {
+            onBoardingStep: 'profileCompleted',
+          }),
         },
       },
       {

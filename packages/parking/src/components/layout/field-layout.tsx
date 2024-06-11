@@ -41,7 +41,7 @@ export const FieldLayout = ({ fieldName, description, children, disabled }: Fiel
                     {description && <div className="text-xs text-foreground/50 dark:text-foreground/40">{description}</div>}
                 </div>
             </div>
-            <div className="min-w-[150px] md:max-w-[50%]">{children}</div>
+            <div className="min-w-[150px] md:max-w-[50%] flex justify-end">{children}</div>
         </div>
     )
 }

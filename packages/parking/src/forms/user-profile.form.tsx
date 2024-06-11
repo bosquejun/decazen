@@ -16,14 +16,15 @@ import { MINIMUM_AGE, UserProfileSchemaType } from "./schema/user.schema";
 type UserProfileFormProps<TFields extends UserProfileSchemaType> = {
     formProps: UseFormReturn<TFields>,
     onSubmitSuccessful?: () => Promise<void>;
+    isOnboarding?: boolean;
 }
 
-export default function UserProfileForm({ formProps, onSubmitSuccessful }: UserProfileFormProps<UserProfileSchemaType>) {
+export default function UserProfileForm({ formProps, onSubmitSuccessful, isOnboarding }: UserProfileFormProps<UserProfileSchemaType>) {
     const { fetchUserProfile } = useUserContext()
     const { handleSubmit, formState: { isSubmitting, isValid, defaultValues } } = formProps;
 
     const processUserProfileUpdate = async (data: UserProfileSchemaType) => {
-        await updateProfileAction(data);
+        await updateProfileAction({ ...data, isOnboarding });
         await fetchUserProfile();
     }
 
@@ -34,7 +35,6 @@ export default function UserProfileForm({ formProps, onSubmitSuccessful }: UserP
             success: "Saved."
         })
 
-        onSubmitSuccessful && onSubmitSuccessful();
     }
 
     const maxDate = useMemo(() => moment().subtract(MINIMUM_AGE, 'years').toDate(), [defaultValues]);

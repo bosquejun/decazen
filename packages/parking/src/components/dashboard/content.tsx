@@ -3,6 +3,7 @@
 import { useTimer } from "@/hooks/use-timer"
 import { useUserContext } from "@/providers/user.provider"
 import { Avatar, Divider, Skeleton } from "@nextui-org/react"
+import { useSearchParams } from "next/navigation"
 import Show from "../common/Show"
 import { CardOnboardingProfile } from "./card-onboarding"
 import { SectionRentOutSpaces } from "./section-rent-out-spaces"
@@ -20,7 +21,10 @@ const getTimeGreetings = () => {
 
 export const Content = () => {
     const { requiresOnboarding, userData, isAuthenticated } = useUserContext();
-    const currentTime = useTimer();
+    const params = useSearchParams();
+    const currentTime = useTimer({
+        isPaused: params.has('modal')
+    });
 
 
     return <div className="flex flex-col w-full h-full gap-6 px-4 md:px-16">

@@ -3,7 +3,7 @@ import { FieldValues, UseFormReturn } from "react-hook-form";
 import { BaseInputProps, getFieldError } from "./TextInput";
 
 
-type SelectInputProps<TFormValues extends FieldValues> = BaseInputProps<TFormValues> & SelectProps;
+export type SelectInputProps<TFormValues extends FieldValues> = BaseInputProps<TFormValues> & SelectProps;
 
 export default function SelectInput<TFormValues extends FieldValues>({ formProps, children, ...props }: SelectInputProps<TFormValues>) {
     const { formState: { isSubmitting }, register } = formProps || {
@@ -29,7 +29,10 @@ export default function SelectInput<TFormValues extends FieldValues>({ formProps
         classNames={{
             trigger: "h-[55px] min-w-[120px]",
         }}
-        {...props} >
+        {...props}
+        aria-label={inputName}
+        aria-labelledby={inputName}
+    >
         {children}
     </Select>
 }

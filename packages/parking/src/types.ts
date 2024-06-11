@@ -18,7 +18,12 @@ export type UserMetadata = {
   gender: 'Male' | 'Female';
   phone: string | null;
   birthdate?: string;
-  onBoardingStep: number;
+  onBoardingStep?:
+    | 'profileCompleted'
+    | 'addressCompleted'
+    | 'documentCompleted'
+    | 'forReview'
+    | 'completed';
 };
 
 export type UserOnboardingInputs = {

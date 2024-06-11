@@ -61,6 +61,8 @@ const authOptions: NextAuthConfig = {
         token['provider'] = account.provider;
       }
 
+      debugger;
+
       token['claims'] = {
         storeOwner: user?.['store_id'] ? true : false,
       };

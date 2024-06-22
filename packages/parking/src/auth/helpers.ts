@@ -10,7 +10,7 @@ export async function signOut() {
   await serverSignOut();
 }
 
-export function isTokenExpired(token: string): boolean {
+export async function isTokenExpired(token?: string): Promise<boolean> {
   if (!token) return true;
   try {
     const decoded = jwtDecode(token);

@@ -4,6 +4,8 @@ import axiosClient from '@/api/axiosClient';
 import { auth } from '@/auth';
 import { UserProfileSchemaType } from '@/forms/schema/user.schema';
 import { AxiosError } from 'axios';
+import { getProfileAction } from './getProfileAction';
+import { hasCompletedOnboardingStep } from '../utils';
 
 export async function updateProfileAction(inputs: UserProfileSchemaType) {
   try {
@@ -15,18 +17,21 @@ export async function updateProfileAction(inputs: UserProfileSchemaType) {
     const { birthdate, phone, gender, isOnboarding, ...partial } = inputs;
 
     const token = session?.access_token;
+    const profile = await getProfileAction(token);
 
     const response = await axiosClient.post(
       `/admin/users/${session?.user?.id}`,
       {
         ...partial,
         metadata: {
+          ...profile.metadata,
           birthdate: birthdate.toISOString(),
           phone: `+63${phone}`,
           gender,
-          ...(isOnboarding && {
-            onBoardingStep: 'profileCompleted',
-          }),
+          ...(isOnboarding &&
+            !hasCompletedOnboardingStep(profile, "profileCompleted") && {
+              onBoardingStep: 'profileCompleted',
+            }),
         },
       },
       {

@@ -19,7 +19,7 @@ export const getFieldError = <TFormValues extends FieldValues>(name: Path<TFormV
 }
 
 export default function TextInput<TFormValues extends FieldValues>({ formProps, ...props }: TextInputProps<TFormValues>) {
-    const { formState: { isSubmitting }, register } = formProps || {
+    const { formState: { isSubmitting, defaultValues }, register, watch, } = formProps || {
         formState: {
             errors: {}
         }
@@ -30,6 +30,7 @@ export default function TextInput<TFormValues extends FieldValues>({ formProps, 
 
     const { required, ...registeredField } = register(inputName);
 
+    const value = watch(inputName);
 
     return <Input
         {...errorMessage ? {
@@ -43,6 +44,8 @@ export default function TextInput<TFormValues extends FieldValues>({ formProps, 
         isRequired={required || props.isRequired}
         isDisabled={isSubmitting || props.isDisabled}
         {...props}
+        defaultValue={defaultValues?.[inputName]}
+        value={value}
         name={inputName as string}
         aria-label={inputName}
         aria-labelledby={inputName}

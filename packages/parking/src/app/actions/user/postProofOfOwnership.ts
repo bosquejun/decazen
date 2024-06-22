@@ -2,16 +2,12 @@
 
 import axiosClient from '@/api/axiosClient';
 import { auth } from '@/auth';
-import { ProofOfResidenceSchemaType } from '@/forms/schema/user.schema';
 import { AxiosError } from 'axios';
 import { protectedUpload } from '../uploads/protectedUpload';
 import { hasCompletedOnboardingStep } from '../utils';
 import { getProfileAction } from './getProfileAction';
 
-export async function postProofOfResidence(
-  dataInput: Partial<Omit<ProofOfResidenceSchemaType, 'proofOfResidence'>>,
-  formData?: FormData
-) {
+export async function postProofOfOwnershipAction(formData: FormData) {
   try {
     const session = await auth();
     if (!session?.user) {
@@ -26,17 +22,29 @@ export async function postProofOfResidence(
 
     const profile = await getProfileAction(token);
 
-    let url;
+    const validIdName = `${session.user?.id}_validId.${(
+      formData.get('validId') as File
+    ).name
+      .split('.')
+      .pop()}`;
+    const pooName = `${session.user?.id}_proofOfParkingOwnership.${(
+      formData.get('proofOfParkingOwnership') as File
+    ).name
+      .split('.')
+      .pop()}`;
 
-    if (formData) {
-      const [uploaded] = await protectedUpload(formData, token);
+    const form = new FormData();
 
-      url = uploaded.url;
-    }
+    form.append('files', formData.get('validId') as File, validIdName);
+    form.append(
+      'files',
+      formData.get('proofOfParkingOwnership') as File,
+      pooName
+    );
 
-    const isStepCompleted = hasCompletedOnboardingStep(
-      profile,
-      'proofOfResidenceCompleted'
+    const [uploadedValidId, uploadedProofOfOwnership] = await protectedUpload(
+      form,
+      token
     );
 
     const response = await axiosClient.post(
@@ -44,12 +52,13 @@ export async function postProofOfResidence(
       {
         metadata: {
           ...profile.metadata,
-          ...dataInput,
-          ...(url && {
-            proofOfResidenceUrl: url,
-          }),
-          ...(!isStepCompleted && {
-            onBoardingStep: 'proofOfResidenceCompleted',
+          validIdUrl: uploadedValidId.url,
+          proofOfParkingOwnershipUrl: uploadedProofOfOwnership.url,
+          ...(!hasCompletedOnboardingStep(
+            profile,
+            'proofOfOwnershipCompleted'
+          ) && {
+            onBoardingStep: 'proofOfOwnershipCompleted',
           }),
         },
       },

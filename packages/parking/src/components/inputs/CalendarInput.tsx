@@ -32,8 +32,7 @@ export default function CalendarInput<TFormValues extends FieldValues>({ formPro
 
 
     const onDateChange = (selectedDate: string) => {
-        setValue(inputName, new Date(`${selectedDate}T00:00:00Z`) as PathValue<TFormValues, Path<TFormValues>>);
-        trigger(inputName);
+        setValue(inputName, new Date(`${selectedDate}T00:00:00Z`) as PathValue<TFormValues, Path<TFormValues>>, { shouldDirty: true, shouldTouch: true, shouldValidate: true });
     }
 
     return <Popover
@@ -55,9 +54,8 @@ export default function CalendarInput<TFormValues extends FieldValues>({ formPro
                     isInvalid: props?.isInvalid,
                     errorMessage: props?.errorMessage
                 }}
-                {...registeredField}
                 {...currentValue && {
-                    value: moment(`${currentValue}`).format(inputFormat ?? "YYYY-MM-DD")
+                    value: moment(new Date(currentValue)).format(inputFormat ?? "YYYY-MM-DD")
                 }}
                 isRequired={required || props.isRequired}
                 isDisabled={isSubmitting || props.isDisabled}
@@ -68,7 +66,7 @@ export default function CalendarInput<TFormValues extends FieldValues>({ formPro
             <Calendar
                 showMonthAndYearPickers
                 {...currentValue && {
-                    value: parseDate(moment(currentValue).format("YYYY-MM-DD"))
+                    value: parseDate(moment(new Date(currentValue)).format("YYYY-MM-DD"))
                 }}
                 {...calendarProps}
 

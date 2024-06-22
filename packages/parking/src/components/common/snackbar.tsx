@@ -10,6 +10,7 @@ type SnackBarProps = {
     hideIndicator?: boolean;
     classNames?: {
         container?: string;
+        message?: string;
     }
 }
 
@@ -31,7 +32,7 @@ export const SnackBar = ({ message, onClose, title, severity, hideIndicator, cla
             title && <p className="w-full font-bold">{title}</p>
         }
         {
-            typeof message === 'string' ? <p className='w-full'>{message}</p> : message
+            typeof message === 'string' ? <p className={clsx('w-full text-foreground', classNames?.message)}>{message}</p> : message
         }
     </div>
 }

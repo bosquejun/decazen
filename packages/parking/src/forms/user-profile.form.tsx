@@ -1,5 +1,6 @@
 
 import { updateProfileAction } from "@/app/actions/user/updateProfileAction";
+import { SnackBar } from "@/components/common/snackbar";
 import CalendarInput from "@/components/inputs/CalendarInput";
 import SelectInput from "@/components/inputs/SelectInput";
 import TextInput from "@/components/inputs/TextInput";
@@ -19,9 +20,9 @@ type UserProfileFormProps<TFields extends UserProfileSchemaType> = {
     isOnboarding?: boolean;
 }
 
-export default function UserProfileForm({ formProps, onSubmitSuccessful, isOnboarding }: UserProfileFormProps<UserProfileSchemaType>) {
+export default function UserProfileForm({ formProps, isOnboarding }: UserProfileFormProps<UserProfileSchemaType>) {
     const { fetchUserProfile } = useUserContext()
-    const { handleSubmit, formState: { isSubmitting, isValid, defaultValues } } = formProps;
+    const { handleSubmit, formState: { isSubmitting, isValid, defaultValues, isDirty }, reset, getValues } = formProps;
 
     const processUserProfileUpdate = async (data: UserProfileSchemaType) => {
         await updateProfileAction({ ...data, isOnboarding });
@@ -33,13 +34,12 @@ export default function UserProfileForm({ formProps, onSubmitSuccessful, isOnboa
             loading: "Saving..",
             error: "Failed to save.",
             success: "Saved."
-        })
+        });
+        reset(getValues())
 
     }
 
     const maxDate = useMemo(() => moment().subtract(MINIMUM_AGE, 'years').toDate(), [defaultValues]);
-
-
 
     return <React.Fragment>
         <form className="flex flex-col gap-y-6" onSubmit={handleSubmit(onSubmit)}>
@@ -63,6 +63,9 @@ export default function UserProfileForm({ formProps, onSubmitSuccessful, isOnboa
                     formProps={formProps}
                     name="gender"
                     disallowEmptySelection
+                    classNames={{
+                        trigger: "min-w-[100px]"
+                    }}
                 >
                     {["Male", "Female"].map(selection => <SelectItem aria-label={selection} key={selection} value={selection}>{selection}</SelectItem>)}
                 </SelectInput>
@@ -81,8 +84,21 @@ export default function UserProfileForm({ formProps, onSubmitSuccessful, isOnboa
                     startContent={<p className="mr-2 leading-[15px]">+63</p>}
                 />
             </FieldLayout>
+            <SnackBar
+                classNames={{
+                    message: "text-sm",
+                    container: "bg-blue-400/10"
+                }}
+                severity="info"
+                message="Notice: We collect sensitive info for verification purposes only. Your data is securely stored and retained while you use our platform."
+            />
             <div className="flex items-center justify-end w-full gap-x-2">
-                <Button type="submit" isLoading={isSubmitting} isDisabled={!isValid} className="self-end min-w-[100px]" variant="shadow" color="primary">
+                <Button isDisabled={!isDirty} type="button" onClick={() => {
+                    reset()
+                }} className="self-end min-w-[100px] text-primary-500 dark:text-primary" variant="light" color="primary">
+                    Reset
+                </Button>
+                <Button type="submit" isLoading={isSubmitting} isDisabled={!isValid || !isDirty} className="self-end min-w-[100px]" variant="shadow" color="primary">
                     Save
                 </Button>
             </div>

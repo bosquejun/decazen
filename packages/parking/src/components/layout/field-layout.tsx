@@ -1,7 +1,7 @@
 import { Chip, Tooltip } from "@nextui-org/react";
 import clsx from 'clsx';
 import { InfoCircle } from "iconsax-react";
-import { ReactNode } from "react";
+import { HTMLAttributes, ReactNode } from "react";
 import Show from "../common/Show";
 
 
@@ -10,9 +10,13 @@ type FieldLayoutProps = {
     description?: string | ReactNode;
     children: ReactNode;
     disabled?: boolean;
+    classNames?: {
+        base?: HTMLAttributes<HTMLDivElement>['className'];
+        contentWrapper?: HTMLAttributes<HTMLDivElement>['className']
+    }
 }
 
-export const FieldLayout = ({ fieldName, description, children, disabled }: FieldLayoutProps) => {
+export const FieldLayout = ({ fieldName, description, children, disabled, classNames }: FieldLayoutProps) => {
     return (
         <div className={
             clsx("flex flex-col md:flex-row gap-3 md:gap-6 w-full md:justify-between", {
@@ -41,7 +45,7 @@ export const FieldLayout = ({ fieldName, description, children, disabled }: Fiel
                     {description && <div className="text-xs text-foreground/50 dark:text-foreground/40">{description}</div>}
                 </div>
             </div>
-            <div className="min-w-[150px] md:max-w-[50%] flex justify-end">{children}</div>
+            <div data-slot="contentWrapper" className={clsx("md:max-w-[50%] flex justify-end", classNames?.contentWrapper)}>{children}</div>
         </div>
     )
 }

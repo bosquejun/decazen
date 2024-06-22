@@ -20,6 +20,7 @@ export type UserContext = UserState & {
     isLoading: boolean;
     hasStore: boolean;
     requiresOnboarding: boolean;
+    isUserForReview: boolean;
     fetchUserProfile: () => Promise<void>
 };
 
@@ -61,6 +62,7 @@ export const UserProvider = ({ children }: { children: React.ReactNode }) => {
         isLoading: session.status === 'loading' && !state.isUserDataFetched,
         hasStore: Boolean(state.userData?.store_id),
         requiresOnboarding: state.userData?.status === 'registered',
+        isUserForReview: state.userData?.metadata?.onBoardingStep === "forReview",
         fetchUserProfile,
         ...state,
     }

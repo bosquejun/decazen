@@ -9048,6 +9048,15 @@
         "hash": "sha512-ZZow9HBI5O6EPgSJLUb8n2NKgmVWTwCvHGwFuJlMjvLFqlGG6pjirPhtdsseaLZjSibD8eegzmYpUZwoIlj2cQ=="
       }
     },
+    "npm:jwt-decode": {
+      "type": "npm",
+      "name": "npm:jwt-decode",
+      "data": {
+        "version": "4.0.0",
+        "packageName": "jwt-decode",
+        "hash": "sha512-+KJGIyHgkGuIq3IEBNftfhW/LfWhXUIY6OmyVWjliu5KH1y0fw7VQ8YndE2O4qZdMSd9SqbnC8GOcZEy0Om7sA=="
+      }
+    },
     "npm:keyv": {
       "type": "npm",
       "name": "npm:keyv",
@@ -9577,6 +9586,15 @@
         "version": "2.4.7",
         "packageName": "mini-css-extract-plugin",
         "hash": "sha512-euWmddf0sk9Nv1O0gfeeUAvAkoSlWncNLF77C0TP2+WoPvy8mAHKOzMajcCz2dzvyt3CNgxb1obIEVFIRxaipg=="
+      }
+    },
+    "npm:mini-svg-data-uri": {
+      "type": "npm",
+      "name": "npm:mini-svg-data-uri",
+      "data": {
+        "version": "1.4.4",
+        "packageName": "mini-svg-data-uri",
+        "hash": "sha512-r9deDe9p5FJUPZAk3A59wGH7Ii9YrjjWw0jmw/liSbHl2CHiyXj6FcDXDu2K3TjVAXqiJdaw3xxwlZZr9E6nHg=="
       }
     },
     "npm:minimalistic-assert": {
@@ -13265,6 +13283,16 @@
       },
       {
         "source": "parking",
+        "target": "npm:jwt-decode",
+        "type": "static"
+      },
+      {
+        "source": "parking",
+        "target": "npm:framer-motion",
+        "type": "static"
+      },
+      {
+        "source": "parking",
         "target": "npm:iconsax-react",
         "type": "static"
       },
@@ -13340,7 +13368,22 @@
       },
       {
         "source": "parking",
+        "target": "npm:tailwind-merge",
+        "type": "static"
+      },
+      {
+        "source": "parking",
+        "target": "npm:tailwindcss",
+        "type": "static"
+      },
+      {
+        "source": "parking",
         "target": "npm:@nx/react",
+        "type": "static"
+      },
+      {
+        "source": "parking",
+        "target": "npm:mini-svg-data-uri",
         "type": "static"
       }
     ],

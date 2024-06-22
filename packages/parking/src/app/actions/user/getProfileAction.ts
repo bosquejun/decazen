@@ -1,7 +1,10 @@
 import axiosClient from '@/api/axiosClient';
+import { UserData } from '@/types';
 import { getAccessToken } from '../utils';
 
-export const getProfileAction = async (access_token?: string) => {
+export const getProfileAction = async (
+  access_token?: string
+): Promise<UserData> => {
   const token = access_token || (await getAccessToken());
 
   const response = await axiosClient.get('/admin/auth', {

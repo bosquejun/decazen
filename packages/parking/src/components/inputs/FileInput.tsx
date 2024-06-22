@@ -1,8 +1,12 @@
 import { Button, ButtonProps, InputProps, Link } from "@nextui-org/react";
 import clsx from "clsx";
+import { DocumentText } from "iconsax-react";
+import Image from "next/image";
 import { useMemo } from "react";
 import { FieldValues } from "react-hook-form";
 import Show from "../common/Show";
+import Label from "../common/label";
+import { Icon } from "../icons/Icon";
 import { BaseInputProps } from "./TextInput";
 
 
@@ -16,10 +20,21 @@ type FileInputProps<TFormValues extends FieldValues> = BaseInputProps<TFormValue
         buttonWrapper?: string;
         button?: string;
     }
+    isReadOnly?: boolean;
 } & Omit<ButtonProps, "children" | "onClick">;
 
+const image_regex = /\.(gif|jpe?g|tiff?|png|webp|bmp|svg)$/i;
 
-export default function FileInput<TFormValues extends FieldValues>({ formProps, label, accept, multiple, classNames, ...props }: FileInputProps<TFormValues>) {
+const isFileOrURLAnImage = (fileOrURL: File | string) => {
+    if (typeof fileOrURL === "string") {
+        return image_regex.test(fileOrURL)
+    }
+    return image_regex.test(fileOrURL.name)
+
+}
+
+
+export default function FileInput<TFormValues extends FieldValues>({ formProps, label, accept, multiple, classNames, isReadOnly, ...props }: FileInputProps<TFormValues>) {
 
     const fileInputId = useMemo(() => `fileInput-${props.name}`, [props.name]);
 
@@ -29,35 +44,63 @@ export default function FileInput<TFormValues extends FieldValues>({ formProps, 
         const files = e.target.files;
         if (files?.length) {
             // eslint-disable-next-line @typescript-eslint/no-explicit-any
-            formProps.setValue(props.name, (multiple ? files : files[0]) as any);
+            formProps.setValue(props.name, (multiple ? files : files[0]) as any, { shouldDirty: true, shouldValidate: true, shouldTouch: true });
         }
-        formProps.trigger(props.name)
     }
 
-    const file = formProps?.watch(props.name) as File | undefined;
+    const file = formProps?.watch(props.name) as File | string | undefined;
+
+
 
 
     return <div className={clsx("w-full flex flex-col gap-y-2 justify-end", classNames?.base)}>
-        <div className={clsx("flex gap-x-2 items-center w-full justify-end", classNames?.buttonWrapper)}>
-            <Button as="label" {...props} className={clsx("", props.className, classNames?.button)} htmlFor={fileInputId} aria-label={label || "Upload file"}>
-                {label || "Upload file"}
-            </Button>
 
-            <input aria-labelledby={label || "Upload file"} aria-label={label || "Upload file"} onChange={onUpload} className="hidden" type="file" name={props.name} id={fileInputId} accept={accept} multiple={multiple} />
-
-        </div>
         <Show>
             <Show.When isTrue={Boolean(file)}>
-                <div className="flex gap-x-1">
-                    <p className="font-bold text-primary-500 dark:text-primary truncate text-right">{file?.name}</p>
-                    <Link className="text-danger cursor-pointer" onClick={() => {
-                        if (!formProps) return;
-                        formProps.reset({ [props.name]: undefined } as any)
-                        formProps.trigger(props.name);
-
-                    }}>Remove</Link>
+                <div className="flex flex-col gap-y-2">
+                    <div className="w-full md:max-h-[220px] flex justify-center md:justify-end">
+                        {file && <Show>
+                            <Show.When isTrue={isFileOrURLAnImage(file)}>
+                                <Image
+                                    src={typeof file === "string" ? file : URL.createObjectURL(file as File)}
+                                    alt="proof-of-residence"
+                                    sizes="100vw"
+                                    className="max-h-[220px] w-auto"
+                                    width={320}
+                                    height={220}
+                                />
+                            </Show.When>
+                            <Show.Else>
+                                <Link href={file as string} target="_blank"><Icon as={DocumentText} size={64} className="text-foreground" /></Link>
+                            </Show.Else>
+                        </Show>}
+                    </div>
+                    <div className="flex gap-x-1 justify-center md:justify-end">
+                        {/* <p className="font-bold text-primary-500 dark:text-primary truncate text-right">{typeof file === "string" ? String(file).split("/").pop() : file?.name}</p> */}
+                        <Label truncateLength={20} ellipsisMode="middle" content={(typeof file === "string" ? String(file).split("/").pop() : file?.name) as string} classNames={{
+                            content: "text-foreground-500"
+                        }} />
+                        <Show>
+                            <Show.When isTrue={!isReadOnly}>
+                                <Link className="text-danger cursor-pointer" onClick={() => {
+                                    if (!formProps) return;
+                                    formProps.setValue(props.name, undefined as any, { shouldDirty: true, shouldValidate: true, shouldTouch: true });
+                                }}>Remove</Link>
+                            </Show.When>
+                        </Show>
+                    </div>
                 </div>
             </Show.When>
+            <Show.Else>
+                <div className={clsx("flex gap-x-2 items-center w-full justify-end", classNames?.buttonWrapper)}>
+                    <Button as="label" {...props} className={clsx("", props.className, classNames?.button)} htmlFor={fileInputId} aria-label={label || "Upload file"}>
+                        {label || "Upload file"}
+                    </Button>
+
+                    <input aria-labelledby={label || "Upload file"} aria-label={label || "Upload file"} onChange={onUpload} className="hidden" type="file" name={props.name} id={fileInputId} accept={accept} multiple={multiple} />
+
+                </div>
+            </Show.Else>
         </Show>
     </div>
 }

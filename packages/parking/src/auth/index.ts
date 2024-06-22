@@ -2,6 +2,7 @@ import { loginAction } from '@/app/actions/auth/loginAction';
 import { getProfileAction } from '@/app/actions/user/getProfileAction';
 import NextAuth, { NextAuthConfig, User } from 'next-auth';
 import Credentials from 'next-auth/providers/credentials';
+import { isTokenExpired } from './helpers';
 
 export const AUTH_BASE_PATH = '/api/auth';
 
@@ -61,7 +62,12 @@ const authOptions: NextAuthConfig = {
         token['provider'] = account.provider;
       }
 
-      debugger;
+      if (
+        token?.access_token &&
+        (await isTokenExpired(token?.access_token as string))
+      ) {
+        throw new Error('EXPIRED_TOKEN');
+      }
 
       token['claims'] = {
         storeOwner: user?.['store_id'] ? true : false,

@@ -7,7 +7,7 @@ import { FieldValues } from "react-hook-form";
 import Show from "../common/Show";
 import Label from "../common/label";
 import { Icon } from "../icons/Icon";
-import { BaseInputProps } from "./TextInput";
+import { BaseInputProps, getFieldError } from "./TextInput";
 
 
 
@@ -50,6 +50,7 @@ export default function FileInput<TFormValues extends FieldValues>({ formProps, 
 
     const file = formProps?.watch(props.name) as File | string | undefined;
 
+    const errorMessage = getFieldError(props.name, formProps?.formState.errors)?.message as string;
 
 
 
@@ -92,13 +93,20 @@ export default function FileInput<TFormValues extends FieldValues>({ formProps, 
                 </div>
             </Show.When>
             <Show.Else>
-                <div className={clsx("flex gap-x-2 items-center w-full justify-end", classNames?.buttonWrapper)}>
-                    <Button as="label" {...props} className={clsx("", props.className, classNames?.button)} htmlFor={fileInputId} aria-label={label || "Upload file"}>
-                        {label || "Upload file"}
-                    </Button>
+                <div className="flex flex-col gap-y-1">
+                    <div className={clsx("flex gap-x-2 items-center w-full justify-end", classNames?.buttonWrapper)}>
+                        <Button as="label" {...props} className={clsx("", props.className, classNames?.button)} htmlFor={fileInputId} aria-label={label || "Upload file"}>
+                            {label || "Upload file"}
+                        </Button>
 
-                    <input aria-labelledby={label || "Upload file"} aria-label={label || "Upload file"} onChange={onUpload} className="hidden" type="file" name={props.name} id={fileInputId} accept={accept} multiple={multiple} />
+                        <input aria-labelledby={label || "Upload file"} aria-label={label || "Upload file"} onChange={onUpload} className="hidden" type="file" name={props.name} id={fileInputId} accept={accept} multiple={multiple} />
 
+                    </div>
+                    <Show>
+                        <Show.When isTrue={Boolean(errorMessage)}>
+                            <p className="text-tiny text-danger">{errorMessage}</p>
+                        </Show.When>
+                    </Show>
                 </div>
             </Show.Else>
         </Show>

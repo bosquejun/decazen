@@ -94,6 +94,7 @@ export default function ProofOfResidenceForm({ formProps }: ProofOfResidenceForm
                     name="proofOfResidence"
                     fullWidth
                     accept="image/*"
+                    label="Upload Image"
                 />
             </FieldLayout>
             <SnackBar

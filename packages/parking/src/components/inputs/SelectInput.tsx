@@ -7,7 +7,7 @@ import { BaseInputProps, getFieldError } from "./TextInput";
 export type SelectInputProps<TFormValues extends FieldValues> = BaseInputProps<TFormValues> & SelectProps;
 
 export default function SelectInput<TFormValues extends FieldValues>({ formProps, children, ...props }: SelectInputProps<TFormValues>) {
-    const { formState: { isSubmitting, defaultValues }, } = formProps || {
+    const { formState: { isSubmitting, defaultValues }, register } = formProps || {
         formState: {
             errors: {}
         }
@@ -17,6 +17,7 @@ export default function SelectInput<TFormValues extends FieldValues>({ formProps
     const value = formProps?.watch(props.name) as string;
 
     const errorMessage = getFieldError(inputName, formProps?.formState.errors)?.message as string;
+
 
     return <Select
         {...errorMessage ? {
@@ -47,6 +48,9 @@ export default function SelectInput<TFormValues extends FieldValues>({ formProps
         }}
         aria-label={inputName}
         aria-labelledby={inputName}
+        onClose={() => {
+            formProps?.trigger(props.name);
+        }}
     >
         {children}
     </Select>

@@ -1,6 +1,6 @@
-import { AVAILABLE_BUILDINGS } from '@/components/common/building-selection';
 import * as yup from 'yup';
 import { createUserSchema } from './auth.schema';
+import { buildingNameSchema, fileSchema } from './common.schema';
 
 yup.addMethod(yup.mixed, 'fileRequired', function (message) {
   return this.test('file-required', message, (value: any) => {
@@ -45,10 +45,7 @@ export type UserOnboardingSchemaType = yup.InferType<
 >;
 
 export const proofOfResidenceSchema = yup.object().shape({
-  buildingName: yup
-    .string()
-    .oneOf(AVAILABLE_BUILDINGS.map((b) => b.name))
-    .required('Building name is required'),
+  buildingName: buildingNameSchema,
   unitNumber: yup
     .number()
     .typeError('Please enter a unitNumber. The field cannot be left blank.')
@@ -56,12 +53,7 @@ export const proofOfResidenceSchema = yup.object().shape({
     .positive('Must be a positive number.')
     .min(100)
     .required('Unit number is required'),
-  proofOfResidence: yup
-    .mixed()
-    .test('Size', 'Proof of residence must is required', (value: any) => {
-      if (typeof value === 'string') return true;
-      return value && value?.size > 0;
-    }),
+  proofOfResidence: fileSchema('Proof of residence'),
 });
 
 export type ProofOfResidenceSchemaType = yup.InferType<
@@ -69,10 +61,8 @@ export type ProofOfResidenceSchemaType = yup.InferType<
 >;
 
 export const proofOfOwnershipSchema = yup.object().shape({
-  validId: yup.mixed().required('Valid ID is required'),
-  proofOfParkingOwnership: yup
-    .mixed()
-    .required('Proof of parking ownership is required'),
+  validId: fileSchema('Valid ID'),
+  proofOfParkingOwnership: fileSchema('Proof of parking ownership'),
 });
 
 export type ProofOfOwnershipSchemaType = yup.InferType<

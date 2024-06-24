@@ -1,12 +1,17 @@
 import { Input, InputProps } from "@nextui-org/react";
-import { FieldValues, FormState, Path, UseFormReturn } from "react-hook-form";
+import { FieldValues, FormState, Path, PathValue, UseFormReturn } from "react-hook-form";
 
-export type BaseInputProps<TFormValues extends FieldValues> = {
-    name: Path<TFormValues>;
+export type BaseInputProps<TFormValues extends FieldValues, FormOptional = true> = {
+    formatValue?: (value: PathValue<TFormValues, Path<TFormValues>>) => PathValue<TFormValues, Path<TFormValues>>;
+} & FormOptional extends true ? {
     formProps?: UseFormReturn<TFormValues>
-}
+    name: Path<TFormValues>;
+} : {
+    formProps: UseFormReturn<TFormValues>
+    name: Path<TFormValues>;
+};
 
-export type TextInputProps<TFormValues extends FieldValues> = Omit<InputProps, "name"> & BaseInputProps<TFormValues>;
+export type TextInputProps<TFormValues extends FieldValues, FormOptional = true> = Omit<InputProps, "name"> & BaseInputProps<TFormValues, FormOptional>;
 
 export const getFieldError = <TFormValues extends FieldValues>(name: Path<TFormValues>, errors?: FormState<TFormValues>["errors"]) => {
     const keys = name.split(".");
@@ -18,12 +23,14 @@ export const getFieldError = <TFormValues extends FieldValues>(name: Path<TFormV
     return errors?.[name];
 }
 
-export default function TextInput<TFormValues extends FieldValues>({ formProps, ...props }: TextInputProps<TFormValues>) {
+export default function TextInput<TFormValues extends FieldValues, FormOptional = true>({ formProps, ...props }: TextInputProps<TFormValues, FormOptional>) {
     const { formState: { isSubmitting, defaultValues }, register, watch, } = formProps || {
         formState: {
             errors: {}
         }
     } as UseFormReturn<TFormValues>;
+
+
     const inputName = props['name'];
 
     const errorMessage = getFieldError(inputName, formProps?.formState.errors)?.message as string;
@@ -41,11 +48,12 @@ export default function TextInput<TFormValues extends FieldValues>({ formProps, 
             errorMessage: props?.errorMessage
         }}
         {...registeredField}
-        isRequired={required || props.isRequired}
-        isDisabled={isSubmitting || props.isDisabled}
-        {...props}
-        defaultValue={defaultValues?.[inputName]}
         value={value}
+        {...props}
+        isRequired={required || props.isRequired}
+        isDisabled={isSubmitting || props.isDisabled || registeredField.disabled}
+        defaultValue={defaultValues?.[inputName]}
+
         name={inputName as string}
         aria-label={inputName}
         aria-labelledby={inputName}

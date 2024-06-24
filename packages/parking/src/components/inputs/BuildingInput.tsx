@@ -7,9 +7,12 @@ type BuildingInputProps<TFormValues extends FieldValues> = Omit<SelectInputProps
 
 
 export default function BuildingInput<TFormValues extends FieldValues>(props: BuildingInputProps<TFormValues>) {
-    return <SelectInput disallowEmptySelection defaultSelectedKeys={[AVAILABLE_BUILDINGS[0].name]} {...props} >
+    return <SelectInput
+        classNames={{
+            trigger: "min-w-[120px]"
+        }} disallowEmptySelection defaultSelectedKeys={[AVAILABLE_BUILDINGS[0].name]} {...props} >
         {
-            AVAILABLE_BUILDINGS.map(building => <SelectItem key={building.name} value={building.name}>{building.name}</SelectItem>)
+            AVAILABLE_BUILDINGS.map(building => <SelectItem key={building.name} value={building.name}>{building.label}</SelectItem>)
         }
     </SelectInput>
 }

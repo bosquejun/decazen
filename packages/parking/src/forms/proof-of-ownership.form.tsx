@@ -20,7 +20,7 @@ type ProofOfOwnershipFormProps<TFields extends ProofOfOwnershipSchemaType> = {
 
 export default function ProofOfOwnershipForm({ formProps, onSubmitSuccessful, isOnboarding }: ProofOfOwnershipFormProps<ProofOfOwnershipSchemaType>) {
     const { fetchUserProfile } = useUserContext()
-    const { handleSubmit, formState: { isSubmitting, isValid, isDirty }, reset, getValues } = formProps;
+    const { handleSubmit, formState: { isSubmitting, isValid, isDirty, errors }, reset, getValues } = formProps;
 
     const processProofOfResidence = async ({ proofOfParkingOwnership, validId }: ProofOfOwnershipSchemaType) => {
 
@@ -44,6 +44,7 @@ export default function ProofOfOwnershipForm({ formProps, onSubmitSuccessful, is
     }
 
 
+
     return <React.Fragment>
         <form className="flex flex-col gap-y-6" onSubmit={handleSubmit(onSubmit)}>
             <FieldLayout fieldName="Valid ID" description="Please provide by uploading the copy of your valid ID for verification.">
@@ -55,6 +56,7 @@ export default function ProofOfOwnershipForm({ formProps, onSubmitSuccessful, is
                     name="validId"
                     fullWidth
                     accept="image/*"
+                    label="Upload Image"
                 />
             </FieldLayout>
             <FieldLayout fieldName="Proof of parking ownership" description="Please provide by uploading the copy of proof of parking ownership for verification.">

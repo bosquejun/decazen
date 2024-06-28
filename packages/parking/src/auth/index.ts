@@ -36,9 +36,9 @@ const authOptions: NextAuthConfig = {
           const user = await getProfileAction(access_token);
 
           const userResponse = {
+            ...user,
             email: user['email'],
             id: user['id'],
-            ...user,
             access_token,
           };
 

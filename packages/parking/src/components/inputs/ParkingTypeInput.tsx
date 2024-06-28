@@ -1,7 +1,7 @@
 import { ParkingType } from "@/forms/schema/add-parking-space.schema";
 import { Tab, Tabs, TabsProps } from "@nextui-org/react";
 import clsx from 'clsx';
-import { FieldValues, Path, PathValue, UseFormReturn } from "react-hook-form";
+import { FieldValues, Path, PathValue } from "react-hook-form";
 import Show from "../common/Show";
 import { Icon } from "../icons/Icon";
 import { CarIcon } from "../icons/car-icon";
@@ -17,11 +17,13 @@ export const PARKING_SELECTION = [{
     id: "motorcycle",
     name: "Motorcycle",
     icon: <Icon as={MotorIcon} />,
+    isDisabled: true
 },
 {
     id: "all",
     name: "All",
     icon: null,
+    isDisabled: true
 }];
 
 
@@ -29,17 +31,12 @@ type ParkingTypeInputProps<TFormValues extends FieldValues> = BaseInputProps<TFo
     defaultSelected: string;
     classNames?: TabsProps["classNames"] & { root?: string }
     hideIconOnMobile?: boolean;
-    excludeSelection?: ParkingType[]
+    excludeSelection?: ParkingType[],
 }
 
 
 export default function ParkingTypeInput<TFormValues extends FieldValues>({ formProps, defaultSelected, classNames, hideIconOnMobile, name, excludeSelection }: ParkingTypeInputProps<TFormValues>) {
 
-    const { formState: { isSubmitting, defaultValues }, } = formProps || {
-        formState: {
-            errors: {}
-        }
-    } as UseFormReturn<TFormValues>;
 
     const value = formProps?.watch(name) as string;
 
@@ -66,6 +63,7 @@ export default function ParkingTypeInput<TFormValues extends FieldValues>({ form
             {
                 PARKING_SELECTION.filter(s => excludeSelection ? !excludeSelection.includes(s.id as any) : true).map((type) => (
                     <Tab
+                        isDisabled={type.isDisabled}
                         key={type.id}
                         title={
                             <div className="flex items-center gap-x-2">

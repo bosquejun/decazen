@@ -1,37 +1,17 @@
 /* eslint-disable @next/next/no-img-element */
 "use client"
 
+import { SUPPORTED_MODAL_ROUTE, useModalRouted } from "@/providers/modal-routed.provider";
 import { useUserContext } from "@/providers/user.provider";
 import { Button, Card, CardBody, Chip, Skeleton } from "@nextui-org/react";
 import clsx from 'clsx';
-import { useRouter, useSearchParams } from "next/navigation";
-import { useState } from 'react';
 import Show from "../common/Show";
 import { UserOnboardingModal } from "../modals/userOnboardingModal";
 
 
 export const CardOnboardingProfile = () => {
     const { requiresOnboarding, isAuthenticated, isUserForReview } = useUserContext();
-    const searchParams = useSearchParams();
-
-    const [isOpen, setIsOpen] = useState(searchParams.has('modal'));
-    const router = useRouter();
-
-    const addModalParam = () => {
-        const url = new URL(window.location.href);
-        if (!url.searchParams.has('modal')) {
-            url.searchParams.append('modal', 'onboarding');
-        }
-        router.push(url.toString())
-    }
-
-    const removeModalParam = () => {
-        const url = new URL(window.location.href);
-        if (url.searchParams.has('modal')) {
-            url.searchParams.delete('modal');
-        }
-        router.push(url.toString())
-    }
+    const { closeModalRouted, isModalRoutedOpen, openModalRouted } = useModalRouted();
 
 
 
@@ -62,8 +42,7 @@ export const CardOnboardingProfile = () => {
                                 </Show.When>
                                 <Show.Else>
                                     <Button onClick={() => {
-                                        addModalParam();
-                                        setIsOpen(true);
+                                        openModalRouted(SUPPORTED_MODAL_ROUTE.ONBOARDING);
                                     }} variant="shadow" color="primary" className="w-[120px] h-[70px]">Get Started</Button>
                                 </Show.Else>
                             </Show>
@@ -87,10 +66,7 @@ export const CardOnboardingProfile = () => {
 
                 </CardBody>
             </Card>
-            <UserOnboardingModal isOpen={isOpen} onClose={() => {
-                removeModalParam();
-                setIsOpen(false);
-            }} />
+            <UserOnboardingModal isOpen={isModalRoutedOpen} onClose={closeModalRouted} />
         </Show.When>
         <Show.When isTrue={requiresOnboarding && !isAuthenticated} >
             <Skeleton className="rounded-large w-full h-[274px] md:h-[224px]" />

@@ -143,7 +143,7 @@ export const UserOnboardingModal = ({ isOpen, onClose }: AddParkingSpaceModalPro
     const isProofOfResidenceValid = useMemo(() => checkFormValidity([proofOfResidenceForm]), [proofOfResidenceForm.formState]);
     const isProofOfOwnershipFormValid = useMemo(() => checkFormValidity([proofOfOwnershipForm]), [proofOfOwnershipForm.formState]);
 
-    return <Modal hideCloseButton scrollBehavior="inside" className="bg-background min-h-[60%]" isOpen={isOpen} onClose={onClose} size="full" placement="center" backdrop="blur" isDismissable={false} isKeyboardDismissDisabled>
+    return <Modal hideCloseButton scrollBehavior="inside" className="bg-background min-h-full" isOpen={isOpen} onClose={onClose} size="full" placement="center" backdrop="blur" isDismissable={false} isKeyboardDismissDisabled>
         <ModalContent>
             {(onClose) => <>
                 <ModalBody className="w-full self-center md:min-w-[600px] md:max-w-[900px] px-2 md:px-8">

@@ -4,39 +4,6 @@ import { FieldValues, Path, PathValue } from "react-hook-form";
 import TextInput, { TextInputProps } from "./TextInput";
 
 
-// export default function AmountInput<TFormValues extends FieldValues>(props: TextInputProps<TFormValues, false>) {
-//     const { watch } = props.formProps;
-
-//     const currentAmount = watch(props.name);
-
-//     const onBlurChange = useCallback(() => {
-
-//         const numeral = getNumeralString(currentAmount ?? 0);
-
-//         props?.formProps?.setValue(props.name, numeral as any, { shouldDirty: true, shouldTouch: true, shouldValidate: true });
-//     }, [currentAmount])
-
-//     const stringValue = useMemo(() => {
-//         const numeral = getNumeralString(currentAmount ?? 0);
-
-//         props?.formProps?.setValue(props.name, numeral as any, { shouldDirty: true, shouldTouch: true, shouldValidate: true });
-
-
-//     }, [currentAmount]);
-
-
-//     return <TextInput
-//         {...props}
-//         inputMode="decimal"
-//         onBlur={onBlurChange}
-//         color="default"
-//         placeholder="0.00"
-//         endContent={<div className="ml-1 text-foreground-300">php</div>}
-//         classNames={{
-//             input: "text-right"
-//         }}
-//     />
-// }
 
 
 export default function AmountInput<TFormValues extends FieldValues>(props: TextInputProps<TFormValues, false>) {
@@ -46,7 +13,6 @@ export default function AmountInput<TFormValues extends FieldValues>(props: Text
 
     const currentAmount = watch(props.name);
 
-    console.log({ currentAmount, inputValue });
 
 
     // Convert the currentAmount to a numeral string on component mount and whenever currentAmount changes

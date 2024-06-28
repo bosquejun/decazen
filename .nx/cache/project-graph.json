@@ -112,6 +112,39 @@
         "implicitDependencies": []
       }
     },
+    "decazen-api-v2": {
+      "name": "decazen-api-v2",
+      "type": "lib",
+      "data": {
+        "root": "packages/apiV2",
+        "targets": {
+          "lint": {
+            "cache": true,
+            "options": {
+              "cwd": "packages/apiV2",
+              "command": "eslint ."
+            },
+            "inputs": [
+              "default",
+              "^default",
+              "{workspaceRoot}/.eslintrc.json",
+              "{projectRoot}/.eslintrc.js",
+              "{workspaceRoot}/tools/eslint-rules/**/*",
+              {
+                "externalDependencies": [
+                  "eslint"
+                ]
+              }
+            ],
+            "executor": "nx:run-commands",
+            "configurations": {}
+          }
+        },
+        "name": "decazen-api-v2",
+        "implicitDependencies": [],
+        "tags": []
+      }
+    },
     "mercur-api": {
       "name": "mercur-api",
       "type": "lib",
@@ -13410,6 +13443,123 @@
         "type": "static"
       }
     ],
+    "decazen-api-v2": [
+      {
+        "source": "decazen-api-v2",
+        "target": "npm:express",
+        "type": "static"
+      },
+      {
+        "source": "decazen-api-v2",
+        "target": "npm:dotenv",
+        "type": "static"
+      },
+      {
+        "source": "decazen-api-v2",
+        "target": "npm:@tanstack/react-query",
+        "type": "static"
+      },
+      {
+        "source": "decazen-api-v2",
+        "target": "npm:body-parser",
+        "type": "static"
+      },
+      {
+        "source": "decazen-api-v2",
+        "target": "npm:@babel/core",
+        "type": "static"
+      },
+      {
+        "source": "decazen-api-v2",
+        "target": "npm:@babel/preset-typescript",
+        "type": "static"
+      },
+      {
+        "source": "decazen-api-v2",
+        "target": "npm:@types/express",
+        "type": "static"
+      },
+      {
+        "source": "decazen-api-v2",
+        "target": "npm:@types/jest",
+        "type": "static"
+      },
+      {
+        "source": "decazen-api-v2",
+        "target": "npm:@types/mime",
+        "type": "static"
+      },
+      {
+        "source": "decazen-api-v2",
+        "target": "npm:@types/node",
+        "type": "static"
+      },
+      {
+        "source": "decazen-api-v2",
+        "target": "npm:@typescript-eslint/eslint-plugin",
+        "type": "static"
+      },
+      {
+        "source": "decazen-api-v2",
+        "target": "npm:@typescript-eslint/parser",
+        "type": "static"
+      },
+      {
+        "source": "decazen-api-v2",
+        "target": "npm:eslint",
+        "type": "static"
+      },
+      {
+        "source": "decazen-api-v2",
+        "target": "npm:eslint-config-prettier",
+        "type": "static"
+      },
+      {
+        "source": "decazen-api-v2",
+        "target": "npm:jest",
+        "type": "static"
+      },
+      {
+        "source": "decazen-api-v2",
+        "target": "npm:prettier",
+        "type": "static"
+      },
+      {
+        "source": "decazen-api-v2",
+        "target": "npm:rimraf",
+        "type": "static"
+      },
+      {
+        "source": "decazen-api-v2",
+        "target": "npm:ts-jest",
+        "type": "static"
+      },
+      {
+        "source": "decazen-api-v2",
+        "target": "npm:ts-loader",
+        "type": "static"
+      },
+      {
+        "source": "decazen-api-v2",
+        "target": "npm:typescript",
+        "type": "static"
+      },
+      {
+        "source": "decazen-api-v2",
+        "target": "npm:react-hook-form",
+        "type": "static"
+      },
+      {
+        "source": "decazen-api-v2",
+        "target": "npm:react",
+        "type": "static"
+      },
+      {
+        "source": "decazen-api-v2",
+        "target": "npm:lodash",
+        "type": "static"
+      }
+    ],
     "mercur-api": [
       {
         "source": "mercur-api",
@@ -13419,96 +13569,6 @@
       {
         "source": "mercur-api",
         "target": "npm:dotenv",
-        "type": "static"
-      },
-      {
-        "source": "mercur-api",
-        "target": "npm:@tanstack/react-query",
-        "type": "static"
-      },
-      {
-        "source": "mercur-api",
-        "target": "npm:body-parser",
-        "type": "static"
-      },
-      {
-        "source": "mercur-api",
-        "target": "npm:@babel/core",
-        "type": "static"
-      },
-      {
-        "source": "mercur-api",
-        "target": "npm:@babel/preset-typescript",
-        "type": "static"
-      },
-      {
-        "source": "mercur-api",
-        "target": "npm:@types/express",
-        "type": "static"
-      },
-      {
-        "source": "mercur-api",
-        "target": "npm:@types/jest",
-        "type": "static"
-      },
-      {
-        "source": "mercur-api",
-        "target": "npm:@types/mime",
-        "type": "static"
-      },
-      {
-        "source": "mercur-api",
-        "target": "npm:@types/node",
-        "type": "static"
-      },
-      {
-        "source": "mercur-api",
-        "target": "npm:@typescript-eslint/eslint-plugin",
-        "type": "static"
-      },
-      {
-        "source": "mercur-api",
-        "target": "npm:@typescript-eslint/parser",
-        "type": "static"
-      },
-      {
-        "source": "mercur-api",
-        "target": "npm:eslint",
-        "type": "static"
-      },
-      {
-        "source": "mercur-api",
-        "target": "npm:eslint-config-prettier",
-        "type": "static"
-      },
-      {
-        "source": "mercur-api",
-        "target": "npm:jest",
-        "type": "static"
-      },
-      {
-        "source": "mercur-api",
-        "target": "npm:prettier",
-        "type": "static"
-      },
-      {
-        "source": "mercur-api",
-        "target": "npm:rimraf",
-        "type": "static"
-      },
-      {
-        "source": "mercur-api",
-        "target": "npm:ts-jest",
-        "type": "static"
-      },
-      {
-        "source": "mercur-api",
-        "target": "npm:ts-loader",
-        "type": "static"
-      },
-      {
-        "source": "mercur-api",
-        "target": "npm:typescript",
         "type": "static"
       },
       {

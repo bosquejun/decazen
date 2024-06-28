@@ -45,7 +45,7 @@ export const FieldLayout = ({ fieldName, description, children, disabled, classN
                     {description && <div className="text-xs text-foreground/50 dark:text-foreground/40">{description}</div>}
                 </div>
             </div>
-            <div data-slot="contentWrapper" className={clsx("md:max-w-[50%] flex justify-end", classNames?.contentWrapper)}>{children}</div>
+            <div data-slot="contentWrapper" className={clsx("md:max-w-[50%] flex justify-end px-1", classNames?.contentWrapper)}>{children}</div>
         </div>
     )
 }

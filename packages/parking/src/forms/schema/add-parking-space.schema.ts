@@ -35,18 +35,20 @@ export const generalParkingSpaceSchema = yup.object().shape({
     }),
   areaType: yup
     .string()
-    .oneOf(['covered', 'uncovered'])
+    .oneOf(['covered', 'open-space'])
     .required('Area type is required.'),
 });
 
 export const rentalInformationSchema = yup.object().shape({
   isFlatRate: yup.boolean().notRequired().default(true),
-  hourlyRate: amountSchema('Hourly rate').when('isFlatRate', {
-    is: false,
-    then(schema) {
-      return schema.required('Hourly rate is required.');
-    },
-  }),
+  // hourlyRate: amountSchema('Hourly rate')
+  //   .when('isFlatRate', {
+  //     is: false,
+  //     then(schema) {
+  //       return schema.required('Hourly rate is required.');
+  //     },
+  //   })
+  //   .optional(),
   dailyRate: amountSchema('Daily rate').required('Daily rate is required.'),
 });
 

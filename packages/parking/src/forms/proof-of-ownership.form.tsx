@@ -22,12 +22,18 @@ export default function ProofOfOwnershipForm({ formProps, onSubmitSuccessful, is
     const { fetchUserProfile } = useUserContext()
     const { handleSubmit, formState: { isSubmitting, isValid, isDirty, errors }, reset, getValues } = formProps;
 
-    const processProofOfResidence = async ({ proofOfParkingOwnership, validId }: ProofOfOwnershipSchemaType) => {
+    const processProofOfResidence = async (data: ProofOfOwnershipSchemaType) => {
+
+
+        const { dirtyFields } = formProps.formState;
 
         const form = new FormData();
 
-        form.append('proofOfParkingOwnership', proofOfParkingOwnership as File);
-        form.append('validId', validId as File);
+
+        for (const field in dirtyFields) {
+            if (!dirtyFields[field as keyof typeof dirtyFields]) continue;
+            form.append(field, data[field as keyof ProofOfOwnershipSchemaType] as File)
+        }
 
         await postProofOfOwnershipAction(form);
         await fetchUserProfile();

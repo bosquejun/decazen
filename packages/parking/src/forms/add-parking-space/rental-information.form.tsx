@@ -1,7 +1,6 @@
 
 
 
-import Show from "@/components/common/Show";
 import AmountInput from "@/components/inputs/AmountInput";
 import { FieldLayout } from "@/components/layout/field-layout";
 import { Tab, Tabs } from "@nextui-org/react";
@@ -25,7 +24,6 @@ export default function ParkingRentalInformationForm({ formProps }: ParkingRenta
         <form className="flex flex-col gap-y-6">
             <FieldLayout fieldName="Rate type" description="Choose the rental rate type">
                 <Tabs
-                    isDisabled
                     selectedKey={isFlatRate ? "flat-rate" : "flexible-rate"}
                     onSelectionChange={(selected: any) => {
                         formProps?.setValue("rentalInformation.isFlatRate", selected === "flat-rate" ? true : false);
@@ -46,13 +44,14 @@ export default function ParkingRentalInformationForm({ formProps }: ParkingRenta
                         title="Flat rate"
                     />
                     <Tab
+                        isDisabled
                         key={"flexible-rate"}
                         title="Flexible rate"
                     />
                 </Tabs>
             </FieldLayout>
 
-            <Show>
+            {/* <Show>
                 <Show.When isTrue={!isFlatRate}>
                     <FieldLayout fieldName="Hourly rate" description="Enter the hourly rate for the parking space">
                         <AmountInput
@@ -60,7 +59,7 @@ export default function ParkingRentalInformationForm({ formProps }: ParkingRenta
                             name="rentalInformation.hourlyRate" />
                     </FieldLayout>
                 </Show.When>
-            </Show>
+            </Show> */}
             <FieldLayout fieldName="Daily rate" description="Enter the daily rate for the parking space">
                 <AmountInput
                     formProps={formProps}

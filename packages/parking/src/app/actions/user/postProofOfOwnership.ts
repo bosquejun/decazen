@@ -22,38 +22,39 @@ export async function postProofOfOwnershipAction(formData: FormData) {
 
     const profile = await getProfileAction(token);
 
-    const validIdName = `${session.user?.id}_validId.${(
-      formData.get('validId') as File
-    ).name
-      .split('.')
-      .pop()}`;
-    const pooName = `${session.user?.id}_proofOfParkingOwnership.${(
-      formData.get('proofOfParkingOwnership') as File
-    ).name
-      .split('.')
-      .pop()}`;
+    const newForm = new FormData();
 
-    const form = new FormData();
+    // loop to formdata;
+    // Assuming formData is already populated
+    for (const [key, value] of (formData as any).entries()) {
+      if (value?.name) {
+        // Extract the file extension
+        const extension = value.name.split('.').pop();
 
-    form.append('files', formData.get('validId') as File, validIdName);
-    form.append(
-      'files',
-      formData.get('proofOfParkingOwnership') as File,
-      pooName
-    );
+        // Construct a new name based on the key and user ID
+        const newName = `${session.user?.id}_${key}.${extension}`;
+        // Here you can append the file with the new name to formData or handle it as needed
+        // For example, to append it back to formData with a new key:
+        newForm.append('files', value, newName);
+      } else {
+        // Handle other form data values
+        console.log(`Handling form data entry: ${key} = ${value}`);
+      }
+    }
 
-    const [uploadedValidId, uploadedProofOfOwnership] = await protectedUpload(
-      form,
-      token
-    );
+    const uploads = await protectedUpload(newForm, token);
+
+    const metadata = uploads.reduce((acc: any, { key, url }) => {
+      acc[`${key.split('.').shift()?.split('_').pop()}Url`] = url;
+      return acc;
+    }, {});
 
     const response = await axiosClient.post(
       `/admin/users/${session?.user?.id}`,
       {
         metadata: {
           ...profile.metadata,
-          validIdUrl: uploadedValidId.url,
-          proofOfParkingOwnershipUrl: uploadedProofOfOwnership.url,
+          ...metadata,
           ...(!hasCompletedOnboardingStep(
             profile,
             'proofOfOwnershipCompleted'

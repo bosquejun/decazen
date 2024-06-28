@@ -21,9 +21,6 @@ export default function ParkingSpaceMediaForm({ formProps }: ParkingRentalInform
     const parkingType = formProps.watch("generalInformation.parkingType");
     const numberOfMotorSlots = formProps.watch("generalInformation.numMotorParkingSlot");
 
-    console.log({ parkingType, numberOfMotorSlots });
-
-
 
     return <React.Fragment>
         <form className="flex flex-col gap-y-6">

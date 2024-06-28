@@ -25,5 +25,6 @@ declare module 'next-auth' {
   interface User {
     store_id?: string;
     access_token?: string;
+    [key as string]: any;
   }
 }

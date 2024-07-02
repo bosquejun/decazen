@@ -7,17 +7,25 @@ export enum SUPPORTED_MODAL_ROUTE {
     ADD_PARKING_SPACE = "add-parking"
 }
 
-const ModalRoutedContext = createContext({
-    isModalRoutedOpen: false,
-    openModalRouted: (modalName: SUPPORTED_MODAL_ROUTE) => {
-        //
-    },
-    closeModalRouted: () => {
-        //
-    },
-});
+type ModalRoutedContext = {
+    isModalRoutedOpen: boolean,
+    modalName: SUPPORTED_MODAL_ROUTE | undefined,
+    openModalRouted: (modalName: SUPPORTED_MODAL_ROUTE) => void,
+    closeModalRouted: () => void,
+}
 
-export const useModalRouted = () => useContext(ModalRoutedContext);
+const ModalRoutedContext = createContext<ModalRoutedContext | null>(null);
+
+export const useModalRouted = (modalName: SUPPORTED_MODAL_ROUTE) => {
+    const context = useContext(ModalRoutedContext) as ModalRoutedContext;
+
+    const openModalRouted = () => {
+        context.openModalRouted(modalName);
+    }
+
+
+    return { ...context, openModalRouted, isModalRoutedOpen: context.isModalRoutedOpen && context.modalName === modalName };
+};
 
 export const ModalRoutedProvider = ({ children }: { children: ReactNode }) => {
     const [modalName, setModalName] = useState<SUPPORTED_MODAL_ROUTE | undefined>(undefined);
@@ -60,7 +68,7 @@ export const ModalRoutedProvider = ({ children }: { children: ReactNode }) => {
     }
 
     return (
-        <ModalRoutedContext.Provider value={{ isModalRoutedOpen: Boolean(modalName), openModalRouted, closeModalRouted }}>
+        <ModalRoutedContext.Provider value={{ modalName, isModalRoutedOpen: Boolean(modalName), openModalRouted, closeModalRouted }}>
             {children}
         </ModalRoutedContext.Provider>
     );

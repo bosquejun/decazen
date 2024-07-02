@@ -1,13 +1,11 @@
 
 
 
-import Show from "@/components/common/Show";
 import BuildingInput from "@/components/inputs/BuildingInput";
 import ParkingTypeInput from "@/components/inputs/ParkingTypeInput";
-import SelectInput from "@/components/inputs/SelectInput";
 import TextInput from "@/components/inputs/TextInput";
 import { FieldLayout } from "@/components/layout/field-layout";
-import { SelectItem, Tab, Tabs } from "@nextui-org/react";
+import { Tab, Tabs } from "@nextui-org/react";
 import React from "react";
 import { UseFormReturn } from "react-hook-form";
 import { AddParkingSpaceSchema } from "../schema/add-parking-space.schema";
@@ -61,7 +59,7 @@ export default function GeneralParkingSpaceForm({ formProps }: AddParkingSpaceFo
                 />
             </FieldLayout>
 
-            <Show>
+            {/* <Show>
                 <Show.When isTrue={parkingType === "motorcycle"}>
                     <FieldLayout fieldName="Number of motor parking slots" description="Specifies the total number of parking spaces available for motorcycles. Only applicable for motorcycle type of parking">
 
@@ -82,7 +80,7 @@ export default function GeneralParkingSpaceForm({ formProps }: AddParkingSpaceFo
                         </SelectInput>
                     </FieldLayout>
                 </Show.When>
-            </Show>
+            </Show> */}
 
             <FieldLayout fieldName="Area Type" description="Select if the parking slot is covered or uncovered.">
                 <Tabs
@@ -105,7 +103,7 @@ export default function GeneralParkingSpaceForm({ formProps }: AddParkingSpaceFo
                         title="Covered"
                     />
                     <Tab
-                        key={"uncovered"}
+                        key={"open-space"}
                         title="Open space"
                     />
                 </Tabs>

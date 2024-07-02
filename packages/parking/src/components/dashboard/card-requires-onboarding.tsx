@@ -8,8 +8,10 @@ import Show from "../common/Show";
 import { Icon } from "../icons/Icon";
 
 export const CardRequiresOnboarding = ({ children, classNames }: {
-    children: ReactNode, classNames?: {
+    children: ReactNode,
+    classNames?: {
         base?: string;
+        onboardedContent?: string
     }
 }) => {
     const { requiresOnboarding, isUserForReview } = useUserContext();
@@ -36,7 +38,7 @@ export const CardRequiresOnboarding = ({ children, classNames }: {
             </Show>
             <div className={clsx('w-full', {
                 'blur': requiresOnboarding
-            })}>
+            }, classNames?.onboardedContent)}>
                 {children}
             </div>
         </div>

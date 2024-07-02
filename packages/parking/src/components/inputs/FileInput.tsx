@@ -2,7 +2,7 @@ import { Button, ButtonProps, InputProps, Link } from "@nextui-org/react";
 import clsx from "clsx";
 import { DocumentText } from "iconsax-react";
 import Image from "next/image";
-import { useMemo } from "react";
+import { memo, useMemo } from "react";
 import { FieldValues } from "react-hook-form";
 import Show from "../common/Show";
 import Label from "../common/label";
@@ -34,7 +34,7 @@ const isFileOrURLAnImage = (fileOrURL: File | string) => {
 }
 
 
-export default function FileInput<TFormValues extends FieldValues>({ formProps, label, accept, multiple, classNames, isReadOnly, ...props }: FileInputProps<TFormValues>) {
+function FileInput<TFormValues extends FieldValues>({ formProps, label, accept, multiple, classNames, isReadOnly, ...props }: FileInputProps<TFormValues>) {
 
     const fileInputId = useMemo(() => `fileInput-${props.name}`, [props.name]);
 
@@ -112,3 +112,7 @@ export default function FileInput<TFormValues extends FieldValues>({ formProps, 
         </Show>
     </div>
 }
+
+
+
+export default memo(FileInput) as typeof FileInput;

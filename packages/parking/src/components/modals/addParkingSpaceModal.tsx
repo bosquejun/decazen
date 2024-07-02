@@ -1,11 +1,11 @@
 
-import addParkingSpaceAction from "@/app/actions/parking/addParkingSpaceAction";
 import GeneralParkingSpaceForm from "@/forms/add-parking-space/general-information.form";
-import ParkingSpaceMediaForm from "@/forms/add-parking-space/parking-space-media.form";
 import ParkingRentalInformationForm from "@/forms/add-parking-space/rental-information.form";
 import { AddParkingSpaceSchema, addParkingSpaceSchema } from "@/forms/schema/add-parking-space.schema";
+import { useParkingOwner } from "@/providers/parking-owner.provider";
 import { yupResolver } from "@hookform/resolvers/yup";
 import { Accordion, AccordionItem, Button, Modal, ModalBody, ModalContent, ModalFooter, ModalHeader } from "@nextui-org/react";
+import { useEffect } from "react";
 import { useForm } from "react-hook-form";
 import toast from "react-hot-toast";
 
@@ -14,10 +14,12 @@ type AddParkingSpaceModalProps = {
     onClose: () => void;
 }
 
+
 export const AddParkingSpaceModal = ({ isOpen, onClose }: AddParkingSpaceModalProps) => {
+    const { addNewParkingSpace } = useParkingOwner();
     const addParkingSpaceForm = useForm<AddParkingSpaceSchema>({
         resolver: yupResolver(addParkingSpaceSchema),
-        mode: "all",
+        mode: "onTouched",
         resetOptions: {
             keepDefaultValues: true,
             keepDirty: false,
@@ -27,38 +29,46 @@ export const AddParkingSpaceModal = ({ isOpen, onClose }: AddParkingSpaceModalPr
             keepIsSubmitted: false,
             keepErrors: false,
             keepDirtyValues: false,
-        },
-        defaultValues: {
+        }
+    });
+
+    const { formState: { isValid, isLoading, isSubmitting }, getValues, reset } = addParkingSpaceForm;
+
+    useEffect(() => {
+        reset({
             generalInformation: {
                 parkingType: "car",
                 numMotorParkingSlot: 1,
                 areaType: "covered",
-                buildingLocation: "N",
-                parkingSlotNumber: 0
+                parkingSlotNumber: 0,
             },
             rentalInformation: {
                 isFlatRate: true,
+                dailyRate: 0
             }
-        }
-    });
-
-    const { formState: { isValid, isLoading, isSubmitting, errors }, getValues, reset } = addParkingSpaceForm;
+        })
+    }, []);
 
 
     const onSubmit = async () => {
-        const { generalInformation, media, rentalInformation } = getValues();
 
-        const formData = Object.keys(media).reduce((form, key) => {
-            form.append(key, media[key as keyof typeof media] as File);
-            return form;
-        }, new FormData());
-
-        await toast.promise(addParkingSpaceAction({ ...generalInformation, ...rentalInformation }, formData), {
+        await toast.promise(addNewParkingSpace(getValues()), {
             loading: "Adding new parking space...",
             error: "Unable to add new parking space.",
             success: "Successfully added new parking space."
         })
-        reset();
+        reset({
+            generalInformation: {
+                parkingType: "car",
+                numMotorParkingSlot: 1,
+                areaType: "covered",
+                parkingSlotNumber: 0,
+            },
+            rentalInformation: {
+                isFlatRate: true,
+                dailyRate: 0
+            }
+        });
         onClose();
     };
 
@@ -91,19 +101,19 @@ export const AddParkingSpaceModal = ({ isOpen, onClose }: AddParkingSpaceModalPr
                             }}>
                             <ParkingRentalInformationForm formProps={addParkingSpaceForm} />
                         </AccordionItem>
-                        <AccordionItem key="3" aria-label="Media" title="Media" subtitle="Upload images and videos of the parking space to attract customers"
+                        {/* <AccordionItem key="3" aria-label="Media" title="Media" subtitle="Upload images and videos of the parking space to attract customers"
                             classNames={{
                                 content: "flex flex-col gap-y-6 pb-8 md:pl-6"
                             }}>
                             <ParkingSpaceMediaForm formProps={addParkingSpaceForm} />
 
 
-                        </AccordionItem>
+                        </AccordionItem> */}
                     </Accordion>
                 </ModalBody>
                 <ModalFooter className="flex md:hidden">
                     <Button onClick={onClose}>Cancel</Button>
-                    <Button onClick={onClose} variant="shadow" color="primary">Add Parking Space</Button>
+                    <Button isLoading={isLoading || isSubmitting} onClick={onSubmit} variant="shadow" color="primary" isDisabled={!isValid}>Add Parking Space</Button>
                 </ModalFooter>
             </>}
         </ModalContent>

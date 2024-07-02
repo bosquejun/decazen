@@ -59,7 +59,7 @@ export const parkingMediaSchema = yup.object().shape({
 export const addParkingSpaceSchema = yup.object().shape({
   generalInformation: generalParkingSpaceSchema,
   rentalInformation: rentalInformationSchema,
-  media: parkingMediaSchema,
+  // media: parkingMediaSchema,
 });
 
 export type AddParkingSpaceSchema = yup.InferType<typeof addParkingSpaceSchema>;

@@ -11,7 +11,7 @@ import { UserOnboardingModal } from "../modals/userOnboardingModal";
 
 export const CardOnboardingProfile = () => {
     const { requiresOnboarding, isAuthenticated, isUserForReview } = useUserContext();
-    const { closeModalRouted, isModalRoutedOpen, openModalRouted } = useModalRouted();
+    const { closeModalRouted, isModalRoutedOpen, openModalRouted } = useModalRouted(SUPPORTED_MODAL_ROUTE.ONBOARDING);
 
 
 
@@ -41,9 +41,7 @@ export const CardOnboardingProfile = () => {
                                     <Chip className="bg-primary/20 rounded-lg text-primary-500 dark:text-primary font-bold text-lg h-[32px]">Status: For Review</Chip>
                                 </Show.When>
                                 <Show.Else>
-                                    <Button onClick={() => {
-                                        openModalRouted(SUPPORTED_MODAL_ROUTE.ONBOARDING);
-                                    }} variant="shadow" color="primary" className="w-[120px] h-[70px]">Get Started</Button>
+                                    <Button onClick={openModalRouted} variant="shadow" color="primary" className="w-[120px] h-[70px]">Get Started</Button>
                                 </Show.Else>
                             </Show>
                         </div>

@@ -16,14 +16,12 @@ export const PARKING_SELECTION = [{
 {
     id: "motorcycle",
     name: "Motorcycle",
-    icon: <Icon as={MotorIcon} />,
-    isDisabled: true
+    icon: <Icon as={MotorIcon} />
 },
 {
     id: "all",
     name: "All",
     icon: null,
-    isDisabled: true
 }];
 
 

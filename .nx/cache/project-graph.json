@@ -12276,6 +12276,15 @@
         "hash": "sha512-3mFKyCo/MBcgyOTlrY8T7odzZFx+w+qKSMAmdFzRvqBfLlSigU6TZnlFHK0lkMwj9Bj8OYU+9yW9lmGuS0QEnQ=="
       }
     },
+    "npm:tailwind-scrollbar": {
+      "type": "npm",
+      "name": "npm:tailwind-scrollbar",
+      "data": {
+        "version": "3.1.0",
+        "packageName": "tailwind-scrollbar",
+        "hash": "sha512-pmrtDIZeHyu2idTejfV59SbaJyvp1VRjYxAjZBH0jnyrPRo6HL1kD5Glz8VPagasqr6oAx6M05+Tuw429Z8jxg=="
+      }
+    },
     "npm:tailwind-variants": {
       "type": "npm",
       "name": "npm:tailwind-variants",
@@ -13359,17 +13368,17 @@
       },
       {
         "source": "parking",
+        "target": "npm:moment",
+        "type": "static"
+      },
+      {
+        "source": "parking",
         "target": "npm:@internationalized/date",
         "type": "static"
       },
       {
         "source": "parking",
         "target": "npm:@nextui-org/shared-icons",
-        "type": "static"
-      },
-      {
-        "source": "parking",
-        "target": "npm:moment",
         "type": "static"
       },
       {
@@ -13440,6 +13449,11 @@
       {
         "source": "parking",
         "target": "npm:mini-svg-data-uri",
+        "type": "static"
+      },
+      {
+        "source": "parking",
+        "target": "npm:tailwind-scrollbar",
         "type": "static"
       }
     ],

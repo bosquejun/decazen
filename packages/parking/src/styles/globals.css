@@ -65,3 +65,7 @@ div[data-slot="base"]:not([data-required]) div[data-slot="input-wrapper"] label[
 .severity-error {
   @apply bg-red-500 dark:bg-red-400;
 }
+
+.content-scrollable {
+  @apply scrollbar scrollbar-track-transparent dark:scrollbar-thumb-background-200 scrollbar-thumb-background-800;
+}

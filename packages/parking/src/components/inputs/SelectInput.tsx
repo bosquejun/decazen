@@ -35,7 +35,7 @@ export default function SelectInput<TFormValues extends FieldValues>({ formProps
             if (!formProps) return;
             if (formProps.formState.isSubmitting) return;
             formProps.setValue(props.name, e.target.value as PathValue<TFormValues, Path<TFormValues>>, { shouldDirty: true, shouldValidate: true, shouldTouch: true });
-
+            formProps?.trigger(props.name);
         }}
         selectedKeys={[value]}
         {...defaultValues?.[inputName] && {
